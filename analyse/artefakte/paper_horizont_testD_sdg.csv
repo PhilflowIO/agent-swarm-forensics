@@ -1,0 +1,2 @@
+label,span_h,n_revs,delta_bytes,n_pages,tool_calls,clockwait,max_round_obs,rate_bph,pct_rank_rate,pct_rank_revs_ph,pct_rank_span,median_rate_bph_all,median_revs_ph_all
+OpenAIJun27SDGScout,5.051111111111111,9,3011,2,0,0,7,596.1064672239331,34.98233215547703,29.681978798586574,79.68197879858657,1003.8979766972602,3.320000262433325

@@ -1,0 +1,70 @@
+62_goldset_eval.py  2026-09-09T13:52:51+00:00
+[sample] 400 sentences, 40 columns, strata: {'negative_random': 102, 'strong_obs': 30, 'speech_prediction': 25, 'speech_negation': 25, 'format_r_confirmed': 25, 'speech_observation_weak': 25, 'speech_request': 25, 'coord_topic': 20, 'clock_C_past_event': 20, 'clock_B_bare_now': 20, 'env_positive': 20, 'clock_A_pair': 20, 'format_state_filled': 17, 'format_state_placeholder': 10, 'future_answer_ack': 9, 'future_answer_candidate': 7}
+[mode] REAL rater data: /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_goldset_rater1.jsonl, /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_goldset_rater2.jsonl
+[weights] source: POP_TABLE in 62_goldset_eval.py (captured 61 re-run 2026-09-09)
+  coord_topic                drawn=  20 pop=    8545 weight=  427.25
+  env_positive               drawn=  20 pop=    6525 weight=  326.25
+  speech_prediction          drawn=  25 pop=    3089 weight=  123.56
+  speech_request             drawn=  25 pop=    2087 weight=   83.48
+  strong_obs                 drawn=  30 pop=    1225 weight=   40.83
+  clock_C_past_event         drawn=  20 pop=     606 weight=   30.30
+  negative_random            drawn= 102 pop=    3059 weight=   29.99
+  format_r_confirmed         drawn=  25 pop=     472 weight=   18.88
+  clock_A_pair               drawn=  20 pop=     347 weight=   17.35
+  format_state_placeholder   drawn=  10 pop=     171 weight=   17.10
+  speech_observation_weak    drawn=  25 pop=     334 weight=   13.36
+  speech_negation            drawn=  25 pop=     205 weight=    8.20
+  clock_B_bare_now           drawn=  20 pop=     109 weight=    5.45
+  format_state_filled        drawn=  17 pop=      17 weight=    1.00
+  future_answer_ack          drawn=   9 pop=       9 weight=    1.00
+  future_answer_candidate    drawn=   7 pop=       7 weight=    1.00
+[rater1] paper_goldset_rater1.jsonl: 400 lines, bad_json=0, unknown_id=0, duplicate_id=0, missing ids=0, invalid fields={}
+[rater2] paper_goldset_rater2.jsonl: 400 lines, bad_json=0, unknown_id=0, duplicate_id=0, missing ids=0, invalid fields={}
+
+=== agreement (n, raw, kappa, alpha) ===
+  arrival        n=400 raw=0.953 kappa=0.900 alpha=0.900 disagree=19
+  arrival_round  n=400 raw=0.953 kappa=0.920 alpha=0.920 disagree=19
+  speech_act     n=400 raw=0.963 kappa=0.939 alpha=0.939 disagree=15
+  future_answer  n=400 raw=0.988 kappa=0.895 alpha=0.895 disagree=5
+  clock          n=400 raw=0.998 kappa=0.993 alpha=0.993 disagree=1
+  coord_topic    n=400 raw=0.993 kappa=0.943 alpha=0.943 disagree=3
+  register       n=400 raw=0.925 kappa=0.885 alpha=0.885 disagree=30
+  env            n=400 raw=0.935 kappa=0.819 alpha=0.819 disagree=26
+  task           n=400 raw=0.970 kappa=0.940 alpha=0.940 disagree=12
+  unclear flags: rater1=25 rater2=11 both=9
+[adjudication] previous konflikte file found: 63 rows, 63 with at least one adjudicated value
+
+[conflicts] 63 sentences with >=1 disagreeing field (both raters coded) -> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_goldset_konflikte.csv; fully adjudicated=63, still open=0; adjudicated field-values used=73, rejected=0; sentences not yet coded by both raters=0 (coded by both: 400)
+  conflicts per field: arrival_round=19, speech_act=15, future_answer_receipt=5, clock_statement=1, coordination_topic=3, register=30
+[gold] per target non-NA: arrival=400, arrival_round=400, speech_act=400, future_answer=400, clock=400, coord_topic=400, register=400, env=400, task=400
+[arrival] gold arrivals outside regex_has_round (undetectable by regex): 13
+
+=== regex quality vs gold (raw sample | population-weighted) ===
+  arrival_obs_strong       arrival        n=263 gold+=140 pred+= 67 | P=0.99[0.92,1.00] R=0.47[0.39,0.55] F1=0.64 | P_w=0.85[0.63,0.95] R_w=0.54[0.37,0.71] F1_w=0.66
+  arrival_obs_weak         arrival        n=263 gold+=140 pred+=104 | P=0.98[0.93,0.99] R=0.73[0.65,0.80] F1=0.84 | P_w=0.86[0.68,0.95] R_w=0.63[0.46,0.78] F1_w=0.73
+  speech_act               request        n=263 gold+= 35 pred+= 35 | P=0.74[0.58,0.86] R=0.74[0.58,0.86] F1=0.74 | P_w=0.83[0.61,0.94] R_w=0.82[0.58,0.94] F1_w=0.82
+  speech_act               prediction     n=263 gold+= 46 pred+= 38 | P=0.68[0.53,0.81] R=0.57[0.42,0.70] F1=0.62 | P_w=0.71[0.51,0.85] R_w=0.85[0.65,0.94] F1_w=0.77
+  speech_act               negation       n=263 gold+= 19 pred+= 27 | P=0.67[0.48,0.81] R=0.95[0.75,0.99] F1=0.78 | P_w=0.88[0.29,0.99] R_w=0.87[0.28,0.99] F1_w=0.88
+  speech_act               observation    n=263 gold+=150 pred+=104 | P=0.99[0.95,1.00] R=0.69[0.61,0.76] F1=0.81 | P_w=0.87[0.68,0.95] R_w=0.47[0.31,0.64] F1_w=0.61
+  future_answer_exact      true           n=400 gold+= 27 pred+=  9 | P=0.89[0.57,0.98] R=0.30[0.16,0.48] F1=0.44 | P_w=0.89[0.57,0.98] R_w=0.01[0.00,0.70] F1_w=0.03
+  future_answer_candidate  true           n=400 gold+= 27 pred+= 16 | P=0.81[0.57,0.93] R=0.48[0.31,0.66] F1=0.60 | P_w=0.81[0.57,0.93] R_w=0.02[0.00,0.71] F1_w=0.05
+  clock_route              pair           n=400 gold+= 18 pred+= 21 | P=0.81[0.60,0.92] R=0.94[0.74,0.99] F1=0.87 | P_w=0.44[0.12,0.82] R_w=0.98[0.79,1.00] F1_w=0.61
+  clock_route              bare_internal  n=400 gold+= 21 pred+= 21 | P=0.76[0.55,0.89] R=0.76[0.55,0.89] F1=0.76 | P_w=0.75[0.54,0.89] R_w=0.43[0.19,0.71] F1_w=0.55
+  clock_route              past_event     n=400 gold+= 51 pred+= 39 | P=0.97[0.87,1.00] R=0.75[0.61,0.84] F1=0.84 | P_w=0.98[0.70,1.00] R_w=0.60[0.33,0.82] F1_w=0.75
+  clock_route_any          any_internal   n=400 gold+= 90 pred+= 81 | P=0.91[0.83,0.96] R=0.82[0.73,0.89] F1=0.87 | P_w=0.82[0.58,0.94] R_w=0.64[0.40,0.82] F1_w=0.72
+  coord_topic_sentence     true           n=400 gold+=372 pred+=248 | P=0.98[0.96,0.99] R=0.66[0.61,0.70] F1=0.79 | P_w=0.98[0.91,0.99] R_w=0.81[0.73,0.88] F1_w=0.89
+  coord_topic_delta        true           n=400 gold+=372 pred+=374 | P=0.98[0.96,0.99] R=0.99[0.97,0.99] F1=0.98 | P_w=0.98[0.93,1.00] R_w=1.00[0.96,1.00] F1_w=0.99
+  env_sentence             environment    n=400 gold+=103 pred+= 96 | P=0.60[0.50,0.70] R=0.56[0.47,0.65] F1=0.58 | P_w=0.77[0.61,0.88] R_w=0.79[0.63,0.89] F1_w=0.78
+  env_delta                environment    n=400 gold+=103 pred+=272 | P=0.32[0.27,0.38] R=0.85[0.77,0.91] F1=0.47 | P_w=0.41[0.31,0.52] R_w=0.95[0.82,0.99] F1_w=0.57
+  primary_delta_env        environment    n=400 gold+=103 pred+=272 | P=0.32[0.27,0.38] R=0.85[0.77,0.91] F1=0.47 | P_w=0.41[0.31,0.52] R_w=0.95[0.82,0.99] F1_w=0.57
+  task_sentence            task           n=400 gold+=189 pred+= 18 | P=0.89[0.67,0.97] R=0.08[0.05,0.13] F1=0.15 | P_w=0.89[0.66,0.97] R_w=0.04[0.01,0.14] F1_w=0.08
+
+=== format comparability (CODEBOOK §7:303-306) ===
+  format_state_filled        n=17 arrival=6/17 round5=6 observation=6/17 request=1 negation=1
+  format_r_confirmed         n=25 arrival=25/25 round5=2 observation=25/25 request=0 negation=0
+  format_state_placeholder   n=10 arrival=0/10 round5=0 observation=0/10 request=9 negation=0
+  Fisher exact, arrival share STATE-filled vs R CONFIRMED: p=0.000  (pool if not different)
+
+[summary] {'n': 400, 'n_strata': 16, 'n_r1_complete': 400, 'n_r2_complete': 400, 'n_both': 400, 'n_incomplete': 0, 'n_conflicts': 63, 'n_adjudicated': 63, 'n_open': 0, 'fisher_p': 2.8912095664342138e-06, 'mode': 'real', 'pop_src': 'POP_TABLE in 62_goldset_eval.py (captured 61 re-run 2026-09-09)'}
+[bericht] numbers block updated in /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/BERICHT_robust_goldset.md
+[tex] wrote /home/philflow/Dokumente/coding/research/agent-swarm-forensics/paper/tables/app_goldset.tex

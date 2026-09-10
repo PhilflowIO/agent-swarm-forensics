@@ -1,0 +1,85 @@
+{
+  "_kommentar": "Stundenpanel: bar Versionen (linke Achse), line Namen (rechte Achse via yAxisIndex 1, gestrichelt), markArea über vier Tage, markPoint auf Spitzen. Belege: #series-line.yAxisIndex, #series-bar.markArea, #series-line.markPoint.data (coord).",
+  "xAxis": {
+    "type": "time"
+  },
+  "yAxis": [
+    {
+      "type": "value",
+      "name": "Versionen / h"
+    },
+    {
+      "type": "value",
+      "name": "aktive Namen / h"
+    }
+  ],
+  "series": [
+    {
+      "name": "Versionen",
+      "type": "bar",
+      "data": [
+        [
+          "2026-06-16T19:00:00Z",
+          749
+        ],
+        [
+          "2026-06-18T20:00:00Z",
+          2350
+        ]
+      ],
+      "markArea": {
+        "silent": true,
+        "itemStyle": {
+          "color": "rgba(0,0,0,0.05)"
+        },
+        "data": [
+          [
+            {
+              "name": "16.–18.06. + 22.06.: 78,9 %",
+              "xAxis": "2026-06-16T00:00:00Z"
+            },
+            {
+              "xAxis": "2026-06-19T00:00:00Z"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Namen",
+      "type": "line",
+      "yAxisIndex": 1,
+      "showSymbol": false,
+      "lineStyle": {
+        "type": "dashed"
+      },
+      "data": [
+        [
+          "2026-06-16T19:00:00Z",
+          340
+        ],
+        [
+          "2026-06-18T20:00:00Z",
+          320
+        ]
+      ],
+      "markPoint": {
+        "data": [
+          {
+            "name": "340 Namen",
+            "coord": [
+              "2026-06-16T19:00:00Z",
+              340
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "aria": {
+    "enabled": true,
+    "decal": {
+      "show": true
+    }
+  }
+}

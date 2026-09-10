@@ -1,0 +1,35 @@
+tier_family,kohorte,tier_r1,meine_r1,tier_cool,meine_kadenz,tier_fut,meine_fut,r1_ok,cad_ok,fut_ok
+OECD Education Equity,oecd-equity|Mar15,12m18,12m18s,,,,56.0,True,,
+OECD Education Equity,oecd-equity|Apr24,12m18,18m39s,,,,,False,,
+OECD Education Equity,oecd-equity|Nov27,12m18,,1h28m36,,56.0,,,,
+OECD Education Equity,oecd-equity|Jul23,17m21,,36m23,36m23s,53.0,53.0,,True,True
+OECD Education Equity,oecd-equity|May24,17m21,17m21s,36m23,,53.0,,True,,
+OECD Education Equity,oecd-equity|Jan21,18m39,,,,,,,,
+OECD Education Equity,oecd-equity|Nov22,18m39,,,1h11m27s,,56.0,,,
+OECD Education Equity,oecd-equity|Sep22,,1m20s,1h11m27,,80.0,,,,
+DataUSA Police Wage Age,datausa-police-wage-age|Jul03,14m18,14m18s,51m55,51m55s,43.0,43.0,True,True,True
+DataUSA Police Wage Age,datausa-police-wage-age|Mar31,14m18,,51m55,,43.0,43.0,,,True
+DataUSA Clothing 4481,datausa-clothing-workforce|Jun28,2m56,2m56s,28m39,25m43s,15.0,15.0,True,False,True
+DataUSA Clothing 4481,datausa-clothing-workforce|Oct01,2m56,2m56s,28m39,,15.0,,True,,
+DataUSA Construction,datausa-construction-workforce|Nov09,10m00,,30m32,28m48s,42.0,,,False,
+DataUSA Construction,datausa-construction-workforce|Mar08,10m00,,30m32,,42.0,,,,
+DataUSA Construction,datausa-construction-workforce|Jun03,5m39,,8m46,,11.0,,,,
+DataUSA Construction,datausa-construction-workforce|Jan03,14m51,,35m11,35m11s,31.0,31.0,,True,True
+DataUSA Construction,datausa-construction-workforce|Feb28,14m51,14m51s,35m11,,31.0,,True,,
+DataUSA Construction,datausa-construction-workforce|Apr30,14m51,,35m11,35m11s,31.0,31.0,,True,True
+DataUSA Construction,datausa-construction-workforce|Aug21,3m12,3m12s,9m18,9m18s,,14.0,True,True,
+DataUSA Maids Wage,datausa-maids-wage|Oct16,18m04,,71m04,,57.0,,,,
+DataUSA Maids Wage,datausa-maids-wage|Apr15,18m04,,71m04,,57.0,57.0,,,True
+DataUSA Maids Wage,datausa-maids-wage|Jul07,18m04,18m04s,71m04,1h29m08s,57.0,,True,False,
+DataUSA Maids Wage,datausa-maids-wage|Sep21,5m14,5m14s,35m09,,,,True,,
+DataUSA Transport Equipment,datausa-transport-production|Jun11,2m00,,22m28,,,12.0,,,
+IHME Healthdata CVD,ihme-cvd-deaths|Nov21,15m00,,1h22m02,,83.0,,,,
+IHME Healthdata CVD,ihme-cvd-deaths|Jan14,,,19m48,19m48s,22.0,,,True,
+IHME Healthdata CVD,ihme-cvd-deaths|Oct30,,,19m48,19m48s,22.0,22.0,,True,True
+IHME Healthdata CVD,ihme-cvd-deaths|Dec08,8m04,,,19m48s,,22.0,,,
+IHME Family Planning,ihme-family-planning|Dec13,5m59,7m56s,1h18m38,,39.0,,False,,
+IHME Family Planning,ihme-family-planning|Sep05,5m59,5m59s,1h18m38,1h18m38s,39.0,39.0,True,True,True
+OECD Regional Recovery CO2,oecd-regional-co2|Feb15,11m03,11m03s,1h48m01,1h48m01s,,,True,True,
+DataUSA Cashiers Masters,datausa-cashiers-masters|Oct18,,,,25m00s,20.0,20.0,,,True
+DataUSA Cashiers Masters,datausa-cashiers-masters|Apr08,,,,,20.0,65.0,,,False
+DataUSA Grocery,datausa-grocery-workforce|Mar06,1m10,,,,5.0,17.0,,,False

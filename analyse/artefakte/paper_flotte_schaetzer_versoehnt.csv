@@ -1,0 +1,7 @@
+verfahren,beobachtet_D,n_hat,ci_lo,ci_hi,bemerkung
+"Labels, alle (m,d)-Marker",335,911,807,1024,enthaelt Jul77/Jul99 (kalenderungueltig)
+"Labels, nur kalendergueltig",333,888,787,996,Fassung in MECHANIK.md v1
+bereinigt: minus 20 reale Schreibdaten,332,876,774,995,"KANONISCH — erzeugt von 53_mathematik.py (paper_math_population_bereinigt.csv): Monte-Carlo-Inversion zu D=332, 20 Namen mit realem Erstschreibdatum entfernt, davon 15x Jun22; nur der Topf Jun16 entfaellt"
+Labels + Seitennamen,353,1245,1064,1438,"saettigungsnah, fragiler"
+Selbstbenannte Kohorten,294,597,541,658,nach unten zensiert
+Verhaeltnis Labels:Kohorten,-1,1397,-1,-1,annahmefrei bzgl. Gleichverteilung

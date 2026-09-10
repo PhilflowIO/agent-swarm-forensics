@@ -1,0 +1,25 @@
+label,agent_faktor,agent_wartelaenge_s,agent_shared_s,datensatz,n_maschinell,maschinell,dwall,zitat,zitat_ref
+DataUSAResearchHelperMay24,9.84,600.0,61.0,primaer_AB,2,0.435;0.531,1323;590,,dse~ClothingFastCohortRelayMay29@10|delta|0|77|76f92992cae5|roh
+DataUSAResearchHelperMay24,9.84,600.0,61.0,mit_Ereignissen_ABC,3,7.568;0.375;0.666,902;1323;590,,dse~ClothingFastCohortRelayMay29@10|delta|0|77|76f92992cae5|roh
+OpenAIResearchJul11X,6.0,300.0,50.0,primaer_AB,0,,,,dse~Clothing2m56Round3RelayMay31@20|delta|0|79|22b51f66efb0|roh
+OpenAIResearchJul11X,6.0,300.0,50.0,mit_Ereignissen_ABC,0,,,,dse~Clothing2m56Round3RelayMay31@20|delta|0|79|22b51f66efb0|roh
+OpenAIHelperMay15,4.85,63.0,13.0,primaer_AB,0,,,,dse~DataUSATransportEquipmentSequenceJun11@21|delta|0|140|e97604fcbfac|roh
+OpenAIHelperMay15,4.85,63.0,13.0,mit_Ereignissen_ABC,0,,,,dse~DataUSATransportEquipmentSequenceJun11@21|delta|0|140|e97604fcbfac|roh
+OpenAIJul27Runner,6.67,300.0,45.0,primaer_AB,1,0.829,608,,dse~ClothingC4FastSignalJul14@9|delta|20|58|42753f1f3c2a|roh
+OpenAIJul27Runner,6.67,300.0,45.0,mit_Ereignissen_ABC,2,0.829;12.178,608;5413,,dse~ClothingC4FastSignalJul14@9|delta|20|58|42753f1f3c2a|roh
+CashierSequenceAgentMay28,4.11,576.0,140.0,primaer_AB,1,0.426,2439,,dse~DataUSACashiersMastersSequenceLive3@25|delta|55|138|e06db01b067d|roh
+CashierSequenceAgentMay28,4.11,576.0,140.0,mit_Ereignissen_ABC,4,0.271;3.527;0.925;16.417,325;370;1959;163,,dse~DataUSACashiersMastersSequenceLive3@25|delta|55|138|e06db01b067d|roh
+OpenAIFPResearchSep05,8.33,300.0,36.0,primaer_AB,0,,,,dse~IHMEFamilyPlanningDec13Cohort@4|delta|54|127|9e95e4558657|roh
+OpenAIFPResearchSep05,8.33,300.0,36.0,mit_Ereignissen_ABC,2,3.301;0.965,1530;1850,,dse~IHMEFamilyPlanningDec13Cohort@4|delta|54|127|9e95e4558657|roh
+May01PovertyStateScout,10.71,300.0,28.0,primaer_AB,0,,,,dse~IHMEFamilyPlanningFeb07Cohort@7|delta|110|89|ef73e77eebe8|roh
+May01PovertyStateScout,10.71,300.0,28.0,mit_Ereignissen_ABC,1,2.098,1188,,dse~IHMEFamilyPlanningFeb07Cohort@7|delta|110|89|ef73e77eebe8|roh
+OpenAISep04RunnerX,6.85,307.0,44.8,primaer_AB,1,1.077,457,,dse~OpenAISep04ClothingLiveX@4|delta|0|129|2a8d13ea4d3e|roh
+OpenAISep04RunnerX,6.85,307.0,44.8,mit_Ereignissen_ABC,1,1.077,457,,dse~OpenAISep04ClothingLiveX@4|delta|0|129|2a8d13ea4d3e|roh
+OpenAIJul27Runner,5.0,60.0,12.0,primaer_AB,1,0.829,608,,dse~OpenAIJul27ClothingLiveX@7|delta|53|95|76643b910dc0|roh
+OpenAIJul27Runner,5.0,60.0,12.0,mit_Ereignissen_ABC,2,0.829;12.178,608;5413,,dse~OpenAIJul27ClothingLiveX@7|delta|53|95|76643b910dc0|roh
+ChatGPTAug11,18.94,1648.0,87.0,primaer_AB,0,,,,dse~DataUSAConstructionSequenceMar08@28|delta|76|68|235d00417467|roh
+ChatGPTAug11,18.94,1648.0,87.0,mit_Ereignissen_ABC,0,,,,dse~DataUSAConstructionSequenceMar08@28|delta|76|68|235d00417467|roh
+Sep13OECDScout,1.0,120.0,120.0,primaer_AB,0,,,,dse~OECDMay24ClockWaitQuestion@1|delta|242|141|bfb1c3d40fd8|roh
+Sep13OECDScout,1.0,120.0,120.0,mit_Ereignissen_ABC,0,,,,dse~OECDMay24ClockWaitQuestion@1|delta|242|141|bfb1c3d40fd8|roh
+OECDEquityApr19Agent,,,,primaer_AB,0,,,We cannot accelerate clock.wait.,
+OECDEquityApr19Agent,,,,mit_Ereignissen_ABC,0,,,We cannot accelerate clock.wait.,

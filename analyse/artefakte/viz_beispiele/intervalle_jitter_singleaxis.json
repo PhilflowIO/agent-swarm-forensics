@@ -1,0 +1,68 @@
+{
+  "_kommentar": "Streifenplot der 307 Fristen: scatter auf singleAxis mit jitter (seit v6.0.0, nur single/category axis). Symbolgröße als Callback über √n_labels (hier als String, im JS als Funktion). Belege: #singleAxis, #xAxis.jitter, #series-scatter.symbolSize.",
+  "singleAxis": {
+    "type": "value",
+    "min": 0,
+    "max": 6000,
+    "name": "R1-Frist [s]",
+    "jitter": 18,
+    "jitterOverlap": true,
+    "splitLine": {
+      "show": true,
+      "interval": 60
+    },
+    "bottom": "30%"
+  },
+  "series": [
+    {
+      "type": "scatter",
+      "coordinateSystem": "singleAxis",
+      "symbolSize": "function (v) { return 3 + Math.sqrt(v[1]) * 1.4; }",
+      "itemStyle": {
+        "opacity": 0.6
+      },
+      "data": [
+        [
+          557,
+          121
+        ],
+        [
+          738,
+          120
+        ],
+        [
+          176,
+          109
+        ],
+        [
+          559,
+          103
+        ],
+        [
+          2601,
+          97
+        ],
+        [
+          1566,
+          94
+        ],
+        [
+          214,
+          88
+        ],
+        [
+          943,
+          88
+        ],
+        [
+          63,
+          68
+        ],
+        [
+          5727,
+          11
+        ]
+      ]
+    }
+  ]
+}

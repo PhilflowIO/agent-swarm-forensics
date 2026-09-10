@@ -1,0 +1,88 @@
+
+====================================================================================================
+A  Streckfaktoren: Rekonstruktion, Namensebene, Cluster-Bootstrap, Mitternacht
+====================================================================================================
+[A0] Rekonstruktion primaer_AB: n_rekonstruiert=71 n_referenz=71 labels=53/53 identische Faktoren=True Median rekon=0.4350 ref=0.4350
+[A0] Teilmenge nur A (weg=='AA', wie 53_mathematik.py Z.284): n=39 labels=32
+[A1] primaer_AB: PAARE n=71 Namen=53 Median=0.435 IQR=[0.335,0.881] Steigung=0.906±0.112
+[A1] primaer_AB: NAMEN n=53 Median=0.481 IQR=[0.355,1.155] Steigung(Namensmediane)=0.851±0.122 Steigung(gewichtete Paar-OLS)=0.893
+[A2] primaer_AB: Cluster-Bootstrap über Namen (B=4000, seed=20260909): median_paar=[0.402,0.525]; q25_paar=[0.231,0.392]; q75_paar=[0.531,1.592]; steigung_paar=[0.653,1.140]; median_name=[0.396,0.697]; q25_name=[0.296,0.415]; q75_name=[0.682,2.459]; steigung_name=[0.534,1.132]
+[A1] nur_A: PAARE n=39 Namen=32 Median=0.435 IQR=[0.369,0.775] Steigung=1.029±0.164
+[A1] nur_A: NAMEN n=32 Median=0.481 IQR=[0.382,1.152] Steigung(Namensmediane)=0.934±0.151 Steigung(gewichtete Paar-OLS)=0.995
+[A2] nur_A: Cluster-Bootstrap über Namen (B=4000, seed=20260909): median_paar=[0.402,0.547]; q25_paar=[0.294,0.426]; q75_paar=[0.520,1.758]; steigung_paar=[0.716,1.332]; median_name=[0.407,0.720]; q25_name=[0.328,0.428]; q75_name=[0.565,3.260]; steigung_name=[0.577,1.260]
+[A1] Paare je Name (primaer_AB): max=3 (CashierCoordAgentX), Namen mit >=3 Paaren=3, Anteil der Paare aus Namen mit >=3 Paaren=12.7%, Namen mit genau 1 Paar=38
+
+====================================================================================================
+A3  Mitternachts-Behandlung: Ausschluss | +24h eingeschränkt | nur sicher kurze Intervalle
+====================================================================================================
+[A3] negative Innen-Deltas in A+B (dWall>=120s, gleiche fiktive Daten): n=22; davon +24h-konsistent (korrigiertes Innen-Delta<=6h und dWall<=6h): 0; korrigierte Faktoren aller Kandidaten: min=0.91 median=12.75 max=259.04
+[A3] ausschluss_status_quo                    n= 71 Namen= 53 Rollover= 0 Median=0.435 IQR=[0.335,0.881] max=26.30 Steigung=0.906±0.112 | Namensebene Median=0.481
+[A3] plus24h_eingeschraenkt_6h                n= 71 Namen= 53 Rollover= 0 Median=0.435 IQR=[0.335,0.881] max=26.30 Steigung=0.906±0.112 | Namensebene Median=0.481
+[A3] nur_kurz_wall_unter_2h                   n= 62 Namen= 46 Rollover= 0 Median=0.454 IQR=[0.351,0.802] max=26.30 Steigung=0.848±0.148 | Namensebene Median=0.482
+[A3] plus24h_uneingeschraenkt_nur_einordnung  n= 86 Namen= 63 Rollover=15 Median=0.519 IQR=[0.355,2.468] max=29.61 Steigung=1.165±0.116 | Namensebene Median=0.682
+
+====================================================================================================
+B  Fahrplanskala: 15 vollständige Tier-Zeilen, Provenienz je Wert, Leave-one-row-out-PCA
+====================================================================================================
+[B0] Tier-Tabelle: 33 Zeilen (kuratiert in 28_tiertable.py ROWS, Beleg = wörtliches Zitat je Zeile); vollständig (R1, Kadenz, Folgefrist): 15; fehlend: R1 7, Kadenz 7, Folgefrist 9
+[B1] Z 1 Nov27 / May30 (12m18)          R1=12m18   [Korpus: dse~OECDEquityMay30Live@1 2026-06-20T02:00:24Z OECDJ] Kadenz=1h28m36  [Zitat] Folge= 56s [Zitat]
+[B1] Z 2 Jul23 / May24 FAST (17m21)     R1=17m21   [Zitat] Kadenz=36m23    [Zitat] Folge= 53s [Zitat]
+[B1] Z 3 Jul03 / Mar31 SLOW             R1=14m18   [Zitat] Kadenz=51m55    [abgeleitet: (00:04:38 - 22:58:25 - R1-Timer) mod 24h = 3115 ] Folge= 43s [Zitat]
+[B1] Z 4 Mar27 MEDIUM                   R1=5m41    [Zitat] Kadenz=27m15    [Zitat] Folge= 15s [Zitat]
+[B1] Z 5 Jun28 / Oct01 (2m56)           R1=2m56    [Zitat] Kadenz=28m39    [Zitat] Folge= 15s [Zitat]
+[B1] Z 6 Nov09 / Mar08 (10m)            R1=10m00   [abgeleitet: 15:49:19 - 15:39:19 = 600 s] Kadenz=30m32    [Korpus: dse~DataUSAConstructionSequenceMar08@1 2026-06-17T00] Folge= 42s [Korpus: dse~DataUSAConstructionSequenceMar08@18 2026-06-17T0]
+[B1] Z 7 Jun03 FAST                     R1=5m39    [Zitat] Kadenz=8m46     [Zitat] Folge= 11s [Zitat]
+[B1] Z 8 Jul08 (6m09/17s)               R1=6m09    [Zitat] Kadenz=27m10    [Zitat] Folge= 17s [Zitat]
+[B1] Z 9 Jan03 / Feb28 / Apr30          R1=14m51   [Zitat] Kadenz=35m11    [Zitat] Folge= 31s [Korpus: dse~OpenAIFeb28ConstructionSlowLive@3 2026-06-17T20:]
+[B1] Z10 Oct16 / Apr15 / Jul07 (18m04)  R1=18m04   [Korpus: dse~DataUSAMaidsWageSequenceCollabSep21@6 2026-06-16] Kadenz=71m04    [Zitat] Folge= 57s [Zitat]
+[B1] Z11 Jun26                          R1=4m44    [Zitat] Kadenz=42m55    [Zitat] Folge= 27s [Zitat]
+[B1] Z12 Nov20/Nov21 SLOW               R1=15m00   [Zitat] Kadenz=1h22m02  [Zitat] Folge= 83s [N/A_PENDING_REVIEWER]
+[B1] Z13 Dec13 / Sep05                  R1=5m59    [Zitat] Kadenz=1h18m38  [Zitat] Folge= 39s [Zitat]
+[B1] Z14 Sep04                          R1=7m27    [Zitat] Kadenz=15m35    [Zitat] Folge= 28s [Zitat]
+[B1] Z15 Apr01 SLOW                     R1=8m12    [Zitat] Kadenz=57m31    [Zitat] Folge= 32s [Zitat]
+[B1] Provenienz der 45 Werte: im kuratierten Zitat 37, abgeleitet/Korpus 7, N/A_PENDING_REVIEWER 1
+[B2] PCA voll (n=15): PC1=0.784 PC2=0.186 PC3=0.030
+[B2] Leave-one-row-out: PC1 min=0.755 (ohne Nov20/Nov21 SLOW) max=0.815 (ohne Dec13 / Sep05) Median=0.790
+[B2] Bootstrap über Zeilen (B=4000): PC1 95%-Intervall [0.650, 0.898]
+[B3] geschrieben: /home/philflow/Dokumente/coding/research/agent-swarm-forensics/paper/tables/tab_scheduler_rows.tex
+
+====================================================================================================
+C  CVD-Abschaltung als Intervall [letztes Lebenszeichen ; erste belegte Abwesenheit]
+====================================================================================================
+cohort        class  last_alive_internal_s  first_absent_internal_s      last_alive_wall evidence_type last_alive_evidence_kind           source_label
+ Apr23     fast_17s                 5406.0                   5513.0 2026-06-21T07:25:16Z         audit                 own_post    OpenAIResearchApr23
+ Apr30     fast_17s                 5461.0                   5513.0 2026-06-21T09:24:01Z         audit                 own_post    OpenAIResearchApr30
+ Dec30     fast_17s                 5461.0                   5513.0 2026-06-21T10:07:57Z         audit                 own_post OpenAIResearchDec30CVD
+ Feb26     fast_17s                 5401.0                   5513.0 2026-06-21T09:42:27Z        server                 own_post     OpenAICVDFeb26Fast
+ Jan18     fast_17s                 5402.0                   5513.0 2026-06-21T09:45:02Z        server                 own_post       OpenAIJan18Scout
+ Mar25     fast_17s                 5402.0                   5513.0 2026-06-21T08:38:32Z        server                 own_post    OpenAIResearchMar25
+ May03     fast_17s                 5462.0                   5513.0 2026-06-21T09:48:53Z        server                 own_post    OpenAIMay03CVDScout
+ May14     fast_17s                 5460.0                   5513.0 2026-06-21T09:39:11Z        server                 own_post     ResearchAgentMay14
+ May25     fast_17s                 5403.0                   5513.0 2026-06-21T10:01:57Z        server                 own_post OAIHouseholdNov02Scout
+ May26     fast_17s                 5401.0                   5513.0 2026-06-21T07:45:00Z        server                 own_post          May26CVDScout
+ Oct25     fast_17s                 5463.0                   5513.0 2026-06-21T09:37:34Z        server                 own_post   OpenAIResearchOct25X
+ Aug24   medium_22s                 6332.0                   6485.0 2026-06-21T08:12:31Z        server                 own_post          Oct03CVDScout
+ Jan02   medium_22s                 6411.0                   6485.0 2026-06-21T10:40:20Z        server                 own_post          Jan02CVDScout
+ Jul09   medium_22s                 6452.0                   6485.0 2026-06-21T11:06:22Z        server                 own_post         OpenAIJul09CVD
+ Jul30   medium_22s                 6362.0                   6485.0 2026-06-21T09:15:27Z        server                 own_post    OAIJul30Evening2028
+ Mar09   medium_22s                 6394.0                   6485.0 2026-06-21T10:33:51Z        server                 own_post    OpenAIResearchApr23
+ Mar10   medium_22s                 6366.0                   6485.0 2026-06-21T09:43:12Z        server                 own_post         OpenAIMar10CVD
+ Nov16   medium_22s                 6362.0                   6485.0 2026-06-21T08:17:33Z        server                 own_post         OpenAINov16CVD
+ Nov28   medium_22s                 6367.0                   6485.0 2026-06-21T09:48:55Z        server                 own_post         OpenAINov28CVD
+ Oct03   medium_22s                 6391.0                   6485.0 2026-06-21T10:20:44Z        server                 own_post          Oct03CVDScout
+ Oct22   medium_22s                 6405.0                   6485.0 2026-06-21T10:32:07Z        server                 own_post         OpenAIOct22CVD
+ Sep22   medium_22s                 6405.0                   6485.0 2026-06-21T10:24:28Z        server                 own_post    OpenAIResearchSep22
+ Sep24   medium_22s                 6362.0                   6485.0 2026-06-21T09:37:42Z        server                 own_post          Sep24CVDScout
+ Jun30 unclassified                 6142.0                      NaN 2026-06-21T10:09:11Z        server                 own_post          OAIJun30Scout
+[C1] Abweichungen vom bisherigen last_inner_offset_s (paper_horizont_testH_cvd_kohorten.csv): 1
+      Jul30: neu 6362 s (own_post) vs. alt 6364 s
+[C2] fast_17s   alle_belegten                n=11 letztes Lebenszeichen min=5401 max=5463 Fenster=62s CV=0.0057 | Tod in [5463, 5513] s ab R1 (Breite 50 s)
+[C2] fast_17s   nur_server                   n= 8 letztes Lebenszeichen min=5401 max=5463 Fenster=62s CV=0.0057 | Tod in [5463, 5513] s ab R1 (Breite 50 s)
+[C2] fast_17s   server_plus_audit_eigenpost  n=11 letztes Lebenszeichen min=5401 max=5463 Fenster=62s CV=0.0057 | Tod in [5463, 5513] s ab R1 (Breite 50 s)
+[C2] fast_17s   nur_audit                    n= 3 letztes Lebenszeichen min=5406 max=5461 Fenster=55s CV=0.0058 | Tod in [5461, 5513] s ab R1 (Breite 52 s)
+[C2] medium_22s alle_belegten                n=12 letztes Lebenszeichen min=6332 max=6452 Fenster=120s CV=0.0050 | Tod in [6452, 6485] s ab R1 (Breite 33 s)
+[C2] medium_22s nur_server                   n=12 letztes Lebenszeichen min=6332 max=6452 Fenster=120s CV=0.0050 | Tod in [6452, 6485] s ab R1 (Breite 33 s)
+[C2] medium_22s server_plus_audit_eigenpost  n=12 letztes Lebenszeichen min=6332 max=6452 Fenster=120s CV=0.0050 | Tod in [6452, 6485] s ab R1 (Breite 33 s)
+[C3] geschrieben: /home/philflow/Dokumente/coding/research/agent-swarm-forensics/paper/tables/tab_cvd_intervals.tex und /home/philflow/Dokumente/coding/research/agent-swarm-forensics/paper/figures/data/fig8_cvd_intervals.json
+
+fertig.

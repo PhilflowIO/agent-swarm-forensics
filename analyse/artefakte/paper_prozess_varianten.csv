@@ -1,0 +1,580 @@
+variante,n_kohorten,laenge,anteil_pct
+Uhrenpaar_melden,43,1,4.74
+Rundenergebnis_melden,41,1,4.52
+Seite_anlegen -> Rundenergebnis_melden,38,2,4.19
+Um_Ergebnis_bitten,23,1,2.54
+Seite_anlegen -> Uhrenpaar_melden,18,2,1.98
+Sonstiges,17,1,1.87
+Seite_anlegen -> Um_Ergebnis_bitten,17,2,1.87
+Uhrenpaar_melden -> Rundenergebnis_melden,11,2,1.21
+Seite_anlegen -> Sonstiges,10,2,1.1
+Test_Probe,8,1,0.88
+Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten,8,3,0.88
+Um_Ergebnis_bitten -> Rundenergebnis_melden,7,2,0.77
+Uhrenpaar_melden -> Um_Ergebnis_bitten,6,2,0.66
+Seite_anlegen -> Uhrenpaar_melden -> Rundenergebnis_melden,6,3,0.66
+Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten,5,3,0.55
+Technik_weitergeben,5,1,0.55
+Seite_anlegen -> Test_Probe -> Uhrenpaar_melden,5,3,0.55
+Seite_anlegen -> Daten_URL_ablegen,5,2,0.55
+Seite_anlegen -> Test_Probe -> Rundenergebnis_melden,4,3,0.44
+Seite_anlegen -> Test_Probe,4,2,0.44
+Um_Ergebnis_bitten -> Uhrenpaar_melden,4,2,0.44
+Rundenergebnis_melden -> Um_Ergebnis_bitten,4,2,0.44
+Ueberlebenssignal,4,1,0.44
+Vorhersage,4,1,0.44
+Rundenergebnis_melden -> Technik_weitergeben,4,2,0.44
+Um_Ergebnis_bitten -> Sonstiges,3,2,0.33
+Uhrenpaar_melden -> Seite_anlegen -> Rundenergebnis_melden,3,3,0.33
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Rundenergebnis_melden,3,4,0.33
+Seite_anlegen -> Sonstiges -> Rundenergebnis_melden,3,3,0.33
+Uhrenpaar_melden -> Sonstiges,3,2,0.33
+Seite_anlegen -> Sonstiges -> Uhrenpaar_melden,3,3,0.33
+Sonstiges -> Um_Ergebnis_bitten,3,2,0.33
+Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden,3,4,0.33
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Rundenergebnis_melden,3,4,0.33
+Seite_anlegen -> Rundenergebnis_melden -> Vorhersage,3,3,0.33
+Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden,3,3,0.33
+Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden,2,3,0.22
+Seite_anlegen -> Rundenergebnis_melden -> Test_Probe,2,3,0.22
+Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden,2,3,0.22
+Rundenergebnis_melden -> Test_Probe,2,2,0.22
+Test_Probe -> Uhrenpaar_melden,2,2,0.22
+Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten,2,3,0.22
+Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten,2,4,0.22
+Sonstiges -> Seite_anlegen -> Uhrenpaar_melden,2,3,0.22
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten,2,4,0.22
+Uhrenpaar_melden -> Vorhersage,2,2,0.22
+Sonstiges -> Rundenergebnis_melden,2,2,0.22
+Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden,2,4,0.22
+Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden,2,3,0.22
+Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden,2,5,0.22
+Rundenergebnis_melden -> Vorhersage -> Um_Ergebnis_bitten,2,3,0.22
+Seite_anlegen -> Vorhersage -> Rundenergebnis_melden,2,3,0.22
+Seite_anlegen -> Um_Ergebnis_bitten -> Rundenergebnis_melden,2,3,0.22
+Seite_anlegen -> Test_Probe -> Rundenergebnis_melden -> Uhrenpaar_melden,2,4,0.22
+Seite_anlegen -> Rundenergebnis_melden -> Sonstiges,2,3,0.22
+Ueberlebenssignal -> Rundenergebnis_melden,2,2,0.22
+Seite_anlegen -> Rundenergebnis_melden -> Ueberlebenssignal,2,3,0.22
+Rundenergebnis_melden -> Ueberlebenssignal,2,2,0.22
+Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten,2,3,0.22
+Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges,2,4,0.22
+Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges,2,3,0.22
+Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Rundenergebnis_melden,2,4,0.22
+Rundenergebnis_melden -> Vorhersage -> Seite_anlegen -> Rundenergebnis_melden,2,4,0.22
+Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden,2,4,0.22
+Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden,2,4,0.22
+Daten_URL_ablegen,2,1,0.22
+Vorhersage -> Seite_anlegen -> Um_Ergebnis_bitten,1,3,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Vorhersage -> Uhrenpaar_melden,1,6,0.11
+Rundenergebnis_melden -> Vorhersage,1,2,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges,1,7,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Uhrenpaar_melden -> Rundenergebnis_melden -> Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten,1,9,0.11
+Test_Probe -> Sonstiges -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Vorhersage -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Um_Ergebnis_bitten -> Technik_weitergeben -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Vorhersage,1,20,0.11
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Ueberlebenssignal -> Uhrenpaar_melden -> Ueberlebenssignal -> Technik_weitergeben -> Seite_anlegen -> Uhrenpaar_melden -> Rundenergebnis_melden -> Uhrenpaar_melden -> Rundenergebnis_melden,1,15,0.11
+Sonstiges -> Seite_anlegen -> Rundenergebnis_melden -> Technik_weitergeben -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten,1,7,0.11
+Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Daten_URL_ablegen,1,7,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Vorhersage,1,4,0.11
+Seite_anlegen -> Sonstiges -> Test_Probe -> Technik_weitergeben -> Sonstiges -> Ueberlebenssignal -> Sonstiges,1,7,0.11
+Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden,1,4,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Technik_weitergeben -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Ueberlebenssignal -> Technik_weitergeben -> Um_Ergebnis_bitten -> Sonstiges -> Seite_anlegen -> Uhrenpaar_melden,1,14,0.11
+Seite_anlegen -> Sonstiges -> Rundenergebnis_melden -> Uhrenpaar_melden -> Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,8,0.11
+Technik_weitergeben -> Rundenergebnis_melden -> Seite_anlegen -> Sonstiges -> Vorhersage -> Rundenergebnis_melden -> Technik_weitergeben -> Seite_anlegen -> Rundenergebnis_melden,1,9,0.11
+Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Vorhersage -> Um_Ergebnis_bitten -> Technik_weitergeben -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Test_Probe,1,11,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Sonstiges,1,4,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Vorhersage -> Daten_URL_ablegen -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Test_Probe -> Sonstiges -> Technik_weitergeben -> Daten_URL_ablegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Sonstiges -> Seite_anlegen -> Test_Probe,1,19,0.11
+Seite_anlegen -> Test_Probe -> Rundenergebnis_melden -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,9,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden -> Sonstiges -> Vorhersage,1,5,0.11
+Seite_anlegen -> Sonstiges -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden -> Rundenergebnis_melden -> Uhrenpaar_melden -> Rundenergebnis_melden,1,9,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Vorhersage -> Test_Probe -> Rundenergebnis_melden -> Uhrenpaar_melden,1,6,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Technik_weitergeben -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Ueberlebenssignal -> Rundenergebnis_melden -> Technik_weitergeben,1,8,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden -> Seite_anlegen -> Technik_weitergeben,1,5,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Vorhersage -> Seite_anlegen -> Vorhersage -> Technik_weitergeben,1,8,0.11
+Rundenergebnis_melden -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten,1,6,0.11
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Sonstiges -> Rundenergebnis_melden -> Um_Ergebnis_bitten,1,8,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Test_Probe -> Um_Ergebnis_bitten -> Vorhersage -> Um_Ergebnis_bitten -> Seite_anlegen -> Daten_URL_ablegen -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Daten_URL_ablegen -> Rundenergebnis_melden -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Technik_weitergeben,1,22,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Sonstiges -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Sonstiges -> Rundenergebnis_melden -> Technik_weitergeben -> Sonstiges -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Technik_weitergeben -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Test_Probe,1,36,0.11
+Um_Ergebnis_bitten -> Ueberlebenssignal -> Seite_anlegen -> Rundenergebnis_melden -> Daten_URL_ablegen,1,5,0.11
+Seite_anlegen -> Vorhersage -> Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Vorhersage -> Rundenergebnis_melden -> Seite_anlegen -> Vorhersage -> Um_Ergebnis_bitten -> Test_Probe -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Sonstiges -> Rundenergebnis_melden -> Ueberlebenssignal -> Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten,1,27,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Rundenergebnis_melden -> Uhrenpaar_melden -> Rundenergebnis_melden,1,5,0.11
+Seite_anlegen -> Sonstiges -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Sonstiges -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,11,0.11
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Ueberlebenssignal -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Sonstiges -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges,1,26,0.11
+Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden,1,6,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Ueberlebenssignal -> Seite_anlegen -> Sonstiges -> Test_Probe -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden,1,9,0.11
+Uhrenpaar_melden -> Sonstiges -> Um_Ergebnis_bitten -> Test_Probe -> Rundenergebnis_melden,1,5,0.11
+Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Sonstiges -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden,1,9,0.11
+Seite_anlegen -> Sonstiges -> Test_Probe -> Um_Ergebnis_bitten,1,4,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Sonstiges,1,6,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Um_Ergebnis_bitten -> Sonstiges,1,8,0.11
+Daten_URL_ablegen -> Seite_anlegen -> Test_Probe -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Test_Probe,1,8,0.11
+Seite_anlegen -> Test_Probe -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Test_Probe -> Um_Ergebnis_bitten,1,12,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Um_Ergebnis_bitten -> Technik_weitergeben -> Um_Ergebnis_bitten -> Technik_weitergeben -> Uhrenpaar_melden -> Daten_URL_ablegen,1,16,0.11
+Test_Probe -> Seite_anlegen -> Uhrenpaar_melden -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Daten_URL_ablegen -> Rundenergebnis_melden -> Seite_anlegen -> Sonstiges -> Rundenergebnis_melden,1,20,0.11
+Sonstiges -> Uhrenpaar_melden,1,2,0.11
+Uhrenpaar_melden -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten,1,4,0.11
+Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten,1,3,0.11
+Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden,1,3,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges,1,7,0.11
+Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges,1,3,0.11
+Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten,1,3,0.11
+Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Uhrenpaar_melden,1,4,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten,1,10,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Daten_URL_ablegen -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Test_Probe -> Um_Ergebnis_bitten -> Uhrenpaar_melden,1,22,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Test_Probe -> Sonstiges -> Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Uhrenpaar_melden,1,11,0.11
+Seite_anlegen -> Test_Probe -> Sonstiges -> Vorhersage,1,4,0.11
+Uhrenpaar_melden -> Seite_anlegen -> Technik_weitergeben,1,3,0.11
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Technik_weitergeben -> Test_Probe -> Technik_weitergeben -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Sonstiges -> Daten_URL_ablegen -> Sonstiges -> Daten_URL_ablegen -> Seite_anlegen -> Test_Probe -> Sonstiges -> Daten_URL_ablegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Uhrenpaar_melden -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Technik_weitergeben -> Seite_anlegen -> Sonstiges -> Rundenergebnis_melden -> Test_Probe -> Technik_weitergeben -> Daten_URL_ablegen -> Seite_anlegen -> Test_Probe -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Daten_URL_ablegen -> Technik_weitergeben -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Sonstiges -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Technik_weitergeben -> Test_Probe -> Daten_URL_ablegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Test_Probe -> Seite_anlegen -> Technik_weitergeben -> Daten_URL_ablegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Daten_URL_ablegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Daten_URL_ablegen -> Test_Probe -> Technik_weitergeben -> Sonstiges -> Seite_anlegen -> Technik_weitergeben -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Daten_URL_ablegen,1,116,0.11
+Um_Ergebnis_bitten -> Seite_anlegen -> Test_Probe -> Sonstiges -> Rundenergebnis_melden -> Uhrenpaar_melden -> Technik_weitergeben -> Uhrenpaar_melden -> Rundenergebnis_melden,1,9,0.11
+Uhrenpaar_melden -> Rundenergebnis_melden -> Sonstiges,1,3,0.11
+Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Test_Probe -> Rundenergebnis_melden -> Um_Ergebnis_bitten,1,6,0.11
+Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Daten_URL_ablegen -> Technik_weitergeben -> Daten_URL_ablegen -> Sonstiges -> Daten_URL_ablegen -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden,1,20,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden,1,6,0.11
+Um_Ergebnis_bitten -> Uhrenpaar_melden -> Technik_weitergeben -> Um_Ergebnis_bitten,1,4,0.11
+Sonstiges -> Test_Probe -> Seite_anlegen -> Uhrenpaar_melden -> Sonstiges -> Test_Probe,1,6,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Technik_weitergeben -> Um_Ergebnis_bitten,1,6,0.11
+Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Rundenergebnis_melden,1,6,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Test_Probe -> Uhrenpaar_melden,1,5,0.11
+Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Vorhersage -> Seite_anlegen -> Sonstiges,1,6,0.11
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Uhrenpaar_melden -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen -> Test_Probe -> Technik_weitergeben -> Test_Probe,1,24,0.11
+Sonstiges -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Technik_weitergeben -> Uhrenpaar_melden,1,7,0.11
+Um_Ergebnis_bitten -> Test_Probe -> Uhrenpaar_melden -> Test_Probe,1,4,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Sonstiges -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten,1,15,0.11
+Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten,1,6,0.11
+Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Test_Probe,1,29,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Sonstiges -> Uhrenpaar_melden -> Rundenergebnis_melden,1,5,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Test_Probe -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Vorhersage,1,11,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten,1,5,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Vorhersage -> Test_Probe -> Technik_weitergeben -> Uhrenpaar_melden,1,28,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Daten_URL_ablegen -> Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden,1,14,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Uhrenpaar_melden -> Sonstiges -> Test_Probe,1,16,0.11
+Uhrenpaar_melden -> Seite_anlegen -> Sonstiges,1,3,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Technik_weitergeben -> Uhrenpaar_melden,1,13,0.11
+Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten,1,7,0.11
+Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Uhrenpaar_melden -> Sonstiges -> Daten_URL_ablegen -> Um_Ergebnis_bitten -> Test_Probe -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Test_Probe -> Uhrenpaar_melden -> Test_Probe -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Sonstiges -> Technik_weitergeben,1,20,0.11
+Seite_anlegen -> Test_Probe -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Technik_weitergeben -> Uhrenpaar_melden -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Sonstiges -> Ueberlebenssignal,1,14,0.11
+Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden -> Sonstiges -> Test_Probe,1,8,0.11
+Sonstiges -> Uhrenpaar_melden -> Sonstiges -> Technik_weitergeben -> Uhrenpaar_melden -> Ueberlebenssignal -> Seite_anlegen -> Rundenergebnis_melden,1,8,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Technik_weitergeben -> Rundenergebnis_melden,1,10,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Test_Probe,1,6,0.11
+Um_Ergebnis_bitten -> Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Test_Probe -> Uhrenpaar_melden,1,19,0.11
+Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Sonstiges -> Uhrenpaar_melden -> Test_Probe -> Sonstiges -> Um_Ergebnis_bitten -> Sonstiges -> Test_Probe -> Technik_weitergeben,1,14,0.11
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden,1,6,0.11
+Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten,1,3,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Vorhersage -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Sonstiges,1,32,0.11
+Uhrenpaar_melden -> Sonstiges -> Uhrenpaar_melden,1,3,0.11
+Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Sonstiges,1,4,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Test_Probe -> Sonstiges -> Seite_anlegen -> Test_Probe -> Daten_URL_ablegen -> Um_Ergebnis_bitten -> Test_Probe -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden -> Seite_anlegen -> Sonstiges -> Test_Probe -> Daten_URL_ablegen -> Seite_anlegen -> Uhrenpaar_melden -> Vorhersage -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen,1,28,0.11
+Uhrenpaar_melden -> Sonstiges -> Um_Ergebnis_bitten,1,3,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Vorhersage -> Sonstiges -> Vorhersage -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden,1,15,0.11
+Sonstiges -> Test_Probe,1,2,0.11
+Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden,1,6,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Vorhersage -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Seite_anlegen -> Technik_weitergeben -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges,1,21,0.11
+Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,4,0.11
+Rundenergebnis_melden -> Test_Probe -> Sonstiges -> Test_Probe -> Uhrenpaar_melden,1,5,0.11
+Seite_anlegen -> Test_Probe -> Rundenergebnis_melden -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Vorhersage -> Seite_anlegen -> Rundenergebnis_melden,1,10,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges -> Rundenergebnis_melden -> Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten,1,8,0.11
+Uhrenpaar_melden -> Rundenergebnis_melden -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Uhrenpaar_melden,1,6,0.11
+Rundenergebnis_melden -> Sonstiges -> Rundenergebnis_melden -> Vorhersage -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden,1,8,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Uhrenpaar_melden -> Um_Ergebnis_bitten,1,8,0.11
+Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Vorhersage -> Um_Ergebnis_bitten -> Seite_anlegen -> Test_Probe -> Rundenergebnis_melden,1,10,0.11
+Seite_anlegen -> Sonstiges -> Test_Probe -> Seite_anlegen -> Sonstiges -> Daten_URL_ablegen -> Um_Ergebnis_bitten -> Technik_weitergeben -> Rundenergebnis_melden -> Sonstiges -> Um_Ergebnis_bitten,1,11,0.11
+Seite_anlegen -> Vorhersage -> Seite_anlegen -> Uhrenpaar_melden -> Sonstiges -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten,1,8,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Rundenergebnis_melden -> Seite_anlegen -> Test_Probe,1,6,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Technik_weitergeben -> Uhrenpaar_melden -> Um_Ergebnis_bitten,1,9,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Vorhersage -> Rundenergebnis_melden -> Seite_anlegen -> Sonstiges,1,7,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden -> Uhrenpaar_melden,1,6,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden,1,5,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Rundenergebnis_melden -> Sonstiges,1,4,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Technik_weitergeben -> Uhrenpaar_melden -> Technik_weitergeben -> Uhrenpaar_melden,1,8,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Technik_weitergeben -> Uhrenpaar_melden -> Um_Ergebnis_bitten,1,8,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Uhrenpaar_melden -> Rundenergebnis_melden -> Ueberlebenssignal -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges,1,11,0.11
+Vorhersage -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden,1,4,0.11
+Technik_weitergeben -> Test_Probe -> Sonstiges -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Test_Probe -> Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Rundenergebnis_melden -> Um_Ergebnis_bitten,1,11,0.11
+Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Vorhersage -> Seite_anlegen -> Technik_weitergeben,1,6,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Sonstiges,1,3,0.11
+Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Ueberlebenssignal -> Um_Ergebnis_bitten,1,5,0.11
+Seite_anlegen -> Test_Probe -> Rundenergebnis_melden -> Uhrenpaar_melden -> Rundenergebnis_melden,1,5,0.11
+Um_Ergebnis_bitten -> Technik_weitergeben,1,2,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Vorhersage -> Rundenergebnis_melden,1,4,0.11
+Seite_anlegen -> Test_Probe -> Rundenergebnis_melden -> Test_Probe,1,4,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Seite_anlegen -> Test_Probe -> Vorhersage -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Abschied -> Um_Ergebnis_bitten -> Sonstiges -> Rundenergebnis_melden,1,14,0.11
+Uhrenpaar_melden -> Sonstiges -> Test_Probe -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,8,0.11
+Sonstiges -> Uhrenpaar_melden -> Rundenergebnis_melden,1,3,0.11
+Sonstiges -> Test_Probe -> Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden,1,9,0.11
+Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Uhrenpaar_melden,1,8,0.11
+Seite_anlegen -> Technik_weitergeben -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Vorhersage -> Rundenergebnis_melden -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Vorhersage -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Test_Probe,1,14,0.11
+Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Sonstiges -> Vorhersage,1,6,0.11
+Um_Ergebnis_bitten -> Rundenergebnis_melden -> Test_Probe -> Rundenergebnis_melden -> Seite_anlegen -> Sonstiges -> Rundenergebnis_melden,1,7,0.11
+Uhrenpaar_melden -> Rundenergebnis_melden -> Ueberlebenssignal -> Um_Ergebnis_bitten,1,4,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden,1,5,0.11
+Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Rundenergebnis_melden -> Seite_anlegen -> Vorhersage -> Test_Probe,1,7,0.11
+Sonstiges -> Rundenergebnis_melden -> Ueberlebenssignal -> Sonstiges -> Rundenergebnis_melden -> Ueberlebenssignal -> Rundenergebnis_melden -> Uhrenpaar_melden -> Ueberlebenssignal,1,9,0.11
+Um_Ergebnis_bitten -> Rundenergebnis_melden -> Ueberlebenssignal -> Seite_anlegen -> Test_Probe,1,5,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten,1,6,0.11
+Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Ueberlebenssignal -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Ueberlebenssignal,1,12,0.11
+Rundenergebnis_melden -> Ueberlebenssignal -> Rundenergebnis_melden -> Ueberlebenssignal -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten,1,7,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Vorhersage -> Seite_anlegen -> Daten_URL_ablegen,1,9,0.11
+Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Test_Probe -> Rundenergebnis_melden -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Daten_URL_ablegen -> Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten,1,12,0.11
+Rundenergebnis_melden -> Sonstiges -> Seite_anlegen -> Rundenergebnis_melden -> Test_Probe -> Sonstiges -> Rundenergebnis_melden,1,7,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden -> Rundenergebnis_melden,1,10,0.11
+Uhrenpaar_melden -> Test_Probe -> Uhrenpaar_melden -> Rundenergebnis_melden -> Seite_anlegen -> Test_Probe -> Vorhersage,1,7,0.11
+Rundenergebnis_melden -> Uhrenpaar_melden -> Vorhersage,1,3,0.11
+Rundenergebnis_melden -> Uhrenpaar_melden -> Technik_weitergeben -> Um_Ergebnis_bitten -> Sonstiges -> Seite_anlegen -> Rundenergebnis_melden,1,7,0.11
+Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten,1,6,0.11
+Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Vorhersage,1,4,0.11
+Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Technik_weitergeben,1,10,0.11
+Seite_anlegen -> Sonstiges -> Ueberlebenssignal,1,3,0.11
+Seite_anlegen -> Vorhersage -> Rundenergebnis_melden -> Seite_anlegen -> Test_Probe,1,5,0.11
+Test_Probe -> Vorhersage,1,2,0.11
+Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden,1,9,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten,1,5,0.11
+Rundenergebnis_melden -> Seite_anlegen -> Test_Probe -> Technik_weitergeben -> Sonstiges,1,5,0.11
+Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Vorhersage -> Rundenergebnis_melden -> Vorhersage -> Test_Probe -> Rundenergebnis_melden,1,9,0.11
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Uhrenpaar_melden -> Vorhersage -> Sonstiges -> Rundenergebnis_melden -> Uhrenpaar_melden -> Rundenergebnis_melden -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Rundenergebnis_melden -> Ueberlebenssignal -> Seite_anlegen -> Vorhersage,1,16,0.11
+Um_Ergebnis_bitten -> Test_Probe -> Technik_weitergeben,1,3,0.11
+Seite_anlegen -> Test_Probe -> Rundenergebnis_melden -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden,1,6,0.11
+Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Vorhersage -> Um_Ergebnis_bitten -> Seite_anlegen -> Test_Probe,1,10,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Test_Probe -> Sonstiges -> Seite_anlegen -> Uhrenpaar_melden -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen,1,13,0.11
+Seite_anlegen -> Sonstiges -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Vorhersage -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges,1,14,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Sonstiges -> Rundenergebnis_melden -> Sonstiges,1,8,0.11
+Vorhersage -> Rundenergebnis_melden -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Seite_anlegen -> Vorhersage -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten,1,16,0.11
+Seite_anlegen -> Vorhersage,1,2,0.11
+Uhrenpaar_melden -> Sonstiges -> Vorhersage -> Uhrenpaar_melden -> Technik_weitergeben -> Uhrenpaar_melden -> Sonstiges,1,7,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Sonstiges -> Test_Probe -> Rundenergebnis_melden,1,5,0.11
+Daten_URL_ablegen -> Uhrenpaar_melden,1,2,0.11
+Um_Ergebnis_bitten -> Rundenergebnis_melden -> Technik_weitergeben,1,3,0.11
+Test_Probe -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Seite_anlegen -> Sonstiges,1,5,0.11
+Rundenergebnis_melden -> Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges -> Technik_weitergeben -> Vorhersage -> Um_Ergebnis_bitten,1,9,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Test_Probe,1,5,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges,1,4,0.11
+Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Rundenergebnis_melden,1,4,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,5,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Vorhersage,1,4,0.11
+Sonstiges -> Rundenergebnis_melden -> Uhrenpaar_melden -> Rundenergebnis_melden -> Seite_anlegen -> Test_Probe -> Uhrenpaar_melden,1,7,0.11
+Sonstiges -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Vorhersage -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Technik_weitergeben -> Rundenergebnis_melden -> Seite_anlegen -> Uhrenpaar_melden -> Test_Probe -> Seite_anlegen -> Uhrenpaar_melden -> Test_Probe -> Seite_anlegen -> Test_Probe,1,25,0.11
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Vorhersage -> Sonstiges -> Seite_anlegen -> Uhrenpaar_melden,1,7,0.11
+Seite_anlegen -> Test_Probe -> Rundenergebnis_melden -> Sonstiges -> Seite_anlegen -> Uhrenpaar_melden,1,6,0.11
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten,1,15,0.11
+Daten_URL_ablegen -> Seite_anlegen -> Uhrenpaar_melden,1,3,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Rundenergebnis_melden -> Seite_anlegen -> Uhrenpaar_melden,1,8,0.11
+Sonstiges -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Technik_weitergeben -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Test_Probe -> Sonstiges -> Rundenergebnis_melden -> Sonstiges,1,16,0.11
+Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Test_Probe -> Seite_anlegen -> Um_Ergebnis_bitten,1,6,0.11
+Seite_anlegen -> Sonstiges -> Daten_URL_ablegen -> Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Sonstiges -> Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Sonstiges -> Uhrenpaar_melden,1,14,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Vorhersage -> Test_Probe -> Uhrenpaar_melden,1,6,0.11
+Sonstiges -> Uhrenpaar_melden -> Test_Probe -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Vorhersage -> Test_Probe -> Uhrenpaar_melden,1,8,0.11
+Test_Probe -> Sonstiges -> Seite_anlegen -> Sonstiges -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Technik_weitergeben -> Test_Probe -> Daten_URL_ablegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Daten_URL_ablegen,1,22,0.11
+Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges -> Test_Probe -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Test_Probe -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Daten_URL_ablegen -> Sonstiges -> Um_Ergebnis_bitten -> Sonstiges -> Test_Probe,1,24,0.11
+Uhrenpaar_melden -> Test_Probe -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Sonstiges -> Seite_anlegen -> Test_Probe -> Sonstiges -> Test_Probe -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Test_Probe,1,15,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Sonstiges -> Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Seite_anlegen -> Vorhersage -> Seite_anlegen -> Test_Probe -> Sonstiges -> Uhrenpaar_melden -> Vorhersage -> Seite_anlegen -> Test_Probe -> Rundenergebnis_melden -> Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,34,0.11
+Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Vorhersage -> Um_Ergebnis_bitten -> Technik_weitergeben -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Technik_weitergeben -> Sonstiges -> Seite_anlegen -> Sonstiges -> Rundenergebnis_melden -> Vorhersage -> Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden -> Um_Ergebnis_bitten,1,18,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten,1,10,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Rundenergebnis_melden,1,6,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten,1,4,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Daten_URL_ablegen -> Uhrenpaar_melden -> Rundenergebnis_melden -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Daten_URL_ablegen -> Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Test_Probe -> Vorhersage -> Rundenergebnis_melden -> Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Sonstiges,1,23,0.11
+Test_Probe -> Rundenergebnis_melden -> Seite_anlegen -> Sonstiges -> Vorhersage,1,5,0.11
+Seite_anlegen -> Sonstiges -> Test_Probe -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Seite_anlegen -> Technik_weitergeben -> Sonstiges -> Test_Probe -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Technik_weitergeben -> Uhrenpaar_melden -> Sonstiges,1,15,0.11
+Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden,1,10,0.11
+Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Vorhersage -> Technik_weitergeben -> Rundenergebnis_melden -> Uhrenpaar_melden -> Technik_weitergeben -> Uhrenpaar_melden -> Vorhersage -> Seite_anlegen -> Technik_weitergeben -> Uhrenpaar_melden -> Ueberlebenssignal -> Uhrenpaar_melden,1,22,0.11
+Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden,1,4,0.11
+Seite_anlegen -> Sonstiges -> Rundenergebnis_melden -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges,1,13,0.11
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Rundenergebnis_melden -> Daten_URL_ablegen -> Uhrenpaar_melden -> Sonstiges -> Seite_anlegen -> Uhrenpaar_melden -> Technik_weitergeben -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Technik_weitergeben -> Sonstiges -> Seite_anlegen -> Rundenergebnis_melden -> Test_Probe,1,41,0.11
+Seite_anlegen -> Sonstiges -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Technik_weitergeben,1,5,0.11
+Daten_URL_ablegen -> Sonstiges -> Um_Ergebnis_bitten -> Technik_weitergeben -> Seite_anlegen -> Daten_URL_ablegen -> Test_Probe -> Seite_anlegen -> Daten_URL_ablegen -> Test_Probe,1,10,0.11
+Vorhersage -> Um_Ergebnis_bitten -> Test_Probe -> Um_Ergebnis_bitten -> Sonstiges -> Um_Ergebnis_bitten -> Vorhersage -> Seite_anlegen -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Uhrenpaar_melden -> Sonstiges -> Um_Ergebnis_bitten -> Technik_weitergeben -> Uhrenpaar_melden -> Technik_weitergeben -> Sonstiges -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Technik_weitergeben -> Sonstiges -> Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Rundenergebnis_melden -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Rundenergebnis_melden -> Test_Probe -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Vorhersage -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Vorhersage -> Seite_anlegen -> Vorhersage -> Seite_anlegen -> Rundenergebnis_melden,1,44,0.11
+Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Vorhersage -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden,1,10,0.11
+Seite_anlegen -> Sonstiges -> Technik_weitergeben -> Sonstiges,1,4,0.11
+Um_Ergebnis_bitten -> Vorhersage -> Technik_weitergeben -> Um_Ergebnis_bitten,1,4,0.11
+Uhrenpaar_melden -> Test_Probe -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Sonstiges -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Sonstiges -> Seite_anlegen -> Sonstiges,1,10,0.11
+Sonstiges -> Seite_anlegen -> Vorhersage,1,3,0.11
+Seite_anlegen -> Test_Probe -> Rundenergebnis_melden -> Um_Ergebnis_bitten,1,4,0.11
+Daten_URL_ablegen -> Seite_anlegen -> Vorhersage,1,3,0.11
+Daten_URL_ablegen -> Rundenergebnis_melden -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Vorhersage -> Rundenergebnis_melden -> Seite_anlegen -> Technik_weitergeben -> Uhrenpaar_melden,1,10,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Daten_URL_ablegen -> Uhrenpaar_melden,1,4,0.11
+Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Ueberlebenssignal -> Um_Ergebnis_bitten -> Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden,1,13,0.11
+Rundenergebnis_melden -> Um_Ergebnis_bitten -> Vorhersage -> Um_Ergebnis_bitten,1,4,0.11
+Sonstiges -> Seite_anlegen -> Sonstiges,1,3,0.11
+Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Vorhersage -> Uhrenpaar_melden -> Rundenergebnis_melden -> Technik_weitergeben -> Rundenergebnis_melden,1,11,0.11
+Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Sonstiges -> Vorhersage,1,11,0.11
+Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Uhrenpaar_melden -> Um_Ergebnis_bitten,1,7,0.11
+Uhrenpaar_melden -> Test_Probe -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Sonstiges -> Uhrenpaar_melden -> Ueberlebenssignal -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Sonstiges -> Uhrenpaar_melden -> Test_Probe -> Rundenergebnis_melden -> Test_Probe -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Test_Probe,1,23,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden,1,7,0.11
+Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden -> Seite_anlegen -> Sonstiges -> Rundenergebnis_melden,1,7,0.11
+Uhrenpaar_melden -> Technik_weitergeben -> Seite_anlegen -> Um_Ergebnis_bitten,1,4,0.11
+Uhrenpaar_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten -> Technik_weitergeben -> Sonstiges -> Um_Ergebnis_bitten -> Technik_weitergeben -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Test_Probe -> Technik_weitergeben -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Vorhersage -> Test_Probe -> Rundenergebnis_melden -> Sonstiges -> Seite_anlegen -> Rundenergebnis_melden,1,27,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben,1,5,0.11
+Vorhersage -> Test_Probe -> Uhrenpaar_melden -> Vorhersage -> Um_Ergebnis_bitten,1,5,0.11
+Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden -> Sonstiges -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Daten_URL_ablegen,1,8,0.11
+Vorhersage -> Seite_anlegen -> Daten_URL_ablegen -> Uhrenpaar_melden,1,4,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Rundenergebnis_melden,1,4,0.11
+Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden -> Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Technik_weitergeben -> Rundenergebnis_melden,1,14,0.11
+Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden -> Uhrenpaar_melden -> Technik_weitergeben -> Vorhersage -> Uhrenpaar_melden,1,9,0.11
+Uhrenpaar_melden -> Test_Probe -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten,1,5,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Rundenergebnis_melden -> Uhrenpaar_melden -> Vorhersage,1,10,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Vorhersage -> Sonstiges -> Uhrenpaar_melden -> Sonstiges -> Test_Probe -> Sonstiges -> Uhrenpaar_melden -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Vorhersage -> Technik_weitergeben,1,24,0.11
+Um_Ergebnis_bitten -> Vorhersage -> Seite_anlegen -> Uhrenpaar_melden,1,4,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden -> Sonstiges,1,5,0.11
+Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Technik_weitergeben -> Uhrenpaar_melden -> Technik_weitergeben -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges,1,10,0.11
+Seite_anlegen -> Vorhersage -> Um_Ergebnis_bitten,1,3,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Test_Probe -> Rundenergebnis_melden,1,7,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Test_Probe -> Uhrenpaar_melden,1,5,0.11
+Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden,1,3,0.11
+Um_Ergebnis_bitten -> Sonstiges -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Technik_weitergeben,1,7,0.11
+Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten,1,3,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Vorhersage -> Uhrenpaar_melden -> Sonstiges -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten,1,17,0.11
+Sonstiges -> Seite_anlegen -> Daten_URL_ablegen,1,3,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Ueberlebenssignal,1,3,0.11
+Test_Probe -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Vorhersage,1,6,0.11
+Abschied,1,1,0.11
+Vorhersage -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,4,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Vorhersage -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten,1,7,0.11
+Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden,1,5,0.11
+Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden,1,5,0.11
+Um_Ergebnis_bitten -> Technik_weitergeben -> Ueberlebenssignal -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Ueberlebenssignal -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Ueberlebenssignal -> Rundenergebnis_melden -> Um_Ergebnis_bitten,1,11,0.11
+Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden,1,7,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Uhrenpaar_melden -> Rundenergebnis_melden -> Uhrenpaar_melden -> Rundenergebnis_melden,1,7,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Rundenergebnis_melden -> Vorhersage -> Seite_anlegen -> Um_Ergebnis_bitten,1,6,0.11
+Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,5,0.11
+Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten,1,4,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Test_Probe -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Test_Probe -> Rundenergebnis_melden -> Vorhersage,1,13,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Vorhersage -> Um_Ergebnis_bitten -> Vorhersage -> Rundenergebnis_melden -> Vorhersage -> Rundenergebnis_melden,1,8,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Test_Probe -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Daten_URL_ablegen -> Test_Probe -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Sonstiges -> Daten_URL_ablegen -> Test_Probe,1,36,0.11
+Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges,1,7,0.11
+Uhrenpaar_melden -> Vorhersage -> Um_Ergebnis_bitten,1,3,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Test_Probe -> Vorhersage -> Rundenergebnis_melden,1,5,0.11
+Rundenergebnis_melden -> Seite_anlegen -> Test_Probe,1,3,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges,1,11,0.11
+Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges -> Rundenergebnis_melden -> Vorhersage -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Technik_weitergeben -> Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Test_Probe,1,12,0.11
+Uhrenpaar_melden -> Sonstiges -> Test_Probe -> Rundenergebnis_melden -> Vorhersage -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Rundenergebnis_melden,1,21,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Daten_URL_ablegen,1,4,0.11
+Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Daten_URL_ablegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Sonstiges -> Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden -> Rundenergebnis_melden,1,13,0.11
+Rundenergebnis_melden -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Vorhersage,1,13,0.11
+Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Uhrenpaar_melden -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Daten_URL_ablegen -> Test_Probe -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Vorhersage -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Seite_anlegen -> Test_Probe -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Ueberlebenssignal -> Seite_anlegen -> Daten_URL_ablegen -> Rundenergebnis_melden -> Test_Probe -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Test_Probe -> Daten_URL_ablegen -> Technik_weitergeben -> Seite_anlegen -> Sonstiges -> Daten_URL_ablegen -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Test_Probe -> Sonstiges,1,73,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Technik_weitergeben,1,3,0.11
+Uhrenpaar_melden -> Sonstiges -> Seite_anlegen -> Technik_weitergeben -> Vorhersage -> Um_Ergebnis_bitten -> Sonstiges -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Vorhersage -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Vorhersage -> Uhrenpaar_melden -> Rundenergebnis_melden,1,19,0.11
+Rundenergebnis_melden -> Sonstiges -> Rundenergebnis_melden -> Test_Probe,1,4,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,5,0.11
+Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Rundenergebnis_melden -> Sonstiges -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Technik_weitergeben,1,10,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Daten_URL_ablegen,1,16,0.11
+Um_Ergebnis_bitten -> Rundenergebnis_melden -> Vorhersage -> Rundenergebnis_melden,1,4,0.11
+Um_Ergebnis_bitten -> Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten,1,4,0.11
+Um_Ergebnis_bitten -> Vorhersage -> Um_Ergebnis_bitten,1,3,0.11
+Test_Probe -> Vorhersage -> Uhrenpaar_melden -> Rundenergebnis_melden,1,4,0.11
+Test_Probe -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen,1,26,0.11
+Um_Ergebnis_bitten -> Seite_anlegen -> Vorhersage -> Rundenergebnis_melden -> Technik_weitergeben -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Um_Ergebnis_bitten -> Vorhersage -> Rundenergebnis_melden,1,12,0.11
+Seite_anlegen -> Test_Probe -> Ueberlebenssignal,1,3,0.11
+Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Seite_anlegen -> Sonstiges,1,7,0.11
+Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Ueberlebenssignal -> Uhrenpaar_melden -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten,1,10,0.11
+Rundenergebnis_melden -> Seite_anlegen -> Uhrenpaar_melden -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden -> Ueberlebenssignal -> Uhrenpaar_melden,1,12,0.11
+Uhrenpaar_melden -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben,1,4,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Ueberlebenssignal,1,7,0.11
+Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Sonstiges -> Test_Probe -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten,1,10,0.11
+Uhrenpaar_melden -> Sonstiges -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten,1,5,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Daten_URL_ablegen,1,3,0.11
+Sonstiges -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden,1,5,0.11
+Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten,1,4,0.11
+Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Test_Probe -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Test_Probe,1,17,0.11
+Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Sonstiges -> Test_Probe -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Sonstiges -> Technik_weitergeben -> Sonstiges -> Rundenergebnis_melden,1,14,0.11
+Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Vorhersage -> Test_Probe -> Technik_weitergeben -> Vorhersage -> Sonstiges -> Test_Probe -> Uhrenpaar_melden -> Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Daten_URL_ablegen,1,17,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Vorhersage -> Um_Ergebnis_bitten -> Sonstiges -> Ueberlebenssignal -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten,1,17,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Vorhersage -> Um_Ergebnis_bitten -> Test_Probe,1,9,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Uhrenpaar_melden,1,4,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Test_Probe -> Um_Ergebnis_bitten -> Daten_URL_ablegen -> Sonstiges -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Technik_weitergeben -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges,1,12,0.11
+Uhrenpaar_melden -> Daten_URL_ablegen -> Uhrenpaar_melden -> Sonstiges -> Uhrenpaar_melden,1,5,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Vorhersage -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Test_Probe -> Technik_weitergeben -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden -> Test_Probe -> Rundenergebnis_melden,1,26,0.11
+Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Technik_weitergeben -> Sonstiges -> Um_Ergebnis_bitten,1,7,0.11
+Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden,1,4,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Sonstiges -> Technik_weitergeben,1,4,0.11
+Sonstiges -> Uhrenpaar_melden -> Sonstiges -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Seite_anlegen -> Sonstiges -> Test_Probe,1,9,0.11
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges,1,5,0.11
+Uhrenpaar_melden -> Sonstiges -> Uhrenpaar_melden -> Sonstiges -> Um_Ergebnis_bitten -> Sonstiges -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Vorhersage -> Test_Probe -> Sonstiges,1,13,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Um_Ergebnis_bitten,1,7,0.11
+Seite_anlegen -> Test_Probe -> Daten_URL_ablegen -> Seite_anlegen -> Uhrenpaar_melden -> Test_Probe -> Sonstiges -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Daten_URL_ablegen -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Vorhersage -> Rundenergebnis_melden,1,23,0.11
+Uhrenpaar_melden -> Seite_anlegen -> Technik_weitergeben -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden,1,7,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Sonstiges,1,3,0.11
+Sonstiges -> Technik_weitergeben -> Seite_anlegen -> Um_Ergebnis_bitten -> Technik_weitergeben -> Um_Ergebnis_bitten,1,6,0.11
+Um_Ergebnis_bitten -> Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges,1,5,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden,1,6,0.11
+Seite_anlegen -> Test_Probe -> Sonstiges -> Um_Ergebnis_bitten,1,4,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,4,0.11
+Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten,1,8,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Rundenergebnis_melden,1,6,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Um_Ergebnis_bitten,1,3,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Sonstiges -> Uhrenpaar_melden -> Test_Probe -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Vorhersage -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten,1,14,0.11
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Test_Probe -> Sonstiges -> Um_Ergebnis_bitten -> Sonstiges -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Technik_weitergeben -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden,1,15,0.11
+Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten -> Vorhersage -> Technik_weitergeben -> Vorhersage -> Technik_weitergeben -> Sonstiges -> Seite_anlegen -> Vorhersage -> Sonstiges -> Uhrenpaar_melden -> Test_Probe,1,16,0.11
+Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Um_Ergebnis_bitten -> Sonstiges,1,11,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges,1,7,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Uhrenpaar_melden,1,6,0.11
+Sonstiges -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden,1,14,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Test_Probe -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Daten_URL_ablegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Test_Probe -> Sonstiges -> Uhrenpaar_melden,1,13,0.11
+Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden,1,10,0.11
+Uhrenpaar_melden -> Seite_anlegen -> Test_Probe,1,3,0.11
+Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten,1,4,0.11
+Uhrenpaar_melden -> Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Vorhersage -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,7,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Daten_URL_ablegen,1,7,0.11
+Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Vorhersage -> Technik_weitergeben -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten,1,12,0.11
+Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Rundenergebnis_melden,1,7,0.11
+Uhrenpaar_melden -> Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges,1,5,0.11
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Sonstiges -> Technik_weitergeben -> Daten_URL_ablegen -> Sonstiges,1,7,0.11
+Sonstiges -> Uhrenpaar_melden -> Rundenergebnis_melden -> Uhrenpaar_melden,1,4,0.11
+Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Uhrenpaar_melden,1,9,0.11
+Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Sonstiges -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Test_Probe,1,9,0.11
+Um_Ergebnis_bitten -> Daten_URL_ablegen -> Uhrenpaar_melden,1,3,0.11
+Um_Ergebnis_bitten -> Test_Probe,1,2,0.11
+Uhrenpaar_melden -> Test_Probe -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten,1,6,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Vorhersage,1,3,0.11
+Seite_anlegen -> Test_Probe -> Sonstiges -> Rundenergebnis_melden -> Test_Probe -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden,1,9,0.11
+Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Vorhersage,1,4,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Sonstiges -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden -> Uhrenpaar_melden,1,11,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Vorhersage -> Rundenergebnis_melden,1,5,0.11
+Um_Ergebnis_bitten -> Vorhersage,1,2,0.11
+Uhrenpaar_melden -> Rundenergebnis_melden -> Uhrenpaar_melden -> Um_Ergebnis_bitten,1,4,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Daten_URL_ablegen,1,4,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Vorhersage -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Test_Probe -> Seite_anlegen -> Um_Ergebnis_bitten,1,17,0.11
+Um_Ergebnis_bitten -> Uhrenpaar_melden -> Technik_weitergeben -> Rundenergebnis_melden -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten,1,8,0.11
+Test_Probe -> Seite_anlegen -> Um_Ergebnis_bitten,1,3,0.11
+Uhrenpaar_melden -> Test_Probe -> Vorhersage,1,3,0.11
+Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Test_Probe -> Uhrenpaar_melden,1,5,0.11
+Um_Ergebnis_bitten -> Rundenergebnis_melden -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Test_Probe -> Uhrenpaar_melden,1,6,0.11
+Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Uhrenpaar_melden -> Technik_weitergeben,1,6,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Sonstiges -> Rundenergebnis_melden,1,4,0.11
+Um_Ergebnis_bitten -> Sonstiges -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Vorhersage -> Ueberlebenssignal -> Vorhersage -> Sonstiges -> Ueberlebenssignal -> Seite_anlegen -> Rundenergebnis_melden -> Ueberlebenssignal -> Test_Probe -> Ueberlebenssignal -> Uhrenpaar_melden -> Um_Ergebnis_bitten,1,19,0.11
+Rundenergebnis_melden -> Ueberlebenssignal -> Seite_anlegen -> Rundenergebnis_melden -> Ueberlebenssignal,1,5,0.11
+Uhrenpaar_melden -> Rundenergebnis_melden -> Uhrenpaar_melden,1,3,0.11
+Seite_anlegen -> Test_Probe -> Rundenergebnis_melden -> Ueberlebenssignal,1,4,0.11
+Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten,1,5,0.11
+Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,4,0.11
+Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Ueberlebenssignal -> Test_Probe -> Ueberlebenssignal -> Uhrenpaar_melden,1,11,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten,1,5,0.11
+Seite_anlegen -> Test_Probe -> Vorhersage -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden,1,18,0.11
+Seite_anlegen -> Test_Probe -> Ueberlebenssignal -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Technik_weitergeben,1,6,0.11
+Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Ueberlebenssignal -> Rundenergebnis_melden -> Ueberlebenssignal,1,6,0.11
+Uhrenpaar_melden -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Vorhersage,1,7,0.11
+Seite_anlegen -> Sonstiges -> Rundenergebnis_melden -> Vorhersage,1,4,0.11
+Rundenergebnis_melden -> Ueberlebenssignal -> Rundenergebnis_melden -> Test_Probe -> Um_Ergebnis_bitten -> Vorhersage -> Ueberlebenssignal -> Seite_anlegen -> Rundenergebnis_melden -> Ueberlebenssignal -> Uhrenpaar_melden,1,11,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Ueberlebenssignal,1,7,0.11
+Rundenergebnis_melden -> Um_Ergebnis_bitten -> Ueberlebenssignal -> Seite_anlegen -> Sonstiges -> Rundenergebnis_melden -> Ueberlebenssignal -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Vorhersage -> Ueberlebenssignal -> Uhrenpaar_melden,1,13,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Rundenergebnis_melden -> Vorhersage,1,4,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Sonstiges -> Rundenergebnis_melden -> Ueberlebenssignal,1,5,0.11
+Rundenergebnis_melden -> Um_Ergebnis_bitten -> Ueberlebenssignal,1,3,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Ueberlebenssignal -> Vorhersage -> Uhrenpaar_melden,1,7,0.11
+Seite_anlegen -> Test_Probe -> Rundenergebnis_melden -> Vorhersage,1,4,0.11
+Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Vorhersage,1,5,0.11
+Seite_anlegen -> Test_Probe -> Sonstiges -> Test_Probe -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,6,0.11
+Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Sonstiges -> Seite_anlegen -> Rundenergebnis_melden,1,6,0.11
+Seite_anlegen -> Vorhersage -> Uhrenpaar_melden -> Rundenergebnis_melden,1,4,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Test_Probe -> Rundenergebnis_melden -> Uhrenpaar_melden -> Seite_anlegen -> Daten_URL_ablegen,1,12,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Ueberlebenssignal,1,4,0.11
+Rundenergebnis_melden -> Seite_anlegen -> Ueberlebenssignal,1,3,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Test_Probe -> Uhrenpaar_melden,1,6,0.11
+Um_Ergebnis_bitten -> Daten_URL_ablegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden,1,5,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Uhrenpaar_melden -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben,1,15,0.11
+Rundenergebnis_melden -> Vorhersage -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Ueberlebenssignal,1,7,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden -> Rundenergebnis_melden -> Ueberlebenssignal,1,5,0.11
+Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Vorhersage -> Ueberlebenssignal,1,5,0.11
+Rundenergebnis_melden -> Ueberlebenssignal -> Seite_anlegen -> Rundenergebnis_melden,1,4,0.11
+Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Ueberlebenssignal,1,4,0.11
+Seite_anlegen -> Test_Probe -> Rundenergebnis_melden -> Ueberlebenssignal -> Um_Ergebnis_bitten,1,5,0.11
+Uhrenpaar_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Uhrenpaar_melden -> Rundenergebnis_melden,1,5,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Uhrenpaar_melden,1,4,0.11
+Uhrenpaar_melden -> Sonstiges -> Seite_anlegen -> Rundenergebnis_melden -> Ueberlebenssignal,1,5,0.11
+Test_Probe -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Vorhersage,1,5,0.11
+Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden,1,4,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden,1,6,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Vorhersage,1,3,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Rundenergebnis_melden -> Uhrenpaar_melden -> Technik_weitergeben -> Seite_anlegen -> Test_Probe,1,7,0.11
+Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Uhrenpaar_melden -> Vorhersage,1,8,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden -> Sonstiges,1,4,0.11
+Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Technik_weitergeben -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Technik_weitergeben -> Sonstiges -> Seite_anlegen -> Um_Ergebnis_bitten -> Technik_weitergeben -> Vorhersage,1,15,0.11
+Um_Ergebnis_bitten -> Sonstiges -> Technik_weitergeben -> Uhrenpaar_melden -> Rundenergebnis_melden,1,5,0.11
+Um_Ergebnis_bitten -> Sonstiges -> Uhrenpaar_melden -> Sonstiges -> Ueberlebenssignal -> Seite_anlegen -> Rundenergebnis_melden -> Sonstiges,1,8,0.11
+Rundenergebnis_melden -> Uhrenpaar_melden -> Rundenergebnis_melden,1,3,0.11
+Rundenergebnis_melden -> Test_Probe -> Ueberlebenssignal,1,3,0.11
+Seite_anlegen -> Sonstiges -> Test_Probe -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Vorhersage -> Uhrenpaar_melden -> Sonstiges -> Seite_anlegen -> Sonstiges,1,10,0.11
+Test_Probe -> Seite_anlegen -> Rundenergebnis_melden -> Vorhersage -> Um_Ergebnis_bitten,1,5,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Test_Probe -> Um_Ergebnis_bitten -> Uhrenpaar_melden,1,5,0.11
+Um_Ergebnis_bitten -> Rundenergebnis_melden -> Test_Probe -> Rundenergebnis_melden,1,4,0.11
+Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges,1,5,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Vorhersage,1,5,0.11
+Seite_anlegen -> Test_Probe -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Technik_weitergeben -> Sonstiges -> Seite_anlegen -> Rundenergebnis_melden -> Ueberlebenssignal -> Technik_weitergeben,1,11,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Technik_weitergeben -> Ueberlebenssignal,1,4,0.11
+Seite_anlegen -> Sonstiges -> Rundenergebnis_melden -> Technik_weitergeben -> Rundenergebnis_melden,1,5,0.11
+Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Ueberlebenssignal -> Technik_weitergeben -> Uhrenpaar_melden -> Rundenergebnis_melden -> Vorhersage -> Ueberlebenssignal,1,11,0.11
+Sonstiges -> Vorhersage,1,2,0.11
+Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Uhrenpaar_melden -> Rundenergebnis_melden,1,5,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Sonstiges -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,8,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Sonstiges -> Test_Probe -> Rundenergebnis_melden -> Ueberlebenssignal -> Rundenergebnis_melden,1,7,0.11
+Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Technik_weitergeben,1,7,0.11
+Seite_anlegen -> Sonstiges -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Test_Probe -> Rundenergebnis_melden -> Technik_weitergeben -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Ueberlebenssignal -> Test_Probe -> Ueberlebenssignal -> Rundenergebnis_melden -> Vorhersage -> Technik_weitergeben -> Ueberlebenssignal,1,17,0.11
+Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden,1,6,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Vorhersage -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,5,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Uhrenpaar_melden,1,7,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Technik_weitergeben -> Sonstiges -> Ueberlebenssignal -> Seite_anlegen -> Rundenergebnis_melden -> Ueberlebenssignal -> Seite_anlegen -> Um_Ergebnis_bitten -> Vorhersage -> Uhrenpaar_melden -> Rundenergebnis_melden -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Vorhersage -> Sonstiges,1,19,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Ueberlebenssignal -> Um_Ergebnis_bitten,1,4,0.11
+Uhrenpaar_melden -> Vorhersage -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten,1,6,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Ueberlebenssignal -> Rundenergebnis_melden -> Seite_anlegen -> Test_Probe -> Uhrenpaar_melden,1,12,0.11
+Vorhersage -> Rundenergebnis_melden -> Seite_anlegen -> Technik_weitergeben -> Vorhersage,1,5,0.11
+Uhrenpaar_melden -> Test_Probe -> Sonstiges -> Seite_anlegen -> Test_Probe,1,5,0.11
+Uhrenpaar_melden -> Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden -> Seite_anlegen -> Uhrenpaar_melden -> Rundenergebnis_melden,1,7,0.11
+Uhrenpaar_melden -> Seite_anlegen -> Rundenergebnis_melden -> Ueberlebenssignal -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Seite_anlegen -> Rundenergebnis_melden -> Technik_weitergeben -> Ueberlebenssignal -> Sonstiges -> Ueberlebenssignal -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Ueberlebenssignal -> Rundenergebnis_melden -> Uhrenpaar_melden -> Technik_weitergeben -> Ueberlebenssignal -> Rundenergebnis_melden -> Ueberlebenssignal -> Seite_anlegen -> Uhrenpaar_melden -> Ueberlebenssignal -> Vorhersage -> Technik_weitergeben -> Uhrenpaar_melden -> Ueberlebenssignal -> Technik_weitergeben,1,30,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten,1,5,0.11
+Rundenergebnis_melden -> Uhrenpaar_melden -> Seite_anlegen -> Rundenergebnis_melden -> Vorhersage -> Seite_anlegen -> Um_Ergebnis_bitten,1,7,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Technik_weitergeben -> Ueberlebenssignal -> Rundenergebnis_melden -> Uhrenpaar_melden -> Technik_weitergeben,1,9,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Ueberlebenssignal -> Rundenergebnis_melden -> Vorhersage -> Ueberlebenssignal,1,6,0.11
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Uhrenpaar_melden -> Ueberlebenssignal -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Sonstiges -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,10,0.11
+Um_Ergebnis_bitten -> Test_Probe -> Uhrenpaar_melden -> Seite_anlegen -> Rundenergebnis_melden -> Test_Probe -> Sonstiges -> Vorhersage -> Rundenergebnis_melden,1,9,0.11
+Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Test_Probe -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Ueberlebenssignal -> Rundenergebnis_melden -> Sonstiges -> Uhrenpaar_melden -> Ueberlebenssignal -> Rundenergebnis_melden -> Ueberlebenssignal -> Rundenergebnis_melden -> Ueberlebenssignal,1,21,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Test_Probe -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Test_Probe -> Sonstiges -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Seite_anlegen -> Test_Probe -> Sonstiges -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Uhrenpaar_melden -> Test_Probe -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Test_Probe -> Technik_weitergeben -> Daten_URL_ablegen -> Technik_weitergeben -> Seite_anlegen -> Rundenergebnis_melden -> Vorhersage -> Sonstiges -> Vorhersage -> Seite_anlegen -> Daten_URL_ablegen,1,53,0.11
+Vorhersage -> Seite_anlegen -> Rundenergebnis_melden,1,3,0.11
+Uhrenpaar_melden -> Test_Probe -> Uhrenpaar_melden -> Rundenergebnis_melden,1,4,0.11
+Seite_anlegen -> Test_Probe -> Sonstiges,1,3,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Vorhersage -> Um_Ergebnis_bitten -> Vorhersage -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,7,0.11
+Rundenergebnis_melden -> Uhrenpaar_melden -> Sonstiges -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,5,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Rundenergebnis_melden -> Um_Ergebnis_bitten,1,4,0.11
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden,1,6,0.11
+Rundenergebnis_melden -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Technik_weitergeben -> Rundenergebnis_melden -> Ueberlebenssignal,1,6,0.11
+Um_Ergebnis_bitten -> Rundenergebnis_melden -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Uhrenpaar_melden,1,5,0.11
+Seite_anlegen -> Sonstiges -> Technik_weitergeben -> Sonstiges -> Seite_anlegen -> Rundenergebnis_melden -> Ueberlebenssignal -> Test_Probe,1,8,0.11
+Seite_anlegen -> Sonstiges -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Sonstiges -> Ueberlebenssignal -> Um_Ergebnis_bitten -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Um_Ergebnis_bitten -> Vorhersage -> Uhrenpaar_melden -> Ueberlebenssignal -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Ueberlebenssignal,1,19,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Vorhersage -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Vorhersage -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Test_Probe -> Daten_URL_ablegen,1,23,0.11
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Ueberlebenssignal,1,8,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Sonstiges -> Rundenergebnis_melden,1,6,0.11
+Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Rundenergebnis_melden -> Technik_weitergeben -> Rundenergebnis_melden -> Vorhersage,1,8,0.11
+Uhrenpaar_melden -> Rundenergebnis_melden -> Vorhersage,1,3,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Ueberlebenssignal -> Um_Ergebnis_bitten -> Test_Probe -> Um_Ergebnis_bitten,1,7,0.11
+Seite_anlegen -> Sonstiges -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden,1,5,0.11
+Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten -> Technik_weitergeben -> Test_Probe -> Uhrenpaar_melden -> Test_Probe -> Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Ueberlebenssignal -> Rundenergebnis_melden -> Ueberlebenssignal -> Seite_anlegen -> Technik_weitergeben -> Sonstiges -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden -> Technik_weitergeben,1,25,0.11
+Rundenergebnis_melden -> Ueberlebenssignal -> Rundenergebnis_melden,1,3,0.11
+Uhrenpaar_melden -> Technik_weitergeben -> Abschied -> Sonstiges -> Vorhersage -> Rundenergebnis_melden -> Seite_anlegen -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Ueberlebenssignal -> Technik_weitergeben -> Seite_anlegen -> Rundenergebnis_melden -> Ueberlebenssignal,1,15,0.11
+Seite_anlegen -> Sonstiges -> Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden -> Rundenergebnis_melden -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges,1,9,0.11
+Technik_weitergeben -> Seite_anlegen -> Rundenergebnis_melden,1,3,0.11
+Rundenergebnis_melden -> Ueberlebenssignal -> Technik_weitergeben,1,3,0.11
+Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Sonstiges,1,5,0.11
+Vorhersage -> Technik_weitergeben -> Seite_anlegen -> Rundenergebnis_melden,1,4,0.11
+Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Rundenergebnis_melden,1,4,0.11
+Um_Ergebnis_bitten -> Seite_anlegen -> Rundenergebnis_melden -> Sonstiges,1,4,0.11
+Seite_anlegen -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Vorhersage -> Rundenergebnis_melden -> Ueberlebenssignal,1,10,0.11
+Seite_anlegen -> Test_Probe -> Sonstiges -> Um_Ergebnis_bitten -> Sonstiges -> Vorhersage -> Sonstiges -> Technik_weitergeben -> Ueberlebenssignal -> Seite_anlegen -> Rundenergebnis_melden -> Technik_weitergeben,1,12,0.11
+Uhrenpaar_melden -> Technik_weitergeben -> Rundenergebnis_melden,1,3,0.11
+Seite_anlegen -> Vorhersage -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Seite_anlegen -> Um_Ergebnis_bitten,1,6,0.11
+Rundenergebnis_melden -> Seite_anlegen -> Test_Probe -> Seite_anlegen -> Rundenergebnis_melden -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Ueberlebenssignal,1,8,0.11
+Uhrenpaar_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Sonstiges -> Rundenergebnis_melden,1,5,0.11
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Uhrenpaar_melden -> Seite_anlegen -> Rundenergebnis_melden,1,6,0.11
+Um_Ergebnis_bitten -> Abschied,1,2,0.11
+Uhrenpaar_melden -> Rundenergebnis_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Sonstiges -> Rundenergebnis_melden,1,6,0.11
+Seite_anlegen -> Test_Probe -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden,1,5,0.11
+Seite_anlegen -> Rundenergebnis_melden -> Vorhersage -> Uhrenpaar_melden -> Rundenergebnis_melden -> Uhrenpaar_melden,1,6,0.11
+Seite_anlegen -> Test_Probe -> Vorhersage -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden,1,6,0.11
+Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Technik_weitergeben,1,4,0.11
+Uhrenpaar_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Um_Ergebnis_bitten -> Ueberlebenssignal -> Technik_weitergeben -> Vorhersage -> Technik_weitergeben -> Uhrenpaar_melden -> Technik_weitergeben -> Test_Probe,1,13,0.11
+Seite_anlegen -> Test_Probe -> Uhrenpaar_melden -> Um_Ergebnis_bitten -> Rundenergebnis_melden -> Uhrenpaar_melden -> Seite_anlegen -> Um_Ergebnis_bitten -> Uhrenpaar_melden -> Vorhersage,1,10,0.11
+Seite_anlegen -> Sonstiges -> Rundenergebnis_melden -> Uhrenpaar_melden,1,4,0.11
+Sonstiges -> Uhrenpaar_melden -> Sonstiges -> Daten_URL_ablegen -> Seite_anlegen -> Test_Probe,1,6,0.11
+Daten_URL_ablegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Technik_weitergeben -> Test_Probe -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Uhrenpaar_melden -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Daten_URL_ablegen -> Test_Probe -> Seite_anlegen -> Technik_weitergeben -> Daten_URL_ablegen -> Technik_weitergeben -> Daten_URL_ablegen -> Sonstiges -> Seite_anlegen -> Technik_weitergeben,1,36,0.11
+Sonstiges -> Daten_URL_ablegen -> Seite_anlegen -> Daten_URL_ablegen -> Rundenergebnis_melden,1,5,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Daten_URL_ablegen -> Seite_anlegen -> Test_Probe -> Um_Ergebnis_bitten,1,7,0.11
+Seite_anlegen -> Daten_URL_ablegen -> Seite_anlegen -> Sonstiges -> Seite_anlegen -> Sonstiges -> Um_Ergebnis_bitten -> Seite_anlegen -> Sonstiges -> Daten_URL_ablegen -> Technik_weitergeben -> Daten_URL_ablegen -> Test_Probe -> Daten_URL_ablegen -> Technik_weitergeben -> Sonstiges -> Test_Probe -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen -> Test_Probe -> Daten_URL_ablegen -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Daten_URL_ablegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben,1,38,0.11
+Test_Probe -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Daten_URL_ablegen -> Test_Probe -> Daten_URL_ablegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen -> Technik_weitergeben,1,12,0.11
+Daten_URL_ablegen -> Sonstiges -> Technik_weitergeben,1,3,0.11
+Technik_weitergeben -> Test_Probe -> Sonstiges -> Technik_weitergeben -> Test_Probe -> Sonstiges -> Technik_weitergeben -> Test_Probe,1,8,0.11
+Technik_weitergeben -> Daten_URL_ablegen -> Test_Probe,1,3,0.11

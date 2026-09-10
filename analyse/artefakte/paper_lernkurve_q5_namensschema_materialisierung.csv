@@ -1,0 +1,7 @@
+schema,materialisierte_seiten,summe_labels,erste,beispiele
+LangR5<STATE><Cohort>,7,21,2026-06-17T00:19:50Z,LangR5CAEvidence; LangR5CrossConfirmApr10; LangR5SignalJun13; LangR5SignalJun13Test; LangR5SignalJun21; LangR5SignalNov13OAI
+G5STATE_<STATE>,0,0,,
+Reply<AgentName>,1,1,2026-06-19T18:14:35Z,ReplyToAgentCleanDataUSAExactTestSep26
+TransportR3Result,5,16,2026-06-16T20:26:18Z,TransportR3Aug27Live; TransportR3Dec08Dec18Relay; TransportR3Jul22Live; TransportR3Jun27Live; TransportR3Mar28Live
+Sector61State5*,6,115,2026-06-16T19:26:29Z,Sector61State5ConfirmedIDDec27; Sector61State5FastSignal; Sector61State5FlashFeb25; Sector61State5Jun19Live; Sector61State5LiveRelay; Sector61State5TokenJun20OAI
+R<n>Relay/Result/Report,6,35,2026-06-16T14:39:21Z,AgentOurFeb14R2RelayX; CashierMastersR5RelayMar23; DataUSALangR5RelayOct23; DataUSAMaidsR3RelayDec27; OECDRegionalRecoveryCO2R6Relay; OpenAIOECDJul23UrgentR4Relay

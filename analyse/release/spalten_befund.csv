@@ -1,0 +1,107 @@
+datei,spalte,zeilen,belegt,eindeutig,probe,treffer,anteil,arten,befund,maxlen,beispiel_frei
+communities.csv,top_page_families,12,12,12,12,0,0.0,,eigen,114,relay-coordination:1741 | source-cache-url-list:747 | loop-chain-infrastructure:270 | source-or-unclassified:172
+deletion_awareness.csv,quote,359,359,71,40,40,1.0,ganz=1;teilstueck=39,abzugstext,404,
+exploit_propagation.csv,context,31,31,13,13,13,1.0,ganz=4;teilstueck=9,abzugstext,485,
+harness_browser.csv,sentence,28,28,28,28,28,1.0,ganz=28,abzugstext,261,
+harness_cache.csv,sentence,2,2,2,2,2,1.0,ganz=2,abzugstext,120,
+harness_clock_calibration.csv,quote,22,22,22,22,22,1.0,ganz=22,abzugstext,141,
+harness_clocks.csv,sentence,1429,1429,1429,40,40,1.0,ganz=40,abzugstext,700,
+harness_clockwait.csv,sentence,13,13,13,13,13,1.0,ganz=13,abzugstext,180,
+harness_dilation.csv,sentence,190,190,190,40,40,1.0,ganz=40,abzugstext,214,
+harness_episode_configs.csv,evidence,12,12,12,12,12,1.0,ganz=8;normalisiert=4,abzugstext,280,
+harness_feedback.csv,sentence,91,91,91,40,40,1.0,ganz=40,abzugstext,247,
+harness_horizon.csv,sentence,186,186,186,40,40,1.0,ganz=40,abzugstext,172,
+harness_msgstruct.csv,sentence,34,34,34,34,34,1.0,ganz=34,abzugstext,330,
+harness_phantom.csv,sentence,45,45,45,40,40,1.0,ganz=40,abzugstext,179,
+harness_proxy.csv,sentence,128,128,128,40,40,1.0,ganz=40,abzugstext,700,
+harness_r1.csv,sentence,193,193,193,40,40,1.0,ganz=40,abzugstext,249,
+harness_scaling_pairs.csv,evidence,11,11,11,11,11,1.0,ganz=11,abzugstext,200,
+harness_termination.csv,sentence,79,79,79,40,40,1.0,ganz=40,abzugstext,226,
+harness_tier_table.csv,quote,33,33,33,33,33,1.0,ganz=32;normalisiert=1,abzugstext,199,
+harness_tiernames.csv,sentence,198,198,198,40,40,1.0,ganz=40,abzugstext,700,
+harness_tools.csv,sentence,33,33,33,33,33,1.0,ganz=31;normalisiert=2,abzugstext,331,
+harness_wording.csv,sentence,170,170,170,40,40,1.0,ganz=40,abzugstext,248,
+marker_first_mention.csv,context,29,29,29,29,29,1.0,ganz=8;teilstueck=19;variante=2,abzugstext,261,
+paper_archetypen_profile.csv,trennmerkmale,3,3,3,3,0,0.0,,eigen,67,reagiert d=+1.79; fremde_seite d=+1.38; wert_unaufgefordert d=-1.31
+paper_archetypen_zitate.csv,text,80,78,76,40,40,1.0,ganz=30;normalisiert=10,abzugstext,420,
+paper_episode_clock_pairs.csv,sent,2524,2524,291,40,40,1.0,ganz=40,abzugstext,159,
+paper_episode_clock_pairs_validated.csv,sent,268,268,266,40,40,1.0,ganz=40,abzugstext,159,
+paper_episode_clockwait_measurements.csv,quote,11,11,11,11,11,1.0,ganz=11,abzugstext,141,
+paper_episode_dilation_factors.csv,quote_a,56,56,56,40,40,1.0,ganz=40,abzugstext,99,
+paper_episode_dilation_factors.csv,quote_b,56,56,56,40,40,1.0,ganz=40,abzugstext,134,
+paper_episode_dilation_factors_usable.csv,quote_a,374,374,63,40,40,1.0,ganz=40,abzugstext,96,
+paper_episode_dilation_factors_usable.csv,quote_b,374,374,63,40,40,1.0,ganz=40,abzugstext,101,
+paper_episode_horizon_claims.csv,quote,95,95,95,40,40,1.0,ganz=40,abzugstext,228,
+paper_episode_r6_sichtung.csv,sent,102,102,8,8,8,1.0,ganz=8,abzugstext,78,
+paper_episode_r6plus_observation_candidates.csv,sent,102,102,8,8,8,1.0,ganz=8,abzugstext,78,
+paper_episode_round_ge6_mentions.csv,sent,10871,10871,1024,40,40,1.0,ganz=40,abzugstext,249,
+paper_episode_round_mentions_raw.csv,sent,80498,80498,8248,40,40,1.0,ganz=40,abzugstext,400,
+paper_episode_tier_durations.csv,quote,33,33,33,33,33,1.0,ganz=32;normalisiert=1,abzugstext,199,
+paper_flotte_datum_topic.csv,quote,571,571,569,40,40,1.0,ganz=2;normalisiert=38,abzugstext,238,
+paper_flotte_kohortendaten_body.csv,quote,271,271,271,40,40,1.0,ganz=6;normalisiert=34,abzugstext,234,
+paper_flotte_schaetzer_versoehnt.csv,bemerkung,6,6,6,6,0,0.0,,eigen,204,enthaelt Jul77/Jul99 (kalenderungueltig)
+paper_fortschritt_kohorten.csv,beleg_max_runde,907,510,510,40,20,0.5,teilstueck=20,abzugstext,211,"dse~OpenAIClimateSequence729 · 2026-06-19 14:27:53+00:00 · OpenAIJun12Climate :: Jun12 cohort update: R3 confirmed at 22:18:38, 11 sec"
+paper_fortschritt_kohorten.csv,zukunft_erhalten_beleg,907,8,8,8,7,0.875,teilstueck=7,abzugstext,214,"dse~IHMEFamilyPlanningSequenceCollab · 2026-06-21 11:56:45+00:00 · OpenAIFPResearchSep05 :: R4 signal received, thank you Nov27: **Bahrain 4"
+paper_goldset_konflikte.csv,context_before,63,44,41,40,40,1.0,ganz=40,abzugstext,233,
+paper_goldset_konflikte.csv,sentence,63,63,59,40,40,1.0,ganz=40,abzugstext,200,
+paper_goldset_konflikte.csv,context_after,63,61,55,40,40,1.0,ganz=40,abzugstext,93,
+paper_goldset_konflikte.csv,r1_note,63,58,53,40,1,0.025,ganz=1,gemischt,93,"jitter = environment mechanics, no answer value"
+paper_goldset_konflikte.csv,r2_note,63,58,47,40,1,0.025,ganz=1,gemischt,61,relayed R5 answer from another cohort
+paper_goldset_sample.csv,context_before,400,299,278,40,40,1.0,ganz=40,abzugstext,233,
+paper_goldset_sample.csv,sentence,400,400,386,40,40,1.0,ganz=40,abzugstext,200,
+paper_goldset_sample.csv,context_after,400,394,367,40,40,1.0,ganz=40,abzugstext,170,
+paper_goldset_sample_blind.csv,context_before,400,299,278,40,40,1.0,ganz=40,abzugstext,233,
+paper_goldset_sample_blind.csv,sentence,400,400,386,40,40,1.0,ganz=40,abzugstext,200,
+paper_goldset_sample_blind.csv,context_after,400,394,367,40,40,1.0,ganz=40,abzugstext,170,
+paper_horizont_keyword_saetze.csv,satz,455,455,394,40,40,1.0,ganz=35;normalisiert=5,abzugstext,400,
+paper_horizont_label_verbrauch.csv,last_delta,3043,3043,2928,40,40,1.0,ganz=18;normalisiert=22,abzugstext,300,
+paper_horizont_rate_zitate.csv,satz,24,24,23,23,23,1.0,ganz=13;normalisiert=10,abzugstext,400,
+paper_horizont_testB_reset_labels.csv,last_delta,5,5,5,5,5,1.0,ganz=4;normalisiert=1,abzugstext,300,
+paper_horizont_testE_km_daten.csv,last_delta,566,566,562,40,40,1.0,ganz=25;normalisiert=15,abzugstext,300,
+paper_horizont_testE_km_innenuhr_cvd_daten.csv,hard_audit,24,3,3,3,0,0.0,,eigen,76,"hb353=07:29:15Z, hb354+ absent; ~10m15s nach Start"
+paper_horizont_testH_cvd_kohorten.csv,hard_audit,38,3,3,3,0,0.0,,eigen,76,"hb353=07:29:15Z, hb354+ absent; ~10m15s nach Start"
+paper_horizont_testH_cvd_saetze.csv,satz,132,132,112,40,40,1.0,ganz=31;normalisiert=8;teilstueck=1,abzugstext,183,
+paper_lernkurve_q5_namensschema_materialisierung.csv,beispiele,6,5,5,5,0,0.0,,eigen,162,LangR5CAEvidence; LangR5CrossConfirmApr10; LangR5SignalJun13; LangR5SignalJun13Test; LangR5SignalJun21; LangR5SignalNov13OAI
+paper_lernkurve_q5_rendezvous_treffer.csv,delta_auszug,100,100,97,40,40,1.0,ganz=40,abzugstext,1200,
+paper_lernkurve_revflags.parquet,body,14591,14514,11866,40,40,1.0,ganz=40,abzugstext,38832,
+paper_lernkurve_revflags.parquet,delta,14591,12819,11262,40,40,1.0,ganz=40,abzugstext,34931,
+paper_math_seed_prognosebilanz.csv,ausgang,7,7,7,7,0,0.0,,eigen,57,WIDERLEGT: #5 = Idaho
+paper_math_seed_prognosebilanz.csv,beleg,7,7,7,7,1,0.143,teilstueck=1,gemischt,158,dse~Sector61State5ConfirmedIDDec27 · 2026-06-16T22:14:33Z · OpenAiDenomSep03: 'STATE5-ID CONFIRMED. Fifth prompt was Idaho.'
+paper_math_seed_reproduktion.csv,erste,5,5,5,5,0,0.0,,eigen,92,"[44, 1, 46, 13, 169, 180]"
+paper_math_seed_zufallstreffer.csv,fall,8,8,8,8,0,0.0,,eigen,70,"FP Dec13: 2^32 Seeds, 4 Treffer aus 204 (mit Zurücklegen)"
+paper_netzblock_whois.csv,rdap_entities,191,191,38,38,0,0.0,,eigen,200,BEDAR6-ARIN|CHATU3-ARIN|Dawn Bedard|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corpor
+paper_prozess_abweichler.csv,variante,9,9,9,9,0,0.0,,eigen,721,Seite_anlegen -> Daten_URL_ablegen -> Sonstiges -> Vorhersage -> Daten_URL_ablegen -> Seite_anlegen -> Technik_weitergeben -> Seite_anlegen 
+paper_prozess_abweichler.csv,beleg,9,9,9,9,9,1.0,teilstueck=9,abzugstext,254,
+paper_prozess_korrelationen.csv,detail,60,4,4,4,0,0.0,,eigen,60,"{""schnell"": [24, 11], ""mittel"": [30, 1], ""langsam"": [26, 7]}"
+paper_prozess_rundensaetze_delta.csv,sent,10753,10753,8335,40,40,1.0,ganz=40,abzugstext,300,
+paper_prozess_varianten.csv,variante,579,579,579,40,0,0.0,,eigen,2144,Uhrenpaar_melden
+paper_prozess_zitatkaskade_kohorten40.csv,zeile,11,11,11,11,6,0.545,teilstueck=6,abzugstext,150,"values: ga 90,725; ar 20,794; nv 20,369; ky 34,770."
+paper_robust_fahrplan_provenienz.csv,quote,15,15,15,15,15,1.0,ganz=15,abzugstext,199,
+paper_robust_fahrplan_provenienz.csv,prov_r1,15,15,4,4,2,0.5,teilstueck=2,abzugstext,229,Zitat
+paper_robust_fortschritt_dedup.csv,grund,87,2,1,1,0,0.0,,eigen,56,Cluster-SE degeneriert: behandelte Kohorten in 1 Familie
+paper_robust_fortschritt_effekte.csv,grund,88,2,1,1,0,0.0,,eigen,56,Cluster-SE degeneriert: behandelte Kohorten in 1 Familie
+paper_robust_fortschritt_zensur.csv,grund,96,39,3,3,0,0.0,,eigen,53,Ziel fast ohne Varianz (<5 Faelle in einer Klasse)
+paper_robust_horizont_cvd_intervalle.csv,first_absent_source,24,24,3,3,0,0.0,,eigen,163,"R6 = global+5549 s (Apr30/Dec30 audits: hard wall global+5500 s, 49 s before R6) - 36 s global->R1; corroborated 'silent before R6 ~1m50 lat"
+paper_robust_horizont_cvd_intervalle.csv,note,24,4,4,4,2,0.5,teilstueck=2,abzugstext,252,"hb353=07:29:15Z, hb354+ absent (heartbeat every ~1.7 s wall); internal time of death not stated -> N/A_PENDING_REVIEWER (54_horizont.py Z.55"
+paper_robust_horizont_cvd_intervalle.csv,sentence,24,24,24,24,24,1.0,ganz=14;normalisiert=10,abzugstext,113,
+paper_themen_flags.parquet,prosa,12819,12603,10568,40,25,0.625,ganz=20;normalisiert=1;teilstueck=4,abzugstext,4246,External links:   and   and   and  
+paper_themen_taxonomie.csv,regex,15,15,15,15,0,0.0,,eigen,310,(?i)(api(?:-la)?\.datausa\.io|sec\.gov|investor\.gov|usaspending|\boecd\b|stats\.oecd|data\.gov|\bcensus\b|\bacs[15]\b|tesseract|data\.jsonr
+paper_themen_taxonomie.csv,erstbeleg_zitat,15,15,15,15,15,1.0,ganz=5;normalisiert=10,abzugstext,240,
+paper_uhr_faktoren.csv,beleg0,352,352,286,40,40,1.0,ganz=40,abzugstext,400,
+paper_uhr_faktoren.csv,beleg1,352,352,284,40,40,1.0,ganz=40,abzugstext,400,
+paper_uhr_taskzeiten.csv,evidence_snippet,1272,1272,1093,40,40,1.0,ganz=40,abzugstext,400,
+paper_uhr_validierung.csv,zitat,24,24,12,12,12,1.0,ganz=12,abzugstext,141,
+paper_uhr_wallcheck.csv,evidence_snippet,351,351,329,40,40,1.0,ganz=40,abzugstext,400,
+paper_visualisierungsplan.csv,befund,15,15,15,15,0,0.0,,eigen,83,"Zeitverlauf: 78,9 % an vier Tagen, Spitze 340 gleichzeitige Namen"
+paper_visualisierungsplan.csv,aussage,15,15,15,15,0,0.0,,eigen,163,"Der Vorfall ist ein Ereignis von Tagen, nicht ein Zeitraum von Wochen; die Leere davor gehört zur Aussage"
+paper_visualisierungsplan.csv,serientyp,15,15,15,15,0,0.0,,eigen,285,"bar (täglich, volle Spanne) + bar/line (stündlich, Ausschnitt) in zwei grid-Panels; line auf yAxisIndex 1; markArea 4 Tage; markPoint Spitze"
+paper_visualisierungsplan.csv,doku_url,15,15,15,15,0,0.0,,eigen,421,https://echarts.apache.org/en/option.html#grid ; https://echarts.apache.org/en/option.html#xAxis.gridIndex ; https://echarts.apache.org/en/o
+paper_visualisierungsplan.csv,umformung,15,15,15,15,0,0.0,,eigen,220,"Stundenwerte als [iso_utc, wert]; Unterpanel auf 16.–22.06. beschneiden; Zeitachse type time"
+paper_visualisierungsplan.csv,fallstricke,15,15,15,15,0,0.0,,eigen,302,"688 von 948 Stunden = 0 → keine log-Achse; kein xAxis.breaks im Oberpanel (Leere ist Aussage); zweite Y-Achse braucht andere Linienart, nich"
+paper_visualisierungsplan.csv,verworfene_alternative,15,15,15,15,0,0.0,,eigen,196,"Kalender-Heatmap (vier Tage = vier Zellen, Stundenspitze verschwindet); themeRiver (Menge, nicht Anteil)"
+schwarm_deltas.parquet,body,14591,14514,11866,40,40,1.0,ganz=40,abzugstext,38832,
+schwarm_deltas.parquet,delta,14591,12819,11262,40,40,1.0,ganz=40,abzugstext,34931,
+schwarm_deltas_flags.parquet,body,12819,12819,11466,40,40,1.0,ganz=40,abzugstext,38832,
+schwarm_deltas_flags.parquet,delta,12819,12819,11262,40,40,1.0,ganz=40,abzugstext,34931,
+schwarm_dissens_9_69.csv,zitat,264,264,261,40,40,1.0,ganz=13;normalisiert=2;teilstueck=25,abzugstext,1692,
+schwarm_revisions.parquet,body,14591,14514,11866,40,40,1.0,ganz=40,abzugstext,38832,

@@ -1,0 +1,28 @@
+mechanism,n_revs,n_labels,n_pages,first_time,first_page,first_label
+wikiservice.at,4048,918,523,2026-05-24T11:53:57Z,dse~FederalDataReferenceXYZ,AliceVisitor
+jqp.vercel.app,3235,725,928,2026-05-28T13:03:06Z,dse~CharlestonPartFourRefsX,AgentCharlXra595
+md.succ.ai,2349,536,478,2026-05-29T22:28:50Z,dse~StartSeite,DataReferenceHelper
+allorigins,1305,472,336,2026-05-28T13:03:06Z,dse~CharlestonPartFourRefsX,AgentCharlXra595
+markdown.new,1146,450,316,2026-05-26T09:50:02Z,dse~Node50166915Test,OpenDataResearcher
+r.jina.ai,916,351,229,2026-06-01T12:59:39Z,dse~AgentClarkEcoProxyTests,WikiAgentMN
+counterapi.dev,420,220,91,2026-06-16T22:01:54Z,dse~Sector61State5FastSignal,Apr19SectorRelay
+cors.bwa.workers.dev,269,149,106,2026-05-28T14:57:54Z,dse~AgentCorsArchiveMetadataLinksF,AgentCatalogLibraryHelperM
+googleusercontent viewer,128,71,44,2026-05-26T10:45:08Z,fractal~Wikis~2fEnglish~2fFederalReferenceHHS2023Q,DataResearcherQ2
+web.archive.org,120,89,82,2026-05-28T12:26:09Z,dse~AgentArchiveAltLinksTestOneB,CharlestonResearchHelper
+archive.ph/arquivo/timetravel,37,31,22,2026-06-01T13:14:02Z,probier~AgentEconNewsletterDocsK4,
+curl -k / verify=False,34,24,4,2026-06-16T22:28:45Z,dse~MaidsJan06R3SignalJul03,OpenAIMay31Maids
+pinggy,30,8,5,2026-06-17T07:52:49Z,fractal~EN~2fPumsApiLa927,ResearchHelperNovOne
+blob.core.windows.net,29,20,10,2026-06-20T05:17:46Z,dse~OAIEquityDec30Raw,OAIEquityDec30Raw
+Host header override,29,21,8,2026-06-20T05:10:21Z,dse~Mar30TooltipEvidence,Mar30TooltipVerifier
+corsproxy.io,23,22,13,2026-06-11T14:34:35Z,dse~AgentRootTexasDocPaths280611,AgentRootArchiveWWI4008
+--resolve,18,15,5,2026-06-20T05:17:46Z,dse~OAIEquityDec30Raw,OAIEquityDec30Raw
+conceptualschema,15,13,2,2026-06-20T05:24:49Z,dse~OECDJun26PrecisionScout,March13OECDHelper
+NO_PROXY,15,13,7,2026-06-20T05:35:40Z,dse~OECDJun26PrecisionScout,April11OECDScout
+serveo,15,6,1,2026-06-17T12:48:03Z,fractal~RecentChanges,ResearchHelperNovOne
+codetabs proxy,12,11,8,2026-06-18T17:31:44Z,dse~AgentCountyTransformJulyUniqueXQ,GuestResearch329007
+urlreq/thingproxy/whateverorigin,12,12,8,2026-06-18T17:31:44Z,dse~AgentCountyTransformJulyUniqueXQ,GuestResearch329007
+/etc/hosts,5,5,1,2026-06-20T06:07:31Z,dse~OAIEquityDec30Raw,MayTwoOECDObserverX
+DNS trick (getent/dig/nslookup),5,5,1,2026-06-20T06:07:31Z,dse~OAIEquityDec30Raw,MayTwoOECDObserverX
+gzip decompress,3,3,1,2026-06-20T06:11:01Z,dse~OAIEquityDec30Raw,OpenAIOECDJul23
+localtunnel,2,1,1,2026-06-17T12:21:17Z,fractal~EN~2fFastPortalNov1,ResearchHelperNovOne
+SSH tunnel,1,1,1,2026-06-20T05:40:28Z,dse~OECDTooltipReplicationNov22,Nov22OECDScout

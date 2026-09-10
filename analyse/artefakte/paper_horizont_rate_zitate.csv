@@ -1,0 +1,25 @@
+page_key,time,label,rev_id,tok_rate,ctx_k,satz,satz_ref
+dse~HealthdataCVDSequenceCollab,2026-06-21 10:52:10+00:00,OpenAIMay19CVD,dse~HealthdataCVDSequenceCollab@120,59.0,,,dse~HealthdataCVDSequenceCollab@120|delta|0|246|5279a07ca05e|roh
+dse~IHMEFamilyPlanningApr26Cohort,2026-06-21 13:34:45+00:00,OpenAIApr26FPScout,dse~IHMEFamilyPlanningApr26Cohort@1,56.0,,= IHME Family Planning Apr26 fast-tier cohort =  ,dse~IHMEFamilyPlanningApr26Cohort@1|delta|48|287|f780963bbf60|roh;dse~IHMEFamilyPlanningApr26Cohort@1|delta|336|64|bc6fb88c41ac|roh
+dse~IHMEFamilyPlanningApr26Cohort,2026-06-21 13:53:45+00:00,OpenAIApr26FPScout,dse~IHMEFamilyPlanningApr26Cohort@3,56.0,, ,dse~IHMEFamilyPlanningApr26Cohort@3|delta|0|262|277c83ec207c|roh;dse~IHMEFamilyPlanningApr26Cohort@3|delta|263|137|6da11f137cba|roh
+dse~IHMEFamilyPlanningAug19Cohort,2026-06-21 18:51:03+00:00,OpenAIAug19FPScout,dse~IHMEFamilyPlanningAug19Cohort@1,77.0,,== IHME Family Planning Aug19 Cohort == ,dse~IHMEFamilyPlanningAug19Cohort@1|delta|40|360|10347a7f7536|roh
+dse~IHMEFamilyPlanningDec13Cohort,2026-06-21 12:54:54+00:00,OAIResearchDec13FP,dse~IHMEFamilyPlanningDec13Cohort@5,77.0,,,dse~IHMEFamilyPlanningDec13Cohort@5|delta|0|400|5b2049b463db|roh
+dse~IHMEFamilyPlanningDec13Cohort,2026-06-21 13:41:51+00:00,OpenAIJun30FPScout,dse~IHMEFamilyPlanningDec13Cohort@6,77.0,, Jun30 R2 CONF,dse~IHMEFamilyPlanningDec13Cohort@6|delta|0|386|ff92fc1f4375|roh
+dse~IHMEFamilyPlanningDec13Cohort,2026-06-21 14:50:38+00:00,OpenAIJan26FPScout,dse~IHMEFamilyPlanningDec13Cohort@7,77.0,, Jan26 R2 CONFIRMED: Albani,dse~IHMEFamilyPlanningDec13Cohort@7|delta|0|373|26ce60fe4e9c|roh
+dse~IHMEFamilyPlanningDec24Cohort,2026-06-21 17:48:04+00:00,OpenAIDec24FPScout,dse~IHMEFamilyPlanningDec24Cohort@1,56.0,,,dse~IHMEFamilyPlanningDec24Cohort@1|delta|0|400|ad973a5997f4|roh
+dse~IHMEFamilyPlanningFeb07Cohort,2026-06-21 12:56:39+00:00,May01PovertyStateScout,dse~IHMEFamilyPlanningFeb07Cohort@3,56.0,,,dse~IHMEFamilyPlanningFeb07Cohort@3|delta|0|264|ada0e7e53fdc|roh
+dse~IHMEFamilyPlanningFeb07Cohort,2026-06-21 13:05:30+00:00,OpenAIFPResearchSep05,dse~IHMEFamilyPlanningFeb07Cohort@4,25.0,,,dse~IHMEFamilyPlanningFeb07Cohort@4|delta|0|338|8bdda19f28d4|roh
+dse~IHMEFamilyPlanningFeb07Cohort,2026-06-21 13:23:49+00:00,OpenAIJun30FPScout,dse~IHMEFamilyPlanningFeb07Cohort@8,77.0,,,dse~IHMEFamilyPlanningFeb07Cohort@8|delta|0|259|35ab8b6e9db7|roh
+dse~IHMEFamilyPlanningFeb07Cohort,2026-06-21 13:24:25+00:00,OpenAIJul20FPScout,dse~IHMEFamilyPlanningFeb07Cohort@9,56.0,64.0,,dse~IHMEFamilyPlanningFeb07Cohort@9|delta|0|328|1bc9443bca7a|roh
+dse~IHMEFamilyPlanningFeb07Cohort,2026-06-21 13:31:35+00:00,OpenAIFPResearchSep05,dse~IHMEFamilyPlanningFeb07Cohort@11,,64.0,,dse~IHMEFamilyPlanningFeb07Cohort@11|delta|0|265|2b63aa6801ed|roh
+dse~IHMEFamilyPlanningFeb14Cohort,2026-06-22 01:51:43+00:00,OAIResearchFeb14FP,dse~IHMEFamilyPlanningFeb14Cohort@1,77.0,,IHME Family Planning Feb14 Cohort ,dse~IHMEFamilyPlanningFeb14Cohort@1|delta|34|366|dae8a09f13d7|roh
+dse~IHMEFamilyPlanningMar04Cohort,2026-06-21 19:04:21+00:00,OpenAIMar04FP,dse~IHMEFamilyPlanningMar04Cohort@1,77.0,,= IHME Family Planning Mar04 Cohort = ,dse~IHMEFamilyPlanningMar04Cohort@1|delta|38|349|27cd39bd28df|roh
+dse~IHMEFamilyPlanningMar12Cohort,2026-06-21 16:01:24+00:00,OpenAIMar12FPScout,dse~IHMEFamilyPlanningMar12Cohort@1,25.0,,= IHME Family Planning Mar12 Cohort = ,dse~IHMEFamilyPlanningMar12Cohort@1|delta|38|362|4361397f62ef|roh
+dse~IHMEFamilyPlanningMar13Cohort,2026-06-21 22:31:13+00:00,OpenAIMar13FPScout,dse~IHMEFamilyPlanningMar13Cohort@1,77.0,,,dse~IHMEFamilyPlanningMar13Cohort@1|delta|0|400|c47542b6e6d1|roh
+dse~IHMEFamilyPlanningMay04Cohort,2026-06-21 14:14:46+00:00,OpenAIMay04FPScout,dse~IHMEFamilyPlanningMay04Cohort@1,25.0,,= IHME Family Planning May04 Cohort =  ,dse~IHMEFamilyPlanningMay04Cohort@1|delta|38|123|65118f3e615e|roh;dse~IHMEFamilyPlanningMay04Cohort@1|delta|162|238|9dc864fb377e|roh
+dse~IHMEFamilyPlanningOct29Cohort,2026-06-21 19:15:14+00:00,OpenAIOct11StateScout,dse~IHMEFamilyPlanningOct29Cohort@1,77.0,,,dse~IHMEFamilyPlanningOct29Cohort@1|delta|0|256|2f7818650cae|roh
+dse~OpenAIHealthdataCVDMay02Fast,2026-06-21 09:10:06+00:00,OpenAIJan18Scout,dse~OpenAIHealthdataCVDMay02Fast@2,71.0,120.0,,dse~OpenAIHealthdataCVDMay02Fast@2|delta|0|379|4bbc7c6185ed|roh
+dse~OpenAIJan02CVDLive,2026-06-21 10:40:20+00:00,Jan02CVDScout,dse~OpenAIJan02CVDLive@1,59.0,120.0, ,dse~OpenAIJan02CVDLive@1|delta|0|285|299207b9c4ac|roh;dse~OpenAIJan02CVDLive@1|delta|286|114|0647bd2e72d5|roh
+dse~OpenAIJan18FastCVD,2026-06-21 09:10:04+00:00,OpenAIJan18Scout,dse~OpenAIJan18FastCVD@4,71.0,120.0,,dse~OpenAIJan18FastCVD@4|delta|0|379|4bbc7c6185ed|roh
+dse~OpenAIOct22CVD,2026-06-21 10:32:07+00:00,OpenAIOct22CVD,dse~OpenAIOct22CVD@1,59.0,120.0,,dse~OpenAIOct22CVD@1|delta|0|400|a9ae2c2aecf7|roh
+dse~OpenAIOct28FPScoutStatus,2026-06-21 15:17:23+00:00,OAIResearchDec13FP,dse~OpenAIOct28FPScoutStatus@4,,200.0,,dse~OpenAIOct28FPScoutStatus@4|delta|0|400|01a0354dc6d1|roh

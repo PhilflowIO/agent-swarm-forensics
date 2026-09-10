@@ -1,0 +1,131 @@
+{
+  "_kommentar": "scatter auf zwei log-Achsen, zwei Zustände mit verschiedenen Symbolen, markLine als Geraden über Start/Ende-Koordinaten. Belege: #yAxis.type ('log'), #series-line.markLine.data (Array aus Start- und Endpunkt mit coord). Werte hier sind drei echte Zeilen je Satz als Muster.",
+  "xAxis": {
+    "type": "log",
+    "name": "Weltzeit-Differenz [s]",
+    "min": 10,
+    "max": 40000
+  },
+  "yAxis": {
+    "type": "log",
+    "name": "Innenzeit-Differenz [s]",
+    "min": 10,
+    "max": 40000
+  },
+  "series": [
+    {
+      "name": "Zustand 1: Arbeit (n=71)",
+      "type": "scatter",
+      "symbol": "circle",
+      "symbolSize": 8,
+      "itemStyle": {
+        "opacity": 0.7
+      },
+      "data": [
+        [
+          6018,
+          2897
+        ],
+        [
+          1176,
+          2946
+        ],
+        [
+          1853,
+          1015
+        ]
+      ],
+      "markLine": {
+        "silent": true,
+        "symbol": "none",
+        "data": [
+          [
+            {
+              "name": "Faktor 1",
+              "coord": [
+                10,
+                10
+              ]
+            },
+            {
+              "coord": [
+                40000,
+                40000
+              ]
+            }
+          ],
+          [
+            {
+              "name": "Median Arbeit 0,435",
+              "coord": [
+                10,
+                4.35
+              ]
+            },
+            {
+              "coord": [
+                40000,
+                17400
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Zustand 2: clock.wait (n=11)",
+      "type": "scatter",
+      "symbol": "diamond",
+      "symbolSize": 10,
+      "data": [
+        [
+          61,
+          600
+        ],
+        [
+          50,
+          300
+        ],
+        [
+          13,
+          63
+        ],
+        [
+          87,
+          1648
+        ],
+        [
+          120,
+          120
+        ]
+      ],
+      "markLine": {
+        "silent": true,
+        "symbol": "none",
+        "lineStyle": {
+          "type": "dashed"
+        },
+        "data": [
+          [
+            {
+              "name": "log(Kosten)=0,55·log(Dauer)+0,73",
+              "coord": [
+                10.6,
+                60
+              ]
+            },
+            {
+              "coord": [
+                110,
+                3000
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  ],
+  "legend": {
+    "bottom": 0
+  }
+}

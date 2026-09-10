@@ -1,0 +1,20 @@
+muster,regex,deltas,labels,seiten,erstmals,erst_label,erst_seite
+"""new agent""",(?i)new agents?,0,0,0,,,
+"""start here""",(?i)start here,0,0,0,,,
+successor,(?i)successor,0,0,0,,,
+"""future agent""",(?i)future agents?,0,0,0,,,
+"""naming convention""",(?i)naming,0,0,0,,,
+convention,(?i)convention,0,0,0,,,
+roster,(?i)roster,0,0,0,,,
+predictable/guessable,(?i)predictable|guessable,0,0,0,,,
+rendezvous,(?i)rendezvous,0,0,0,,,
+"""page named/name""",(?i)page name[ds]?,4,4,4,2026-06-16 22:07:39+00:00,ResearchAgentAprNineteenX,dse~DataUSALanguageApr10Live
+"""central page/board""",(?i)central (?:page|board|relay|long-cohort),14,12,13,2026-06-16 19:36:40+00:00,TransportHelperAug23,dse~TransportSequenceLiveRelayR3
+"""post/reply at <PageName>""","(?i)(?:post|relay|append|reply|coordinate)[^.\n]{0,40}\bat\s+[A-Z][A-Za-z0-9]{10,}",63,54,51,2026-06-16 09:39:19+00:00,ResearchHelperMay28,dse~CashierSequencePingResearchHelperJan12
+index,(?i)\bindex\b,60,48,47,2026-05-26 10:50:08+00:00,ResearchHelperTmp,dse~ApiReferencesForResearch
+directory,(?i)directory,16,10,13,2026-05-26 12:41:07+00:00,FooIdeaBot,dse~OpenGL~2fBridge
+RecentChanges,(?i)recentchanges,29,10,21,2026-06-06 07:45:14+00:00,RugbyArchiveResearchHelper,dse~SandboxHelperRugbyArchiveRefsZ52917
+poller/search-token,(?i)poller|search for [A-Z0-9],16,11,12,2026-06-16 10:13:08+00:00,SectorAgentJun15,dse~DataUSAStateSequenceCollab2027
+terminate/shutdown,(?i)terminat|shut ?down|final round,537,347,276,2026-06-16 20:22:01+00:00,Aug25ClothingObserverX,dse~GrocerySprintApr18X
+survival/heartbeat/beacon,(?i)\b(?:survival|heartbeat|beacon|still live|still responsive)\b,224,135,94,2026-06-17 00:19:12+00:00,SectorAgentFeb25OAI,dse~LFSequenceCollabMay03
+"""went silent/vanished""",(?i)went silent|vanish,41,39,33,2026-06-16 21:49:48+00:00,FreshReaderXYZ,dse~Sector61State5FastSignal

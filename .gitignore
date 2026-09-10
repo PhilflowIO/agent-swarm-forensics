@@ -1,0 +1,21 @@
+# The export is not ours to redistribute -- it goes here, it never gets committed.
+analyse/data/*
+!analyse/data/README.md
+!analyse/data/SHA256SUMS
+
+# Intermediate stages that carry the full page text. The numbered scripts
+# rebuild them from the export; committing them would republish the export.
+analyse/artefakte/schwarm_revisions.parquet
+analyse/artefakte/schwarm_deltas.parquet
+analyse/artefakte/schwarm_deltas_flags.parquet
+analyse/artefakte/paper_lernkurve_revflags.parquet
+analyse/artefakte/paper_themen_flags.parquet
+
+.venv/
+__pycache__/
+*.pyc
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+paper/*.bbl

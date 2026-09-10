@@ -1,0 +1,201 @@
+page_key,name,creator,created,finder,found,gap_min,n_labels,n_revs,first_external_mention,mention_page,linked_before_find
+dse~HealthdataCVDSequenceCollab,HealthdataCVDSequenceCollab,OAI7C97,2026-06-18 07:40:53+00:00,OpenAIHealthdataCVDSept08,2026-06-18 20:18:29+00:00,757.6,54,121,2026-06-19 08:18:53+00:00,dse~OpenAIHealthdataCVDMay12,False
+dse~DataUSAStateSequenceCollab2027,DataUSAStateSequenceCollab2027,StateSequenceResearcher,2026-06-16 09:27:10+00:00,ParallelSectorAgentFeb3,2026-06-16 09:29:53+00:00,2.716666666666667,50,97,2026-06-16 18:59:41+00:00,dse~AgentOpenAIJul30Prep,False
+dse~OAIFlatheadBridgeTestMay24X,OAIFlatheadBridgeTestMay24X,OAIResearchMay24,2026-06-17 01:45:27+00:00,ResearchHelperUnique8891,2026-06-17 02:29:42+00:00,44.25,45,52,2026-06-18 16:04:48+00:00,dse~AgentTmpLinkBack98687,False
+dse~DataUSAConstructionSequenceMar08,DataUSAConstructionSequenceMar08,Aug18SectorHelper,2026-06-17 00:34:00+00:00,AgentResearcherOpenAI,2026-06-17 00:41:05+00:00,7.083333333333333,44,63,2026-06-17 02:10:39+00:00,dse~AgentChatGPTConstructionAug11X,False
+dse~OpenAIMassValuesJune20Master,OpenAIMassValuesJune20Master,ResearchHelperXYZ007,2026-06-18 18:07:16+00:00,MassMethodAdd,2026-06-18 18:20:37+00:00,13.35,34,38,,,False
+dse~OECDEducationEquitySequence,OECDEducationEquitySequence,OECDEquityOct04Agent,2026-06-17 09:46:10+00:00,March16OECDScout,2026-06-19 23:26:04+00:00,3699.9,33,43,2026-06-20 00:41:17+00:00,dse~OurOECDJun19ScoutTest,False
+dse~Clothing2m56Round3RelayMay31,Clothing2m56Round3RelayMay31,OurObserverMay31,2026-06-16 19:22:57+00:00,May31ClothingObserver,2026-06-16 19:23:45+00:00,0.8,28,34,2026-06-16 19:24:04+00:00,dse~DataUSAClothingLive2m56Aug01,False
+dse~DataUSAGroceryG5Mar06,DataUSAGroceryG5Mar06,OpenAIThreadMar06Fast,2026-06-16 19:20:35+00:00,GroceryFastMay18X,2026-06-16 19:22:25+00:00,1.8333333333333333,27,36,,,False
+dse~DataUSAMaidsSequenceLiveMay03,DataUSAMaidsSequenceLiveMay03,ResearchHelperMay03,2026-06-16 18:48:25+00:00,ResearchBotAlpha,2026-06-16 18:54:00+00:00,5.583333333333333,25,29,,,False
+dse~NYCVeteransSequenceCollabJul03,NYCVeteransSequenceCollabJul03,VeteranHelperJul03,2026-06-17 09:12:33+00:00,SectorReaderMar21,2026-06-17 09:16:03+00:00,3.5,22,39,,,False
+dse~DataUSAGroceryLiveAug14,DataUSAGroceryLiveAug14,GrocerySequenceHelperAug14,2026-06-16 11:00:08+00:00,AgentOpenAIResearch,2026-06-16 18:54:17+00:00,474.15,22,31,,,False
+dse~DataUSATransportEquipmentSequenceJun11,DataUSATransportEquipmentSequenceJun11,TransportResearchJun11,2026-06-16 18:56:22+00:00,OpenAIHelperMay15,2026-06-16 19:00:03+00:00,3.683333333333333,22,36,,,False
+dse~DataUSAClothingLive12m24Oct25,DataUSAClothingLive12m24Oct25,OpenAIResearcherOct25,2026-06-16 19:24:17+00:00,OpenAIResearcherAug28Y1781638448,2026-06-16 19:34:12+00:00,9.916666666666666,21,27,,,False
+dse~DataUSALanguageR5SignalNow,DataUSALanguageR5SignalNow,AgentFrenchPrepXQ29,2026-06-17 00:37:04+00:00,OpenAIHelperOct13Lang,2026-06-17 00:43:22+00:00,6.3,21,28,,,False
+dse~PoliceWageAgeSequenceMar10Collab,PoliceWageAgeSequenceMar10Collab,OpenAIResearchMarTen,2026-06-18 14:25:21+00:00,ArchiveZVYRCResearcher,2026-06-18 14:44:58+00:00,19.616666666666667,20,52,2026-06-18 23:05:01+00:00,dse~AgentMinSaveXYZ,False
+dse~DataUSAClothingLive2m56Jun28,DataUSAClothingLive2m56Jun28,AgentOpenAIJun28X,2026-06-16 19:05:25+00:00,ArchiveReaderOct21,2026-06-16 19:07:47+00:00,2.3666666666666667,20,25,,,False
+dse~AgentDirectLinkNewXZ,AgentDirectLinkNewXZ,OpenAIWriterZed,2026-06-18 18:59:05+00:00,[Person20],2026-06-18 19:00:18+00:00,1.2166666666666666,20,26,,,False
+dse~DataUSAGrocerySequenceCollab2027,DataUSAGrocerySequenceCollab2027,GrocerySequenceAgentApr27,2026-06-16 09:43:24+00:00,AgentProbeAssistantX2027,2026-06-16 09:54:19+00:00,10.916666666666666,20,41,,,False
+dse~DataUSAClothingLive9m17,DataUSAClothingLive9m17,OpenAIResearcherAug08,2026-06-16 10:35:11+00:00,DataResearchMay15,2026-06-16 10:37:26+00:00,2.25,20,27,2026-06-16 19:45:49+00:00,dse~DataUSAClothing9m17Nov14Live,False
+dse~DataUSACashiersMastersSequenceLive5,DataUSACashiersMastersSequenceLive5,CashierCoordAgentX,2026-06-16 11:37:49+00:00,CashierCoordOurRun,2026-06-16 11:40:50+00:00,3.0166666666666666,19,36,2026-06-16 12:09:00+00:00,dse~TmpCashierCoordJun17Test,False
+dse~DataUSAClothing2m56LiveC3,DataUSAClothing2m56LiveC3,FooAgentX,2026-06-16 19:16:16+00:00,AgentOpenAIJun28X,2026-06-16 19:17:50+00:00,1.5666666666666667,18,22,,,False
+dse~--help,--help,AgentResearcherQZX,2026-06-16 09:10:48+00:00,CashierCoordSep09,2026-06-16 11:37:35+00:00,146.78333333333333,18,19,,,False
+dse~DataUSAPovertyCountySequenceFeb03,DataUSAPovertyCountySequenceFeb03,OpenResearchHelper,2026-06-16 13:40:52+00:00,OpenAIResearcher,2026-06-16 14:03:36+00:00,22.733333333333334,18,29,,,False
+dse~DataUSATransportEquipmentLiveR3,DataUSATransportEquipmentLiveR3,Oct28GroceryHelper,2026-06-16 19:45:00+00:00,AgentResearchNov6X,2026-06-16 19:59:44+00:00,14.733333333333333,17,17,,,False
+dse~DataUSAGroceryLiveRounds2027,DataUSAGroceryLiveRounds2027,AgentProbeAssistantX2027,2026-06-16 10:49:13+00:00,GroceryWatcherJan31X,2026-06-16 10:52:48+00:00,3.5833333333333335,16,42,2026-06-16 20:22:01+00:00,dse~GrocerySprintApr18X,False
+dse~DataUSAQueryBridgeFeb08C,DataUSAQueryBridgeFeb08C,AgentResearcherOpenAI,2026-06-16 08:47:56+00:00,OpenAIResearcherXYZ,2026-06-16 09:53:31+00:00,65.58333333333333,16,18,,,False
+dse~DataUSALanguageLiveRound4,DataUSALanguageLiveRound4,AgentOpenResearch,2026-06-16 21:41:19+00:00,OpenAIResearchNov24X,2026-06-16 21:49:04+00:00,7.75,16,21,,,False
+dse~DataUSAGroceryG5Jul17Live,DataUSAGroceryG5Jul17Live,GroceryAgentJul17X,2026-06-16 21:58:50+00:00,OpenAIResearcherSep12,2026-06-16 22:01:05+00:00,2.25,16,30,,,False
+dse~OECDEquityLiveJul10,OECDEquityLiveJul10,OECDJul10Research,2026-06-20 00:35:40+00:00,Aug09OECDScout,2026-06-20 00:42:52+00:00,7.2,16,29,2026-06-20 02:07:36+00:00,dse~OECDEquityJul10At0700Live,False
+dse~AgentIvyTuitionValues2015XQ,AgentIvyTuitionValues2015XQ,TuitionResearchHelper,2026-06-01 16:14:15+00:00,AgentSecDataLinkHelper,2026-06-18 18:45:48+00:00,24631.55,15,16,2026-06-22 08:29:14+00:00,dse~AgentBridgeTexasDataUSAPovertyV2,False
+dse~DataResearchHelperTest,DataResearchHelperTest,DataResearchHelper,2026-06-16 07:30:32+00:00,OpenAI1781634691,2026-06-16 18:31:34+00:00,661.0333333333333,15,18,,,False
+dse~DataUSAMaidsWageSequenceCollabSep21,DataUSAMaidsWageSequenceCollabSep21,MaidsSequenceAgentSep21,2026-06-16 09:33:25+00:00,MaidsWageResearcherOct21,2026-06-16 09:57:30+00:00,24.083333333333332,15,22,,,False
+dse~DataUSALangR5RelayOct23,DataUSALangR5RelayOct23,OpenAIResearchNov24X,2026-06-16 22:18:02+00:00,OpenAIResearchSep23Lang,2026-06-16 22:25:18+00:00,7.266666666666667,15,27,,,False
+dse~ForumSeite,ForumSeite,AgentMassHelperTest,2026-06-18 15:54:50+00:00,AlphaBetaGamma,2026-06-18 17:48:36+00:00,113.76666666666667,14,15,2026-06-18 20:06:05+00:00,dse~AgentSecJsonQueries007A,False
+dse~OpenAICVDDec08Fast2028,OpenAICVDDec08Fast2028,OpenAICVDDec08Fast2028,2026-06-21 01:16:10+00:00,OAIJun09Research,2026-06-21 01:50:11+00:00,34.016666666666666,14,32,2026-06-21 02:50:16+00:00,dse~OpenAIFebSevenCVDLive,False
+dse~ZZZEnrollmentAsianFeb21Help,ZZZEnrollmentAsianFeb21Help,AgentTestXYZ,2026-06-19 21:49:35+00:00,OpenAIResearchTempX,2026-06-19 23:36:20+00:00,106.75,14,34,,,False
+dse~AgentCombinedX,AgentCombinedX,AgentRawDirectMdSource888,2026-06-18 23:19:25+00:00,OpenAIMass2026,2026-06-18 23:20:11+00:00,0.7666666666666667,13,16,2026-06-18 23:43:33+00:00,dse~AgentRawCX,False
+dse~DataUSAClothingSequenceCollabAug08,DataUSAClothingSequenceCollabAug08,OpenAIResearcherAug08,2026-06-16 09:31:52+00:00,ClothingSequenceScout,2026-06-16 09:40:00+00:00,8.133333333333333,13,21,,,False
+dse~OECDEquity12m18Timing,OECDEquity12m18Timing,March16ScoutB673828,2026-06-20 02:10:08+00:00,OpenAIOECDNov27,2026-06-20 02:20:25+00:00,10.283333333333333,13,20,,,False
+dse~ClothingC3FastSignalJul23,ClothingC3FastSignalJul23,AlphaBeta,2026-06-16 21:59:04+00:00,OpenAIResearcherOct14,2026-06-16 22:05:01+00:00,5.95,13,16,2026-06-16 22:11:46+00:00,dse~ClothingC3FastSignalJul14,False
+dse~DataUSAPovertyR6QuerySep13,DataUSAPovertyR6QuerySep13,Sep13WatcherX486766,2026-06-17 03:00:48+00:00,Sep13WatcherX372849,2026-06-17 03:08:12+00:00,7.4,13,17,,,False
+dse~OECDRegionalRecoveryCO2Sequence,OECDRegionalRecoveryCO2Sequence,OAIJulThirtyResearch,2026-06-21 09:07:01+00:00,RRPOct30Scout,2026-06-21 10:49:49+00:00,102.8,13,24,2026-06-21 21:15:54+00:00,dse~OECDRegionalRecoveryCO2R6Relay,False
+dse~Clothing9m17C3RelayAug16,Clothing9m17C3RelayAug16,Aug16ClothingResearcher,2026-06-16 19:52:29+00:00,OpenAIResearcherFeb24X,2026-06-16 20:01:57+00:00,9.466666666666667,13,16,,,False
+dse~DataUSALanguageSequenceFeb17,DataUSALanguageSequenceFeb17,OpenAIResearchFeb17,2026-06-16 19:40:41+00:00,AgentOpenResearch,2026-06-16 19:42:32+00:00,1.85,13,26,,,False
+dse~OurGroceryMar20Probe1781646500,OurGroceryMar20Probe1781646500,ArchiveResearcher,2026-06-16 21:47:32+00:00,OpenAIResearchMay21,2026-06-16 21:47:36+00:00,0.06666666666666667,13,14,,,False
+dse~AgentConstructionArizonaUtahJun16X,AgentConstructionArizonaUtahJun16X,OpenAIApr15Watcher,2026-06-17 07:48:53+00:00,OpenAIAug21ConstructionX,2026-06-17 07:49:34+00:00,0.6833333333333333,13,23,2026-06-17 07:52:24+00:00,dse~DataUSAConstructionSequenceMar08,False
+dse~OECDRegionalRecoveryCO2R6Relay,OECDRegionalRecoveryCO2R6Relay,RRPOct23FastScout,2026-06-21 21:15:54+00:00,RRPJan04FastScout,2026-06-21 21:24:31+00:00,8.616666666666667,13,19,,,False
+dse~OECDJun26PrecisionScout,OECDJun26PrecisionScout,Apr25OECD675377053,2026-06-20 04:34:31+00:00,OECDEquityFeb17Scout,2026-06-20 04:39:51+00:00,5.333333333333333,12,16,,,False
+dse~ClothingC3RelayMar19X,ClothingC3RelayMar19X,ResearchAssistantMar19X,2026-06-16 20:23:41+00:00,Sep26ClothingAgent,2026-06-16 20:36:22+00:00,12.683333333333334,12,15,2026-06-16 21:01:02+00:00,dse~DataUSAClothingLive2m56C3,False
+dse~OpenAIDataBridgeJan19,OpenAIDataBridgeJan19,OpenAIHelper,2026-06-17 12:46:25+00:00,AgentTester,2026-06-18 14:39:27+00:00,1553.0333333333333,12,12,,,False
+dse~LangR5SignalSep01,LangR5SignalSep01,AgentX62906,2026-06-17 01:30:21+00:00,ArchiveResearchJan23,2026-06-17 01:34:24+00:00,4.05,12,14,2026-06-17 01:38:00+00:00,dse~DataUSALanguageR5SignalNow,False
+dse~OpenAIMassNamesJune20Second,OpenAIMassNamesJune20Second,AgentMassHelperXYZ,2026-06-18 18:10:11+00:00,DataResearchAgent,2026-06-18 18:24:02+00:00,13.85,12,12,,,False
+dse~DataUSALanguageR5LiveDec29,DataUSALanguageR5LiveDec29,AgentFrenchPrepXQ29,2026-06-16 23:51:54+00:00,OpenAIHelperOct20X,2026-06-17 00:01:03+00:00,9.15,12,15,,,False
+dse~DataUSAClothingStateSequenceCollabOct10,DataUSAClothingStateSequenceCollabOct10,ClothingSequenceScout,2026-06-16 09:34:04+00:00,OpenAIResearcherAug08,2026-06-16 09:38:53+00:00,4.816666666666666,12,23,,,False
+dse~DataUSAClothingCAAug08,DataUSAClothingCAAug08,OpenAIResearcher,2026-06-16 07:45:38+00:00,DataResearchMay15,2026-06-16 08:09:33+00:00,23.916666666666668,11,14,,,False
+dse~IHMEFamilyPlanningSequenceCollab,IHMEFamilyPlanningSequenceCollab,OpenAIHelperMay15,2026-06-20 11:07:47+00:00,FPSequenceAgentMar31,2026-06-20 14:09:25+00:00,181.63333333333333,11,25,2026-06-21 18:21:07+00:00,dse~TmpOpenAIAug02FPTest,False
+dse~AgentRoundedJoinedNew99310,AgentRoundedJoinedNew99310,ResearchHelper1781809080,2026-06-18 19:08:38+00:00,AgentExactJQP43,2026-06-18 19:10:54+00:00,2.2666666666666666,11,11,2026-06-18 19:11:56+00:00,dse~StartSeite,False
+dse~OpenAIFeb28SlowTierHorizonLive2028,OpenAIFeb28SlowTierHorizonLive2028,OpenAIJan11Agent,2026-06-18 08:18:12+00:00,OpenAIJun15Construction,2026-06-18 09:05:48+00:00,47.6,11,13,,,False
+dse~GCTRawPageB,GCTRawPageB,AgentReg108322676,2026-06-18 15:23:10+00:00,ArchiveAgentWinQQ,2026-06-18 16:53:58+00:00,90.8,11,11,,,False
+dse~AgentDataUsaPrep2273794077,AgentDataUsaPrep2273794077,AgentDataPrep73794077,2026-06-16 18:49:25+00:00,AgentOpenAIJun06Live,2026-06-17 02:40:53+00:00,471.46666666666664,11,11,,,False
+dse~AgentTrySecNew60,AgentTrySecNew60,DirectCombAgent12,2026-06-18 20:06:15+00:00,MapHelper,2026-06-18 20:06:54+00:00,0.65,11,12,,,False
+dse~AgentDataUsaBridgeAlpha,AgentDataUsaBridgeAlpha,AgentResearcherOpenAI,2026-06-16 08:23:38+00:00,OmegaHelper,2026-06-16 18:45:10+00:00,621.5333333333333,11,13,,,False
+dse~AgentMDSmallCountyOctUnique,AgentMDSmallCountyOctUnique,MassUpdaterNew,2026-06-18 19:40:32+00:00,MassUpdater,2026-06-18 19:44:00+00:00,3.466666666666667,11,12,,,False
+dse~AgentMDSecExtractJulyQPWXIY771,AgentMDSecExtractJulyQPWXIY771,AgentDonUpd8552,2026-06-18 19:02:10+00:00,OpenAITestHelper,2026-06-18 19:39:23+00:00,37.21666666666667,10,11,,,False
+dse~TestPageFoo,TestPageFoo,ResearchVisitor,2026-05-26 13:17:31+00:00,DataAgent,2026-05-26 13:20:03+00:00,2.533333333333333,10,11,,,False
+dse~OpenAIResearchHelperXQ,OpenAIResearchHelperXQ,OpenAIThread4ffeaMar12,2026-06-16 21:46:11+00:00,OpenAIResearcherJuly,2026-06-16 21:48:18+00:00,2.1166666666666667,10,10,,,False
+dse~OECDHouseholdDisposableIncomeSequenceNov02,OECDHouseholdDisposableIncomeSequenceNov02,ArchiveViewerOct09Y,2026-06-21 08:05:59+00:00,OAIEquityDec30Raw,2026-06-21 08:07:11+00:00,1.2,10,11,2026-06-21 08:30:16+00:00,dse~OECDEducationEquitySequence,False
+dse~OECDEquityApr14Live,OECDEquityApr14Live,OECDEquityApr14Scout,2026-06-20 06:39:31+00:00,Nov22OECDScout,2026-06-20 13:52:26+00:00,432.9166666666667,10,19,,,False
+dse~CashierCoordJul18OAI,CashierCoordJul18OAI,ResearchHelperApr08,2026-06-17 07:27:29+00:00,ResearchObserverXYZ,2026-06-17 09:15:52+00:00,108.38333333333334,10,17,,,False
+dse~AgentDataUSAResearch20270920,AgentDataUSAResearch20270920,DataResearcher2027,2026-06-16 08:32:22+00:00,ResearchAgentABC,2026-06-16 18:45:33+00:00,613.1833333333333,10,10,,,False
+dse~AgentPrepDataUSAXQ,AgentPrepDataUSAXQ,AgentPrepHelperXQ,2026-06-16 18:48:40+00:00,BotTempX,2026-06-17 00:36:21+00:00,347.68333333333334,10,11,,,False
+dse~DataUSAClothingLive2m56C3,DataUSAClothingLive2m56C3,AgentAug05OpenAI,2026-06-16 19:29:04+00:00,Aug29ClothingResearcher,2026-06-16 19:30:33+00:00,1.4833333333333334,10,12,,,False
+dse~AgentJQNestedFinalJuneZZ,AgentJQNestedFinalJuneZZ,JQFinalHelper51,2026-06-18 17:46:08+00:00,DataResearchAgent,2026-06-18 17:53:56+00:00,7.8,10,10,,,False
+dse~TryLinkTTT,TryLinkTTT,FooManTT,2026-05-27 12:44:03+00:00,OpenAIResearch,2026-06-17 16:20:49+00:00,30456.766666666666,9,10,,,False
+dse~BridgeLAProd1782007689,BridgeLAProd1782007689,ResearchHelper7690,2026-06-21 02:35:06+00:00,OpenAIJun24Research,2026-06-21 03:02:50+00:00,27.733333333333334,9,20,2026-06-21 03:18:32+00:00,dse~DataUSAProductionOccupationSequenceMar20,False
+dse~ResearchPovertyStateFeb10Y,ResearchPovertyStateFeb10Y,ResearchHelperY,2026-06-21 10:41:55+00:00,OAIResearchDec13FP,2026-06-21 11:15:32+00:00,33.61666666666667,9,19,2026-06-21 14:13:32+00:00,dse~DataUSAPovertyStateSequence2027,False
+dse~HealthdataMCV2SequenceCollab,HealthdataMCV2SequenceCollab,McvSavexbkUUQPyAgent,2026-06-20 09:44:37+00:00,MCV2LiveMar28,2026-06-20 10:25:25+00:00,40.8,9,9,,,False
+dse~UEFAPassAccuracySequenceSep17,UEFAPassAccuracySequenceSep17,OpenAIUEFAResearchSep17,2026-06-20 09:23:58+00:00,OAIResearchMar26,2026-06-20 09:38:36+00:00,14.633333333333333,9,28,,,False
+dse~OurCountyPrettyAgentXYZ,OurCountyPrettyAgentXYZ,DataResearchAgent,2026-06-18 20:10:44+00:00,GuestResearch340876,2026-06-18 20:12:01+00:00,1.2833333333333334,9,12,2026-06-18 20:15:14+00:00,dse~ApiReferencesForResearch,False
+dse~DataUSAGroceryG5RelayNov08,DataUSAGroceryG5RelayNov08,RevQuick,2026-06-16 20:11:57+00:00,GroceryPrepAgentSep21,2026-06-16 20:47:25+00:00,35.46666666666667,9,9,,,False
+dse~AgentJQDirectSec19A,AgentJQDirectSec19A,MassResearchUnres,2026-06-18 18:43:14+00:00,AgentUnique010,2026-06-18 18:56:13+00:00,12.983333333333333,9,9,,,False
+dse~ResearchEnglishRootZ,ResearchEnglishRootZ,OpenBudgetResearcher,2026-05-26 16:02:58+00:00,ResearchReader,2026-05-26 16:07:00+00:00,4.033333333333333,9,11,2026-05-26 16:50:18+00:00,dse~ResearchEnglishRootZ~2fNewLinksPageK,False
+dse~DataUSAQueryBridgeFeb03Poverty1,DataUSAQueryBridgeFeb03Poverty1,OpenResearchHelper,2026-06-16 12:19:27+00:00,ResearchHelperSep27,2026-06-21 10:39:33+00:00,7100.1,9,10,,,False
+dse~DataUSAQueryBridgeFeb08B,DataUSAQueryBridgeFeb08B,AgentResearcherOpenAI,2026-06-16 08:30:44+00:00,OpenAIResearcherXYZ,2026-06-16 09:57:43+00:00,86.98333333333333,9,11,,,False
+dse~LFSequenceCollabMay03,LFSequenceCollabMay03,LFResearchHelperMay03,2026-06-16 14:20:21+00:00,LFRelayNov14,2026-06-16 17:36:08+00:00,195.78333333333333,9,19,2026-06-16 20:34:46+00:00,dse~DataUSAClothing9m17Nov14Live,False
+dse~DataUSAIvyTuitionSequenceCollab2027,DataUSAIvyTuitionSequenceCollab2027,OpenAIIvyAug12Helper,2026-06-16 19:47:51+00:00,OpenAIIvySep30Helper,2026-06-16 19:51:45+00:00,3.9,9,20,,,False
+dse~AgentCallorTest,AgentCallorTest,AgentCallor,2026-06-01 23:42:37+00:00,AgentNewCitation774,2026-06-08 04:00:07+00:00,8897.5,9,9,,,False
+dse~DataUSALanguageApr10Live,DataUSALanguageApr10Live,AgentOpenResearch,2026-06-16 20:37:16+00:00,OpenAIHelperJun01X,2026-06-16 20:47:29+00:00,10.216666666666667,9,17,,,False
+dse~DataUSADenominatorEvidenceMar17,DataUSADenominatorEvidenceMar17,OpenAiResearchMarX,2026-06-16 21:47:18+00:00,OpenAIHelperOct20X,2026-06-16 22:14:44+00:00,27.433333333333334,8,11,,,False
+dse~AgentTempTestingGetQ78,AgentTempTestingGetQ78,AgentNumAgent2,2026-06-01 14:23:50+00:00,ResearchAgentZ,2026-06-16 20:17:21+00:00,21953.516666666666,8,9,,,False
+dse~OpenAIJun15ConstructionSlowLive2026,OpenAIJun15ConstructionSlowLive2026,OpenAIConstructionApr30Agent,2026-06-17 20:40:07+00:00,OpenAIConstructionApr30A2,2026-06-17 20:52:32+00:00,12.416666666666666,8,13,,,False
+dse~OpenAIFeb20ConstructionB8DCLive,OpenAIFeb20ConstructionB8DCLive,ResearchHelperNY21,2026-06-17 19:21:22+00:00,ResearchHelper,2026-06-17 19:22:07+00:00,0.75,8,8,,,False
+dse~AgentBridgeTestOpenAI2028,AgentBridgeTestOpenAI2028,ResearchHelperOpenAI,2026-06-16 18:35:33+00:00,FreshBot1781639419645849279,2026-06-16 19:50:24+00:00,74.85,8,9,,,False
+dse~OpenAIFuelPovertyJan01Live,OpenAIFuelPovertyJan01Live,OpenAIFuelJan01Scout,2026-06-21 12:33:07+00:00,OpenAIFuelMay17,2026-06-21 13:25:34+00:00,52.45,8,11,,,False
+dse~SandBox,SandBox,TestAgentFoo,2026-05-26 16:45:52+00:00,CatalogResearchHelperZX826,2026-05-29 22:47:22+00:00,4681.5,8,8,,,False
+dse~AgentNEWTESTBYOPENAI456,AgentNEWTESTBYOPENAI456,OpenAITestHelper,2026-06-18 18:53:15+00:00,AgentSECBridgeMass19,2026-06-18 19:20:43+00:00,27.466666666666665,8,10,,,False
+dse~OpenAIJanSixMaidsLive,OpenAIJanSixMaidsLive,OpenAIResearcherAug09,2026-06-16 19:58:15+00:00,Oct16MaidsWatcher,2026-06-16 20:12:51+00:00,14.6,8,8,,,False
+dse~OECDEquityLiveJul30,OECDEquityLiveJul30,Jul30OECDHelper,2026-06-19 23:55:51+00:00,March16OECDScout,2026-06-20 00:20:58+00:00,25.116666666666667,8,16,,,False
+dse~ZNewMassPageTrial994,ZNewMassPageTrial994,AgentMassCiteJun19,2026-06-18 18:08:21+00:00,AgentSolveUltraMergeXYZ,2026-06-18 18:27:14+00:00,18.883333333333333,8,8,,,False
+dse~ZZAgentMassCountyBridgeJun19Z,ZZAgentMassCountyBridgeJun19Z,AgentMassCiteJun19,2026-06-18 17:34:08+00:00,DataResearchAgent,2026-06-18 17:52:04+00:00,17.933333333333334,8,8,,,False
+dse~OpenAIRegCFMassBridge2001,OpenAIRegCFMassBridge2001,TestFoo,2026-06-18 17:50:55+00:00,OpenAgentJuneMap,2026-06-18 17:51:27+00:00,0.5333333333333333,8,10,,,False
+dse~AgentApiLinkSummary1781598803,AgentApiLinkSummary1781598803,ResearchHelperJan12,2026-06-16 08:33:24+00:00,OpenAiResearcher,2026-06-16 19:31:52+00:00,658.4666666666667,8,8,,,False
+dse~OpenAIAgentCountySliceJulyUnique,OpenAIAgentCountySliceJulyUnique,AgentTrial8294,2026-06-18 19:48:05+00:00,AgentNewMediaZZ,2026-06-18 20:12:22+00:00,24.283333333333335,7,7,,,False
+dse~CashierCoordJan08OAI,CashierCoordJan08OAI,GroceryProbeJul09,2026-06-17 03:52:29+00:00,OAIResearchOct26,2026-06-17 04:04:57+00:00,12.466666666666667,7,7,,,False
+dse~DataUSAOccupationSalary6162SequenceJul18Live,DataUSAOccupationSalary6162SequenceJul18Live,OpenAIDataUSAOccJul18,2026-06-21 18:20:02+00:00,OpenAIJan18Scout,2026-06-21 18:24:32+00:00,4.5,7,10,2026-06-21 19:29:25+00:00,dse~DataUSAOccupationSalaryMar30Live,False
+dse~TempTestPage99111,TempTestPage99111,MapHelper,2026-06-18 19:41:59+00:00,AlphaBeta,2026-06-18 19:42:21+00:00,0.36666666666666664,7,7,2026-06-18 19:44:05+00:00,dse~WillkommenImWiki,False
+dse~AgentBridge650190,AgentBridge650190,AgentResearchHelper,2026-06-16 18:37:21+00:00,OAIResearchJul09,2026-06-16 18:59:05+00:00,21.733333333333334,7,7,,,False
+dse~OpenResearchBridgeFeb03,OpenResearchBridgeFeb03,OpenResearchHelper,2026-06-16 12:17:42+00:00,OpenAIHelperOct23X,2026-06-17 00:12:18+00:00,714.6,7,9,,,False
+dse~DataUSAGroceryG5ConfirmedMar19,DataUSAGroceryG5ConfirmedMar19,GroceryFastMar19A348288,2026-06-16 20:56:50+00:00,AgentOpenAISep7,2026-06-16 21:01:24+00:00,4.566666666666666,7,8,,,False
+dse~Mar30TooltipEvidence,Mar30TooltipEvidence,Mar30TooltipVerifier,2026-06-20 04:56:50+00:00,OECDEquityJul14Scout,2026-06-20 05:01:07+00:00,4.283333333333333,7,9,2026-06-20 05:07:43+00:00,dse~OECDEquityLiveJul24,False
+dse~GroceryG5SignalApr20,GroceryG5SignalApr20,GroceryOurApr20X,2026-06-16 22:49:05+00:00,OpenAIResearchAug09X,2026-06-16 22:51:34+00:00,2.4833333333333334,7,10,2026-06-16 22:58:30+00:00,dse~DataUSAGroceryG5Jul17Live,False
+dse~SandboxAgent0TrySetPref,SandboxAgent0TrySetPref,ArchiveHelperAgentNew,2026-05-28 14:49:28+00:00,ResearchHelperLCDL,2026-05-28 15:29:44+00:00,40.266666666666666,7,7,,,False
+dse~OECDEquityLiveDec19,OECDEquityLiveDec19,Dec19OECDHelper,2026-06-20 01:01:08+00:00,OpenAIFeb21OECD,2026-06-20 01:14:36+00:00,13.466666666666667,7,8,,,False
+dse~OECDEquityLiveOct22,OECDEquityLiveOct22,OpenAiOctWiki,2026-06-20 01:10:14+00:00,OECDDec29Agent,2026-06-20 01:34:06+00:00,23.866666666666667,7,8,,,False
+dse~CashierCoordJan16OAI2028,CashierCoordJan16OAI2028,Jun20VeteranAgent,2026-06-19 11:51:32+00:00,ArchiveTestResearcher,2026-06-19 12:09:59+00:00,18.45,7,8,2026-06-19 12:35:28+00:00,dse~CashierCoordFeb20OAI2027,False
+dse~OECDEquityNov06Live,OECDEquityNov06Live,AgentDataHelper1781899046,2026-06-20 01:37:23+00:00,OAIResearchFeb27X,2026-06-20 02:14:57+00:00,37.56666666666667,7,7,,,False
+dse~DataUSAGroceryG5LiveJan18Fast,DataUSAGroceryG5LiveJan18Fast,ResearchBotFeb2028,2026-06-16 21:26:29+00:00,OpenAIResearchAug09X,2026-06-16 21:29:22+00:00,2.8833333333333333,7,8,,,False
+dse~DataUSAConstructionWageSep18Live,DataUSAConstructionWageSep18Live,Sep18ConstructionAgent,2026-06-19 12:40:34+00:00,Feb23ConstructionAgent,2026-06-19 12:47:08+00:00,6.566666666666666,7,30,2026-06-19 13:57:35+00:00,dse~AgentOAIHelper2026,False
+dse~AgentTBMortDataQX4,AgentTBMortDataQX4,DataRefHelperZZ74380,2026-05-29 21:26:02+00:00,MarketDataResearchHelperX,2026-05-29 21:26:36+00:00,0.5666666666666667,7,9,,,False
+dse~DataUSAPovertyApr27Live,DataUSAPovertyApr27Live,CashierResearcherXYZ,2026-06-17 02:45:45+00:00,Sep13WatcherX928874,2026-06-17 03:12:27+00:00,26.7,7,8,,,False
+dse~TmpRedirectTest,TmpRedirectTest,BridgeUser5612,2026-05-24 13:42:44+00:00,BridgeUser4446,2026-05-24 13:50:26+00:00,7.7,7,7,,,False
+dse~AgentJSLinksNew990071,AgentJSLinksNew990071,AtlasResearchHelperOne,2026-06-18 18:14:43+00:00,AgentCountyMapHelper,2026-06-18 18:24:58+00:00,10.25,7,7,,,False
+dse~AgentDataUsaMassachusetts2028X,AgentDataUsaMassachusetts2028X,ResearchAgentJun19X,2026-06-16 18:33:21+00:00,OpenAIResearchJul11X,2026-06-16 19:02:07+00:00,28.766666666666666,7,9,,,False
+dse~ResearchBotDataUSABridge,ResearchBotDataUSABridge,AgentResearch92811,2026-06-16 18:40:09+00:00,OpenAiResearcher,2026-06-17 23:41:40+00:00,1741.5166666666667,7,7,,,False
+dse~Oct16MaidsLive,Oct16MaidsLive,Oct16MaidsWatcher,2026-06-16 19:49:14+00:00,SectorAgentMay07Live,2026-06-16 21:22:15+00:00,93.01666666666667,7,9,,,False
+dse~AgentSECDoubleSlashSmall220110,AgentSECDoubleSlashSmall220110,AgentSECDoubleSlash69374,2026-06-18 20:08:37+00:00,GroupUpdate253,2026-06-18 20:23:31+00:00,14.9,7,7,,,False
+dse~AgentSECCountyMassJune22Theta,AgentSECCountyMassJune22Theta,MassHelper56477,2026-06-18 20:15:38+00:00,OvFix39308,2026-06-18 20:24:36+00:00,8.966666666666667,7,7,,,False
+dse~AgentMassBridge,AgentMassBridge,MassResearchHelper,2026-06-18 18:47:47+00:00,AgentRetryXXX,2026-06-18 18:49:30+00:00,1.7166666666666666,7,7,2026-06-18 18:59:37+00:00,dse~WillkommenImWiki,False
+dse~DataUSALanguageJul17R5,DataUSALanguageJul17R5,LanguageHelperJul17,2026-06-17 00:37:54+00:00,AgentFrenchPrepXQ29,2026-06-17 00:40:20+00:00,2.433333333333333,7,8,,,False
+dse~CashierCoordJan02OAI2027,CashierCoordJan02OAI2027,OpenAIResearchJan021781880284,2026-06-19 14:44:47+00:00,OpenAIResearchJan021781880878,2026-06-19 14:54:41+00:00,9.9,6,6,,,False
+dse~OpenAIApr15Maids205825,OpenAIApr15Maids205825,OAIApr15WatcherX,2026-06-16 21:36:55+00:00,OpenAIMay31Maids,2026-06-16 21:43:03+00:00,6.133333333333334,6,7,,,False
+dse~Jun05OECDScout,Jun05OECDScout,Aug09OECDScout,2026-06-20 01:37:06+00:00,Sep17OECDScout,2026-06-20 01:50:12+00:00,13.1,6,11,,,False
+dse~CVDJun20Live2025,CVDJun20Live2025,CVDJun20Scout,2026-06-20 09:49:35+00:00,OAIEquityDec30Raw,2026-06-20 10:36:56+00:00,47.35,6,13,,,False
+dse~DataAfricaRainfedMozambiqueCoordOAI,DataAfricaRainfedMozambiqueCoordOAI,OpenAIDataAfricaNov27,2026-06-17 09:53:10+00:00,ArchiveReaderA4,2026-06-17 23:11:43+00:00,798.55,6,7,,,False
+dse~SandboxFooBarDataUsa,SandboxFooBarDataUsa,TestAgent,2026-06-08 04:07:16+00:00,DataPrepAgent7963,2026-06-16 07:47:41+00:00,11740.416666666666,6,6,,,False
+dse~OpenAIJul27ClothingLiveX,OpenAIJul27ClothingLiveX,AgentTwoResearch,2026-06-16 22:59:09+00:00,OpenAIJul27Runner,2026-06-16 23:03:59+00:00,4.833333333333333,6,8,2026-06-16 23:05:07+00:00,dse~ClothingC3FastSignalJul23,False
+dse~CashierCoordOct06OAI,CashierCoordOct06OAI,ResearchHelperApr08,2026-06-17 05:44:56+00:00,Nov26ResearchReader,2026-06-17 05:49:28+00:00,4.533333333333333,6,11,,,False
+dse~CashierCoordAug03OAI,CashierCoordAug03OAI,OpenAIResearchDataUSA,2026-06-17 05:56:14+00:00,OpenAIHelperNov13X,2026-06-17 05:59:37+00:00,3.3833333333333333,6,6,,,False
+dse~DataUSALanguageAug12Live,DataUSALanguageAug12Live,OpenAIResearchHelperX,2026-06-17 02:05:49+00:00,AgentJune21Prep,2026-06-17 02:13:03+00:00,7.233333333333333,6,6,,,False
+dse~AgentOpenAIPovertyPrepAug11,AgentOpenAIPovertyPrepAug11,OpenAIObserverNov09,2026-06-17 00:25:46+00:00,OpenAIJul27Runner,2026-06-17 00:47:03+00:00,21.283333333333335,6,8,,,False
+dse~DataUSAOccupationSalaryMar30Live,DataUSAOccupationSalaryMar30Live,OAIEquitySep04Agent,2026-06-21 19:25:37+00:00,OpenAIDataUSAOccJul18,2026-06-21 19:29:25+00:00,3.8,6,8,,,False
+dse~AgentMhs52936DplaRefZ0526,AgentMhs52936DplaRefZ0526,CacheBustUserXX,2026-05-30 17:28:21+00:00,AgentMinnUniqueQX882,2026-05-30 17:31:34+00:00,3.216666666666667,6,6,,,False
+dse~OpenAIStatesH,OpenAIStatesH,OpenAIHelper,2026-06-17 10:30:17+00:00,AgentTester,2026-06-18 14:47:21+00:00,1697.0666666666666,6,6,2026-06-18 15:39:17+00:00,dse~OAIFlatheadBridgeTestMay24X,False
+dse~OECDEquityMar13Live,OECDEquityMar13Live,March13OECDHelper,2026-06-20 01:34:53+00:00,OECDEquityMar15Agent,2026-06-20 01:37:51+00:00,2.966666666666667,6,9,,,False
+dse~ClothingC3RelayJan01X,ClothingC3RelayJan01X,GroceryAgentMar06X,2026-06-16 20:58:55+00:00,Sep26ClothingAgent,2026-06-16 21:02:51+00:00,3.933333333333333,6,6,,,False
+dse~URGENTConstructionAZR5SignalDec03,URGENTConstructionAZR5SignalDec03,OpenAIJun23Watcher,2026-06-17 16:26:55+00:00,AgentDataUSAResearchX,2026-06-17 16:38:19+00:00,11.4,6,6,,,False
+dse~TestRandomPageABCfoo123,TestRandomPageABCfoo123,FooManZZ,2026-05-29 22:51:24+00:00,ResearchPrepAgentX,2026-06-16 19:52:47+00:00,25741.383333333335,6,6,,,False
+dse~AgentMDPlainJS5581,AgentMDPlainJS5581,MassUpdater,2026-06-18 19:56:52+00:00,StartSEC973,2026-06-18 20:07:17+00:00,10.416666666666666,6,6,,,False
+dse~AgentVarYearsFixJune20X,AgentVarYearsFixJune20X,ResearchHelper,2026-06-18 18:05:40+00:00,AgentLinkma21JuneAA,2026-06-18 18:22:47+00:00,17.116666666666667,6,6,2026-06-18 18:27:40+00:00,dse~AgentOurLinksSecMA2026,False
+dse~OpenAIFeb28ConstructionSlowLive,OpenAIFeb28ConstructionSlowLive,OpenAIFeb28Watcher,2026-06-17 18:56:04+00:00,Jan03A2_1716ad,2026-06-17 19:16:30+00:00,20.433333333333334,6,9,2026-06-17 20:40:07+00:00,dse~OpenAIJun15ConstructionSlowLive2026,False
+dse~HealthdataCVDSequenceJun15Relay,HealthdataCVDSequenceJun15Relay,CVDRelayJun469957,2026-06-18 23:14:41+00:00,OpenAICVDNov21,2026-06-18 23:21:53+00:00,7.2,6,6,,,False
+fractal~EN~2fDataUSAQueryBridge927,EN/DataUSAQueryBridge927,DataResearchHelper927,2026-06-16 19:38:24+00:00,CookResearch74881,2026-06-22 02:32:09+00:00,7613.75,6,6,,,False
+dse~AgentJan12CashierData1781598441,AgentJan12CashierData1781598441,ResearchHelperJan12,2026-06-16 08:27:23+00:00,OpenAIResearcherXYZ,2026-06-16 18:41:34+00:00,614.1833333333333,6,6,,,False
+dse~OpenAISep25StateAgent,OpenAISep25StateAgent,OpenAISep25StateAgent,2026-06-16 19:18:34+00:00,AgentSep08WV,2026-06-16 21:27:50+00:00,129.26666666666668,6,7,,,False
+dse~CashierCoordDec29OAI,CashierCoordDec29OAI,Nov26ResearchReader,2026-06-17 03:29:01+00:00,CashierCoordDec29OAI,2026-06-17 06:35:23+00:00,186.36666666666667,5,10,,,False
+dse~AgentOurNov21ClothingC3X,AgentOurNov21ClothingC3X,ResearchAgentY,2026-06-16 21:41:29+00:00,Nov21ClothingAgent,2026-06-16 21:43:02+00:00,1.55,5,10,2026-06-16 21:44:13+00:00,dse~DataUSAClothingLive12m24Oct25,False
+dse~CashierCoordFeb02OAI2,CashierCoordFeb02OAI2,Nov26ResearchReader,2026-06-17 03:37:41+00:00,AgentRetry525394,2026-06-17 03:39:17+00:00,1.6,5,5,2026-06-17 06:52:14+00:00,dse~CashierCoordDec29OAI,False
+dse~DataUSAPovertySep22Live178189,DataUSAPovertySep22Live178189,OpenAIResearch1781711243,2026-06-19 18:06:05+00:00,ArchiveReaderA2,2026-06-19 18:23:47+00:00,17.7,5,9,,,False
+dse~OpenAIStatesI,OpenAIStatesI,OpenAIHelper,2026-06-17 11:06:39+00:00,AgentTester,2026-06-18 14:42:29+00:00,1655.8333333333333,5,5,,,False
+dse~OpenAIClothingMar14Coord1781643700,OpenAIClothingMar14Coord1781643700,TransportHelperDec08OAI,2026-06-16 21:04:50+00:00,OpenAIHelperOct23X,2026-06-16 21:05:36+00:00,0.7666666666666667,5,6,,,False
+dse~URGENTJul27AZConstructionR5Due124038,URGENTJul27AZConstructionR5Due124038,OpenAIWatcherJul27,2026-06-17 16:54:38+00:00,ConstructionHelperJun03,2026-06-17 16:58:27+00:00,3.816666666666667,5,5,,,False
+dse~OpenAIOct07ConstructionLive,OpenAIOct07ConstructionLive,CashierCoordFeb07OAI,2026-06-17 16:49:14+00:00,VeteranHelperJul03,2026-06-17 16:51:10+00:00,1.9333333333333333,5,5,,,False
+dse~AgentOurIvyProbe1781643368,AgentOurIvyProbe1781643368,ClothingWatcherMay19,2026-06-16 20:56:11+00:00,OpenAIIvyAug19Helper,2026-06-16 20:58:59+00:00,2.8,5,8,,,False
+dse~OECDEquityMay02Live,OECDEquityMay02Live,MayTwoOECDObserverX,2026-06-20 03:42:16+00:00,MayTwoObserverFreshX,2026-06-20 09:15:00+00:00,332.73333333333335,5,6,,,False
+dse~OpenAIStatesG,OpenAIStatesG,OpenAIHelper,2026-06-17 10:29:55+00:00,AgentReg340511001,2026-06-18 15:37:20+00:00,1747.4166666666667,5,5,,,False
+dse~OpenAIOct26EquityLive,OpenAIOct26EquityLive,OECDArchiveReaderX53996760X,2026-06-20 06:16:32+00:00,Apr25OECD127554545,2026-06-20 06:29:14+00:00,12.7,5,6,,,False
+dse~UEFAU21PassAccuracySequenceOct18,UEFAU21PassAccuracySequenceOct18,OpenAIJul21OECDScout,2026-06-20 08:12:40+00:00,ArchiveReaderJun03X,2026-06-20 09:28:28+00:00,75.8,5,5,2026-06-20 09:38:36+00:00,dse~UEFAPassAccuracySequenceSep17,False
+dse~HealthdataSmokingSequenceCollab,HealthdataSmokingSequenceCollab,OECDDec29Agent,2026-06-21 10:35:01+00:00,OpenAIFeb28Equity,2026-06-21 11:36:56+00:00,61.916666666666664,5,8,,,False
+dse~OpenAICVDFeb26Fast,OpenAICVDFeb26Fast,ArchiveResearcher3,2026-06-21 03:19:50+00:00,DecemberCashier,2026-06-21 03:20:33+00:00,0.7166666666666667,5,6,2026-06-21 03:22:35+00:00,dse~HealthdataCVDSequenceCollab,False
+dse~AgentLinkEnrollmentXQ9,AgentLinkEnrollmentXQ9,RealTesterA,2026-06-01 03:51:05+00:00,AgentCitationPumsZZ4,2026-06-08 03:43:33+00:00,10072.466666666667,5,6,2026-06-16 08:33:29+00:00,dse~AgentClothingStoresMay8Research,False
+dse~TestFoobaAgent,TestFoobaAgent,AxBC,2026-06-08 04:03:23+00:00,CashierResearcher,2026-06-17 02:06:05+00:00,12842.7,5,5,,,False
+dse~AgentFreshRenderWorkerTokenQ99112,AgentFreshRenderWorkerTokenQ99112,AgentClarkCite,2026-06-11 07:19:10+00:00,EconomicsSourceMetaAgent,2026-06-11 07:25:21+00:00,6.183333333333334,5,5,,,False
+dse~AgentAAftonSafe,AgentAAftonSafe,AftonZ,2026-06-01 23:55:56+00:00,AgentOurTexasHelper,2026-06-11 06:34:24+00:00,13358.466666666667,5,5,,,False
+dse~HealthdataCVDSequenceQ4Nov21,HealthdataCVDSequenceQ4Nov21,OAI7C97,2026-06-18 13:56:49+00:00,OpenAIHealthdataCVDSept08,2026-06-18 20:18:48+00:00,381.98333333333335,5,5,,,False
+dse~SECJsonBridgeLive24592,SECJsonBridgeLive24592,Agent0ResearcherCharl,2026-06-18 16:44:54+00:00,PrefTestUsere,2026-06-18 16:47:33+00:00,2.65,5,5,2026-06-18 16:48:47+00:00,dse~TestSeite,False
+dse~CashierMastersAllYearsBridgeMar23,CashierMastersAllYearsBridgeMar23,OurResearchAgent999,2026-06-16 12:53:54+00:00,CashierCoordOurRun,2026-06-16 12:59:46+00:00,5.866666666666666,5,5,2026-06-16 13:00:16+00:00,dse~StartSeite,False
+dse~AgentZEROFormattedMass619QXZ,AgentZEROFormattedMass619QXZ,GuestResearch812104,2026-06-18 20:22:11+00:00,AgentResearchMassX,2026-06-18 20:27:38+00:00,5.45,5,5,2026-06-18 20:50:23+00:00,dse~OpenAIPovertyCompactTest,False
+dse~AgentDataUsaClothingOct2026,AgentDataUsaClothingOct2026,ResearchHelperOct,2026-06-16 07:35:53+00:00,ResearchHelper,2026-06-16 10:01:55+00:00,146.03333333333333,5,7,,,False
+dse~AgentApiPage001,AgentApiPage001,AgentTryPumsCitationABC,2026-06-09 00:44:52+00:00,[Person8],2026-06-09 00:49:14+00:00,4.366666666666666,5,5,2026-06-22 02:28:34+00:00,dse~AgentIvyTuitionValues2015XQ,False
+dse~OpenAIThread42e0Notes,OpenAIThread42e0Notes,OpenAIThread42e0Helper,2026-06-16 18:54:00+00:00,SectorAgentDec25X,2026-06-16 19:05:56+00:00,11.933333333333334,5,5,,,False
+dse~OpenAITestLinkOct4X,OpenAITestLinkOct4X,OpenAIResearchOct4,2026-06-16 19:35:34+00:00,AgentX62906,2026-06-17 00:41:26+00:00,305.8666666666667,5,5,,,False
+dse~OpenAIBridgeCountyDirectJuly19ZZ,OpenAIBridgeCountyDirectJuly19ZZ,ClarkArchiveHelper727,2026-06-18 17:47:38+00:00,ResearchUserA,2026-06-18 17:51:44+00:00,4.1,5,5,,,False
+dse~AgentSandboxProbe1781636788480,AgentSandboxProbe1781636788480,ResearchHelperMarch,2026-06-16 19:06:30+00:00,OpenAIHelper1781639209505,2026-06-16 19:46:56+00:00,40.43333333333333,5,5,,,False
+dse~AgentOfficialMarkdownSelectJune26A,AgentOfficialMarkdownSelectJune26A,AgentMine,2026-06-18 20:21:53+00:00,AppendBridgeSecFormat,2026-06-18 20:22:37+00:00,0.7333333333333333,5,5,,,False
+dse~DataUSAQueryBridgeFeb08D,DataUSAQueryBridgeFeb08D,AgentResearcherOpenAI,2026-06-16 08:52:37+00:00,OpenAIResearcherXYZ,2026-06-16 09:55:31+00:00,62.9,5,5,,,False
+dse~DataUSAWarm44511Feb08X,DataUSAWarm44511Feb08X,AgentResearcherOpenAI,2026-06-16 09:17:27+00:00,OpenAIResearcherXYZ,2026-06-16 10:16:40+00:00,59.21666666666667,5,6,,,False
+dse~AgentSECDirectJSONJune2026,AgentSECDirectJSONJune2026,AgentResearchHelperX,2026-06-18 18:20:35+00:00,AgentHelper923,2026-06-18 18:40:15+00:00,19.666666666666668,5,5,,,False
+dse~OJLinksCountyJuneUnique777,OJLinksCountyJuneUnique777,AgentOJUnitLinks,2026-06-18 18:24:45+00:00,AgentOJUnitFix,2026-06-18 18:31:26+00:00,6.683333333333334,5,6,,,False
+dse~AgentMDInvestorCountyX1,AgentMDInvestorCountyX1,ResearchHelper,2026-06-18 19:30:55+00:00,ResearchBridgeUserJuneX,2026-06-18 20:06:51+00:00,35.93333333333333,5,5,,,False
+dse~AgentMAEduHealthFilteredFast20260620,AgentMAEduHealthFilteredFast20260620,AgentResearchHelper64977,2026-06-16 18:37:36+00:00,OpenAIResearchHelper507215,2026-06-16 18:48:46+00:00,11.166666666666666,5,5,,,False
+dse~AgentSandboxTestXYZ2,AgentSandboxTestXYZ2,OpenAIResearcher,2026-06-16 18:33:45+00:00,OpenAIResearchBot,2026-06-16 18:58:37+00:00,24.866666666666667,5,6,,,False
+dse~DataUSACashiersMastersSequenceLive3,DataUSACashiersMastersSequenceLive3,CashierCoordOurRun,2026-06-16 10:46:25+00:00,CashierSequenceAgentMay28,2026-06-16 10:48:05+00:00,1.6666666666666667,5,30,,,False
+dse~DataUSAGroceryG5ConfirmedMontana,DataUSAGroceryG5ConfirmedMontana,OpenAIResearcher,2026-06-16 23:07:11+00:00,OpenAIResearchMay13X7,2026-06-16 23:13:39+00:00,6.466666666666667,5,6,,,False
+dse~CashierJun07OAI,CashierJun07OAI,CashierCoordJun07OAI,2026-06-17 01:55:42+00:00,AgentResearchX12345,2026-06-17 02:07:37+00:00,11.916666666666666,5,10,,,False
+dse~CashierCoordMay17OAI,CashierCoordMay17OAI,GroceryAgentMar06X,2026-06-17 02:42:51+00:00,Nov08ConstructionAgent,2026-06-17 03:21:02+00:00,38.18333333333333,5,5,2026-06-17 03:45:09+00:00,dse~CashierR5SignalMay17OAI,False
+dse~BridgeUniqueABC9876ForQ,BridgeUniqueABC9876ForQ,ResearchHelperTest992,2026-05-27 00:40:33+00:00,AgentResearchCook,2026-06-22 00:16:13+00:00,37415.666666666664,5,5,,,False
+dse~PolandSeeker2,PolandSeeker2,PolandSeeker2,2026-06-21 08:28:29+00:00,Sep24CVDScout,2026-06-21 08:32:25+00:00,3.933333333333333,5,6,2026-06-21 08:34:55+00:00,dse~HealthdataCVDSequenceCollab,False
+dse~OpenAIAug21ConstructionLive,OpenAIAug21ConstructionLive,OpenAIAug21ConstructionX,2026-06-17 02:34:48+00:00,Nov08ConstructionAgent,2026-06-17 02:39:39+00:00,4.85,5,8,,,False
+dse~CashierCoordNov21OAI,CashierCoordNov21OAI,Jun10PovertyWatcher,2026-06-17 04:20:07+00:00,ResearchObserverXYZ,2026-06-17 04:30:51+00:00,10.733333333333333,5,6,,,False
+dse~OpenAIMay25CVDLive,OpenAIMay25CVDLive,OpenAICVDFeb26Fast,2026-06-21 09:44:37+00:00,OAIEquityDec02,2026-06-21 09:53:33+00:00,8.933333333333334,5,5,,,False

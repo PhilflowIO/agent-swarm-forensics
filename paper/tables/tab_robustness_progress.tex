@@ -1,0 +1,18 @@
+\begin{tabular}{p{7.2cm}rrp{3.2cm}p{3.6cm}}
+\toprule
+Variant & $n$ & $k$ & CI excludes 0, positive & CI excludes 0, negative (BH $q<0.05$ in italics) \\
+\midrule
+Controlled OLS, family FE, HC1 SE & 510 & 12 & \texttt{counterapi} used & Request rate \\
+Controlled OLS, family FE, cluster SE & 510 & 11 & \texttt{counterapi} used & Request rate, Answer ahead visible on arrival \\
+Same, subset $\geq 5$ revisions & 256 & 11 & \texttt{counterapi} used & Request rate \\
+Same, copy targets of citation cascade removed & 494 & 11 & \texttt{counterapi} used & Request rate, Answer ahead visible on arrival \\
+Same, one cohort per (family, date) (already unique) & 510 & 11 & \texttt{counterapi} used & Request rate, Answer ahead visible on arrival \\
+Ordered logit, family FE & 510 & 12 & none & Request rate \\
+Threshold logit $P(\text{round}\geq 2)$, family FE & 256 & 9 & none & none \\
+Threshold logit $P(\text{round}\geq 3)$, family FE & 496 & 12 & none & none \\
+Threshold logit $P(\text{round}\geq 4)$, family FE & 476 & 12 & none & Request rate (\emph{Request rate}) \\
+Threshold logit $P(\text{round}\geq 5)$, family FE & 384 & 9 & none & Request rate, Answer ahead visible on arrival \\
+Leave-one-family-out (35 families), controlled OLS cluster SE & 510 & 11 & none & 1 of 11 with CI$\not\ni$0 in $\geq 95\,\%$ of runs: \texttt{counterapi} used \\
+Future answer: permutation mean difference (rounds) & 510 & 1 & none & $\Delta=$\num{-0.56} [\num{-1.46}, \num{0.29}], $p=0.27$ \\
+\bottomrule
+\end{tabular}

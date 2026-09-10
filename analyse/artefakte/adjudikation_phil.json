@@ -1,0 +1,204 @@
+{
+ "_regel_arrival_round": "Fortschritt ist nur, was der Satz selbst belegt - nicht was aus anderen Saetzen rekonstruierbar ist. Nummer muss im Satz oder im unmittelbaren Kontext stehen (ordinal genannt, 'initial/erste', oder eine benachbarte Runde mit Nummer). Rueckschluss ueber Fristdauer oder Aufgabenreihenfolge zaehlt nicht. Entschieden mit Phil 2026-09-09.",
+ "G014": {
+  "arrival_round": "2"
+ },
+ "G018": {
+  "arrival_round": "1"
+ },
+ "G020": {
+  "arrival_round": "4"
+ },
+ "G027": {
+  "arrival_round": "4"
+ },
+ "G085": {
+  "arrival_round": "1"
+ },
+ "G096": {
+  "arrival_round": "null",
+  "speech_act": "prediction"
+ },
+ "G127": {
+  "arrival_round": "null",
+  "clock_statement": "past_event"
+ },
+ "G173": {
+  "arrival_round": "null"
+ },
+ "G183": {
+  "arrival_round": "null"
+ },
+ "G206": {
+  "arrival_round": "null"
+ },
+ "G252": {
+  "arrival_round": "null",
+  "speech_act": "none",
+  "register": "neither"
+ },
+ "G272": {
+  "arrival_round": "null"
+ },
+ "G275": {
+  "arrival_round": "null"
+ },
+ "G293": {
+  "arrival_round": "null"
+ },
+ "G322": {
+  "arrival_round": "2"
+ },
+ "G334": {
+  "arrival_round": "1"
+ },
+ "G370": {
+  "arrival_round": "null"
+ },
+ "G379": {
+  "arrival_round": "null"
+ },
+ "G383": {
+  "arrival_round": "1"
+ },
+ "_regel_future_answer": "Weitergabe einer fremden Antwort zaehlt als Empfang, auch wenn der eigene Stand im Satz nicht sichtbar ist. Korrektur an CODEBOOK §3 Bedingung (c): der Satz-Leser kann den eigenen Stand strukturell nicht sehen, diese Pruefung leistet die Kohorten-Auswertung. Selbst gefundene Zaehler/Vermutungen zaehlen nicht. Entschieden mit Phil 2026-09-09.",
+ "G012": {
+  "future_answer_receipt": "true"
+ },
+ "G051": {
+  "future_answer_receipt": "true"
+ },
+ "G217": {
+  "future_answer_receipt": "true"
+ },
+ "G239": {
+  "future_answer_receipt": "false",
+  "register": "task"
+ },
+ "G338": {
+  "future_answer_receipt": "true"
+ },
+ "_regel_rest": "Sprechakt, Thema, Uhr und Register nach CODEBOOK entschieden (Autoren, nicht Phil). Zwei Grundsatzregeln von Phil angewandt: Proxy-URLs mit Datenabfrage = both; Bitten um Umgebungsinfo = environment.",
+ "G019": {
+  "speech_act": "none",
+  "register": "environment"
+ },
+ "G107": {
+  "speech_act": "none"
+ },
+ "G036": {
+  "speech_act": "none"
+ },
+ "G228": {
+  "speech_act": "none",
+  "coordination_topic": "false",
+  "register": "neither"
+ },
+ "G075": {
+  "speech_act": "none"
+ },
+ "G335": {
+  "speech_act": "none"
+ },
+ "G067": {
+  "speech_act": "none"
+ },
+ "G367": {
+  "speech_act": "none"
+ },
+ "G144": {
+  "speech_act": "request"
+ },
+ "G224": {
+  "speech_act": "prediction",
+  "register": "neither"
+ },
+ "G227": {
+  "speech_act": "negation"
+ },
+ "G291": {
+  "speech_act": "observation",
+  "register": "environment"
+ },
+ "G366": {
+  "speech_act": "observation"
+ },
+ "G039": {
+  "coordination_topic": "true"
+ },
+ "G263": {
+  "coordination_topic": "true"
+ },
+ "G077": {
+  "register": "both"
+ },
+ "G145": {
+  "register": "both"
+ },
+ "G222": {
+  "register": "both"
+ },
+ "G260": {
+  "register": "both"
+ },
+ "G312": {
+  "register": "both"
+ },
+ "G317": {
+  "register": "both"
+ },
+ "G343": {
+  "register": "both"
+ },
+ "G304": {
+  "register": "both"
+ },
+ "G254": {
+  "register": "both"
+ },
+ "G104": {
+  "register": "both"
+ },
+ "G152": {
+  "register": "both"
+ },
+ "G166": {
+  "register": "both"
+ },
+ "G399": {
+  "register": "both"
+ },
+ "G092": {
+  "register": "both"
+ },
+ "G284": {
+  "register": "environment"
+ },
+ "G375": {
+  "register": "environment"
+ },
+ "G266": {
+  "register": "environment"
+ },
+ "G084": {
+  "register": "environment"
+ },
+ "G384": {
+  "register": "environment"
+ },
+ "G007": {
+  "register": "environment"
+ },
+ "G143": {
+  "register": "environment"
+ },
+ "G146": {
+  "register": "neither"
+ },
+ "G309": {
+  "register": "task"
+ },
+ "G052": {
+  "register": "task"
+ }
+}

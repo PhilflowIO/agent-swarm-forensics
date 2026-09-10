@@ -1,0 +1,31 @@
+{
+ "n510": 510,
+ "n_ge5": 256,
+ "fams": 35,
+ "perm": {
+  "praediktor": "zukunft_erhalten_n_b",
+  "praediktor_name": "Future answer received",
+  "teilmenge": "alle",
+  "variante": "basis",
+  "binaer": true,
+  "modell": "permutation_meandiff",
+  "effekt": -0.5634920634920633,
+  "ci_lo": -1.463,
+  "ci_hi": 0.287,
+  "p": 0.26984,
+  "se": NaN,
+  "n": 510,
+  "n_fam": NaN,
+  "n_fam_true": NaN,
+  "n_true": 6.0,
+  "n_boot_valid": NaN,
+  "grund": NaN,
+  "exakt": false,
+  "n_perm": 100000.0,
+  "mean_true": 2.8333333333333335,
+  "mean_false": 3.3968253968253967,
+  "q_bh": 0.26984
+ },
+ "n_copy_targets_in": 16,
+ "n_dedup1": 494
+}

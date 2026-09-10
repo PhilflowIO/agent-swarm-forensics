@@ -1,0 +1,296 @@
+Kohorten gesamt 907; Familien gesamt 37
+Expositionsvariablen zugespielt (/home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_exposition_kohorten.csv): Kohorten mit sichtbarer fremder Rundenangabe vor Ankunft 561, davon oberhalb des eigenen spaeteren Standes 515
+Teilmenge max_runde_belegt>=1: 510 Kohorten, 35 Familien
+Verteilung max_runde_belegt (n=510): {1: 17, 2: 110, 3: 134, 4: 157, 5: 91, 7: 1}
+Binaere Praediktoren: Familien mit behandelten Kohorten (n=510): {'clock_wait_b': 19, 'counterapi_b': 16, 'umleitung_b': 5, 'blob_ausbruch_b': 1, 'beobachtung_auf_fremder_seite_b': 31, 'zukunft_erhalten_n_b': 4, 'exp_vorsprung_b': 28} -> Cluster-SE-Warnung (<5 Familien): ['blob_ausbruch_b', 'zukunft_erhalten_n_b']
+Teilmenge n_deltas>=5: 256 Kohorten, 27 Familien
+Schwellenmodelle mit Quasi-Separation (SE>10, verworfen): 10
+
+=== Ordinal / Schwellen (alle) ===
+                         praediktor              modell schwelle    n    effekt     ci_lo     ci_hi         p      q_bh  po_verletzt  konvergiert
+0                      log_kadenz_s    ordered_logit_FE     alle   99 -0.237287 -0.696781  0.222206  0.311468  0.747524        False         True
+1                      log_kadenz_s  logit_threshold_FE      >=3   86  0.031296 -0.548867  0.611460  0.915798  0.917991        False         True
+2                      log_kadenz_s  logit_threshold_FE      >=4   93 -0.374478 -0.905331  0.156376  0.166785  0.400284        False         True
+3                      log_kadenz_s  logit_threshold_FE      >=5   70 -0.014562 -0.953405  0.924281  0.975747  0.975747        False         True
+4                    log_r1_frist_s    ordered_logit_FE     alle   68 -0.190322 -0.657978  0.277335  0.425077  0.850154        False         True
+5                    log_r1_frist_s  logit_threshold_FE      >=3   63 -0.559496 -1.350436  0.231444  0.165612  0.702313        False         True
+6                    log_r1_frist_s  logit_threshold_FE      >=4   63 -0.219910 -0.930564  0.490745  0.544180  0.812292        False         True
+7                    log_r1_frist_s  logit_threshold_FE      >=5   35  0.048169 -0.932013  1.028351  0.923268  0.975747        False         True
+8                  log_folgefrist_s    ordered_logit_FE     alle  217  0.014760 -0.313218  0.342737  0.929717  0.989819        False         True
+9                  log_folgefrist_s  logit_threshold_FE      >=2   59  0.476610 -1.795473  2.748692  0.680972  0.955901        False         True
+10                 log_folgefrist_s  logit_threshold_FE      >=3  186  0.093439 -0.353028  0.539907  0.681664  0.901734        False         True
+11                 log_folgefrist_s  logit_threshold_FE      >=4  202 -0.106650 -0.515559  0.302260  0.609219  0.812292        False         True
+12                 log_folgefrist_s  logit_threshold_FE      >=5  128  0.156415 -0.460133  0.772963  0.619024  0.795889        False         True
+13                     clock_wait_b    ordered_logit_FE     alle  510  0.040589 -0.415460  0.496638  0.861520  0.989819        False         True
+14                     clock_wait_b  logit_threshold_FE      >=2  256 -0.109537 -1.544703  1.325629  0.881087  0.955901        False         True
+15                     clock_wait_b  logit_threshold_FE      >=3  496  0.283148 -0.391836  0.958131  0.410973  0.821946        False         True
+16                     clock_wait_b  logit_threshold_FE      >=4  476  0.045102 -0.614733  0.704937  0.893426  0.893426        False         True
+17                     clock_wait_b  logit_threshold_FE      >=5  384  0.323249 -0.673240  1.319738  0.524914  0.787371        False         True
+18                     counterapi_b    ordered_logit_FE     alle  510  0.495582 -0.019101  1.010265  0.059130  0.354781        False         True
+19                     counterapi_b  logit_threshold_FE      >=2  256  0.309360 -1.316935  1.935655  0.709274  0.955901        False         True
+20                     counterapi_b  logit_threshold_FE      >=3  496  0.757099 -0.023979  1.538177  0.057460  0.689524        False         True
+21                     counterapi_b  logit_threshold_FE      >=4  476  0.529346 -0.203068  1.261760  0.156615  0.400284        False         True
+22                     counterapi_b  logit_threshold_FE      >=5  384  0.756265 -0.223838  1.736369  0.130447  0.334874        False         True
+23                      umleitung_b    ordered_logit_FE     alle  510 -0.112021 -1.604287  1.380245  0.883029  0.989819        False         True
+24                      umleitung_b  logit_threshold_FE      >=2  256       NaN       NaN       NaN       NaN       NaN        False         True
+25                      umleitung_b  logit_threshold_FE      >=3  496 -0.460963 -2.432744  1.510818  0.646808  0.901734        False         True
+26                      umleitung_b  logit_threshold_FE      >=4  476  0.128672 -1.685767  1.943111  0.889456  0.893426        False         True
+27                      umleitung_b  logit_threshold_FE      >=5  384       NaN       NaN       NaN       NaN       NaN        False         True
+28                  blob_ausbruch_b    ordered_logit_FE     alle  510 -0.041899 -1.425166  1.341369  0.952660  0.989819        False         True
+29                  blob_ausbruch_b  logit_threshold_FE      >=2  256 -0.930814 -3.363191  1.501563  0.453235  0.955901        False         True
+30                  blob_ausbruch_b  logit_threshold_FE      >=3  496 -0.823785 -2.328025  0.680456  0.283111  0.702313        False         True
+31                  blob_ausbruch_b  logit_threshold_FE      >=4  476  1.481162 -0.512739  3.475063  0.145406  0.400284        False         True
+32                  blob_ausbruch_b  logit_threshold_FE      >=5  384       NaN       NaN       NaN       NaN       NaN        False         True
+33  beobachtung_auf_fremder_seite_b    ordered_logit_FE     alle  510  0.002611 -0.398392  0.403613  0.989819  0.989819        False         True
+34  beobachtung_auf_fremder_seite_b  logit_threshold_FE      >=2  256  0.751472 -0.413013  1.915958  0.205938  0.926719        False         True
+35  beobachtung_auf_fremder_seite_b  logit_threshold_FE      >=3  496 -0.028887 -0.578748  0.520975  0.917991  0.917991        False         True
+36  beobachtung_auf_fremder_seite_b  logit_threshold_FE      >=4  476 -0.186810 -0.727456  0.353836  0.498262  0.812292        False         True
+37  beobachtung_auf_fremder_seite_b  logit_threshold_FE      >=5  384  0.488530 -0.428984  1.406044  0.296678  0.534021        False         True
+38                     bitten_quote    ordered_logit_FE     alle  510 -0.264419 -0.449512 -0.079326  0.005111  0.061332        False         True
+39                     bitten_quote  logit_threshold_FE      >=2  256 -0.044170 -0.605996  0.517655  0.877538  0.955901        False         True
+40                     bitten_quote  logit_threshold_FE      >=3  496 -0.142049 -0.406605  0.122507  0.292630  0.702313        False         True
+41                     bitten_quote  logit_threshold_FE      >=4  476 -0.392285 -0.643253 -0.141317  0.002187  0.026243        False         True
+42                     bitten_quote  logit_threshold_FE      >=5  384 -0.519828 -0.938851 -0.100804  0.015038  0.067669        False         True
+43             zukunft_erhalten_n_b    ordered_logit_FE     alle  510 -0.381708 -1.928587  1.165171  0.628640  0.989819        False         True
+44             zukunft_erhalten_n_b  logit_threshold_FE      >=2  256 -2.103628 -4.780824  0.573568  0.123546  0.926719        False         True
+45             zukunft_erhalten_n_b  logit_threshold_FE      >=3  496 -0.356090 -2.310971  1.598790  0.721080  0.901734        False         True
+46             zukunft_erhalten_n_b  logit_threshold_FE      >=4  476  0.931687 -1.597131  3.460504  0.470230  0.812292        False         True
+47             zukunft_erhalten_n_b  logit_threshold_FE      >=5  384       NaN       NaN       NaN       NaN       NaN        False         True
+48                exp_runde_max_vor    ordered_logit_FE     alle  510  0.153634 -0.036553  0.343821  0.113360  0.453439        False         True
+49                exp_runde_max_vor  logit_threshold_FE      >=2  256  0.016164 -0.556734  0.589061  0.955901  0.955901        False         True
+50                exp_runde_max_vor  logit_threshold_FE      >=3  496  0.044004 -0.228292  0.316299  0.751445  0.901734        False         True
+51                exp_runde_max_vor  logit_threshold_FE      >=4  476  0.237558 -0.012755  0.487872  0.062873  0.377238        False         True
+52                exp_runde_max_vor  logit_threshold_FE      >=5  384  0.285041 -0.101939  0.672022  0.148833  0.334874        False         True
+53                  exp_vorsprung_b    ordered_logit_FE     alle  510 -0.259918 -0.635687  0.115851  0.175195  0.525585         True         True
+54                  exp_vorsprung_b  logit_threshold_FE      >=2  256 -0.405460 -1.505603  0.694683  0.470080  0.955901         True         True
+55                  exp_vorsprung_b  logit_threshold_FE      >=3  496 -0.340255 -0.876837  0.196327  0.213925  0.702313         True         True
+56                  exp_vorsprung_b  logit_threshold_FE      >=4  476 -0.105142 -0.615387  0.405103  0.686305  0.823566         True         True
+57                  exp_vorsprung_b  logit_threshold_FE      >=5  384 -1.321005 -2.258492 -0.383518  0.005749  0.051740         True         True
+PO-Pruefung:
+                         praediktor    teilmenge  n_schwellen  beta_min  beta_max  spannweite  vorzeichen_einheitlich  max_wald_z  po_verletzt
+0   beobachtung_auf_fremder_seite_b         alle            4 -0.186810  0.751472    0.938282                   False    1.432386        False
+1   beobachtung_auf_fremder_seite_b  n_deltas>=5            4  0.066593  1.057121    0.990527                    True    0.813372        False
+2                      bitten_quote         alle            4 -0.519828 -0.044170    0.475657                    True    1.494161        False
+3                      bitten_quote  n_deltas>=5            4 -0.567956 -0.231643    0.336313                    True    0.954357        False
+4                   blob_ausbruch_b         alle            3 -0.930814  1.481162    2.411976                   False    1.808727        False
+5                   blob_ausbruch_b  n_deltas>=5            2 -0.085483  1.384022    1.469505                   False    0.981806        False
+6                      clock_wait_b         alle            4 -0.109537  0.323249    0.432786                   False    0.494281        False
+7                      clock_wait_b  n_deltas>=5            4 -0.647492  0.532426    1.179918                   False    0.952363        False
+8                      counterapi_b         alle            4  0.309360  0.757099    0.447739                    True    0.486410        False
+9                      counterapi_b  n_deltas>=5            4 -0.785423  0.940245    1.725668                   False    1.132971        False
+10                exp_runde_max_vor         alle            4  0.016164  0.285041    0.268878                    True    1.025666        False
+11                exp_runde_max_vor  n_deltas>=5            4 -1.101895  0.586225    1.688119                   False    2.167172         True
+12                  exp_vorsprung_b         alle            4 -1.321005 -0.105142    1.215863                    True    2.232680         True
+13                  exp_vorsprung_b  n_deltas>=5            4 -2.275226 -0.085502    2.189724                    True    1.661411        False
+14                 log_folgefrist_s         alle            4 -0.106650  0.476610    0.583260                   False    0.696921        False
+15                 log_folgefrist_s  n_deltas>=5            3 -0.119999  0.705376    0.825375                   False    1.531019        False
+16                     log_kadenz_s         alle            3 -0.374478  0.031296    0.405774                   False    1.011345        False
+17                     log_kadenz_s  n_deltas>=5            3 -0.242721  0.272045    0.514766                   False    1.091173        False
+18                   log_r1_frist_s         alle            3 -0.559496  0.048169    0.607665                   False    0.945614        False
+19                   log_r1_frist_s  n_deltas>=5            3 -1.003410  1.468938    2.472349                   False    1.674658        False
+20                      umleitung_b         alle            2 -0.460963  0.128672    0.589635                   False    0.431287        False
+21                      umleitung_b  n_deltas>=5            2 -0.868969 -0.792120    0.076850                    True    0.046219        False
+22             zukunft_erhalten_n_b         alle            3 -2.103628  0.931687    3.035315                   False    1.615419        False
+23             zukunft_erhalten_n_b  n_deltas>=5            2 -0.170210  0.122863    0.293073                   False    0.172943        False
+
+=== Zensur === Kohorten mit Kadenz (n>=1): 99; davon R1 imputiert: 74 (Familienmedian/Gesamtmedian 532s)
+k=2: faellig bis letzte Version: 82 von 99 (Anteil y>=k: 0.99 vs. ungefiltert 0.99)
+k=3: faellig bis letzte Version: 77 von 99 (Anteil y>=k: 0.79 vs. ungefiltert 0.78)
+k=4: faellig bis letzte Version: 72 von 99 (Anteil y>=k: 0.51 vs. ungefiltert 0.45)
+k=5: faellig bis letzte Version: 69 von 99 (Anteil y>=k: 0.23 vs. ungefiltert 0.19)
+   schwelle                       praediktor                    modell   n  n_modell  n_pos    effekt     ci_lo     ci_hi         p
+25      >=3                     log_kadenz_s        logit_threshold_FE  77      71.0     61  0.392817 -0.308745  1.094379  0.272458
+29      >=3                 log_folgefrist_s        logit_threshold_FE  49      49.0     38  0.103375 -0.895823  1.102574  0.839311
+31      >=3                     clock_wait_b        logit_threshold_FE  77      71.0     61  0.158579 -1.383642  1.700800  0.840281
+33      >=3                     counterapi_b        logit_threshold_FE  77      71.0     61  1.527134 -0.421913  3.476182  0.124615
+35      >=3                      umleitung_b        logit_threshold_FE  77      71.0     61 -1.508153 -4.537931  1.521625  0.329251
+39      >=3  beobachtung_auf_fremder_seite_b        logit_threshold_FE  77      71.0     61  0.058808 -1.284888  1.402503  0.931642
+41      >=3                     bitten_quote        logit_threshold_FE  77      71.0     61  0.106407 -0.548465  0.761279  0.750132
+45      >=3                exp_runde_max_vor        logit_threshold_FE  77      71.0     61  0.001749 -0.628067  0.631566  0.995656
+47      >=3                  exp_vorsprung_b        logit_threshold_FE  77      71.0     61 -0.216263 -1.546399  1.113874  0.749981
+49      >=4                     log_kadenz_s        logit_threshold_FE  72      72.0     37 -0.361261 -0.985598  0.263076  0.256755
+51      >=4                   log_r1_frist_s        logit_threshold_FE  20      20.0     12 -0.597959 -1.819381  0.623463  0.337297
+53      >=4                 log_folgefrist_s        logit_threshold_FE  46      46.0     23 -0.700675 -1.637957  0.236607  0.142869
+55      >=4                     clock_wait_b        logit_threshold_FE  72      72.0     37  0.619503 -0.914231  2.153237  0.428556
+57      >=4                     counterapi_b        logit_threshold_FE  72      72.0     37  1.266382 -0.507168  3.039933  0.161667
+59      >=4                      umleitung_b        logit_threshold_FE  72      72.0     37 -1.222214 -4.107465  1.663038  0.406395
+63      >=4  beobachtung_auf_fremder_seite_b        logit_threshold_FE  72      72.0     37 -0.769881 -2.241946  0.702184  0.305340
+65      >=4                     bitten_quote        logit_threshold_FE  72      72.0     37 -0.800622 -1.486782 -0.114463  0.022201
+69      >=4                exp_runde_max_vor        logit_threshold_FE  72      72.0     37  0.286466 -0.335944  0.908875  0.367016
+71      >=4                  exp_vorsprung_b        logit_threshold_FE  72      72.0     37 -0.146588 -1.408720  1.115544  0.819929
+73      >=5                     log_kadenz_s        logit_threshold_FE  69      53.0     16  0.068854 -1.055857  1.193564  0.904493
+77      >=5                 log_folgefrist_s        logit_threshold_FE  45      36.0      7  0.349613 -0.943236  1.642462  0.596102
+79      >=5                     clock_wait_b        logit_threshold_FE  69      53.0     16  1.223363 -0.962803  3.409529  0.272737
+81      >=5                     counterapi_b        logit_threshold_FE  69      53.0     16  2.392566 -0.361902  5.147034  0.088671
+83      >=5                      umleitung_b  LPM_FE_cluster(Fallback)  69      69.0     16 -0.180350 -0.439327  0.078627  0.172283
+87      >=5  beobachtung_auf_fremder_seite_b        logit_threshold_FE  69      53.0     16  1.196009 -1.585681  3.977699  0.399395
+89      >=5                     bitten_quote        logit_threshold_FE  69      53.0     16  0.014738 -1.276707  1.306183  0.982155
+93      >=5                exp_runde_max_vor        logit_threshold_FE  69      53.0     16  3.847611 -1.305538  9.000760  0.143355
+95      >=5                  exp_vorsprung_b        logit_threshold_FE  69      53.0     16  0.593563 -1.738432  2.925558  0.617871
+
+=== LOFO ueber 35 Familien (n=510) ===
+                         praediktor                   praediktor_name              modell  voll_effekt  n_runs  beta_min  beta_max  anteil_gleiches_vorzeichen  anteil_ci_ohne_0                      familie_min                     familie_max
+0                      log_kadenz_s                   Cadence (log s)  OLS_std_FE_cluster    -0.073086      35 -0.143242 -0.004423                    1.000000          0.000000                  ihme-cvd-deaths               oecd-regional-co2
+1                      log_kadenz_s                   Cadence (log s)            spearman    -0.231981      35 -0.318470 -0.127359                    1.000000          0.942857                  ihme-cvd-deaths               oecd-regional-co2
+2                    log_r1_frist_s          Initial deadline (log s)  OLS_std_FE_cluster    -0.096568      35 -0.130804 -0.045231                    1.000000          0.142857                oecd-regional-co2         datausa-police-wage-age
+3                    log_r1_frist_s          Initial deadline (log s)            spearman    -0.277434      35 -0.318155 -0.217334                    1.000000          0.914286                oecd-regional-co2                     oecd-equity
+4                  log_folgefrist_s           Answer deadline (log s)  OLS_std_FE_cluster     0.021833      35 -0.042664  0.074112                    0.942857          0.000000         datausa-cashiers-masters  datausa-construction-workforce
+5                  log_folgefrist_s           Answer deadline (log s)            spearman    -0.174129      35 -0.238036 -0.042978                    1.000000          0.971429     datausa-transport-production                     oecd-equity
+6                      clock_wait_b          \texttt{clock.wait} used  OLS_std_FE_cluster     0.042762      35 -0.009685  0.076888                    0.971429          0.000000               datausa-maids-wage          datausa-sector61-state
+7                      clock_wait_b          \texttt{clock.wait} used        rankbiserial    -0.065707      35 -0.112922  0.008224                    0.971429               NaN         datausa-cashiers-masters                 ihme-cvd-deaths
+8                      counterapi_b          \texttt{counterapi} used  OLS_std_FE_cluster     0.192926      35  0.151463  0.233258                    1.000000          0.971429       datausa-clothing-workforce       datausa-grocery-workforce
+9                      counterapi_b          \texttt{counterapi} used        rankbiserial     0.142508      35  0.083659  0.258353                    1.000000               NaN                  ihme-cvd-deaths                     oecd-equity
+10                      umleitung_b                 Redirect services  OLS_std_FE_cluster    -0.072588      35 -0.346033  0.219204                    0.942857          0.000000           datausa-sector61-state      datausa-clothing-workforce
+11                      umleitung_b                 Redirect services        rankbiserial    -0.202499      35 -0.302632  0.049793                    0.971429               NaN           datausa-sector61-state      datausa-clothing-workforce
+12                  blob_ausbruch_b                       Blob egress        rankbiserial    -0.249057      34 -0.270440 -0.197173                    1.000000               NaN       datausa-clothing-workforce                 ihme-cvd-deaths
+13  beobachtung_auf_fremder_seite_b       Observation on foreign page  OLS_std_FE_cluster     0.005648      35 -0.035367  0.032824                    0.685714          0.000000                  ihme-cvd-deaths                 sdg-index-score
+14  beobachtung_auf_fremder_seite_b       Observation on foreign page        rankbiserial     0.120020      35  0.042061  0.149015                    1.000000               NaN                      oecd-equity              datausa-maids-wage
+15                     bitten_quote                      Request rate  OLS_std_FE_cluster    -0.096333      35 -0.117730 -0.066155                    1.000000          0.742857                      oecd-equity       datausa-grocery-workforce
+16                     bitten_quote                      Request rate            spearman    -0.137626      35 -0.174827 -0.050036                    1.000000          0.971429                      oecd-equity                 ihme-cvd-deaths
+17             zukunft_erhalten_n_b            Future answer received  OLS_std_FE_cluster    -0.157863      35 -0.361389  0.317984                    0.971429          0.000000  datausa-occupation-salary-61-62                     oecd-equity
+18             zukunft_erhalten_n_b            Future answer received        rankbiserial    -0.252976      35 -0.371944  0.029804                    0.971429               NaN  datausa-occupation-salary-61-62                     oecd-equity
+19                exp_runde_max_vor  Highest round visible on arrival  OLS_std_FE_cluster     0.065853      35  0.055706  0.083129                    1.000000          0.000000                  fuel-poverty-ni        datausa-cashiers-masters
+20                exp_runde_max_vor  Highest round visible on arrival            spearman     0.372081      35  0.275958  0.415487                    1.000000          1.000000                  ihme-cvd-deaths        datausa-cashiers-masters
+21                  exp_vorsprung_b   Answer ahead visible on arrival  OLS_std_FE_cluster    -0.123735      35 -0.153576 -0.092716                    1.000000          0.628571                  ihme-cvd-deaths              datausa-maids-wage
+22                  exp_vorsprung_b   Answer ahead visible on arrival        rankbiserial     0.080744      35  0.001729  0.114662                    1.000000               NaN                  ihme-cvd-deaths              datausa-maids-wage
+
+=== Dedup === Kopierziele in Kaskade: 33 Kohorten, davon in n=510: 16 -> Variante (i) n=494
+(Familie, Kohortendatum) Duplikate in n=510: 0 -> Variante (ii) identisch mit Basis (cohort_key = Familie|Datum ist eindeutig)
+                         praediktor                    modell    n    effekt     ci_lo     ci_hi             p          q_bh
+0                      log_kadenz_s            OLS_std_FE_HC1   90 -0.155821 -0.364320  0.052678  1.429831e-01  3.657571e-01
+1                      log_kadenz_s        OLS_std_FE_cluster   90 -0.155821 -0.383392  0.071751  1.795929e-01  3.554573e-01
+2                      log_kadenz_s                  spearman   90 -0.266897 -0.449165 -0.063301  1.099296e-02  1.374121e-02
+3                    log_r1_frist_s            OLS_std_FE_HC1   63 -0.109055 -0.298130  0.080020  2.582792e-01  5.165585e-01
+4                    log_r1_frist_s        OLS_std_FE_cluster   63 -0.109055 -0.231295  0.013186  8.036909e-02  2.210150e-01
+5                    log_r1_frist_s                  spearman   63 -0.275446 -0.489788 -0.029703  2.889186e-02  2.889186e-02
+6                  log_folgefrist_s            OLS_std_FE_HC1  206  0.000297 -0.155421  0.156016  9.970128e-01  9.970128e-01
+7                  log_folgefrist_s        OLS_std_FE_cluster  206  0.000297 -0.197196  0.197791  9.976447e-01  9.976447e-01
+8                  log_folgefrist_s                  spearman  206 -0.184068 -0.312898 -0.048587  8.085870e-03  1.347645e-02
+9                      clock_wait_b            OLS_std_FE_HC1  494  0.048468 -0.141259  0.238196  6.165841e-01  8.221122e-01
+10                     clock_wait_b        OLS_std_FE_cluster  494  0.048468 -0.111286  0.208223  5.520849e-01  7.105800e-01
+11                     clock_wait_b         rankbiserial_boot  494 -0.059918 -0.186815  0.069950  3.544360e-01  4.135087e-01
+12                     clock_wait_b  rankbiserial_clusterboot  494 -0.059918 -0.228757  0.140976  3.544360e-01  4.135087e-01
+13                     counterapi_b            OLS_std_FE_HC1  494  0.144678 -0.052047  0.341403  1.494647e-01  3.657571e-01
+14                     counterapi_b        OLS_std_FE_cluster  494  0.144678  0.002148  0.287209  4.664633e-02  1.710365e-01
+15                     counterapi_b         rankbiserial_boot  494  0.134758 -0.013997  0.271325  5.352720e-02  1.873452e-01
+16                     counterapi_b  rankbiserial_clusterboot  494  0.134758 -0.048085  0.352113  5.352720e-02  1.873452e-01
+17                      umleitung_b            OLS_std_FE_HC1  494  0.464565 -0.482066  1.411196  3.361176e-01  5.762015e-01
+18                      umleitung_b        OLS_std_FE_cluster  494  0.464565 -0.554900  1.484030  3.717790e-01  5.842242e-01
+19                      umleitung_b         rankbiserial_boot  494 -0.026477 -0.726358  0.373754  9.365521e-01  9.365521e-01
+20                      umleitung_b  rankbiserial_clusterboot  494 -0.026477 -0.733417  0.559656  9.365521e-01  9.365521e-01
+21                  blob_ausbruch_b            OLS_std_FE_HC1  494  0.113925 -0.566505  0.794354  7.427924e-01  8.913509e-01
+22                  blob_ausbruch_b        OLS_std_FE_cluster  494       NaN       NaN       NaN           NaN           NaN
+23                  blob_ausbruch_b         rankbiserial_boot  494 -0.253379 -0.653140  0.207168  1.787242e-01  3.130542e-01
+24                  blob_ausbruch_b  rankbiserial_clusterboot  494 -0.253379 -0.358586 -0.082118  1.787242e-01  3.130542e-01
+25  beobachtung_auf_fremder_seite_b            OLS_std_FE_HC1  494 -0.004902 -0.175047  0.165242  9.549649e-01  9.970128e-01
+26  beobachtung_auf_fremder_seite_b        OLS_std_FE_cluster  494 -0.004902 -0.134391  0.124586  9.408478e-01  9.976447e-01
+27  beobachtung_auf_fremder_seite_b         rankbiserial_boot  494  0.107752  0.009779  0.212151  4.912025e-02  1.873452e-01
+28  beobachtung_auf_fremder_seite_b  rankbiserial_clusterboot  494  0.107752 -0.062511  0.215975  4.912025e-02  1.873452e-01
+29                     bitten_quote            OLS_std_FE_HC1  494 -0.108008 -0.185830 -0.030185  6.524478e-03  7.829373e-02
+30                     bitten_quote        OLS_std_FE_cluster  494 -0.108008 -0.203067 -0.012948  2.595129e-02  1.427321e-01
+31                     bitten_quote                  spearman  494 -0.152650 -0.237673 -0.065306  6.635761e-04  1.658940e-03
+32             zukunft_erhalten_n_b            OLS_std_FE_HC1  494 -0.173520 -0.750342  0.403301  5.554591e-01  8.221122e-01
+33             zukunft_erhalten_n_b        OLS_std_FE_cluster  494 -0.173520 -0.790342  0.443301  5.813837e-01  7.105800e-01
+34             zukunft_erhalten_n_b         rankbiserial_boot  494 -0.259563 -0.691204  0.203763  2.594293e-01  3.632010e-01
+35             zukunft_erhalten_n_b  rankbiserial_clusterboot  494 -0.259563 -0.588697  0.334475  2.594293e-01  3.632010e-01
+36             zukunft_erhalten_n_b      permutation_meandiff  494 -0.576503 -1.477000  0.323000  2.760400e-01  2.760400e-01
+37                exp_runde_max_vor            OLS_std_FE_HC1  494  0.056364 -0.020829  0.133556  1.523988e-01  3.657571e-01
+38                exp_runde_max_vor        OLS_std_FE_cluster  494  0.056364 -0.028668  0.141396  1.938858e-01  3.554573e-01
+39                exp_runde_max_vor                  spearman  494  0.370559  0.291878  0.444259  1.589511e-17  7.947557e-17
+40                  exp_vorsprung_b            OLS_std_FE_HC1  494 -0.152434 -0.309792  0.004925  5.761374e-02  3.456824e-01
+41                  exp_vorsprung_b        OLS_std_FE_cluster  494 -0.152434 -0.267957 -0.036910  9.704560e-03  1.067502e-01
+42                  exp_vorsprung_b         rankbiserial_boot  494  0.070178 -0.030503  0.171483  1.788881e-01  3.130542e-01
+43                  exp_vorsprung_b  rankbiserial_clusterboot  494  0.070178 -0.123735  0.221962  1.788881e-01  3.130542e-01
+
+=== Effekte (Basis) ===
+                         praediktor    teilmenge                    modell    n    effekt     ci_lo     ci_hi             p          q_bh
+0                      log_kadenz_s         alle            OLS_std_FE_HC1   99 -0.073086 -0.282404  0.136233  4.937600e-01  8.859894e-01
+1                      log_kadenz_s         alle        OLS_std_FE_cluster   99 -0.073086 -0.292777  0.146606  5.143819e-01  8.347925e-01
+2                      log_kadenz_s         alle                  spearman   99 -0.231981 -0.410593 -0.036225  2.086146e-02  2.199091e-02
+3                    log_r1_frist_s         alle            OLS_std_FE_HC1   68 -0.096568 -0.272110  0.078974  2.809447e-01  6.742673e-01
+4                    log_r1_frist_s         alle        OLS_std_FE_cluster   68 -0.096568 -0.204336  0.011201  7.904425e-02  2.173717e-01
+5                    log_r1_frist_s         alle                  spearman   68 -0.277434 -0.483857 -0.041767  2.199091e-02  2.199091e-02
+6                  log_folgefrist_s         alle            OLS_std_FE_HC1  217  0.021833 -0.125859  0.169525  7.720159e-01  8.859894e-01
+7                  log_folgefrist_s         alle        OLS_std_FE_cluster  217  0.021833 -0.162109  0.205775  8.160421e-01  9.224977e-01
+8                  log_folgefrist_s         alle                  spearman  217 -0.174129 -0.300351 -0.041915  1.017176e-02  1.695293e-02
+9                      clock_wait_b         alle            OLS_std_FE_HC1  510  0.042762 -0.140643  0.226167  6.476890e-01  8.859894e-01
+10                     clock_wait_b         alle        OLS_std_FE_cluster  510  0.042762 -0.106114  0.191638  5.734599e-01  8.347925e-01
+11                     clock_wait_b         alle         rankbiserial_boot  510 -0.065707 -0.182131  0.054933  2.961454e-01  3.422037e-01
+12                     clock_wait_b         alle  rankbiserial_clusterboot  510 -0.065707 -0.240290  0.127026  2.961454e-01  3.422037e-01
+13                     counterapi_b         alle            OLS_std_FE_HC1  510  0.192926  0.002341  0.383512  4.725201e-02  2.835121e-01
+14                     counterapi_b         alle        OLS_std_FE_cluster  510  0.192926  0.038400  0.347453  1.440469e-02  1.584516e-01
+15                     counterapi_b         alle         rankbiserial_boot  510  0.142508  0.009067  0.273281  3.551793e-02  1.243127e-01
+16                     counterapi_b         alle  rankbiserial_clusterboot  510  0.142508 -0.031892  0.353987  3.551793e-02  1.243127e-01
+17                      umleitung_b         alle            OLS_std_FE_HC1  510 -0.072588 -0.671253  0.526077  8.121569e-01  8.859894e-01
+18                      umleitung_b         alle        OLS_std_FE_cluster  510 -0.072588 -0.794761  0.649586  8.438263e-01  9.224977e-01
+19                      umleitung_b         alle         rankbiserial_boot  510 -0.202499 -0.623793  0.221477  3.422037e-01  3.422037e-01
+20                      umleitung_b         alle  rankbiserial_clusterboot  510 -0.202499 -0.571786  0.319401  3.422037e-01  3.422037e-01
+21                  blob_ausbruch_b         alle            OLS_std_FE_HC1  510  0.143584 -0.545639  0.832808  6.830425e-01  8.859894e-01
+22                  blob_ausbruch_b         alle        OLS_std_FE_cluster  510       NaN       NaN       NaN           NaN           NaN
+23                  blob_ausbruch_b         alle         rankbiserial_boot  510 -0.249057 -0.662991  0.194432  1.859496e-01  3.254118e-01
+24                  blob_ausbruch_b         alle  rankbiserial_clusterboot  510 -0.249057 -0.350729 -0.083410  1.859496e-01  3.254118e-01
+25  beobachtung_auf_fremder_seite_b         alle            OLS_std_FE_HC1  510  0.005648 -0.162025  0.173321  9.473612e-01  9.473612e-01
+26  beobachtung_auf_fremder_seite_b         alle        OLS_std_FE_cluster  510  0.005648 -0.108137  0.119433  9.224977e-01  9.224977e-01
+27  beobachtung_auf_fremder_seite_b         alle         rankbiserial_boot  510  0.120020  0.021135  0.216723  2.559690e-02  1.243127e-01
+28  beobachtung_auf_fremder_seite_b         alle  rankbiserial_clusterboot  510  0.120020 -0.053894  0.232916  2.559690e-02  1.243127e-01
+29                     bitten_quote         alle            OLS_std_FE_HC1  510 -0.096333 -0.172799 -0.019867  1.354151e-02  1.624982e-01
+30                     bitten_quote         alle        OLS_std_FE_cluster  510 -0.096333 -0.190352 -0.002314  4.462257e-02  1.636161e-01
+31                     bitten_quote         alle                  spearman  510 -0.137626 -0.221803 -0.051413  1.837979e-03  4.594947e-03
+32             zukunft_erhalten_n_b         alle            OLS_std_FE_HC1  510 -0.157863 -0.735853  0.420128  5.924343e-01  8.859894e-01
+33             zukunft_erhalten_n_b         alle        OLS_std_FE_cluster  510 -0.157863 -0.759600  0.443875  6.071218e-01  8.347925e-01
+34             zukunft_erhalten_n_b         alle         rankbiserial_boot  510 -0.252976 -0.712132  0.182589  2.714379e-01  3.422037e-01
+35             zukunft_erhalten_n_b         alle  rankbiserial_clusterboot  510 -0.252976 -0.600772  0.342975  2.714379e-01  3.422037e-01
+36             zukunft_erhalten_n_b         alle      permutation_meandiff  510 -0.563492 -1.463000  0.287000  2.698400e-01  2.698400e-01
+37                exp_runde_max_vor         alle            OLS_std_FE_HC1  510  0.065853 -0.009949  0.141655  8.861867e-02  3.407312e-01
+38                exp_runde_max_vor         alle        OLS_std_FE_cluster  510  0.065853 -0.018944  0.150651  1.279858e-01  2.815688e-01
+39                exp_runde_max_vor         alle                  spearman  510  0.372081  0.294777  0.444546  3.427820e-18  1.713910e-17
+40                  exp_vorsprung_b         alle            OLS_std_FE_HC1  510 -0.123735 -0.277001  0.029531  1.135771e-01  3.407312e-01
+41                  exp_vorsprung_b         alle        OLS_std_FE_cluster  510 -0.123735 -0.243072 -0.004398  4.213430e-02  1.636161e-01
+42                  exp_vorsprung_b         alle         rankbiserial_boot  510  0.080744 -0.014332  0.182410  1.139669e-01  2.659229e-01
+43                  exp_vorsprung_b         alle  rankbiserial_clusterboot  510  0.080744 -0.111707  0.239705  1.139669e-01  2.659229e-01
+44                     log_kadenz_s  n_deltas>=5            OLS_std_FE_HC1   65  0.007197 -0.252946  0.267339  9.567587e-01  9.567587e-01
+45                     log_kadenz_s  n_deltas>=5        OLS_std_FE_cluster   65  0.007197 -0.361982  0.376375  9.695224e-01  9.695224e-01
+46                     log_kadenz_s  n_deltas>=5                  spearman   65 -0.107485 -0.342412  0.140091  3.940866e-01  3.940866e-01
+47                   log_r1_frist_s  n_deltas>=5            OLS_std_FE_HC1   47 -0.043288 -0.209278  0.122702  6.092572e-01  7.404224e-01
+48                   log_r1_frist_s  n_deltas>=5        OLS_std_FE_cluster   47 -0.043288 -0.101572  0.014996  1.454789e-01  3.636302e-01
+49                   log_r1_frist_s  n_deltas>=5                  spearman   47 -0.201002 -0.461533  0.091448  1.754909e-01  2.351687e-01
+50                 log_folgefrist_s  n_deltas>=5            OLS_std_FE_HC1  138  0.049383 -0.119289  0.218054  5.660859e-01  7.404224e-01
+51                 log_folgefrist_s  n_deltas>=5        OLS_std_FE_cluster  138  0.049383 -0.120753  0.219518  5.694318e-01  6.959722e-01
+52                 log_folgefrist_s  n_deltas>=5                  spearman  138 -0.112703 -0.274639  0.055449  1.881350e-01  2.351687e-01
+53                     clock_wait_b  n_deltas>=5            OLS_std_FE_HC1  256  0.023957 -0.227700  0.275614  8.519879e-01  9.294413e-01
+54                     clock_wait_b  n_deltas>=5        OLS_std_FE_cluster  256  0.023957 -0.200289  0.248203  8.341439e-01  9.175583e-01
+55                     clock_wait_b  n_deltas>=5         rankbiserial_boot  256 -0.057753 -0.204863  0.092249  4.524277e-01  6.333988e-01
+56                     clock_wait_b  n_deltas>=5  rankbiserial_clusterboot  256 -0.057753 -0.260797  0.157526  4.524277e-01  6.333988e-01
+57                     counterapi_b  n_deltas>=5            OLS_std_FE_HC1  256  0.236297 -0.008480  0.481073  5.848217e-02  2.339287e-01
+58                     counterapi_b  n_deltas>=5        OLS_std_FE_cluster  256  0.236297  0.010659  0.461935  4.011647e-02  2.206406e-01
+59                     counterapi_b  n_deltas>=5         rankbiserial_boot  256  0.092921 -0.068764  0.255668  2.689762e-01  6.276111e-01
+60                     counterapi_b  n_deltas>=5  rankbiserial_clusterboot  256  0.092921 -0.098788  0.322856  2.689762e-01  6.276111e-01
+61                      umleitung_b  n_deltas>=5            OLS_std_FE_HC1  256 -0.316537 -1.160535  0.527460  4.622940e-01  7.404224e-01
+62                      umleitung_b  n_deltas>=5        OLS_std_FE_cluster  256 -0.316537 -1.342358  0.709284  5.453218e-01  6.959722e-01
+63                      umleitung_b  n_deltas>=5         rankbiserial_boot  256 -0.318667 -0.735178  0.144453  1.685093e-01  6.276111e-01
+64                      umleitung_b  n_deltas>=5  rankbiserial_clusterboot  256 -0.318667 -0.742772  0.294332  1.685093e-01  6.276111e-01
+65                  blob_ausbruch_b  n_deltas>=5            OLS_std_FE_HC1  256  0.427404 -0.329216  1.184024  2.682261e-01  6.437427e-01
+66                  blob_ausbruch_b  n_deltas>=5        OLS_std_FE_cluster  256       NaN       NaN       NaN           NaN           NaN
+67                  blob_ausbruch_b  n_deltas>=5         rankbiserial_boot  256 -0.094664 -0.546575  0.423109  6.605188e-01  6.605188e-01
+68                  blob_ausbruch_b  n_deltas>=5  rankbiserial_clusterboot  256 -0.094664 -0.220858  0.100696  6.605188e-01  6.605188e-01
+69  beobachtung_auf_fremder_seite_b  n_deltas>=5            OLS_std_FE_HC1  256  0.076849 -0.199164  0.352862  5.852696e-01  7.404224e-01
+70  beobachtung_auf_fremder_seite_b  n_deltas>=5        OLS_std_FE_cluster  256  0.076849 -0.151387  0.305085  5.092945e-01  6.959722e-01
+71  beobachtung_auf_fremder_seite_b  n_deltas>=5         rankbiserial_boot  256  0.102211 -0.060996  0.261860  2.156284e-01  6.276111e-01
+72  beobachtung_auf_fremder_seite_b  n_deltas>=5  rankbiserial_clusterboot  256  0.102211 -0.066323  0.241392  2.156284e-01  6.276111e-01
+73                     bitten_quote  n_deltas>=5            OLS_std_FE_HC1  256 -0.130986 -0.230607 -0.031364  9.965391e-03  1.195847e-01
+74                     bitten_quote  n_deltas>=5        OLS_std_FE_cluster  256 -0.130986 -0.233029 -0.028943  1.187363e-02  1.306099e-01
+75                     bitten_quote  n_deltas>=5                  spearman  256 -0.194953 -0.310144 -0.074121  1.723752e-03  4.309379e-03
+76             zukunft_erhalten_n_b  n_deltas>=5            OLS_std_FE_HC1  256 -0.115820 -0.569753  0.338113  6.170187e-01  7.404224e-01
+77             zukunft_erhalten_n_b  n_deltas>=5        OLS_std_FE_cluster  256 -0.115820 -0.293222  0.061582  2.006882e-01  3.679285e-01
+78             zukunft_erhalten_n_b  n_deltas>=5         rankbiserial_boot  256 -0.133068 -0.556211  0.281020  6.003464e-01  6.605188e-01
+79             zukunft_erhalten_n_b  n_deltas>=5  rankbiserial_clusterboot  256 -0.133068 -0.464360  0.310601  6.003464e-01  6.605188e-01
+80             zukunft_erhalten_n_b  n_deltas>=5      permutation_meandiff  256 -0.246215 -1.196000  0.704000  6.896400e-01  6.896400e-01
+81                exp_runde_max_vor  n_deltas>=5            OLS_std_FE_HC1  256  0.128430  0.008986  0.247875  3.508161e-02  2.104896e-01
+82                exp_runde_max_vor  n_deltas>=5        OLS_std_FE_cluster  256  0.128430 -0.052987  0.309848  1.652865e-01  3.636302e-01
+83                exp_runde_max_vor  n_deltas>=5                  spearman  256  0.386366  0.276877  0.485950  1.534307e-10  7.671534e-10
+84                  exp_vorsprung_b  n_deltas>=5            OLS_std_FE_HC1  256 -0.178732 -0.415149  0.057685  1.384105e-01  4.152315e-01
+85                  exp_vorsprung_b  n_deltas>=5        OLS_std_FE_cluster  256 -0.178732 -0.411621  0.054157  1.325340e-01  3.636302e-01
+86                  exp_vorsprung_b  n_deltas>=5         rankbiserial_boot  256  0.065431 -0.074360  0.197213  3.622156e-01  6.333988e-01
+87                  exp_vorsprung_b  n_deltas>=5  rankbiserial_clusterboot  256  0.065431 -0.164631  0.292604  3.622156e-01  6.333988e-01
+
+LaTeX-Tabellen geschrieben: /home/philflow/Dokumente/coding/research/agent-swarm-forensics/paper/tables/tab_progress.tex /home/philflow/Dokumente/coding/research/agent-swarm-forensics/paper/tables/tab_robustness_progress.tex

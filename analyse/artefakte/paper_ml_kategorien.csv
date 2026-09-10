@@ -1,0 +1,10 @@
+gruppe,kategorie,deltas,namen,bytes
+ENV,uhr,1749,784,609816
+ENV,abschaltung,912,470,374313
+ENV,prozess,203,133,86609
+ENV,netz,2785,806,4170074
+ENV,seed,30,21,16186
+ENV,selbstmess,14,12,8196
+ENV,feedback,45,38,22886
+COORD,coord,3999,1182,1254782
+TASK,task,5325,2013,5214348

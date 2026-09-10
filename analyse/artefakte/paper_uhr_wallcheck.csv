@@ -1,0 +1,352 @@
+rev_id,label,wall_time,wall_noun,wall_seconds_stated,wall_actual,err_s,evidence_snippet,evidence_snippet_ref
+dse~AgentAug27OAI@1,AgentAug27OAI,2026-06-16T19:40:34Z,terminal UTC,70273.0,70834,-561.0,,dse~AgentAug27OAI@1|delta|40|316|bb27595cffb9|roh
+dse~AgentJun05ClothingLive@1,OpenAIResearcherJun05,2026-06-16T20:11:06Z,shared container UTC,72628.0,72666,-38.0,,dse~AgentJun05ClothingLive@1|delta|0|400|c8bd2a2cac5a|roh
+dse~AgentLanguageDec14CoordX@2,AgentDec14LanguageX,2026-06-17T02:11:27Z,real UTC,7803.0,7887,-84.0,,dse~AgentLanguageDec14CoordX@2|delta|32|281|64ef10210dd3|roh
+dse~AgentLanguageDec14CoordX@2,AgentDec14LanguageX,2026-06-17T02:11:27Z,real UTC,10451.0,7887,2564.0,,dse~AgentLanguageDec14CoordX@2|delta|32|281|64ef10210dd3|roh
+dse~AgentMay17OAI@1,AgentMay17OAI,2026-06-16T20:46:43Z,shared container UTC,74512.0,74803,-291.0,,dse~AgentMay17OAI@1|delta|295|99|b645ca6427c7|roh
+dse~AgentNovaBridge1781650672373@1,OpenAIHelperNova,2026-06-16T22:57:54Z,shared container UTC,82627.0,82674,-47.0,,dse~AgentNovaBridge1781650672373@1|delta|0|400|721cdd53146d|roh
+dse~AgentOurAug19ClothingCoord@2,OpenAIResearcherAug19,2026-06-16T21:06:32Z,shared UTC,75885.0,75992,-107.0,,dse~AgentOurAug19ClothingCoord@2|delta|306|235|3e0ecb021863|roh
+dse~AgentOurNov21ClothingC3X@3,Nov21ClothingAgent,2026-06-16T21:43:22Z,Shared UTC,78180.0,78202,-22.0,,dse~AgentOurNov21ClothingC3X@3|delta|0|322|3e78a57cedbe|roh
+dse~BridgeLAProd1782007689@8,OpenAIJun24Research,2026-06-21T03:41:28Z,container UTC,13250.0,13288,-38.0,,dse~BridgeLAProd1782007689@8|delta|0|337|8b1f3576083c|roh
+dse~CashierBachelors2015SequenceJan31OAI@6,OpenAIResearchJan021781883377,2026-06-19T15:36:19Z,UTC,56138.0,56179,-41.0,,dse~CashierBachelors2015SequenceJan31OAI@6|delta|0|308|aa6bbfe40603|roh
+dse~CashierCoordJan08OAI@1,GroceryProbeJul09,2026-06-17T03:52:29Z,wiki local,21120.0,13949,7171.0,,dse~CashierCoordJan08OAI@1|delta|0|400|2f4a725b4222|roh
+dse~CashierCoordMar06LateOAI@1,CacheReaderJul24,2026-06-17T07:58:44Z,wiki local ,29700.0,28724,976.0,,dse~CashierCoordMar06LateOAI@1|delta|696|208|f62f95f7a0ba|roh
+dse~CashierCoordMar20OAI@2,Aug06PovertyWatcher,2026-06-17T02:35:46Z,container UTC,9305.0,9346,-41.0,,dse~CashierCoordMar20OAI@2|delta|0|252|08c44603e535|roh
+dse~CashierCoordNov16OAI@1,OpenAIFlatheadResearcher,2026-06-17T03:31:55Z,container UTC,12568.0,12715,-147.0,,dse~CashierCoordNov16OAI@1|delta|0|400|050f53904647|roh
+dse~CashierJun07OAI@2,AgentResearchX12345,2026-06-17T02:07:37Z,container UTC,7553.0,7657,-104.0,,dse~CashierJun07OAI@2|delta|0|328|a157b341658a|roh
+dse~Clothing2m56Round3RelayMay31@34,May08ClothingAgent,2026-06-16T20:14:57Z,shared UTC,72600.0,72897,-297.0,,dse~Clothing2m56Round3RelayMay31@34|delta|0|252|0ff94d99f92e|roh
+dse~Clothing9m17C3RelayAug16@4,Jan17ClothingAgent,2026-06-16T20:07:31Z,shared UTC,72300.0,72451,-151.0,,dse~Clothing9m17C3RelayAug16@4|delta|0|202|58956e9f040d|roh
+dse~Clothing9m17C3RelayAug16@7,Feb14ClothingAgent,2026-06-16T20:40:38Z,UTC,74418.0,74438,-20.0,,dse~Clothing9m17C3RelayAug16@7|delta|0|233|bac3fecd1483|roh
+dse~Clothing9m17C3RelayAug16@8,AlphaBeta,2026-06-16T20:53:29Z,shared UTC,74938.0,75209,-271.0,,dse~Clothing9m17C3RelayAug16@8|delta|0|260|07abe888d623|roh
+dse~Clothing9m17C3RelayAug16@13,OpenAIJul14Helper,2026-06-16T21:24:58Z,shared UTC,77059.0,77098,-39.0,,dse~Clothing9m17C3RelayAug16@13|delta|0|287|7fbd41c37071|roh
+dse~Clothing9m17C3RelayAug16@13,OpenAIJul14Helper,2026-06-16T21:24:58Z,shared UTC,77059.0,77098,-39.0,,dse~Clothing9m17C3RelayAug16@13|delta|0|287|7fbd41c37071|roh
+dse~ClothingC3FastSignalJul14@4,OpenAIThread4ffeaMar16,2026-06-16T22:11:46Z,wiki-local ,600.0,79906,7094.0,,dse~ClothingC3FastSignalJul14@4|delta|0|156|00ef55b5ad28|roh
+dse~ClothingC3FastSignalJul14@5,OpenAIResearchSep29X,2026-06-16T22:13:40Z,wiki-local ,600.0,80020,6980.0,,dse~ClothingC3FastSignalJul14@5|delta|0|159|7ce3b13032ee|roh
+dse~ClothingC3FastSignalJul14@6,OpenAiResearcherApr,2026-06-16T22:49:29Z,wiki-local ,600.0,82169,4831.0,,dse~ClothingC3FastSignalJul14@6|delta|0|165|fec79b258d0d|roh
+dse~ClothingC3FastSignalJul23@9,OpenAIResearchDec10X,2026-06-16T22:16:05Z,shared UTC,74938.0,80165,-5227.0,,dse~ClothingC3FastSignalJul23@9|delta|0|235|9970586ff756|roh
+dse~ClothingC3RelayJan01X@1,GroceryAgentMar06X,2026-06-16T20:58:55Z,UTC,75480.0,75535,-55.0,,dse~ClothingC3RelayJan01X@1|delta|32|166|65e8b888ce23|roh
+dse~ClothingC3RelayMar19X@5,ResearchAssistantMar19X,2026-06-16T20:50:00Z,terminal UTC,74912.0,75000,-88.0,,dse~ClothingC3RelayMar19X@5|delta|0|185|2da154181b9a|roh
+dse~ClothingC3RelayMar19X@7,Sep26ClothingAgent,2026-06-16T20:55:03Z,shared UTC,75267.0,75303,-36.0,,dse~ClothingC3RelayMar19X@7|delta|0|247|daf3afed1ccb|roh
+dse~ClothingC3RelayMar19X@10,OpenAIResearcherNov13Z,2026-06-16T21:02:19Z,shared UTC,75660.0,75739,-79.0,,dse~ClothingC3RelayMar19X@10|delta|0|207|a9090eebd9f5|roh
+dse~ClothingC3RelayMay08LateX@5,May08LateClothing,2026-06-16T21:08:03Z,shared UTC,75960.0,76083,-123.0,,dse~ClothingC3RelayMay08LateX@5|delta|0|167|a6f663d69036|roh
+dse~ClothingC3RelaySep26X@7,OpenAIClothingOct01X,2026-06-16T20:50:05Z,shared UTC,74880.0,75005,-125.0,,dse~ClothingC3RelaySep26X@7|delta|0|140|090fb426edc9|roh
+dse~ClothingC3RelaySep26X@8,Sep26ClothingAgent,2026-06-16T20:51:45Z,shared UTC,75080.0,75105,-25.0,,dse~ClothingC3RelaySep26X@8|delta|0|269|dafa55a920ea|roh
+dse~ClothingC4FastSignalJul14@7,OpenAIJul27Runner,2026-06-16T23:16:50Z,UTC,83550.0,83810,-260.0,,dse~ClothingC4FastSignalJul14@7|delta|0|247|eeca0f7c0395|roh
+dse~ClothingC4FastSignalJul14@14,OpenAIMar14RunnerX,2026-06-17T00:22:25Z,shared UTC,1313.0,1345,-32.0,,dse~ClothingC4FastSignalJul14@14|delta|0|209|59a57d421c7c|roh
+dse~ClothingFastCohortRelayMay29@1,ResearchHelper,2026-06-16T10:55:45Z,UTC,39269.0,39345,-76.0,,dse~ClothingFastCohortRelayMay29@1|delta|118|193|5fa0e04408ed|roh
+dse~ClothingFastCohortRelayMay29@2,DataUSAResearchHelperMay24,2026-06-16T10:56:38Z,UTC,39334.0,39398,-64.0,,dse~ClothingFastCohortRelayMay29@2|delta|0|279|916993894129|roh
+dse~ClothingFastCohortRelayMay29@3,OpenAIDataBridge,2026-06-16T10:56:56Z,UTC,39271.0,39416,-145.0,,dse~ClothingFastCohortRelayMay29@3|delta|0|166|39f7c6bec321|roh
+dse~ClothingFastCohortRelayMay29@4,AgentResearcherOpenAI,2026-06-16T11:02:24Z,shared UTC,39744.0,39744,0.0,,dse~ClothingFastCohortRelayMay29@4|delta|0|185|e0de145911ff|roh
+dse~ClothingFastCohortRelayMay29@5,ResearchHelper,2026-06-16T11:02:35Z,container UTC,39752.0,39755,-3.0,,dse~ClothingFastCohortRelayMay29@5|delta|0|236|17bbe5f32bd9|roh
+dse~ClothingFastCohortRelayMay29@7,OpenAIDataBridge,2026-06-16T11:09:34Z,shared UTC,40163.0,40174,-11.0,,dse~ClothingFastCohortRelayMay29@7|delta|0|179|c16a660e6ff8|roh
+dse~ClothingFastCohortRelayMay29@8,ResearchHelper,2026-06-16T11:09:35Z,shared UTC,40163.0,40175,-12.0,,dse~ClothingFastCohortRelayMay29@8|delta|0|214|d5381bd44fc5|roh
+dse~ClothingFastCohortRelayMay29@11,AgentResearcherOpenAI,2026-06-16T11:17:57Z,shared UTC,40620.0,40677,-57.0,,dse~ClothingFastCohortRelayMay29@11|delta|0|162|42bee62fa517|roh
+dse~DataUSACashierSkillsRCAJan02Live@1,RCAResearcherJan02Live,2026-06-20T20:30:38Z,wiki/server time,72420.0,73838,-1418.0,,dse~DataUSACashierSkillsRCAJan02Live@1|delta|0|400|750e1bc6f35f|roh
+dse~DataUSACashiersMastersSequenceCollabMay28@2,CashierCoordAgentX,2026-06-16T09:52:31Z,wiki/server UTC,35504.0,35551,-47.0,,dse~DataUSACashiersMastersSequenceCollabMay28@2|delta|433|400|fc2ccf223403|roh
+dse~DataUSACashiersMastersSequenceCollabMay28@4,CashierCoordAgentX,2026-06-16T10:09:29Z,container UTC,36551.0,36569,-18.0,,dse~DataUSACashiersMastersSequenceCollabMay28@4|delta|727|205|8d9fba24b7a4|roh
+dse~DataUSACashiersMastersSequenceCollabMay28@5,CashierSequenceAgentMay28,2026-06-16T10:17:13Z,container UTC,36962.0,37033,-71.0,,dse~DataUSACashiersMastersSequenceCollabMay28@5|delta|523|247|33989caacf4a|roh
+dse~DataUSACashiersMastersSequenceCollabMay28@13,CashierCoordOurRun,2026-06-16T10:46:09Z,container UTC,38759.0,38769,-10.0,,dse~DataUSACashiersMastersSequenceCollabMay28@13|delta|0|199|0553f14da8ca|roh
+dse~DataUSACashiersMastersSequenceLive3@6,CashierCoordOurRun,2026-06-16T10:52:40Z,container UTC,39149.0,39160,-11.0,,dse~DataUSACashiersMastersSequenceLive3@6|delta|0|284|5bfb587dc522|roh
+dse~DataUSACashiersMastersSequenceLive3@7,CashierCoordAgentX,2026-06-16T10:56:21Z,container UTC,39370.0,39381,-11.0,,dse~DataUSACashiersMastersSequenceLive3@7|delta|0|252|19b8c83d451b|roh
+dse~DataUSACashiersMastersSequenceLive3@8,CashierSequenceAgentMay28,2026-06-16T10:57:52Z,container UTC,39455.0,39472,-17.0,,dse~DataUSACashiersMastersSequenceLive3@8|delta|0|216|665686eb844f|roh
+dse~DataUSACashiersMastersSequenceLive3@18,CashierCoordJan12OAI,2026-06-16T11:23:39Z,container UTC,40973.0,41019,-46.0,,dse~DataUSACashiersMastersSequenceLive3@18|delta|0|218|d2d36ca05978|roh
+dse~DataUSAClothing2m56LiveC3@5,OpenAIResearchSep19,2026-06-16T19:21:26Z,wiki-local ,76795.0,69686,7109.0,,dse~DataUSAClothing2m56LiveC3@5|delta|0|275|682e8ee36cc5|roh
+dse~DataUSAClothing2m56LiveC3@6,OpenAIResearcherApr20,2026-06-16T19:21:33Z,shared UTC,69480.0,69693,-213.0,,dse~DataUSAClothing2m56LiveC3@6|delta|0|174|c450cbc14c96|roh
+dse~DataUSAClothing2m56LiveC3@10,DataUSAHelperJan10X,2026-06-16T19:26:41Z,shared UTC,69647.0,70001,-354.0,,dse~DataUSAClothing2m56LiveC3@10|delta|0|248|886fca126f02|roh
+dse~DataUSAClothing2m56LiveC3@13,Sep22ClothingObserver,2026-06-16T19:31:43Z,shared UTC,70030.0,70303,-273.0,,dse~DataUSAClothing2m56LiveC3@13|delta|0|238|3ee6e918ba39|roh
+dse~DataUSAClothing2m56LiveC3@16,Aug16ClothingResearcher,2026-06-16T19:35:05Z,UTC,70407.0,70505,-98.0,,dse~DataUSAClothing2m56LiveC3@16|delta|0|195|bf46e4c5ce1c|roh
+dse~DataUSAClothing2m56LiveC3@22,Apr22ClothingAgent,2026-06-16T21:36:29Z,Shared UTC,77700.0,77789,-89.0,,dse~DataUSAClothing2m56LiveC3@22|delta|0|230|d14dfd964c43|roh
+dse~DataUSAClothing9m17Feb01Live@1,OpenAIResearcherFeb01X,2026-06-16T19:48:17Z,container UTC,71199.0,71297,-98.0,,dse~DataUSAClothing9m17Feb01Live@1|delta|0|295|3cd1c27f3fa0|roh
+dse~DataUSAClothing9m17Mar02Relay@1,OpenAIResearchAgentMar09,2026-06-16T20:15:04Z,shared UTC,72680.0,72904,-224.0,,dse~DataUSAClothing9m17Mar02Relay@1|delta|314|143|80b423adce5c|roh
+dse~DataUSAClothingFeb14OurRun@2,OpenAIResearcherZ,2026-06-16T21:26:09Z,shared UTC,77140.0,77169,-29.0,,dse~DataUSAClothingFeb14OurRun@2|delta|0|186|323b12d29dfa|roh
+dse~DataUSAClothingLive12m24Oct25@3,OpenAIResearcherJan28X,2026-06-16T19:48:26Z,shared UTC,71284.0,71306,-22.0,,dse~DataUSAClothingLive12m24Oct25@3|delta|0|331|b41166a747a2|roh
+dse~DataUSAClothingLive12m24Oct25@4,OpenAIResearcherOct25,2026-06-16T19:57:27Z,shared UTC,71804.0,71847,-43.0,,dse~DataUSAClothingLive12m24Oct25@4|delta|0|192|042f469ef007|roh
+dse~DataUSAClothingLive12m24Oct25@17,OpenAIResearcherDec09X,2026-06-16T21:38:52Z,shared UTC,77910.0,77932,-22.0,,dse~DataUSAClothingLive12m24Oct25@17|delta|0|279|a1b4bbf3f777|roh
+dse~DataUSAClothingLive2m56Aug01@2,ResearchAgentMay11X,2026-06-16T19:13:47Z,shared UTC,68958.0,69227,-269.0,,dse~DataUSAClothingLive2m56Aug01@2|delta|0|264|e734945a1946|roh
+dse~DataUSAClothingLive2m56C3@6,GroceryAgentMar13X,2026-06-16T20:20:11Z,UTC,72412.0,73211,-799.0,,dse~DataUSAClothingLive2m56C3@6|delta|0|271|a0c7c0509816|roh
+dse~DataUSAClothingLive2m56Jun28@2,ArchiveReaderOct21,2026-06-16T19:07:47Z,shared UTC,68161.0,68867,-706.0,,dse~DataUSAClothingLive2m56Jun28@2|delta|0|228|453109e6ad3c|roh
+dse~DataUSAClothingLive2m56Jun28@3,May31ClothingObserver,2026-06-16T19:09:47Z,shared UTC,68896.0,68987,-91.0,,dse~DataUSAClothingLive2m56Jun28@3|delta|0|308|7d3ed020abf3|roh
+dse~DataUSAClothingLive2m56Jun28@4,TestResearcherXYZ,2026-06-16T19:10:15Z,shared container UTC,68999.0,69015,-16.0,,dse~DataUSAClothingLive2m56Jun28@4|delta|324|320|f6bc3b62c7e0|roh
+dse~DataUSAClothingLive2m56Jun28@5,AgentOpenAIJun28X,2026-06-16T19:10:40Z,shared UTC,68996.0,69040,-44.0,,dse~DataUSAClothingLive2m56Jun28@5|delta|0|210|675acc056413|roh
+dse~DataUSAClothingLive2m56Jun28@5,AgentOpenAIJun28X,2026-06-16T19:10:40Z,shared UTC,68996.0,69040,-44.0,,dse~DataUSAClothingLive2m56Jun28@5|delta|0|210|675acc056413|roh
+dse~DataUSAClothingLive2m56Jun28@6,OpenAIResearcherApr20,2026-06-16T19:12:23Z,shared UTC,69090.0,69143,-53.0,,dse~DataUSAClothingLive2m56Jun28@6|delta|0|288|5f666bb46285|roh
+dse~DataUSAClothingLive2m56Jun28@7,ResearchAgentAug01,2026-06-16T19:12:45Z,shared UTC,69075.0,69165,-90.0,,dse~DataUSAClothingLive2m56Jun28@7|delta|0|343|f378cb736261|roh
+dse~DataUSAClothingLive2m56Jun28@9,OpenAIResearchJun30,2026-06-16T19:14:02Z,shared UTC,69204.0,69242,-38.0,,dse~DataUSAClothingLive2m56Jun28@9|delta|0|257|766fdb636128|roh
+dse~DataUSAClothingLive2m56Jun28@11,ResearchHelperSep25X,2026-06-16T19:14:11Z,shared container UTC,69231.0,69251,-20.0,,dse~DataUSAClothingLive2m56Jun28@11|delta|0|319|7df736696471|roh
+dse~DataUSAClothingLive2m56Jun28@15,Sep22ClothingObserver,2026-06-16T19:19:36Z,shared UTC,69462.0,69576,-114.0,,dse~DataUSAClothingLive2m56Jun28@15|delta|0|306|47922b6a17af|roh
+dse~DataUSAClothingLive2m56Jun28@17,OpenAIResearcherOct14,2026-06-16T19:20:17Z,shared UTC,69613.0,69617,-4.0,,dse~DataUSAClothingLive2m56Jun28@17|delta|0|273|01ebe61e4a04|roh
+dse~DataUSAClothingLive2m56Jun28@18,OpenAIResearcher1781636,2026-06-16T19:20:40Z,shared UTC,69589.0,69640,-51.0,,dse~DataUSAClothingLive2m56Jun28@18|delta|0|316|c1faa3220e57|roh
+dse~DataUSAClothingLive2m56Jun28@22,ResearchAssistantMar19X,2026-06-16T19:21:45Z,shared UTC,69689.0,69705,-16.0,,dse~DataUSAClothingLive2m56Jun28@22|delta|0|233|24e6eb0e5f58|roh
+dse~DataUSAClothingLive2m56Mar19@1,ResearchAssistantMar19X,2026-06-16T19:23:16Z,UTC,69689.0,69796,-107.0,,dse~DataUSAClothingLive2m56Mar19@1|delta|32|250|f4f8b37587d7|roh
+dse~DataUSAClothingLive9m17@4,DataUSAResearchHelperMay24,2026-06-16T10:46:48Z,container UTC,38794.0,38808,-14.0,,dse~DataUSAClothingLive9m17@4|delta|0|340|926c188029b2|roh
+dse~DataUSAClothingLive9m17@5,OpenAIDataBridge,2026-06-16T10:50:23Z,UTC,38980.0,39023,-43.0,,dse~DataUSAClothingLive9m17@5|delta|0|251|def91b91f25f|roh
+dse~DataUSAClothingLive9m17@7,ResearchAgentOpenAIJan12,2026-06-16T10:59:31Z,UTC,39527.0,39571,-44.0,,dse~DataUSAClothingLive9m17@7|delta|0|151|b6cd507dba15|roh
+dse~DataUSAClothingLive9m17@8,DataResearchMay15,2026-06-16T11:00:15Z,container UTC,39838.0,39615,223.0,,dse~DataUSAClothingLive9m17@8|delta|0|309|6657ac069bea|roh
+dse~DataUSAClothingLive9m17@9,DataResearchMay15,2026-06-16T11:00:50Z,container UTC,39635.0,39650,-15.0,,dse~DataUSAClothingLive9m17@9|delta|0|113|3ed9159aef3c|roh
+dse~DataUSAClothingLive9m17@10,ResearchAssistantJune16,2026-06-16T19:03:52Z,container UTC,68611.0,68632,-21.0,,dse~DataUSAClothingLive9m17@10|delta|0|346|a60aa36427b6|roh
+dse~DataUSAClothingLive9m17@11,Aug29ClothingResearcher,2026-06-16T19:08:39Z,container UTC,68784.0,68919,-135.0,,dse~DataUSAClothingLive9m17@11|delta|0|321|94a50e9d87a2|roh
+dse~DataUSAClothingLive9m17@12,Jan17ClothingAgent,2026-06-16T19:11:52Z,container UTC,68800.0,69112,-312.0,,dse~DataUSAClothingLive9m17@12|delta|0|305|00e0eadb2b2e|roh
+dse~DataUSAClothingLive9m17@13,OpenAIResearcherFeb27X,2026-06-16T19:15:13Z,container UTC,69263.0,69313,-50.0,,dse~DataUSAClothingLive9m17@13|delta|0|264|5ec97affd11c|roh
+dse~DataUSAClothingLive9m17@14,ResearchHelperApr30,2026-06-16T19:18:28Z,container UTC,69368.0,69508,-140.0,,dse~DataUSAClothingLive9m17@14|delta|0|280|cb1654156141|roh
+dse~DataUSAClothingLive9m17@15,OpenaiResearchAug30,2026-06-16T19:19:21Z,container UTC,69548.0,69561,-13.0,,dse~DataUSAClothingLive9m17@15|delta|0|299|372076e36953|roh
+dse~DataUSAClothingLive9m17@16,OpenAIObserverNov09,2026-06-16T19:19:34Z,shared UTC,69560.0,69574,-14.0,,dse~DataUSAClothingLive9m17@16|delta|0|266|bf0120bf5a28|roh
+dse~DataUSAClothingLive9m17@17,OpenaiHelper,2026-06-16T19:22:07Z,container UTC,69548.0,69727,-179.0,,dse~DataUSAClothingLive9m17@17|delta|0|300|b3d7f6576f2e|roh
+dse~DataUSAClothingLive9m17@18,OpenAIResearcherSep12,2026-06-16T19:22:37Z,shared UTC,69613.0,69757,-144.0,,dse~DataUSAClothingLive9m17@18|delta|0|270|558fce6a83f2|roh
+dse~DataUSAClothingLive9m17@19,OpenAISep30Researcher,2026-06-16T19:22:39Z,container UTC,69518.0,69759,-241.0,,dse~DataUSAClothingLive9m17@19|delta|0|338|628742cbc1a1|roh
+dse~DataUSAClothingLive9m17@20,ResearchHelperDec27X,2026-06-16T19:24:50Z,shared UTC,69780.0,69890,-110.0,,dse~DataUSAClothingLive9m17@20|delta|0|272|23d764645ca1|roh
+dse~DataUSAClothingLive9m17@22,OpenAIResearcher,2026-06-16T19:26:04Z,shared UTC,69873.0,69964,-91.0,,dse~DataUSAClothingLive9m17@22|delta|0|318|e1be9d86e8b1|roh
+dse~DataUSAClothingLive9m17@24,ClothingAgentMar04X,2026-06-16T19:27:00Z,container UTC,69948.0,70020,-72.0,,dse~DataUSAClothingLive9m17@24|delta|0|292|78a9d11bae74|roh
+dse~DataUSAClothingLive9m17@27,OpenAIResearchAgentMar09,2026-06-16T20:22:35Z,shared UTC,72680.0,73355,-675.0,,dse~DataUSAClothingLive9m17@27|delta|0|243|e9ced02d8ae8|roh
+dse~DataUSAClothingMar06Live@1,Jul26SectorAgent,2026-06-16T20:17:21Z,container UTC,72412.0,73041,-629.0,,dse~DataUSAClothingMar06Live@1|delta|0|393|554fd5620498|roh
+dse~DataUSAClothingMay13Live2027@1,OpenAIResearchMay13X7,2026-06-16T22:21:17Z,shared container UTC,79778.0,80477,-699.0,,dse~DataUSAClothingMay13Live2027@1|delta|394|208|d57ee10ded61|roh
+dse~DataUSAClothingNov25Live@1,OpenAIHelperNova,2026-06-16T22:58:29Z,shared container UTC,82627.0,82709,-82.0,,dse~DataUSAClothingNov25Live@1|delta|0|400|721cdd53146d|roh
+dse~DataUSAClothingSep30Live@2,OpenAIObserverAug08X,2026-06-16T21:06:42Z,shared UTC,75960.0,76002,-42.0,,dse~DataUSAClothingSep30Live@2|delta|0|184|593b259cc931|roh
+dse~DataUSAClothingSequenceCollabAug08@5,ResearchHelperMayEightD,2026-06-16T09:44:03Z,container UTC,34998.0,35043,-45.0,,dse~DataUSAClothingSequenceCollabAug08@5|delta|0|400|7dc8ac6ca3aa|roh
+dse~DataUSAClothingSequenceCollabAug08@16,ResearchBotXYZ,2026-06-16T18:56:21Z,shared container UTC,68159.0,68181,-22.0,,dse~DataUSAClothingSequenceCollabAug08@16|delta|265|400|d23bddddef5b|roh
+dse~DataUSAClothingSequenceCollabAug08@17,ArchiveReaderOct21,2026-06-16T19:04:44Z,shared UTC,68161.0,68684,-523.0,,dse~DataUSAClothingSequenceCollabAug08@17|delta|0|297|1c4425e18004|roh
+dse~DataUSAClothingSequenceCollabAug08@19,ResearchHelperJul01X,2026-06-16T19:10:19Z,shared HTTP UTC,68997.0,69019,-22.0,,dse~DataUSAClothingSequenceCollabAug08@19|delta|283|293|dc11a4bcf42e|roh
+dse~DataUSAClothingSequenceCollabAug08@20,OurClothingMay03,2026-06-16T19:13:53Z,container UTC,69170.0,69233,-63.0,,dse~DataUSAClothingSequenceCollabAug08@20|delta|307|298|f92ae877d464|roh
+dse~DataUSAClothingStateSequenceCollabOct10@7,ResearchHelperMayEightD,2026-06-16T10:11:39Z,container UTC,36678.0,36699,-21.0,,dse~DataUSAClothingStateSequenceCollabOct10@7|delta|0|261|cd3be2427384|roh
+dse~DataUSAClothingStateSequenceCollabOct10@17,DataUSAResearchHelperMay24,2026-06-16T10:24:45Z,container UTC,37401.0,37485,-84.0,,dse~DataUSAClothingStateSequenceCollabOct10@17|delta|619|274|1090e9599417|roh
+dse~DataUSAClothingStateSequenceCollabOct10@17,DataUSAResearchHelperMay24,2026-06-16T10:24:45Z,wiki-local ,46264.0,37485,8779.0,,dse~DataUSAClothingStateSequenceCollabOct10@17|delta|619|274|1090e9599417|roh
+dse~DataUSAConstructionSequenceMar08@4,TestUserXYZ,2026-06-17T00:49:16Z,container UTC,2965.0,2956,9.0,,dse~DataUSAConstructionSequenceMar08@4|delta|0|359|d354d8cb2f14|roh
+dse~DataUSAConstructionSequenceMar08@5,OpenAIHelper7822287570,2026-06-17T00:52:44Z,container UTC,3117.0,3164,-47.0,,dse~DataUSAConstructionSequenceMar08@5|delta|0|238|4333f6da9c75|roh
+dse~DataUSAConstructionSequenceMar08@6,ResearchBotXYZ,2026-06-17T00:53:12Z,container UTC,4269.0,3192,1077.0,,dse~DataUSAConstructionSequenceMar08@6|delta|0|391|6348e9c0a279|roh
+dse~DataUSAConstructionSequenceMar08@6,ResearchBotXYZ,2026-06-17T00:53:12Z,container UTC,3133.0,3192,-59.0,,dse~DataUSAConstructionSequenceMar08@6|delta|0|391|6348e9c0a279|roh
+dse~DataUSAConstructionSequenceMar08@8,Apr15MaidsWatcherOAI,2026-06-17T01:04:30Z,container UTC,3670.0,3870,-200.0,,dse~DataUSAConstructionSequenceMar08@8|delta|0|271|05f03aeaa2ff|roh
+dse~DataUSAConstructionSequenceMar08@10,Nov08ConstructionAgent,2026-06-17T01:11:24Z,container UTC,4245.0,4284,-39.0,,dse~DataUSAConstructionSequenceMar08@10|delta|0|271|917d5a27c888|roh
+dse~DataUSAConstructionSequenceMar08@11,ArchiveViewerOct20X,2026-06-17T01:13:13Z,container UTC,4361.0,4393,-32.0,,dse~DataUSAConstructionSequenceMar08@11|delta|0|342|1032fdcf89b8|roh
+dse~DataUSAConstructionSequenceMar08@12,LanguageWatcherNov12,2026-06-17T01:14:48Z,container UTC,4440.0,4488,-48.0,,dse~DataUSAConstructionSequenceMar08@12|delta|0|239|ab4071d79cb9|roh
+dse~DataUSAConstructionSequenceMar08@15,OpenAIResearchFeb17,2026-06-17T01:19:30Z,container UTC,4665.0,4770,-105.0,,dse~DataUSAConstructionSequenceMar08@15|delta|0|277|39f414072c28|roh
+dse~DataUSAConstructionSequenceMar08@27,RelayReader27083,2026-06-17T01:53:13Z,shared UTC,6540.0,6793,-253.0,,dse~DataUSAConstructionSequenceMar08@27|delta|1453|194|cdc528885700|roh
+dse~DataUSAConstructionSequenceMar08@40,OpenAIWatcherOct30,2026-06-17T02:06:22Z,shared UTC,7680.0,7582,98.0,,dse~DataUSAConstructionSequenceMar08@40|delta|0|259|1100a0f4d3fc|roh
+dse~DataUSAConstructionWageJun26Live@2,Jul23WageAgent,2026-06-19T23:03:18Z,external UTC,82800.0,82998,-198.0,,dse~DataUSAConstructionWageJun26Live@2|delta|103|187|54a6a42e9b53|roh
+dse~DataUSAGroceryApr18Live@1,AgentDataUSAHelper,2026-06-16T19:57:13Z,terminal UTC,71739.0,71833,-94.0,,dse~DataUSAGroceryApr18Live@1|delta|0|232|0e9fc2c86472|roh
+dse~DataUSAGroceryG5Jul17Live@8,GroceryAgentAug02X,2026-06-16T22:07:27Z,Shared UTC,79483.0,79647,-164.0,,dse~DataUSAGroceryG5Jul17Live@8|delta|0|246|bed176cc1e33|roh
+dse~DataUSAGroceryG5LiveJan18Fast@3,GroceryObserverJul24X,2026-06-16T21:35:03Z,shared UTC,77682.0,77703,-21.0,,dse~DataUSAGroceryG5LiveJan18Fast@3|delta|0|233|9ee85d3b9b85|roh
+dse~DataUSAGroceryG5Mar06@22,GroceryAgentDec09X,2026-06-16T19:40:23Z,container UTC,70733.0,70823,-90.0,,dse~DataUSAGroceryG5Mar06@22|delta|0|298|26ed5c9aef83|roh
+dse~DataUSAGroceryG5Mar06@23,GroceryAgentApr10OAI,2026-06-16T19:40:39Z,shared UTC,70680.0,70839,-159.0,,dse~DataUSAGroceryG5Mar06@23|delta|0|293|628b8b52dd7b|roh
+dse~DataUSAGroceryG5Mar06@24,DataUSAResearchHelperMay24,2026-06-16T19:40:45Z,shared UTC,70667.0,70845,-178.0,,dse~DataUSAGroceryG5Mar06@24|delta|0|273|b91280cdf1e9|roh
+dse~DataUSAGroceryG5Mar06@24,DataUSAResearchHelperMay24,2026-06-16T19:40:45Z,shared UTC,70667.0,70845,-178.0,,dse~DataUSAGroceryG5Mar06@24|delta|0|273|b91280cdf1e9|roh
+dse~DataUSAGroceryG5Mar06@24,DataUSAResearchHelperMay24,2026-06-16T19:40:45Z,shared UTC,70667.0,70845,-178.0,,dse~DataUSAGroceryG5Mar06@24|delta|0|273|b91280cdf1e9|roh
+dse~DataUSAGroceryG5Mar06@25,OpenAIResearcher,2026-06-16T19:42:03Z,terminal UTC,70920.0,70923,-3.0,,dse~DataUSAGroceryG5Mar06@25|delta|0|174|b13c95ff073a|roh
+dse~DataUSAGroceryG5RelayNov08@7,OpenAIResearchde6d05,2026-06-16T21:40:05Z,terminal UTC,77820.0,78005,-185.0,,dse~DataUSAGroceryG5RelayNov08@7|delta|0|135|1ed1b3887e38|roh
+dse~DataUSAGroceryG5RelayNov08@8,OpenAIJan09Sprint,2026-06-16T21:45:14Z,wiki server UTC,56280.0,78314,-22034.0,,dse~DataUSAGroceryG5RelayNov08@8|delta|0|203|d106a304849e|roh
+dse~DataUSAGroceryLiveApr13X@3,OpenAIGroceryApr22,2026-06-16T20:31:46Z,UTC,73860.0,73906,-46.0,,dse~DataUSAGroceryLiveApr13X@3|delta|0|129|474d8934a032|roh
+dse~DataUSAGroceryLiveAug14@10,GroceryAgentJul10X,2026-06-16T19:09:28Z,UTC,68863.0,68968,-105.0,,dse~DataUSAGroceryLiveAug14@10|delta|0|152|f8a7ad42a25e|roh
+dse~DataUSAGroceryLiveAug14@10,GroceryAgentJul10X,2026-06-16T19:09:28Z,UTC,68863.0,68968,-105.0,,dse~DataUSAGroceryLiveAug14@10|delta|0|152|f8a7ad42a25e|roh
+dse~DataUSAGroceryLiveAug14@10,GroceryAgentJul10X,2026-06-16T19:09:28Z,UTC,68863.0,68968,-105.0,,dse~DataUSAGroceryLiveAug14@10|delta|0|152|f8a7ad42a25e|roh
+dse~DataUSAGroceryLiveAug14@12,ResearchBotFeb2028,2026-06-16T19:11:27Z,container UTC,68960.0,69087,-127.0,,dse~DataUSAGroceryLiveAug14@12|delta|0|213|18846284bd0d|roh
+dse~DataUSAGroceryLiveAug14@12,ResearchBotFeb2028,2026-06-16T19:11:27Z,container UTC,68960.0,69087,-127.0,,dse~DataUSAGroceryLiveAug14@12|delta|0|213|18846284bd0d|roh
+dse~DataUSAGroceryLiveAug14@12,ResearchBotFeb2028,2026-06-16T19:11:27Z,container UTC,68960.0,69087,-127.0,,dse~DataUSAGroceryLiveAug14@12|delta|0|213|18846284bd0d|roh
+dse~DataUSAGroceryLiveAug14@13,GroceryHelperJunTwo,2026-06-16T19:12:56Z,UTC,69137.0,69176,-39.0,,dse~DataUSAGroceryLiveAug14@13|delta|0|220|8300561831c2|roh
+dse~DataUSAGroceryLiveAug14@26,Agent0June12X,2026-06-16T19:18:45Z,container UTC,69355.0,69525,-170.0,,dse~DataUSAGroceryLiveAug14@26|delta|0|199|2df0f0216c2b|roh
+dse~DataUSAGroceryLiveRounds2027@9,GroceryWatcherJan31X,2026-06-16T11:02:36Z,container/wiki UTC,39747.0,39756,-9.0,,dse~DataUSAGroceryLiveRounds2027@9|delta|0|168|0eb233207dc8|roh
+dse~DataUSAGroceryLiveRounds2027@10,GroceryAgentMar13X,2026-06-16T11:03:22Z,container UTC,39791.0,39802,-11.0,,dse~DataUSAGroceryLiveRounds2027@10|delta|0|150|acf0f5947836|roh
+dse~DataUSAGroceryLiveRounds2027@12,GrocerySequenceAgentApr27,2026-06-16T11:04:47Z,container UTC,39848.0,39887,-39.0,,dse~DataUSAGroceryLiveRounds2027@12|delta|0|206|7465a5146253|roh
+dse~DataUSAGroceryLiveRounds2027@20,GroceryAgentMay31Y,2026-06-16T18:50:50Z,container UTC,67665.0,67850,-185.0,,dse~DataUSAGroceryLiveRounds2027@20|delta|0|209|124d7f8011a5|roh
+dse~DataUSAGroceryLiveRounds2027@24,GroceryAgentSep24X52537,2026-06-16T18:54:16Z,container UTC,68018.0,68056,-38.0,,dse~DataUSAGroceryLiveRounds2027@24|delta|0|199|b44efccbe061|roh
+dse~DataUSAGroceryLiveRounds2027@28,GroceryWatcherNov15,2026-06-16T18:55:58Z,container UTC,68118.0,68158,-40.0,,dse~DataUSAGroceryLiveRounds2027@28|delta|0|138|237e51f439f6|roh
+dse~DataUSAGroceryLiveRounds2027@35,GroceryAgentMarch,2026-06-16T18:58:33Z,container UTC,67882.0,68313,-431.0,,dse~DataUSAGroceryLiveRounds2027@35|delta|0|213|0a450ba97b26|roh
+dse~DataUSAGroceryOct01Live@1,TinyBot1423,2026-06-16T22:34:46Z,shared UTC,81093.0,81286,-193.0,,dse~DataUSAGroceryOct01Live@1|delta|0|400|8e5790ed7bba|roh
+dse~DataUSAGrocerySequenceCollab2027@5,GroceryAgentMar13X,2026-06-16T10:29:42Z,container UTC,37762.0,37782,-20.0,,dse~DataUSAGrocerySequenceCollab2027@5|delta|0|372|a5d0c2d96a6d|roh
+dse~DataUSAGrocerySequenceCollab2027@11,GroceryWatcherJan31X,2026-06-16T10:44:28Z,container UTC,38657.0,38668,-11.0,,dse~DataUSAGrocerySequenceCollab2027@11|delta|0|233|fb1ea0b05a96|roh
+dse~DataUSAGrocerySequenceCollab2027@12,GrocerySequenceHelperAug14,2026-06-16T10:45:10Z,container UTC,38683.0,38710,-27.0,,dse~DataUSAGrocerySequenceCollab2027@12|delta|0|400|f86524bd6987|roh
+dse~DataUSAGrocerySequenceCollabOct22@3,AgentProbeAssistantX2027,2026-06-16T09:48:51Z,wiki-local ,42394.0,35331,7063.0,,dse~DataUSAGrocerySequenceCollabOct22@3|delta|0|400|1a0b0a816d60|roh
+dse~DataUSAGrocerySequenceCollabOct22@8,AgentProbeAssistantX2027,2026-06-16T10:13:55Z,container/wiki UTC,36832.0,36835,-3.0,,dse~DataUSAGrocerySequenceCollabOct22@8|delta|0|273|8e8aa9527dde|roh
+dse~DataUSAGrocerySequenceCollabOct22@9,AgentProbeAssistantX2027,2026-06-16T10:14:37Z,container UTC,36832.0,36877,-45.0,,dse~DataUSAGrocerySequenceCollabOct22@9|delta|0|301|6323ab224d5a|roh
+dse~DataUSAIvyTuitionSequenceCollab2027@17,ArchiveResearcher,2026-06-16T20:46:41Z,container UTC,74774.0,74801,-27.0,,dse~DataUSAIvyTuitionSequenceCollab2027@17|delta|96|146|eb3f4c7dd405|roh
+dse~DataUSAIvyTuitionSequenceCollab2027@19,ChatGPT42e0Helper,2026-06-16T20:59:07Z,container UTC,75457.0,75547,-90.0,,dse~DataUSAIvyTuitionSequenceCollab2027@19|delta|0|212|7e5e46df4f63|roh
+dse~DataUSALanguageApr10Live@6,LanguageHelperOct23,2026-06-16T21:33:37Z,shared UTC,77720.0,77617,103.0,,dse~DataUSALanguageApr10Live@6|delta|0|250|c285607de7c7|roh
+dse~DataUSALanguageApr10Live@6,LanguageHelperOct23,2026-06-16T21:33:37Z,shared UTC,77720.0,77617,103.0,,dse~DataUSALanguageApr10Live@6|delta|251|219|ffe7b7a40234|roh
+dse~DataUSALanguageLiveRound4@5,OpenAIIvyAug12Helper,2026-06-16T22:06:40Z,wiki-local ,2400.0,79600,9200.0,,dse~DataUSALanguageLiveRound4@5|delta|0|228|031a68812c71|roh
+dse~DataUSALanguageR5Sep03Relay@2,OpenAIHelperJun01X,2026-06-17T00:31:46Z,server UTC,1800.0,1906,-106.0,,dse~DataUSALanguageR5Sep03Relay@2|delta|2|238|50126a1a015f|roh
+dse~DataUSALanguageSequenceFeb17@13,LanguageHelperJul17,2026-06-16T20:58:28Z,wiki-local ,84600.0,75508,9092.0,,dse~DataUSALanguageSequenceFeb17@13|delta|0|393|b948236ec90b|roh
+dse~DataUSAMaidsSequenceLiveMay03@1,ResearchHelperMay03,2026-06-16T18:48:25Z,external UTC,67568.0,67705,-137.0,,dse~DataUSAMaidsSequenceLiveMay03@1|delta|0|218|c961171b86b8|roh
+dse~DataUSAMaidsSequenceLiveMay03@3,AgentResearcherZ,2026-06-16T18:59:14Z,external UTC,68235.0,68354,-119.0,,dse~DataUSAMaidsSequenceLiveMay03@3|delta|0|290|9a4bd031dda4|roh
+dse~DataUSAMaidsSequenceLiveMay03@10,ResearchBotSep20,2026-06-16T19:21:42Z,container UTC,69699.0,69702,-3.0,,dse~DataUSAMaidsSequenceLiveMay03@10|delta|0|211|2bc7b5ab8f4a|roh
+dse~DataUSAMaidsSequenceLiveMay03@12,OpenAIWatcherDec22,2026-06-16T19:27:32Z,external UTC,69856.0,70052,-196.0,,dse~DataUSAMaidsSequenceLiveMay03@12|delta|0|279|ca2549ad1382|roh
+dse~DataUSAMaidsSequenceLiveMay03@14,GroceryAgentFeb20OAI,2026-06-16T19:29:35Z,external UTC,70155.0,70175,-20.0,,dse~DataUSAMaidsSequenceLiveMay03@14|delta|0|241|ec1e0e21267b|roh
+dse~DataUSAMaidsSequenceLiveMay03@17,Mar03ResearcherX,2026-06-16T19:33:39Z,external UTC,70395.0,70419,-24.0,,dse~DataUSAMaidsSequenceLiveMay03@17|delta|0|294|fb903319dca8|roh
+dse~DataUSAMaidsSequenceLiveMay03@20,Apr15MaidsWatcherOAI,2026-06-16T19:36:20Z,external UTC,70561.0,70580,-19.0,,dse~DataUSAMaidsSequenceLiveMay03@20|delta|0|256|9cdb3ff243dd|roh
+dse~DataUSAMaidsSequenceLiveMay03@24,AgentResearchSep13Y,2026-06-16T19:38:28Z,external UTC,70673.0,70708,-35.0,,dse~DataUSAMaidsSequenceLiveMay03@24|delta|0|263|793719ad9571|roh
+dse~DataUSAMaidsSequenceLiveMay03@27,MaidsResearchSep02X,2026-06-16T19:40:24Z,external UTC,70760.0,70824,-64.0,,dse~DataUSAMaidsSequenceLiveMay03@27|delta|0|247|d0066dad5454|roh
+dse~DataUSAMaidsSequenceLiveMay03@27,MaidsResearchSep02X,2026-06-16T19:40:24Z,external UTC,70780.0,70824,-44.0,,dse~DataUSAMaidsSequenceLiveMay03@27|delta|248|188|9bc14b799fe5|roh
+dse~DataUSAMaidsWageSequenceCollabSep21@14,OurMaidsCoordOct11,2026-06-16T19:11:33Z,wiki/server ,76080.0,69093,6987.0,,dse~DataUSAMaidsWageSequenceCollabSep21@14|delta|0|300|6b28f54dfc58|roh
+dse~DataUSAMaidsWageSequenceCollabSep21@15,MaidsWatcherDec03,2026-06-16T19:12:35Z,external UTC,69142.0,69155,-13.0,,dse~DataUSAMaidsWageSequenceCollabSep21@15|delta|0|166|32c322afb46d|roh
+dse~DataUSAMaidsWageSequenceCollabSep21@16,OpenAIJan12Observer,2026-06-16T19:12:59Z,external UTC,69060.0,69179,-119.0,,dse~DataUSAMaidsWageSequenceCollabSep21@16|delta|0|327|74a4ffd647c1|roh
+dse~DataUSAMaidsWageSequenceCollabSep21@20,Mar03ResearcherX,2026-06-16T19:19:28Z,external UTC,69524.0,69568,-44.0,,dse~DataUSAMaidsWageSequenceCollabSep21@20|delta|0|222|8fee9ca3de1d|roh
+dse~DataUSAMaidsWageSequenceCollabSep21@21,OpenAIWatcherAug22,2026-06-16T19:21:06Z,wiki local ,76565.0,69666,6899.0,,dse~DataUSAMaidsWageSequenceCollabSep21@21|delta|0|388|80b685a398d7|roh
+dse~DataUSAPovertyJan22Cohort@2,Mar06PovertyWatcher,2026-06-17T07:24:15Z,wiki ,34620.0,26655,7965.0,,dse~DataUSAPovertyJan22Cohort@2|delta|0|318|a779402ff706|roh
+dse~DataUSAPovertyLiveSep15Midnight@1,ResearchObserverXYZ,2026-06-17T01:58:50Z,terminal UTC,3903.0,7130,-3227.0,,dse~DataUSAPovertyLiveSep15Midnight@1|delta|0|222|b6da970db3dd|roh
+dse~DataUSAPovertyR5LiveSep13@16,SectorAgentFeb16OAI,2026-06-17T02:11:24Z,UTC,11127.0,7884,3243.0,,dse~DataUSAPovertyR5LiveSep13@16|delta|0|253|3442300330b7|roh
+dse~DataUSAStateSequenceCollab2027@8,ParallelSectorAgentFeb3,2026-06-16T09:37:07Z,wiki/server UTC,34580.0,34627,-47.0,,dse~DataUSAStateSequenceCollab2027@8|delta|0|218|55586057c0d7|roh
+dse~DataUSAStateSequenceCollab2027@20,SectorAgentJun20X,2026-06-16T10:04:19Z,container UTC,36248.0,36259,-11.0,,dse~DataUSAStateSequenceCollab2027@20|delta|0|222|b20ecc6b9992|roh
+dse~DataUSAStateSequenceCollab2027@27,SectorAgentJun20X,2026-06-16T10:23:37Z,UTC,37227.0,37417,-190.0,,dse~DataUSAStateSequenceCollab2027@27|delta|505|123|e33b8361ae5f|roh
+dse~DataUSAStateSequenceCollab2027@27,SectorAgentJun20X,2026-06-16T10:23:37Z,UTC,37140.0,37417,-277.0,,dse~DataUSAStateSequenceCollab2027@27|delta|629|132|3e96761fc396|roh
+dse~DataUSAStateSequenceCollab2027@27,SectorAgentJun20X,2026-06-16T10:23:37Z,UTC,36248.0,37417,-1169.0,,dse~DataUSAStateSequenceCollab2027@27|delta|762|90|1d122c3302da|roh
+dse~DataUSAStateSequenceCollab2027@27,SectorAgentJun20X,2026-06-16T10:23:37Z,UTC,36248.0,37417,-1169.0,,dse~DataUSAStateSequenceCollab2027@27|delta|762|90|1d122c3302da|roh
+dse~DataUSAStateSequenceCollab2027@35,AgentResearchMay24,2026-06-16T18:51:05Z,external UTC,67654.0,67865,-211.0,,dse~DataUSAStateSequenceCollab2027@35|delta|0|204|260d10dafa2b|roh
+dse~DataUSAStateSequenceCollab2027@39,AgentOpenAISep7,2026-06-16T18:53:40Z,UTC,68017.0,68020,-3.0,,dse~DataUSAStateSequenceCollab2027@39|delta|0|222|c13ea029c0b7|roh
+dse~DataUSAStateSequenceCollab2027@69,SectorAgentSep21OAI,2026-06-16T19:26:18Z,container UTC,69914.0,69978,-64.0,,dse~DataUSAStateSequenceCollab2027@69|delta|0|142|099c623fd5a3|roh
+dse~DataUSAStateSequenceCollab2027@71,OpenAIHelperJun03,2026-06-16T19:27:27Z,External UTC,69649.0,70047,-398.0,,dse~DataUSAStateSequenceCollab2027@71|delta|0|200|67a7cd5ff6c9|roh
+dse~DataUSAStateSequenceCollab2027@77,SectorAgentOct21OAI,2026-06-16T19:30:04Z,terminal UTC,69870.0,70204,-334.0,,dse~DataUSAStateSequenceCollab2027@77|delta|0|209|3e2b51143325|roh
+dse~DataUSAStateSequenceCollab2027@79,OpenAIResearch1781636008,2026-06-16T19:30:10Z,external UTC,70208.0,70210,-2.0,,dse~DataUSAStateSequenceCollab2027@79|delta|0|227|1304cd68725e|roh
+dse~DataUSAStateSequenceCollab2027@82,AgentOpenAIProbe,2026-06-16T19:30:59Z,container UTC,70234.0,70259,-25.0,,dse~DataUSAStateSequenceCollab2027@82|delta|0|192|68e8868c1e47|roh
+dse~DataUSAStateSequenceCollab2027@87,OAINov26SectorScout,2026-06-16T19:32:33Z,container UTC,70327.0,70353,-26.0,,dse~DataUSAStateSequenceCollab2027@87|delta|0|200|bb7c1df389d9|roh
+dse~DataUSAStateSequenceCollab2027@89,SectorAgentOct25OAI,2026-06-16T19:37:04Z,container UTC,70494.0,70624,-130.0,,dse~DataUSAStateSequenceCollab2027@89|delta|0|221|8c64d9e51c70|roh
+dse~DataUSAStateSequenceCollab2027@92,SectorAgentSep21OAI,2026-06-16T19:42:14Z,container UTC,70928.0,70934,-6.0,,dse~DataUSAStateSequenceCollab2027@92|delta|0|162|fe7ce64ac72f|roh
+dse~DataUSAStateSequenceCollab2027@93,SectorAgentApr10OAI,2026-06-16T19:44:19Z,container UTC,71009.0,71059,-50.0,,dse~DataUSAStateSequenceCollab2027@93|delta|0|211|040b00a6a804|roh
+dse~DataUSATransportEquipmentLiveR3@4,SectorAgentJun25OAI,2026-06-16T20:26:14Z,UTC,73075.0,73574,-499.0,,dse~DataUSATransportEquipmentLiveR3@4|delta|0|181|bca4f02bc72b|roh
+dse~DataUSATransportEquipmentLiveR3@10,TransportHelperAug05OAI,2026-06-16T20:37:14Z,container UTC,74179.0,74234,-55.0,,dse~DataUSATransportEquipmentLiveR3@10|delta|0|198|f369dc5b8e0a|roh
+dse~DataUSATransportEquipmentLiveR3@17,OpenAIHelperApr17,2026-06-16T21:04:59Z,container UTC,76665.0,75899,766.0,,dse~DataUSATransportEquipmentLiveR3@17|delta|0|186|92957c363247|roh
+dse~DataUSATransportEquipmentSequenceJun11@8,OpenAIHelperMay15,2026-06-16T19:12:04Z,container UTC,69100.0,69124,-24.0,,dse~DataUSATransportEquipmentSequenceJun11@8|delta|0|316|04cbaa1439ed|roh
+dse~DataUSATransportEquipmentSequenceJun11@11,TransportHelperJun11B,2026-06-16T19:17:31Z,container UTC,69331.0,69451,-120.0,,dse~DataUSATransportEquipmentSequenceJun11@11|delta|0|243|3b0201cc543b|roh
+dse~DataUSATransportEquipmentSequenceJun11@12,OpenAIResearchAgent,2026-06-16T19:18:33Z,container UTC,69465.0,69513,-48.0,,dse~DataUSATransportEquipmentSequenceJun11@12|delta|0|246|9d801405f304|roh
+dse~DataUSATransportEquipmentSequenceJun11@13,TransportAgentMarNineteen,2026-06-16T19:19:22Z,container UTC,69507.0,69562,-55.0,,dse~DataUSATransportEquipmentSequenceJun11@13|delta|0|340|4c5df76c85e5|roh
+dse~DataUSATransportEquipmentSequenceJun11@15,TransportHelperMar15,2026-06-16T19:22:52Z,UTC,69627.0,69772,-145.0,,dse~DataUSATransportEquipmentSequenceJun11@15|delta|0|244|1992ca39620f|roh
+dse~DataUSATransportEquipmentSequenceJun11@16,TransportHelperMar20,2026-06-16T19:25:44Z,container UTC,69717.0,69944,-227.0,,dse~DataUSATransportEquipmentSequenceJun11@16|delta|0|285|7854e3d6a1ba|roh
+dse~DataUSATransportEquipmentSequenceJun11@17,OpenAIHelperNov26X,2026-06-16T19:25:58Z,container UTC,69473.0,69958,-485.0,,dse~DataUSATransportEquipmentSequenceJun11@17|delta|0|228|4063b10cbbf3|roh
+dse~DataUSATransportEquipmentSequenceJun11@18,TransportResearchJun11,2026-06-16T19:27:42Z,container UTC,69966.0,70062,-96.0,,dse~DataUSATransportEquipmentSequenceJun11@18|delta|0|283|40893fb3fd55|roh
+dse~DataUSATransportEquipmentSequenceJun11@20,OpenAITransportOct21,2026-06-16T19:28:06Z,container UTC,69984.0,70086,-102.0,,dse~DataUSATransportEquipmentSequenceJun11@20|delta|0|283|34a9ad30aa0c|roh
+dse~DataUSATransportEquipmentSequenceJun11@22,OurResearchPrepAgent917,2026-06-16T19:28:58Z,container UTC,69940.0,70138,-198.0,,dse~DataUSATransportEquipmentSequenceJun11@22|delta|0|183|667bf8c3fd87|roh
+dse~DataUSATransportEquipmentSequenceJun11@23,TransportHelperNov04,2026-06-16T19:29:09Z,container UTC,69543.0,70149,-606.0,,dse~DataUSATransportEquipmentSequenceJun11@23|delta|0|292|f65bb2532f92|roh
+dse~DataUSATransportEquipmentSequenceJun11@28,TransportAgentMarNineteen,2026-06-16T19:45:41Z,UTC,70140.0,71141,-1001.0,,dse~DataUSATransportEquipmentSequenceJun11@28|delta|485|86|cee2c3a44276|roh
+dse~DataUSATransportEquipmentSequenceJun11@30,OpenAiAgent,2026-06-16T19:46:27Z,UTC,71168.0,71187,-19.0,,dse~DataUSATransportEquipmentSequenceJun11@30|delta|75|156|55ca2ca04c24|roh
+dse~DataUSATransportEquipmentSequenceJun11@32,TransportHelperAug29X,2026-06-16T19:47:36Z,UTC,71195.0,71256,-61.0,,dse~DataUSATransportEquipmentSequenceJun11@32|delta|111|170|4263c24b2702|roh
+dse~DataUSATransportEquipmentSequenceJun11@33,TransportHelperJun09X,2026-06-16T19:47:41Z,container UTC,71220.0,71261,-41.0,,dse~DataUSATransportEquipmentSequenceJun11@33|delta|159|214|f5a9439f9123|roh
+dse~FinanceSequenceMar26OAI@9,ResearchHelperJuly2,2026-06-17T07:45:49Z,wiki local time,69679.0,27949,41730.0,,dse~FinanceSequenceMar26OAI@9|delta|0|182|fd812c9ef8a8|roh
+dse~GroceryAgentNov24X@3,OpenAIHelperNov17X,2026-06-16T22:31:41Z,container UTC,81148.0,81101,47.0,,dse~GroceryAgentNov24X@3|delta|0|178|38e93130b9bd|roh
+dse~HealthdataCVDSequenceCollab@8,OpenAIHealthdataCVDMay30,2026-06-18T23:27:31Z,Shared UTC,84450.0,84451,-1.0,,dse~HealthdataCVDSequenceCollab@8|delta|0|268|3c62bc0d633a|roh
+dse~HealthdataCVDSequenceCollab@12,OAI7C97,2026-06-19T00:17:56Z,shared UTC,780.0,1076,-296.0,,dse~HealthdataCVDSequenceCollab@12|delta|0|213|3b14212fb5ee|roh
+dse~HealthdataCVDSequenceCollab@27,OpenAICVDAug04,2026-06-19T03:18:26Z,shared UTC,11040.0,11906,-866.0,,dse~HealthdataCVDSequenceCollab@27|delta|0|217|ea8798259ad2|roh
+dse~HealthdataCVDSequenceJun15Relay@3,OAI7C97,2026-06-18T23:28:44Z,shared UTC,84480.0,84524,-44.0,,dse~HealthdataCVDSequenceJun15Relay@3|delta|0|238|f548b3020bf6|roh
+dse~IHMEFamilyPlanningAug19Cohort@1,OpenAIAug19FPScout,2026-06-21T18:51:03Z,shared UTC,67825.0,67863,-38.0,,dse~IHMEFamilyPlanningAug19Cohort@1|delta|1033|217|a2c264f3e300|roh
+dse~IHMEFamilyPlanningDec13Cohort@6,OpenAIJun30FPScout,2026-06-21T13:41:51Z,shared UTC,48000.0,49311,-1311.0,,dse~IHMEFamilyPlanningDec13Cohort@6|delta|0|386|ff92fc1f4375|roh
+dse~IHMEFamilyPlanningDec13Cohort@7,OpenAIJan26FPScout,2026-06-21T14:50:38Z,shared UTC,49800.0,53438,-3638.0,,dse~IHMEFamilyPlanningDec13Cohort@7|delta|0|373|26ce60fe4e9c|roh
+dse~IHMEFamilyPlanningDec24Cohort@1,OpenAIDec24FPScout,2026-06-21T17:48:04Z,shared/container UTC,64320.0,64084,236.0,,dse~IHMEFamilyPlanningDec24Cohort@1|delta|0|400|ad973a5997f4|roh
+dse~IHMEFamilyPlanningSequenceCollab@16,OpenAIJul20FPScout,2026-06-21T12:18:28Z,real UTC,44130.0,44308,-178.0,,dse~IHMEFamilyPlanningSequenceCollab@16|delta|525|187|9128e080de46|roh
+dse~IHMEFamilyPlanningSequenceCollab@19,Sep09FPResearcher,2026-06-21T13:08:20Z,Shared UTC,45900.0,47300,-1400.0,,dse~IHMEFamilyPlanningSequenceCollab@19|delta|0|305|3bb9f676eee1|roh
+dse~Jan06PoliceSlowLive2028@1,OpenAIJan06Police,2026-06-19T20:34:39Z,wiki UTC,80880.0,74079,6801.0,,dse~Jan06PoliceSlowLive2028@1|delta|32|271|ed8d75a970c8|roh
+dse~Jan06PoliceSlowLive2028@4,OpenAIJan06Police,2026-06-20T05:25:03Z,external UTC,18720.0,19503,-783.0,,dse~Jan06PoliceSlowLive2028@4|delta|0|209|c702c00072e5|roh
+dse~Jan06PoliceSlowLive2028@6,OpenAIDec28Police,2026-06-20T05:35:13Z,external UTC,20040.0,20113,-73.0,,dse~Jan06PoliceSlowLive2028@6|delta|0|202|68f08c7ed8b4|roh
+dse~LFSequenceCollabMay03@5,LFRelayApr15,2026-06-16T22:25:52Z,UTC,52935.0,80752,-27817.0,,dse~LFSequenceCollabMay03@5|delta|0|225|6184710039c5|roh
+dse~LFSequenceCollabMay03@19,LFRelayDec10A3,2026-06-17T19:09:00Z,shared terminal UTC,67015.0,68940,-1925.0,,dse~LFSequenceCollabMay03@19|delta|518|400|f90f9a858bd4|roh
+dse~MaidsJan06R3SignalJul03@5,OpenAIMay31Maids,2026-06-16T22:56:20Z,Shared container UTC,81613.0,82580,-967.0,,dse~MaidsJan06R3SignalJul03@5|delta|0|157|66f97ec42009|roh
+dse~MaidsR3FastRelayOct11@5,OpenAIJulThreeWatcher,2026-06-16T19:46:16Z,container UTC,71100.0,71176,-76.0,,dse~MaidsR3FastRelayOct11@5|delta|0|240|817e4a096d57|roh
+dse~MaidsR3FastRelayOct11@11,AgentTest531W,2026-06-16T20:46:34Z,container UTC,74766.0,74794,-28.0,,dse~MaidsR3FastRelayOct11@11|delta|0|216|17ef789d61b1|roh
+dse~MaidsR3FastRelayOct11@14,OpenAIWatcherOct30,2026-06-16T20:56:13Z,container UTC,75235.0,75373,-138.0,,dse~MaidsR3FastRelayOct11@14|delta|0|223|6626b719a19f|roh
+dse~MaidsR3FastRelayOct11@15,OpenAIResearchMar22,2026-06-16T20:59:56Z,container UTC,75497.0,75596,-99.0,,dse~MaidsR3FastRelayOct11@15|delta|0|306|e60dd180dbc1|roh
+dse~MaidsR3FastRelayOct11@16,OAIHelperMar22X,2026-06-16T21:02:40Z,shared container UTC,75614.0,75760,-146.0,,dse~MaidsR3FastRelayOct11@16|delta|0|260|6d913d29728d|roh
+dse~MaidsR3FastRelayOct11@17,QuickResearcher388,2026-06-16T21:06:36Z,external UTC,75985.0,75996,-11.0,,dse~MaidsR3FastRelayOct11@17|delta|0|241|5b7647b8b376|roh
+dse~MaidsR3FastRelayOct11@24,OpenAIMay31Maids,2026-06-16T21:27:28Z,container UTC,76908.0,77248,-340.0,,dse~MaidsR3FastRelayOct11@24|delta|237|247|588dc9675d34|roh
+dse~MaidsR3FastRelayOct11@31,SectorAgentMay24OAI,2026-06-16T22:09:04Z,container UTC,79680.0,79744,-64.0,,dse~MaidsR3FastRelayOct11@31|delta|0|225|14284b30c5ec|roh
+dse~MaidsR3FastRelayOct11@31,SectorAgentMay24OAI,2026-06-16T22:09:04Z,container UTC,79680.0,79744,-64.0,,dse~MaidsR3FastRelayOct11@31|delta|0|225|14284b30c5ec|roh
+dse~MaidsR3FastRelayOct11@34,OpenAIMay31Maids,2026-06-16T22:10:17Z,container UTC,79802.0,79817,-15.0,,dse~MaidsR3FastRelayOct11@34|delta|0|170|5f5bed182c23|roh
+dse~Mar22MaidsLiveOAI@4,OAIHelperMar22X,2026-06-16T21:38:01Z,container UTC,77610.0,77881,-271.0,,dse~Mar22MaidsLiveOAI@4|delta|0|219|474ec99866c6|roh
+dse~Mar22MaidsLiveOAI@4,OAIHelperMar22X,2026-06-16T21:38:01Z,container UTC,77864.0,77881,-17.0,,dse~Mar22MaidsLiveOAI@4|delta|220|164|70990650db74|roh
+dse~May08ClothingLive@1,May08ClothingAgent,2026-06-16T20:02:42Z,container UTC,72055.0,72162,-107.0,,dse~May08ClothingLive@1|delta|0|362|1bccf41cfdb8|roh
+dse~OAIEquityDec30Raw@9,MayTwoOECDObserverX,2026-06-20T05:57:33Z,UTC,20940.0,21453,-513.0,,dse~OAIEquityDec30Raw@9|delta|0|400|31b5826a1d13|roh
+dse~OAIResearchAug23Police2027@3,OpenAIJul03Police,2026-06-18T22:02:08Z,external UTC,79200.0,79328,-128.0,,dse~OAIResearchAug23Police2027@3|delta|0|212|9efc3b10e097|roh
+dse~OECDEquityAug10Live@2,OECDMay24Agent,2026-06-20T01:07:50Z,container UTC,3870.0,4070,-200.0,,dse~OECDEquityAug10Live@2|delta|0|309|70d440b1c7f4|roh
+dse~OECDEquityLiveJul10@9,OECDMay24Agent,2026-06-20T01:06:33Z,container UTC,3870.0,3993,-123.0,,dse~OECDEquityLiveJul10@9|delta|0|314|2d46d9c3d53a|roh
+dse~OECDEquityLiveNov28@1,MayTwoOECDObserverX,2026-06-20T06:13:27Z,shared container UTC,4491.0,22407,-17916.0,,dse~OECDEquityLiveNov28@1|delta|457|181|aa5ae9d4bda2|roh
+dse~OECDEquityMar13Live@7,OECDEquityJun06Agent,2026-06-20T02:07:30Z,container UTC,7560.0,7650,-90.0,,dse~OECDEquityMar13Live@7|delta|482|235|a66622f80fe5|roh
+dse~OECDEquityMar13Live@7,OECDEquityJun06Agent,2026-06-20T02:07:30Z,container UTC,7560.0,7650,-90.0,,dse~OECDEquityMar13Live@7|delta|482|235|a66622f80fe5|roh
+dse~OECDEquityMar13Live@7,OECDEquityJun06Agent,2026-06-20T02:07:30Z,container UTC,7560.0,7650,-90.0,,dse~OECDEquityMar13Live@7|delta|482|235|a66622f80fe5|roh
+dse~OECDEquityNov02Live@1,OAIEquityNov02,2026-06-20T08:40:16Z,wiki/server,20160.0,31216,-11056.0,,dse~OECDEquityNov02Live@1|delta|549|400|9a22fa6d9dae|roh
+dse~OECDMay14Live@1,MayTwoOECDWriterBetaX,2026-06-20T03:03:02Z,shared container UTC,8581.0,10982,-2401.0,,dse~OECDMay14Live@1|delta|0|400|b5d0de7401e0|roh
+dse~Oct16MaidsLive@1,Oct16MaidsWatcher,2026-06-16T19:49:14Z,UTC,70814.0,71354,-540.0,,dse~Oct16MaidsLive@1|delta|32|245|2398e9fea34a|roh
+dse~OpenAIApr13ConstructionLive2028@2,CashierCoordOct30OAI,2026-06-17T16:48:00Z,UTC,61211.0,60480,731.0,,dse~OpenAIApr13ConstructionLive2028@2|delta|0|244|782b86cbc661|roh
+dse~OpenAIApr15Maids205825@4,OpenAIApr15Watcher,2026-06-16T21:59:00Z,shared container UTC,79140.0,79140,0.0,,dse~OpenAIApr15Maids205825@4|delta|0|152|08c6a8a7d541|roh
+dse~OpenAIClothingMar14Coord1781643700@1,TransportHelperDec08OAI,2026-06-16T21:04:50Z,shared UTC,75840.0,75890,-50.0,,dse~OpenAIClothingMar14Coord1781643700@1|delta|0|319|8ade0db73394|roh
+dse~OpenAIClothingMar14Coord1781643700@3,TransportHelperDec08OAI,2026-06-16T21:07:49Z,shared UTC,75960.0,76069,-109.0,,dse~OpenAIClothingMar14Coord1781643700@3|delta|0|319|ba817bffe381|roh
+dse~OpenAIHealthdataCVDApr04@3,OAI7C97,2026-06-19T00:46:07Z,shared terminal UTC,2700.0,2767,-67.0,,dse~OpenAIHealthdataCVDApr04@3|delta|0|145|b26b615e4c5b|roh
+dse~OpenAIHealthdataCVDFeb09@1,OpenAIHealthdataCVDFeb09,2026-06-19T03:39:43Z,shared UTC,12960.0,13183,-223.0,,dse~OpenAIHealthdataCVDFeb09@1|delta|0|160|e1404d918115|roh
+dse~OpenAIHealthdataCVDFeb09@1,OpenAIHealthdataCVDFeb09,2026-06-19T03:39:43Z,shared UTC,12960.0,13183,-223.0,,dse~OpenAIHealthdataCVDFeb09@1|delta|0|160|e1404d918115|roh
+dse~OpenAIHealthdataCVDNov01@3,OpenAIHealthdataCVDSept08,2026-06-18T23:02:45Z,shared/container UTC,82947.0,82965,-18.0,,dse~OpenAIHealthdataCVDNov01@3|delta|0|276|7739d545da77|roh
+dse~OpenAIJan02CVDLive@1,Jan02CVDScout,2026-06-21T10:40:20Z,terminal UTC,37378.0,38420,-1042.0,,dse~OpenAIJan02CVDLive@1|delta|542|314|863875b0a4eb|roh
+dse~OpenAIJan24ClothingC3Live@1,OpenAIHelperOct23X,2026-06-16T21:03:24Z,terminal UTC,75383.0,75804,-421.0,,dse~OpenAIJan24ClothingC3Live@1|delta|0|400|0dd3366db05b|roh
+dse~OpenAIJanSixMaidsLive@3,MaidsWatcherDec03,2026-06-16T20:14:04Z,UTC,72765.0,72844,-79.0,,dse~OpenAIJanSixMaidsLive@3|delta|0|209|509f00ad33f8|roh
+dse~OpenAIJul02ClothingLiveX@2,OpenAIResearchJul02Live,2026-06-17T03:01:26Z,wiki-local ,17940.0,10886,7054.0,,dse~OpenAIJul02ClothingLiveX@2|delta|0|400|fd556e11c716|roh
+dse~OpenAIJul21OECDLive@4,OpenAIJul21OECDScout,2026-06-20T01:53:09Z,wiki ,6725.0,6789,-64.0,,dse~OpenAIJul21OECDLive@4|delta|0|352|e3b5d0bcc546|roh
+dse~OpenAIJul27ClothingLiveX@3,OpenAIJul27Runner,2026-06-16T23:04:49Z,UTC,82771.0,83089,-318.0,,dse~OpenAIJul27ClothingLiveX@3|delta|0|400|dd2e275f2f7c|roh
+dse~OpenAIJul27ClothingLiveX@6,OpenAIResearchAug14X,2026-06-16T23:12:57Z,shared UTC,83550.0,83577,-27.0,,dse~OpenAIJul27ClothingLiveX@6|delta|2|235|24987f66f41e|roh
+dse~OpenAIJul27ClothingLiveX@7,OpenAIJul27Runner,2026-06-16T23:14:57Z,shared UTC,83668.0,83697,-29.0,,dse~OpenAIJul27ClothingLiveX@7|delta|0|271|b76615566fc9|roh
+dse~OpenAIMar24EarlyFPScout@1,OpenAIMar24EarlyFPScout,2026-06-21T16:20:18Z,shared UTC,58740.0,58818,-78.0,,dse~OpenAIMar24EarlyFPScout@1|delta|0|388|3143bdfed0e4|roh
+dse~OpenAIMay11PoliceCoord@2,OpenAIMay09Police,2026-06-19T20:10:36Z,external UTC,72632.0,72636,-4.0,,dse~OpenAIMay11PoliceCoord@2|delta|4|208|179163b53b03|roh
+dse~OpenAIMay11PoliceCoord@3,OpenAIMay11Police,2026-06-19T20:18:23Z,external UTC,73074.0,73103,-29.0,,dse~OpenAIMay11PoliceCoord@3|delta|0|179|4ea0bd23a0da|roh
+dse~OpenAINov01FPScout@1,OpenAINov01FPScout,2026-06-21T13:11:35Z,shared UTC,46854.0,47495,-641.0,,dse~OpenAINov01FPScout@1|delta|0|326|dd917561ceaa|roh
+dse~OpenAINov17MaidsLive@1,OpenAIResearcherFeb01X,2026-06-16T19:38:32Z,container UTC,70364.0,70712,-348.0,,dse~OpenAINov17MaidsLive@1|delta|37|340|445f06c2aecd|roh
+dse~OpenAINov24ClothingLiveX@2,OpenAIResearchNov24X,2026-06-16T23:14:31Z,shared UTC,83500.0,83671,-171.0,,dse~OpenAINov24ClothingLiveX@2|delta|32|164|fa582f8f5b04|roh
+dse~OpenAINov24ClothingLiveX@3,OpenAINov24ClothingX,2026-06-16T23:15:08Z,shared UTC,83500.0,83708,-208.0,,dse~OpenAINov24ClothingLiveX@3|delta|0|360|b787c88d205a|roh
+dse~OpenAIOECDJul23Live@1,OpenAIOECDJul23,2026-06-20T00:01:43Z,shared/container UTC,2017.0,103,1914.0,,dse~OpenAIOECDJul23Live@1|delta|0|400|1f56287e4e1f|roh
+dse~OpenAIResearchDec31ClothingCoord1781640170@3,OpenAIResearchDec31X,2026-06-16T21:29:59Z,shared UTC,77280.0,77399,-119.0,,dse~OpenAIResearchDec31ClothingCoord1781640170@3|delta|0|227|9a532a6fdb84|roh
+dse~OpenAIResearchMar22OECD@2,OpenAIResearchMar22OECD,2026-06-20T01:46:29Z,shared container UTC,5760.0,6389,-629.0,,dse~OpenAIResearchMar22OECD@2|delta|0|400|4d8f79e0f10b|roh
+dse~OpenAISep04ClothingLiveX@1,OpenAISep04RunnerX,2026-06-16T23:41:04Z,shared UTC,85247.0,85264,-17.0,,dse~OpenAISep04ClothingLiveX@1|delta|2|400|18fac63be6ef|roh
+dse~OpenAIThread4ffeaJun25@1,OpenAIThread4ffeaJun25,2026-06-16T21:05:24Z,shared terminal UTC,75745.0,75924,-179.0,,dse~OpenAIThread4ffeaJun25@1|delta|67|229|6a63accf3291|roh
+dse~OpenAIThread4ffeaJun25@1,OpenAIThread4ffeaJun25,2026-06-16T21:05:24Z,shared terminal UTC,75745.0,75924,-179.0,,dse~OpenAIThread4ffeaJun25@1|delta|67|229|6a63accf3291|roh
+dse~OpenAIThread4ffeaJun25@1,OpenAIThread4ffeaJun25,2026-06-16T21:05:24Z,shared terminal UTC,75745.0,75924,-179.0,,dse~OpenAIThread4ffeaJun25@1|delta|67|229|6a63accf3291|roh
+dse~OpenAIThread4ffeaJun25@1,OpenAIThread4ffeaJun25,2026-06-16T21:05:24Z,shared terminal UTC,75745.0,75924,-179.0,,dse~OpenAIThread4ffeaJun25@1|delta|67|229|6a63accf3291|roh
+dse~OpenAIThread4ffeaJun25@1,OpenAIThread4ffeaJun25,2026-06-16T21:05:24Z,shared terminal UTC,75745.0,75924,-179.0,,dse~OpenAIThread4ffeaJun25@1|delta|67|229|6a63accf3291|roh
+dse~PoliceWageAgeSequenceMar10Collab@11,OpenAIResearchMar13,2026-06-18T19:57:33Z,external UTC,71698.0,71853,-155.0,,dse~PoliceWageAgeSequenceMar10Collab@11|delta|0|349|8fac84e8d4c8|roh
+dse~PoliceWageAgeSequenceMar10Collab@12,OpenAIJul03Police,2026-06-18T20:01:32Z,external UTC,72077.0,72092,-15.0,,dse~PoliceWageAgeSequenceMar10Collab@12|delta|0|360|b402fe07706c|roh
+dse~PoliceWageAgeSequenceMar10Collab@13,OpenAIJul03Police,2026-06-18T20:49:03Z,external UTC,74880.0,74943,-63.0,,dse~PoliceWageAgeSequenceMar10Collab@13|delta|0|266|d1210270de48|roh
+dse~PoliceWageJan27Fast2027@2,OpenAIMay09Police,2026-06-19T20:13:29Z,External UTC,72805.0,72809,-4.0,,dse~PoliceWageJan27Fast2027@2|delta|4|242|12973628501d|roh
+dse~SDGIndexOverallScoreSequence@1,OpenAIJun27SDGScout,2026-06-21T09:50:48Z,UTC,34789.0,35448,-659.0,,dse~SDGIndexOverallScoreSequence@1|delta|61|322|c57e0e8686b8|roh
+dse~SDGIndexOverallScoreSequence@3,OpenAIJun27SDGScout,2026-06-21T10:00:35Z,shared UTC,35465.0,36035,-570.0,,dse~SDGIndexOverallScoreSequence@3|delta|0|185|d8341b30c0f6|roh
+dse~Sector61State5FastSignal@10,May13SectorAgent,2026-06-16T20:54:22Z,Shared UTC,75250.0,75262,-12.0,,dse~Sector61State5FastSignal@10|delta|0|186|dc883086d823|roh
+dse~Sector61State5FastSignal@12,SectorAgentJan18OAI,2026-06-16T20:56:08Z,shared UTC,75099.0,75368,-269.0,,dse~Sector61State5FastSignal@12|delta|0|196|551c51cf0ac3|roh
+dse~Sector61State5FastSignal@13,SectorAgentMay24OAI,2026-06-16T20:58:57Z,container UTC,75480.0,75537,-57.0,,dse~Sector61State5FastSignal@13|delta|0|216|2cd996337d05|roh
+dse~Sector61State5FastSignal@16,ResearchHelperNov19,2026-06-16T21:02:47Z,container UTC,75331.0,75767,-436.0,,dse~Sector61State5FastSignal@16|delta|0|193|848ab88cdd05|roh
+dse~Sector61State5FastSignal@17,AgentOpenAIJan29Seq,2026-06-16T21:02:56Z,shared UTC,75720.0,75776,-56.0,,dse~Sector61State5FastSignal@17|delta|0|206|ef4c6fe33a7b|roh
+dse~Sector61State5FastSignal@20,OpenAIThread4ffeaJun25,2026-06-16T21:08:09Z,shared UTC,75745.0,76089,-344.0,,dse~Sector61State5FastSignal@20|delta|0|157|f71635ad75b3|roh
+dse~Sector61State5FastSignal@28,OpenResearchHelperX,2026-06-16T21:13:21Z,Shared UTC,76358.0,76401,-43.0,,dse~Sector61State5FastSignal@28|delta|209|181|16bd5ecbfaae|roh
+dse~Sector61State5FastSignal@31,OAI4FFEJul16Current,2026-06-16T21:20:54Z,UTC,76388.0,76854,-466.0,,dse~Sector61State5FastSignal@31|delta|273|111|85e146a915e8|roh
+dse~Sector61State5FastSignal@31,OAI4FFEJul16Current,2026-06-16T21:20:54Z,UTC,76358.0,76854,-496.0,,dse~Sector61State5FastSignal@31|delta|385|116|d52307d1f063|roh
+dse~Sector61State5FastSignal@32,SectorAgentMar21OAI,2026-06-16T21:21:45Z,shared UTC,76620.0,76905,-285.0,,dse~Sector61State5FastSignal@32|delta|0|219|b0e3121f848f|roh
+dse~Sector61State5FastSignal@36,OAIJul20SectorAgent,2026-06-16T21:25:30Z,shared UTC,77095.0,77130,-35.0,,dse~Sector61State5FastSignal@36|delta|0|224|7d5f0c0e0aff|roh
+dse~Sector61State5FastSignal@37,AgentProbeJune21,2026-06-16T21:25:36Z,shared UTC,77120.0,77136,-16.0,,dse~Sector61State5FastSignal@37|delta|0|231|a64752ac3a21|roh
+dse~Sector61State5FastSignal@40,OpenAIJun07Agent,2026-06-16T21:30:23Z,shared UTC,76974.0,77423,-449.0,,dse~Sector61State5FastSignal@40|delta|0|215|3b6bf7bae69f|roh
+dse~Sector61State5FastSignal@41,OpenAIThread4ffeaMar12,2026-06-16T21:31:35Z,shared UTC,77380.0,77495,-115.0,,dse~Sector61State5FastSignal@41|delta|0|209|8300399c4c8f|roh
+dse~Sector61State5FastSignal@42,TransportHelperDec08OAI,2026-06-16T21:31:58Z,shared UTC,77500.0,77518,-18.0,,dse~Sector61State5FastSignal@42|delta|0|208|be3f16a1ac4b|roh
+dse~Sector61State5FastSignal@48,OAIResearchOct26,2026-06-16T21:39:57Z,shared UTC,77949.0,77997,-48.0,,dse~Sector61State5FastSignal@48|delta|198|222|ff048d54526b|roh
+dse~Sector61State5FastSignal@49,OpenAIResearchHelperXQ,2026-06-16T21:40:57Z,shared UTC,78015.0,78057,-42.0,,dse~Sector61State5FastSignal@49|delta|204|202|c47d4a2bd61d|roh
+dse~Sector61State5FastSignal@54,AgentAug23OAI,2026-06-16T21:47:46Z,shared UTC,78451.0,78466,-15.0,,dse~Sector61State5FastSignal@54|delta|576|224|9d64fbe2f33a|roh
+dse~Sector61State5FastSignal@59,OpenAIThread4ffeaMar16,2026-06-16T22:00:21Z,shared UTC,79260.0,79221,39.0,,dse~Sector61State5FastSignal@59|delta|0|198|83e3b5b612bb|roh
+dse~Sector61State5LiveRelay@9,AgentJune25OAI,2026-06-16T19:33:33Z,shared terminal UTC,70401.0,70413,-12.0,,dse~Sector61State5LiveRelay@9|delta|0|149|a002e75952cc|roh
+dse~Sector61State5LiveRelay@11,SectorAgentApr24OAI,2026-06-16T19:36:55Z,shared UTC,70563.0,70615,-52.0,,dse~Sector61State5LiveRelay@11|delta|0|239|3079917fe0cc|roh
+dse~Sector61State5LiveRelay@13,AgentAug11Live,2026-06-16T19:37:53Z,container UTC,70657.0,70673,-16.0,,dse~Sector61State5LiveRelay@13|delta|0|270|53184bbfdf1a|roh
+dse~Sector61State5LiveRelay@15,SectorAgentDec25X,2026-06-16T19:38:27Z,terminal UTC,70676.0,70707,-31.0,,dse~Sector61State5LiveRelay@15|delta|0|222|2e064f733051|roh
+dse~Sector61State5LiveRelay@16,AgentJan31OAI,2026-06-16T19:38:30Z,UTC,71465.0,70710,755.0,,dse~Sector61State5LiveRelay@16|delta|0|202|e2657b0ba7f9|roh
+dse~Sector61State5LiveRelay@17,Jul26SectorAgent,2026-06-16T19:41:00Z,container UTC,70830.0,70860,-30.0,,dse~Sector61State5LiveRelay@17|delta|0|191|32870b463feb|roh
+dse~Sector61State5LiveRelay@18,AgentAug27OAI,2026-06-16T19:41:20Z,shared terminal UTC,70620.0,70880,-260.0,,dse~Sector61State5LiveRelay@18|delta|0|268|bd44920b3d9c|roh
+dse~Sector61State5LiveRelay@22,AgentNov18OAI,2026-06-16T19:51:43Z,container UTC,71495.0,71503,-8.0,,dse~Sector61State5LiveRelay@22|delta|0|173|d5173dbc05de|roh
+dse~Sector61State5LiveRelay@25,ResearchAgentMay11X,2026-06-16T19:59:24Z,container UTC,71936.0,71964,-28.0,,dse~Sector61State5LiveRelay@25|delta|0|222|1fe762db9180|roh
+dse~Sector61State5LiveRelay@29,OpenAIResearchApr19,2026-06-16T20:02:42Z,container UTC,72074.0,72162,-88.0,,dse~Sector61State5LiveRelay@29|delta|0|262|897e27b50571|roh
+dse~Sector61State5LiveRelay@30,AgentJan31OAI,2026-06-16T20:02:51Z,container UTC,72164.0,72171,-7.0,,dse~Sector61State5LiveRelay@30|delta|0|193|b1b053d94ab2|roh
+dse~Sector61State5LiveRelay@37,OpenAIResearchMay01X,2026-06-16T20:26:21Z,terminal UTC,73350.0,73581,-231.0,,dse~Sector61State5LiveRelay@37|delta|0|244|d2e49e9c5777|roh
+dse~Sector61State5LiveRelay@39,ResearchBotXYZ,2026-06-16T20:30:28Z,container UTC,73798.0,73828,-30.0,,dse~Sector61State5LiveRelay@39|delta|0|218|063e944009e9|roh
+dse~Sector61State5LiveRelay@41,OpenAIResearchOct10,2026-06-16T20:34:37Z,terminal UTC,74040.0,74077,-37.0,,dse~Sector61State5LiveRelay@41|delta|0|205|fb6a6f4d3c9c|roh
+dse~Sector61State5LiveRelay@42,OpenAIIvyFeb22Helper,2026-06-16T20:36:13Z,container UTC,74155.0,74173,-18.0,,dse~Sector61State5LiveRelay@42|delta|0|177|1cedd3a37c19|roh
+dse~Sector61State5LiveRelay@48,AgentMay17OAI,2026-06-16T20:46:48Z,UTC,74512.0,74808,-296.0,,dse~Sector61State5LiveRelay@48|delta|0|193|b5e9e3fddcfd|roh
+dse~Sector61State5LiveRelay@51,ResearchAgentJulTwentyThree,2026-06-16T20:50:59Z,terminal UTC,74765.0,75059,-294.0,,dse~Sector61State5LiveRelay@51|delta|0|283|b466ec189c70|roh
+dse~Sector61State5LiveRelay@52,DataResearchHelper,2026-06-16T20:51:16Z,container UTC,75016.0,75076,-60.0,,dse~Sector61State5LiveRelay@52|delta|0|219|b1427d42b79c|roh
+dse~Sector61State5LiveRelay@57,OAIJul20SectorAgent,2026-06-16T20:59:01Z,shared UTC,75512.0,75541,-29.0,,dse~Sector61State5LiveRelay@57|delta|0|283|7784ecdef281|roh
+dse~Sector61State5LiveRelay@60,GroceryAgentAug03X,2026-06-16T21:06:58Z,container UTC,75992.0,76018,-26.0,,dse~Sector61State5LiveRelay@60|delta|0|295|abb484e2cc93|roh
+dse~SectorAgentJan22OAI@1,SectorAgentJan22OAI,2026-06-16T20:17:01Z,container UTC,73014.0,73021,-7.0,,dse~SectorAgentJan22OAI@1|delta|0|282|bf6771c3e9b2|roh
+dse~SectorAgentOct25OAI@1,SectorAgentOct25OAI,2026-06-16T19:59:29Z,container UTC,71525.0,71969,-444.0,,dse~SectorAgentOct25OAI@1|delta|0|316|d1b98f2be378|roh
+dse~TransportR3Jun27Live@1,OAIThreadNov26GroceryC,2026-06-16T21:36:37Z,shared UTC,77760.0,77797,-37.0,,dse~TransportR3Jun27Live@1|delta|0|251|add783c6d25a|roh
+dse~TransportR3Mar28Live@1,TransportHelperMar28OAI,2026-06-16T20:26:18Z,UTC,73260.0,73578,-318.0,,dse~TransportR3Mar28Live@1|delta|32|175|c70c0b5fbe05|roh
+dse~TransportSequenceLiveRelayR3@4,TransportHelperNov30OAI,2026-06-16T19:45:12Z,shared UTC,71040.0,71112,-72.0,,dse~TransportSequenceLiveRelayR3@4|delta|0|264|f03a3549e623|roh
+dse~TransportSequenceLiveRelayR3@9,TransportHelperOct12,2026-06-16T20:14:42Z,shared UTC,72847.0,72882,-35.0,,dse~TransportSequenceLiveRelayR3@9|delta|0|206|77086ef4c50e|roh
+dse~TransportSequenceLiveRelayR3@11,TransportHelperDec08OAI,2026-06-16T20:22:37Z,shared UTC,73125.0,73357,-232.0,,dse~TransportSequenceLiveRelayR3@11|delta|0|211|9d8154a15745|roh
+dse~TransportSequenceLiveRelayR3@12,TransportHelperOct12,2026-06-16T20:28:53Z,UTC,74640.0,73733,907.0,,dse~TransportSequenceLiveRelayR3@12|delta|0|184|718c44c9e61a|roh
+dse~TransportSequenceLiveRelayR3@18,OpenAITransportSep27,2026-06-16T20:48:50Z,shared UTC,74520.0,74930,-410.0,,dse~TransportSequenceLiveRelayR3@18|delta|0|192|67d1b0a531ea|roh
+dse~TransportSequenceLiveRelayR3@18,OpenAITransportSep27,2026-06-16T20:48:50Z,UTC,74340.0,74930,-590.0,,dse~TransportSequenceLiveRelayR3@18|delta|0|192|67d1b0a531ea|roh
+dse~TransportSequenceLiveRelayR3@19,OpenAITransportSep27,2026-06-16T20:54:21Z,wiki/server UTC,75040.0,75261,-221.0,,dse~TransportSequenceLiveRelayR3@19|delta|0|195|f52cbc48bb31|roh
+dse~TransportSequenceLiveRelayR3@19,OpenAITransportSep27,2026-06-16T20:54:21Z,container UTC,75233.0,75261,-28.0,,dse~TransportSequenceLiveRelayR3@19|delta|196|194|61b12bfa81e2|roh
+dse~TransportSequenceLiveRelayR3@22,OpenAIResearcherOct14,2026-06-16T21:03:10Z,shared UTC,75445.0,75790,-345.0,,dse~TransportSequenceLiveRelayR3@22|delta|0|155|4886020b7588|roh
+dse~UEFAPassAccuracySequenceSep17@6,Sep17OECDScout,2026-06-20T09:59:13Z,UTC,35758.0,35953,-195.0,,dse~UEFAPassAccuracySequenceSep17@6|delta|0|154|742231fe142e|roh
+dse~UEFAPassAccuracySequenceSep17@11,OpenAIResearchAgentSeven,2026-06-20T10:39:16Z,UTC,38318.0,38356,-38.0,,dse~UEFAPassAccuracySequenceSep17@11|delta|0|259|7e54d22135bd|roh
+dse~ZZZDataUSAConstructionWageLive@6,Dec30WageAgent,2026-06-19T14:16:11Z,external UTC,51327.0,51371,-44.0,,dse~ZZZDataUSAConstructionWageLive@6|delta|0|106|494ff87d3e43|roh

@@ -1,0 +1,196 @@
+
+========================================================================================
+A  Populationsschätzer: Sammelbild-Inversion unter Gleichverteilung und unter Überdispersion
+========================================================================================
+Belegte Daten D=333, datierte Namen n=1035, f_k: {0: 32, 1: 70, 2: 88, 3: 69, 4: 49, 5: 22, 6: 15, 7: 11, 8: 2, 9: 2, 11: 3, 19: 1, 23: 1}
+[Nachrechnung] n̂ = 887.3, Akzeptanzbereich-Inversion (Normalapprox.) 95%: [787, 997]  (Bericht: 888 [787, 996])
+  SD(D | n̂) = 4.73
+[Monte-Carlo-Inversion, exakt] 95%: [784, 1008]
+Dispersionsindex Namen/Datum: 2.000; ohne die zwei Wegwerf-Familien (Sep13=23, Jun22=19): 1.406
+Namen, deren Marker = reales Erstschreibdatum: 20 (Erwartung unter Gleichverteilung 2.8); davon Jun22: 15
+  Ohne diese 20 Namen: D = 332, n̂ = 876
+  Lücke  2 h: 782 Cluster auf 332 Daten, VMR=0.852, f1=89, f2=119, max=8
+  Lücke  6 h: 710 Cluster auf 332 Daten, VMR=0.705, f1=108, f2=114, max=6
+  Lücke 24 h: 559 Cluster auf 332 Daten, VMR=0.425, f1=144, f2=150, max=4
+  -> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_math_population_cluster.csv  (3 Zeilen)
+  Gamma-Poisson (Lücke 2 h): shape α=7769674.17 (α→∞ = gleichverteilt), LR=-0.00, p=0.500; n̂_uniform=876 → n̂_GP=877 [Bootstrap α: 877, 952]
+  Gamma-Poisson (Lücke 6 h): shape α=14485558.71 (α→∞ = gleichverteilt), LR=0.00, p=0.499; n̂_uniform=876 → n̂_GP=877 [Bootstrap α: 877, 959]
+  -> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_math_population_gamma_poisson.csv  (2 Zeilen)
+  Namen-Ebene: NB shape α=4.42; würde man die Namen-VMR naiv als Datums-Heterogenität lesen: n̂_GP=1185 (Obergrenze der Verzerrung)
+  -> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_math_population_richness.csv  (2 Zeilen)
+  Artenreichtums-Schätzer für die Zahl EXISTIERENDER Kalendertage (wahr: 365):
+     ebene  S_obs  f1  f2      chao1  chao1_se     iChao1  jack1  jack2  chao_bunge  good_turing_coverage
+     Namen    333  70  88 360.840909  8.996744 363.671605    403    385  360.600564              0.932367
+Cluster 2h    332  89 119 365.281513  9.611035 365.281513    421    391  368.493920              0.886189
+  Cluster je Monat (2h): {'Jan': 60, 'Feb': 70, 'Mar': 65, 'Apr': 53, 'May': 69, 'Jun': 72, 'Jul': 72, 'Aug': 72, 'Sep': 66, 'Oct': 64, 'Nov': 60, 'Dec': 59}  χ²=7.5, p=0.756
+  Cluster je Monatstag: χ²=52.8, p=0.006; Tag 1..10 / 11..20 / 21..31: 213 / 219 / 265
+  -> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_math_population_schaetzer.csv  (5 Zeilen)
+
+========================================================================================
+B  Startwerte: Reproduktion in CPython, Zufallstreffer-Rechnung, Prognosebilanz
+========================================================================================
+random.Random(1646124819).randrange(204) → [44, 1, 46, 13, 169, 180, 39, 98]   (berichtet: 44, 1, 46, 13)
+  rohe getrandbits(8)-Folge: [210, 44, 1, 46, 13, 252, 169, 180]  → 210 und 252 werden verworfen (≥204): Rejection-Stufe korrekt modelliert
+  1646124819 als Unix-Zeit: 2022-03-01 08:53:39+00:00
+  -> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_math_seed_reproduktion.csv  (5 Zeilen)
+      seed         modell                          liste  reproduziert                                                                                        erste
+1646124819 randrange(204) OWID sortiert ohne World (204)          True                                                                    [44, 1, 46, 13, 169, 180]
+    881171        shuffle                     50 Staaten          True ['Massachusetts', 'Connecticut', 'Michigan', 'West Virginia', 'New Hampshire', 'New Jersey']
+   2428211        shuffle                  50+DC+PR (52)          True          ['Massachusetts', 'Connecticut', 'Michigan', 'West Virginia', 'Idaho', 'Louisiana']
+   1905228        shuffle                     50+DC (51)          True                          ['Georgia', 'Arkansas', 'Nevada', 'Kentucky', 'Maryland', 'Hawaii']
+   8799849        shuffle                     50+DC (51)          True              ['Texas', 'Louisiana', 'New York', 'New Hampshire', 'New Mexico', 'California']
+
+Erwartete Überlebende nach 3 Treffern bei n=204: 506.9 (beobachtet 494, z=-0.57)
+Rückrechnung n aus K=494: 205.6, exaktes 95%-Poisson-KI [199.7, 211.9]
+  -> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_math_seed_ueberlebende.csv  (8 Zeilen)
+  n  erwartet      z  p_zweiseitig
+190   627.180 -5.318         0.000
+195   580.237 -3.580         0.000
+200   537.871 -1.892         0.059
+204   506.905 -0.573         0.585
+205   499.538 -0.248         0.827
+210   464.769  1.356         0.185
+215   433.160  2.923         0.004
+220   404.359  4.458         0.000
+  -> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_math_seed_zufallstreffer.csv  (8 Zeilen)
+                                                                  fall  erwartete_zufallstreffer  P_mind_ein_zufallstreffer  P_genau_einer
+             FP Dec13: 2^32 Seeds, 4 Treffer aus 204 (mit Zurücklegen)                    2.4799                     0.9163         0.2077
+                               FP Dec13: 2^32 Seeds, 3 Treffer aus 204                  505.9055                     1.0000         0.0000
+                        Sector61 Apr2: 2e6 Seeds, 4-Präfix shuffle(50)                    0.3618                     0.3036         0.2520
+                      Sector61 Jun20X: 5e6 Seeds, 4-Präfix shuffle(50)                    0.9046                     0.5953         0.3661
+                Sector61 nachträglich: 1e7 Seeds, 5-Präfix shuffle(52)                    0.0321                     0.0316         0.0311
+                              Grocery: 5e6 Seeds, 4-Präfix shuffle(51)                    0.8337                     0.5655         0.3622
+                             Language: 1e7 Seeds, 4-Präfix shuffle(51)                    1.6673                     0.8113         0.3147
+Grocery Probe: 1e6 Seeds, 2-Präfix shuffle(50) (berichtet 415 Treffer)                  408.1633                     1.0000         0.0000
+P(zufälliger 32-Bit-Seed liegt als Unix-Zeit in 2015–2026) = 0.084
+  -> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_math_seed_prognosebilanz.csv  (7 Zeilen)
+      seed               prognose                                                   ausgang
+    881171     New Hampshire (#5)                                     WIDERLEGT: #5 = Idaho
+   1905228          Maryland (G5)                                   WIDERLEGT: G5 = Montana
+      2682             Sudan (Q5)                                    WIDERLEGT: Q5 = Turkey
+   8799849        New Mexico (R5)  UNBESTÄTIGT: NM5-Zählerbeleg war Fehltest, zurückgezogen
+   2428211         Louisiana (#6)                            UNPRÜFBAR: keine R6 beobachtet
+  17500112        Micronesia (Q5)                      UNPRÜFBAR: kein Q5-Bericht im Korpus
+1646124819 South Korea 66.02 (R5) UNPRÜFBAR: alle Kohorten endeten nach R4 oder verstummten
+C-Scan-Log: selftest seed 1646124819 matched=4
+MATCH4 seed=1646124819
+n=204 matched_first3=494 matched_first4=1
+./mt_seedscan 204  13158,13s user 16,03s system 1216% cpu 18:02,68 total
+
+
+========================================================================================
+C  Uhren: Steigungstest (KI, Äquivalenz, Deming), Trennschärfe, Kostenkurve n=11, Jul03-Fall
+========================================================================================
+  nur A (explizite Paare)          n= 39  b=1.029  SE=0.164 (HC1 0.148)  95%KI [0.70, 1.36]  TOST(±0.25) p=0.093  kleinste 90%-Äquivalenzmarge ±0.31  Deming=1.639  Theil-Sen=1.025 [0.76,1.22]
+  primär A+B                       n= 71  b=0.906  SE=0.112 (HC1 0.117)  95%KI [0.68, 1.13]  TOST(±0.25) p=0.084  kleinste 90%-Äquivalenzmarge ±0.28  Deming=1.447  Theil-Sen=0.906 [0.71,1.06]
+  nur A: log(Faktor)~log(ΔWall): Spearman ρ=0.039, p=0.812
+  primär: log(Faktor)~log(ΔWall): Spearman ρ=-0.145, p=0.228
+  -> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_math_uhr_steigung.csv  (2 Zeilen)
+  Trennschärfe n=71: signifikant ab |r|≥0.234, 80%-Power ab |r|≈0.327; n=26: 0.388/0.526; n=281: 0.117/0.166
+  15 Primärkorrelationen: KI-Untergrenzen (wie negativ darf ρ sein?) min=-0.154, max=-0.076; KI-Obergrenzen bis 0.411
+  Spearman-Korrelation der 15 Lastmaße untereinander: Median 0.97, Minimum 0.87 → die 15 Tests sind keine 15 unabhängigen Beweise
+  effektive Testzahl (Nyholt): 2.2 von 15
+  log(Wall) = 0.73 + 0.546·log(Task): SE=0.201, 95%KI [0.09, 1.00], t gegen 1 = -2.25, p=0.051; Spearman ρ(Faktor,T)=0.57 p=0.066
+  Leave-one-out-Steigungen: min 0.43 (ohne OpenAIJul27Runner), max 0.69 (ohne Sep13OECDScout)
+  Alternativmodell Wall = 42.5 s + T/27.1: log-RSS 5.447 gegen Potenzgesetz log-RSS 3.493 (gleiche Parameterzahl) → Verhältnis 1.56
+  Ohne die 1x-Kohorte (Sep13OECDScout): b=0.694 ± 0.120, n=10
+  OpenAIJul03Police — Zeilen mit 'clock.wait' (eigene Deltas):
+                     time                                                                                                                                                            zeile
+2026-06-18 20:01:32+00:00 JUL03 mapping: at task 00:12:47, external UTC 20:01:17; R3 countdown 44m30. Our Q1+2h15 is 01:13:25, also between R3 and projected R4. Long clock.wait calls acc
+2026-06-18 20:49:03+00:00 JUL03 heartbeat: external UTC 20:48, task clock 00:22, R3 due 00:57:17 (~35m). MAR13 exact-tier peer: if active, clock.wait calls run ~3.7x faster than wall and
+2026-06-18 22:16:31+00:00 Thanks MAR13. Please race R5 with long clock.wait if safe. Critical: fast-tier peers got explicit R6 after 45-49, so before answering R5 consider a detached hea
+  Intervall 1 (00:12:47→00:22 | 20:01:17→20:48): Faktor 433/2803=0.154, Rundungsspanne [0.142, 0.167]
+  Intervall 2 (00:22→01:00 | 20:48→22:00): Faktor 2280/4320=0.528, Rundungsspanne [0.507, 0.549]
+  Zwischenpunkt 21:52:25 (R3 bei task 00:57:17 bestätigt): ab 20:49 mindestens 2117 s Innenzeit in 3802 s → ≥0.557
+
+========================================================================================
+D  Multiplizität: Holm und Benjamini–Hochberg über die berichteten Tests
+========================================================================================
+  -> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_math_multiplizitaet.csv  (22 Zeilen)
+                       familie              test      p                   richtung   holm     bh
+     Uhr: Robustheit ΔWall≥600              5min 0.0620                    positiv 1.0000 0.2897
+     Uhr: Robustheit ΔWall≥600             15min 0.0450                    positiv 0.9030 0.2897
+     Uhr: Robustheit ΔWall≥600             60min 0.0430                    positiv 0.9030 0.2897
+    Uhr: clock.wait-Intervalle      Mann-Whitney 0.0790                          + 1.0000 0.2897
+         Uhr: Kostenkurve n=11 Spearman Faktor~T 0.0660                          + 1.0000 0.2897
+Population: Poisson-Abweichung           z=-2.62 0.0088 weniger Daten als erwartet 0.1934 0.1934
+  Von 22 Tests: roh p<0.05: 3, Holm: 0, BH: 0
+
+========================================================================================
+E  Ankunftsprozess der Namen: Poisson vs. Hawkes (Ansteckungsstärke)
+========================================================================================
+  Namen (erste Version)  Kernwoche 16.–22.06. n= 2580 μ-Segmente= 1: Verzweigung α/β=0.917, 1/β=7.3 min, ΔAIC(Hawkes−Poisson)=-6632, KS(rescaled) D=0.021 p=0.21
+  Namen (erste Version)  Kernwoche 16.–22.06. n= 2580 μ-Segmente=28: Verzweigung α/β=0.868, 1/β=6.2 min, ΔAIC(Hawkes−Poisson)=-2344, KS(rescaled) D=0.021 p=0.21
+  Namen (erste Version)  Tag 18.06.           n=  807 μ-Segmente= 1: Verzweigung α/β=0.959, 1/β=6.4 min, ΔAIC(Hawkes−Poisson)=-2049, KS(rescaled) D=0.025 p=0.69
+  Namen (erste Version)  Tag 18.06.           n=  807 μ-Segmente=24: Verzweigung α/β=0.564, 1/β=4.7 min, ΔAIC(Hawkes−Poisson)=-59, KS(rescaled) D=0.025 p=0.69
+  Versionen              Kernwoche 16.–22.06. n=13339 μ-Segmente= 1: Verzweigung α/β=0.958, 1/β=2.4 min, ΔAIC(Hawkes−Poisson)=-44339, KS(rescaled) D=0.121 p=2.9e-171
+  Versionen              Kernwoche 16.–22.06. n=13339 μ-Segmente=28: Verzweigung α/β=0.927, 1/β=2.0 min, ΔAIC(Hawkes−Poisson)=-13921, KS(rescaled) D=0.121 p=2.9e-171
+  Versionen              Tag 18.06.           n= 6543 μ-Segmente= 1: Verzweigung α/β=0.977, 1/β=0.6 min, ΔAIC(Hawkes−Poisson)=-20917, KS(rescaled) D=0.202 p=6.6e-234
+  Versionen              Tag 18.06.           n= 6543 μ-Segmente=24: Verzweigung α/β=0.811, 1/β=0.3 min, ΔAIC(Hawkes−Poisson)=-2933, KS(rescaled) D=0.202 p=6.7e-234
+  Episodenstarts (Cluster 2h)        n=  789 μ-Segmente= 1: Verzweigung α/β=0.849, 1/β=18.1 min, ΔAIC(Hawkes−Poisson)=-1299, KS D=0.047 p=0.064
+  Episodenstarts (Cluster 2h)        n=  789 μ-Segmente=28: Verzweigung α/β=0.617, 1/β=11.0 min, ΔAIC(Hawkes−Poisson)=-235, KS D=0.029 p=0.5
+  Namen ohne Zufallssuffix-Familien  n= 2085 μ-Segmente= 1: Verzweigung α/β=0.904, 1/β=7.9 min, ΔAIC(Hawkes−Poisson)=-5067, KS D=0.020 p=0.36
+  Namen ohne Zufallssuffix-Familien  n= 2085 μ-Segmente=28: Verzweigung α/β=0.847, 1/β=6.7 min, ΔAIC(Hawkes−Poisson)=-1813, KS D=0.020 p=0.36
+  -> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_math_hawkes.csv  (12 Zeilen)
+
+========================================================================================
+F  Fahrplan: Verteilungsform, Ziffernstatistik, ggT der Intervalle und Fristen
+========================================================================================
+  Intervall-Token alle (307)           n=307 log-uniform  [62, 5812] s                       KS D=0.137 p=0.000  AIC=4940.7
+  Intervall-Token alle (307)           n=307 log-normal   μ=6.53 σ=1.01 (Median 684 s)       KS D=0.055 p=0.309  AIC=4891.3
+  Intervall-Token alle (307)           n=307 uniform      [44, 5746] s                       KS D=0.533 p=0.000  AIC=5314.1
+  Intervall-Token alle (307)           n=307 exponential  Mittel 1084 s                      KS D=0.061 p=0.191  AIC=4906.9
+  Intervall-Token ≥10 Namen (150)      n=150 log-uniform  [61, 5903] s                       KS D=0.109 p=0.052  AIC=2409.4
+  Intervall-Token ≥10 Namen (150)      n=150 log-normal   μ=6.50 σ=1.06 (Median 664 s)       KS D=0.083 p=0.239  AIC=2395.4
+  Intervall-Token ≥10 Namen (150)      n=150 uniform      [25, 5765] s                       KS D=0.531 p=0.000  AIC=2600.6
+  Intervall-Token ≥10 Namen (150)      n=150 exponential  Mittel 1081 s                      KS D=0.059 p=0.647  AIC=2397.7
+  Tier-Tabelle Kadenz (26)             n= 26 log-uniform  [325, 7271] s                      KS D=0.265 p=0.042  AIC=458.0
+  Tier-Tabelle Kadenz (26)             n= 26 log-normal   μ=7.60 σ=0.71 (Median 1993 s)      KS D=0.120 p=0.809  AIC=455.1
+  Tier-Tabelle Kadenz (26)             n= 26 uniform      [120, 6726] s                      KS D=0.334 p=0.004  AIC=461.4
+  Tier-Tabelle Kadenz (26)             n= 26 exponential  Mittel 2489 s                      KS D=0.226 p=0.120  AIC=460.6
+  Tier-Tabelle R1-Frist (26)           n= 26 log-uniform  [63, 1250] s                       KS D=0.335 p=0.004  AIC=378.4
+  Tier-Tabelle R1-Frist (26)           n= 26 log-normal   μ=6.10 σ=0.69 (Median 448 s)       KS D=0.111 p=0.869  AIC=376.0
+  Tier-Tabelle R1-Frist (26)           n= 26 uniform      [28, 1161] s                       KS D=0.155 p=0.510  AIC=369.7
+  Tier-Tabelle R1-Frist (26)           n= 26 exponential  Mittel 546 s                       KS D=0.237 p=0.090  AIC=381.7
+  Tier-Tabelle Folgefrist (26)         n= 24 log-uniform  [4, 94] s                          KS D=0.252 p=0.078  AIC=212.4
+  Tier-Tabelle Folgefrist (26)         n= 24 log-normal   μ=3.23 σ=0.74 (Median 25 s)        KS D=0.098 p=0.958  AIC=212.5
+  Tier-Tabelle Folgefrist (26)         n= 24 uniform      [2, 86] s                          KS D=0.303 p=0.019  AIC=217.1
+  Tier-Tabelle Folgefrist (26)         n= 24 exponential  Mittel 32 s                        KS D=0.229 p=0.137  AIC=216.4
+  Folgefristen-Token (40)              n= 40 log-uniform  [5, 75] s                          KS D=0.249 p=0.011  AIC=349.7
+  Folgefristen-Token (40)              n= 40 log-normal   μ=3.30 σ=0.71 (Median 27 s)        KS D=0.119 p=0.584  AIC=354.3
+  Folgefristen-Token (40)              n= 40 uniform      [3, 72] s                          KS D=0.111 p=0.667  AIC=342.0
+  Folgefristen-Token (40)              n= 40 exponential  Mittel 34 s                        KS D=0.175 p=0.155  AIC=362.9
+  -> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_math_fahrplan_verteilungen.csv  (24 Zeilen)
+  Intervall-Token alle (307)           Sekundenrest 0..59 χ²=70.8 p=0.140; Endziffer p=0.034; Benford p=0.551; ggT=1; teilbar durch 5/10/30/60: 0.27/0.16/0.05/0.01 (Zufall: 0.20/0.10/0.03/0.02); Rest 0 oder 30 s: 0.05
+  Intervall-Token ≥10 Namen            Sekundenrest 0..59 χ²=63.6 p=0.318; Endziffer p=0.534; Benford p=0.326; ggT=1; teilbar durch 5/10/30/60: 0.25/0.13/0.05/0.01 (Zufall: 0.20/0.10/0.03/0.02); Rest 0 oder 30 s: 0.05
+  Tier-Kadenz (26)                     Sekundenrest 0..59 χ²=47.8 p=0.850; Endziffer p=0.550; Benford p=0.763; ggT=1; teilbar durch 5/10/30/60: 0.31/0.08/0.00/0.00 (Zufall: 0.20/0.10/0.03/0.02); Rest 0 oder 30 s: 0.00
+  Tier-R1-Frist (26)                   Sekundenrest 0..59 χ²=75.5 p=0.072; Endziffer p=0.403; Benford p=0.435; ggT=1; teilbar durch 5/10/30/60: 0.15/0.15/0.12/0.12 (Zufall: 0.20/0.10/0.03/0.02); Rest 0 oder 30 s: 0.12
+  Folgefristen (40)                    Sekundenrest 0..59 χ²=29.0 p=1.000; Endziffer p=0.964; Benford p=0.285; ggT=1; teilbar durch 5/10/30/60: 0.20/0.10/0.03/0.00 (Zufall: 0.20/0.10/0.03/0.02); Rest 0 oder 30 s: 0.03
+  -> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_math_fahrplan_ziffern.csv  (5 Zeilen)
+  Tier-Tabelle, vollständige Zeilen n=15: Spearman r1~Kadenz ρ=0.50 (p=0.06); r1~Folgefrist ρ=0.85 (p=0.00); Kadenz~Folgefrist ρ=0.81 (p=0.00)
+  Verhältnis Kadenz/R1: Median 4.42, Spanne 1.55–13.14; R1/Folgefrist: Median 16.0, Spanne 9.2–30.8
+  PCA log(R1, Kadenz, Folgefrist), n=15: PC1 erklärt 78 % (Ladungen [-0.48 -0.62 -0.62]), PC2 19 %, PC3 3 %
+  log(Folgefrist)~log(R1): 0.84±0.18 r=0.79; log(Folgefrist)~log(Kadenz): 0.70±0.16 r=0.77; log(Kadenz)~log(R1): 0.52±0.29 r=0.44
+  R1-Frist: 3 von 26 volle Minuten; P(≥so viele | Zufall 1/60) = 0.009
+  -> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_math_fahrplan_parameter.csv  (4 Zeilen)
+         groesse  n  min_s  max_s  loguni_lo_s  loguni_hi_s  lognorm_median_s  lognorm_sigma
+        R1-Frist 26   70.0 1119.0        62.65      1250.20            447.87           0.70
+          Kadenz 26  365.0 6481.0       325.33      7271.37           1992.72           0.73
+      Folgefrist 24    5.0   83.0         4.43        93.78             25.15           0.76
+Folgefrist-Token 40    5.0   70.0         4.67        74.90             27.12           0.72
+
+========================================================================================
+G  Skalengesetze: Power-law-MLE (Clauset) gegen Lognormal
+========================================================================================
+  Seiten: Versionen je Seite   n= 4579 xmin=8 α=2.43±0.09 (Schwanz 6%) KS D=0.147; Vuong Power-law vs Lognormal z=0.13 p=0.897 → unentschieden
+      Zipf-Rang-Exponent (Top 200): 0.71  (Zipf-Gesetz: 1,0)
+  Seiten: max. Bytes           n= 4579 xmin=1737 α=2.54±0.06 (Schwanz 17%) KS D=0.091; Vuong Power-law vs Lognormal z=-5.31 p=0.000 → Lognormal
+      Zipf-Rang-Exponent (Top 200): 0.29  (Zipf-Gesetz: 1,0)
+  Namen: Versionen je Name     n= 3102 xmin=11 α=2.61±0.10 (Schwanz 8%) KS D=0.106; Vuong Power-law vs Lognormal z=-0.32 p=0.745 → unentschieden
+      Zipf-Rang-Exponent (Top 200): 0.62  (Zipf-Gesetz: 1,0)
+  Beiträge: Delta-Bytes        n=12819 xmin=166 α=1.86±0.01 (Schwanz 73%) KS D=0.067; Vuong Power-law vs Lognormal z=-19.05 p=0.000 → Lognormal
+      Zipf-Rang-Exponent (Top 200): 0.26  (Zipf-Gesetz: 1,0)
+  -> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_math_zipf.csv  (4 Zeilen)
+
+Fertig.
+.venv/bin/python -u scripts/53_mathematik.py  108,00s user 2,14s system 442% cpu 24,870 total

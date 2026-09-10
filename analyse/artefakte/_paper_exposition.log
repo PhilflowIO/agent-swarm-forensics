@@ -1,0 +1,217 @@
+
+========================================================================================
+0  Laden
+========================================================================================
+Versionen 14591  Seiten 4579  Namen 3103  Zeitraum 2026-05-24 06:02:19+00:00 .. 2026-07-02 17:51:22+00:00
+events.jsonl: 19913 Ereignisse: {'save': 14591, 'delete': 5217, 'probe': 101, 'revert': 4}
+Zugriffsereignisse (event_type=='probe'): 101, davon success_observed==1: 0, ==0: 101 -> kein einziger belegter Lesezugriff; die Leseschicht ist im Abzug nicht vorhanden, nur Schreiben (save) und Loeschen (delete). Deshalb diese Rekonstruktion.
+Anforderungsarten der Proben: {'browse-bare': 43, 'form_editprefs': 26, 'browse': 24, 'form_search': 2, 'editprefs': 2, 'showtop': 1, 'random': 1, 'rc': 1, "<script>alert('XSS')</script>": 1}
+Koordinations-Population (coordpop, wie Fig. 3 / 65_adoption_robust.py Z. 227): 1140 Namen
+Bisherige Kennzahl 'nachweisliches vorheriges Lesen' = zitierter CamelCase-Fremdseitenname >=12 Zeichen in der Erstversion: 143 von 1140 = 12.5 %
+Infrastrukturseiten ['dse~WillkommenImWiki', 'dse~StartSeite', 'dse~TestSeite']: 3021 Versionen (20.7 %); groesster archivierter Seitentext dort 24,139 Zeichen, korpusweit 38,832 Zeichen, Summe aller Seitentexte 27.2 MB
+
+========================================================================================
+2  Kopierschleife (Regel A und B' aus 65_adoption_robust.py Z. 122-148)
+========================================================================================
+Regel A 1104, Regel B' 1265, A u B' = 1897 Versionen (13.0 %) — Abgleich mit BERICHT_robust_adoption.md: 1897 Versionen (13,0 %)
+Fenster 18.06. 20-21 Uhr: 2350 Versionen auf 730 Seiten, davon Kopierschleife 542
+
+========================================================================================
+A  Expositionsindex: page_state_before und feed_before
+========================================================================================
+Seitenmasken: 14591 Versionen, davon 9572 voll neu gerechnet (kein Praefix des Vorgaengers)
+Neuanlagen (kein sichtbarer Seitenzustand): 4579 von 14591 (31.4 %)
+-> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_exposition_index.parquet (14591 Zeilen, 79 Spalten)
+  runde          sichtbar auf der Seite  18.5 %   im Strom (N=100)  52.2 %   im eigenen Delta  20.0 %
+  cohort         sichtbar auf der Seite  19.3 %   im Strom (N=100)  46.9 %   im eigenen Delta  10.7 %
+  meldeformat    sichtbar auf der Seite  20.6 %   im Strom (N=100)  50.9 %   im eigenen Delta  17.8 %
+  sig_endzeile   sichtbar auf der Seite  22.1 %   im Strom (N=100)  54.4 %   im eigenen Delta  24.4 %
+  please_relay   sichtbar auf der Seite  20.0 %   im Strom (N=100)  49.4 %   im eigenen Delta  13.6 %
+
+========================================================================================
+B  Exposition gegen Adoption in der Erstversion je Name
+========================================================================================
+Erstversionen: 3103 Namen; davon Koordinations-Population 1140
+Neuanlage als Erstversion (kein Seitenzustand sichtbar): 44.9 % der coordpop-Namen
+-> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_exposition_adoption_gesamt.csv (50), /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_exposition_adoption_6h.csv (1250)
+
+Gesamt (Koordinations-Population, alle Varianten):
+                      variante      merkmal    n  exp_ad  exp_noad  noexp_ad  noexp_noad  adoption_wenn_exponiert  adoption_wenn_nicht_exponiert  anteil_ohne_sichtbare_quelle
+                         seite        runde 1140     415        34       249         442                     92.4                           36.0                          37.5
+                         seite       cohort 1140     310       210       253         367                     59.6                           40.8                          44.9
+                         seite  meldeformat 1140     374       152       266         348                     71.1                           43.3                          41.6
+                         seite sig_endzeile 1140     474        75       324         267                     86.3                           54.8                          40.6
+                         seite please_relay 1140     309       209       230         392                     59.7                           37.0                          42.7
+        seite_ohne_infraseiten        runde 1140     415        33       249         443                     92.6                           36.0                          37.5
+        seite_ohne_infraseiten       cohort 1140     310       210       253         367                     59.6                           40.8                          44.9
+        seite_ohne_infraseiten  meldeformat 1140     374       151       266         349                     71.2                           43.3                          41.6
+        seite_ohne_infraseiten sig_endzeile 1140     474        74       324         268                     86.5                           54.7                          40.6
+        seite_ohne_infraseiten please_relay 1140     309       208       230         393                     59.8                           36.9                          42.7
+                     strom_N30        runde 1140     655       412         9          64                     61.4                           12.3                           1.4
+                     strom_N30       cohort 1140     553       518        10          59                     51.6                           14.5                           1.8
+                     strom_N30  meldeformat 1140     631       436         9          64                     59.1                           12.3                           1.4
+                     strom_N30 sig_endzeile 1140     788       297        10          45                     72.6                           18.2                           1.3
+                     strom_N30 please_relay 1140     531       564         8          37                     48.5                           17.8                           1.5
+                    strom_N100        runde 1140     657       427         7          49                     60.6                           12.5                           1.1
+                    strom_N100       cohort 1140     556       528         7          49                     51.3                           12.5                           1.2
+                    strom_N100  meldeformat 1140     634       444         6          56                     58.8                            9.7                           0.9
+                    strom_N100 sig_endzeile 1140     791       306         7          36                     72.1                           16.3                           0.9
+                    strom_N100 please_relay 1140     533       572         6          29                     48.2                           17.1                           1.1
+                    strom_N300        runde 1140     661       431         3          45                     60.5                            6.2                           0.5
+                    strom_N300       cohort 1140     560       533         3          44                     51.2                            6.4                           0.5
+                    strom_N300  meldeformat 1140     637       456         3          44                     58.3                            6.4                           0.5
+                    strom_N300 sig_endzeile 1140     794       319         4          23                     71.3                           14.8                           0.5
+                    strom_N300 please_relay 1140     535       576         4          25                     48.2                           13.8                           0.7
+         strom_N100_positionen        runde 1140     657       427         7          49                     60.6                           12.5                           1.1
+         strom_N100_positionen       cohort 1140     556       528         7          49                     51.3                           12.5                           1.2
+         strom_N100_positionen  meldeformat 1140     634       444         6          56                     58.8                            9.7                           0.9
+         strom_N100_positionen sig_endzeile 1140     791       306         7          36                     72.1                           16.3                           0.9
+         strom_N100_positionen please_relay 1140     533       572         6          29                     48.2                           17.1                           1.1
+strom_N100_ohne_kopierschleife        runde 1140     657       427         7          49                     60.6                           12.5                           1.1
+strom_N100_ohne_kopierschleife       cohort 1140     556       528         7          49                     51.3                           12.5                           1.2
+strom_N100_ohne_kopierschleife  meldeformat 1140     634       444         6          56                     58.8                            9.7                           0.9
+strom_N100_ohne_kopierschleife sig_endzeile 1140     791       306         7          36                     72.1                           16.3                           0.9
+strom_N100_ohne_kopierschleife please_relay 1140     533       572         6          29                     48.2                           17.1                           1.1
+   strom_N100_ohne_infraseiten        runde 1140     657       427         7          49                     60.6                           12.5                           1.1
+   strom_N100_ohne_infraseiten       cohort 1140     556       528         7          49                     51.3                           12.5                           1.2
+   strom_N100_ohne_infraseiten  meldeformat 1140     634       444         6          56                     58.8                            9.7                           0.9
+   strom_N100_ohne_infraseiten sig_endzeile 1140     791       306         7          36                     72.1                           16.3                           0.9
+   strom_N100_ohne_infraseiten please_relay 1140     533       572         6          29                     48.2                           17.1                           1.1
+         seite_oder_strom_N100        runde 1140     663       427         1          49                     60.8                            2.0                           0.2
+         seite_oder_strom_N100       cohort 1140     558       531         5          46                     51.2                            9.8                           0.9
+         seite_oder_strom_N100  meldeformat 1140     638       446         2          54                     58.9                            3.6                           0.3
+         seite_oder_strom_N100 sig_endzeile 1140     795       307         3          35                     72.1                            7.9                           0.4
+         seite_oder_strom_N100 please_relay 1140     536       573         3          28                     48.3                            9.7                           0.6
+          seite_oder_strom_N30        runde 1140     663       413         1          63                     61.6                            1.6                           0.2
+          seite_oder_strom_N30       cohort 1140     555       523         8          54                     51.5                           12.9                           1.4
+          seite_oder_strom_N30  meldeformat 1140     637       438         3          62                     59.3                            4.6                           0.5
+          seite_oder_strom_N30 sig_endzeile 1140     795       298         3          44                     72.7                            6.4                           0.4
+          seite_oder_strom_N30 please_relay 1140     536       565         3          36                     48.7                            7.7                           0.6
+
+========================================================================================
+B2  Exponiert gegen nicht exponiert: Risikodifferenz, Odds Ratio, Fisher
+========================================================================================
+     merkmal herkunft  n_exp  n_noexp  p_exp  p_noexp     rd  rd_lo  rd_hi  odds_ratio  p_fisher  n_ohne_quelle  anteil_ohne_quelle
+       runde invented    449      691 92.428   36.035 56.393 52.057 60.729      21.667       0.0            249              37.500
+      cohort invented    520      620 59.615   40.806 18.809 13.086 24.532       2.141       0.0            253              44.938
+ meldeformat invented    526      614 71.103   43.322 27.780 22.269 33.291       3.219       0.0            266              41.562
+sig_endzeile  brought    549      591 86.339   54.822 31.516 26.582 36.451       5.208       0.0            324              40.602
+please_relay  brought    518      622 59.653   36.977 22.675 16.997 28.353       2.520       0.0            230              42.672
+-> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_exposition_risikodifferenz.csv
+
+========================================================================================
+B3  Logistische Adoption: Seitenkanal (Schalter) und Stromkanal (Intensitaet)
+========================================================================================
+Logit je Merkmal: y = Merkmal im eigenen Delta der Erstversion (ab 16.06.);
+  seite = Merkmal stand im Seitentext der Vorgaengerversion; strom_anteil = Anteil der letzten 100
+  Versionen wikiweit mit dem Merkmal; stunden = Stunden seit 16.06. 09:27 (Zeittrend).
+     merkmal         term    n    beta     se     or_   or_lo    or_hi      p  pseudo_r2
+       runde        seite 1130  3.3313 0.2281 27.9747 17.8905  43.7429 0.0000     0.4255
+       runde strom_anteil 1130  4.1683 0.4260 64.6055 28.0322 148.8957 0.0000     0.4255
+       runde      stunden 1130  0.0074 0.0027  1.0075  1.0021   1.0129 0.0065     0.4255
+      cohort        seite 1130  0.6731 0.1238  1.9603  1.5379   2.4988 0.0000     0.0421
+      cohort strom_anteil 1130  2.3662 0.5979 10.6572  3.3014  34.4029 0.0001     0.0421
+      cohort      stunden 1130  0.0035 0.0015  1.0036  1.0006   1.0065 0.0181     0.0421
+ meldeformat        seite 1130  1.1736 0.1331  3.2336  2.4912   4.1973 0.0000     0.1235
+ meldeformat strom_anteil 1130  2.0351 0.3399  7.6528  3.9311  14.8977 0.0000     0.1235
+ meldeformat      stunden 1130  0.0083 0.0018  1.0083  1.0047   1.0120 0.0000     0.1235
+sig_endzeile        seite 1130  1.6994 0.1599  5.4706  3.9988   7.4841 0.0000     0.1686
+sig_endzeile strom_anteil 1130  2.4864 0.3477 12.0185  6.0792  23.7603 0.0000     0.1686
+sig_endzeile      stunden 1130  0.0065 0.0022  1.0065  1.0022   1.0108 0.0030     0.1686
+please_relay        seite 1130  0.8874 0.1228  2.4289  1.9092   3.0900 0.0000     0.0369
+please_relay strom_anteil 1130  0.9333 0.5731  2.5428  0.8269   7.8192 0.1034     0.0369
+please_relay      stunden 1130 -0.0009 0.0014  0.9991  0.9963   1.0020 0.5509     0.0369
+-> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_exposition_logit.csv
+Saettigung Strom N=100, runde: ab 16.06. 12:00 sind 98.8 % der Erstversionen exponiert (Median Anteil im Strom 55.0 %)
+Saettigung Strom N=100, cohort: ab 16.06. 12:00 sind 98.6 % der Erstversionen exponiert (Median Anteil im Strom 28.0 %)
+
+========================================================================================
+C  Expositionsvariable je rekonstruierter Kohorte
+========================================================================================
+Kohorten 907; Rundensaetze auf Deltas 10753 (aus 51_prozess.py Z. 204)
+-> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_exposition_kohorten.csv (907 Zeilen)
+Kohorten mit sichtbarer fremder Rundenangabe vor Ankunft: 561 (61.9 %); mit sichtbarer Angabe OBERHALB des eigenen spaeteren Standes: 515 (56.8 %)
+Teilmenge max_runde_belegt>=1 (n=510): Vorsprung sichtbar 317 (62.2 %); Familien mit >=1 solcher Kohorte: 28
+Vergleich mit der bisherigen Behandlungsvariable 'Zukunftsantwort erhalten' (8 Faelle, davon 6 mit Ergebnis): die Expositionsvariable hat 317 behandelte Kohorten in 28 Familien
+
+exp_runde_max_vor Verteilung: {0: 346, 1: 1, 2: 45, 3: 80, 4: 46, 5: 212, 6: 151, 7: 15, 9: 9, 10: 2}
+
+========================================================================================
+D  Seitenwahl: Aktualitaet gegen aufgelaufene Beliebtheit (De Marzo-Gegenprobe)
+========================================================================================
+Wahlsituationen (Version auf bereits bestehender Seite): 9995, Alternativen je Situation 20 gezogen (McFadden), Zeilen 209790
+Bedingtes Logit, Praediktoren [log(1+Alter in min), log(1+Bestand)]:
+  log_alter_min    beta=-0.9590  se=0.0149  z=-64.3  exp(beta)=0.383
+  log_bestand      beta=+0.7497  se=0.0086  z=+86.7  exp(beta)=2.116
+  LL=-6742.2  LL0=-30430.0  McFadden R2=0.778
+
+Bin-Variante (Referenz: Bestand = 1 Version), Aktualitaet kontrolliert:
+  log_alter_min     beta=-0.9667 se=0.0113 Faktor je e-fachem Alter 0.380
+  Bestand 2         beta=+0.8623 se=0.0425 Faktor gegen Bestand=1: 2.37 [2.18, 2.57]
+  Bestand 3-5       beta=+1.2964 se=0.0435 Faktor gegen Bestand=1: 3.66 [3.36, 3.98]
+  Bestand 6-10      beta=+1.6857 se=0.0417 Faktor gegen Bestand=1: 5.40 [4.97, 5.86]
+  Bestand 11-25     beta=+1.9335 se=0.0534 Faktor gegen Bestand=1: 6.91 [6.23, 7.68]
+  Bestand 26-50     beta=+2.1972 se=0.0845 Faktor gegen Bestand=1: 9.00 [7.63, 10.62]
+  Bestand >50       beta=+3.2105 se=0.0620 Faktor gegen Bestand=1: 24.79 [21.96, 27.99]
+
+Ohne die drei Infrastrukturseiten als Ziel: 6977 von 9995 Wahlsituationen
+  log_alter -0.9556 (se 0.0116), log_bestand +0.6393 (se 0.0205)
+  Bin-Variante ohne Infrastrukturseiten: log_alter -0.9432 (se 0.0120)
+    Bestand 2      Faktor gegen Bestand=1: 2.33 [2.14, 2.53]
+    Bestand 3-5    Faktor gegen Bestand=1: 3.56 [3.25, 3.90]
+    Bestand 6-10   Faktor gegen Bestand=1: 5.19 [4.76, 5.65]
+    Bestand 11-25  Faktor gegen Bestand=1: 6.59 [6.12, 7.10]
+    Bestand 26-50  Faktor gegen Bestand=1: 7.71 [6.46, 9.20]
+    Bestand >50    Faktor gegen Bestand=1: 3.15 [2.42, 4.09]
+Gewaehlte Seiten: Median Alter seit letzter Bearbeitung 2.2 min; Anteil <=10 min 71.0 %, <=60 min 89.3 %
+Gezogene Alternativen: Median Alter 2877.7 min; Anteil <=10 min 2.8 %
+-> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_exposition_aktualitaet.csv
+
+========================================================================================
+7  LaTeX-Fragmente und Abbildungsdaten
+========================================================================================
+-> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/paper/tables/tab_exposure_adoption.tex
+-> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/paper/tables/tab_exposure_recency.tex
+-> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/paper/figures/data/fig10_exposure_adoption.json
+
+========================================================================================
+8  Zitierfaehige Kernzahlen
+========================================================================================
+{
+ "n_coordpop": 1140,
+ "runde": {
+  "p_exp": 92.42761692650335,
+  "p_noexp": 36.03473227206946,
+  "rd": 56.392884654433885,
+  "rd_lo": 52.056677503104,
+  "rd_hi": 60.729091805763765,
+  "ohne_quelle_n": 249,
+  "ohne_quelle_p": 37.5
+ },
+ "cohort": {
+  "p_exp": 59.61538461538461,
+  "p_noexp": 40.806451612903224,
+  "rd": 18.80893300248139,
+  "rd_lo": 13.085925524863798,
+  "rd_hi": 24.531940480098978,
+  "ohne_quelle_n": 253,
+  "ohne_quelle_p": 44.93783303730018
+ },
+ "meldeformat": {
+  "p_exp": 71.10266159695817,
+  "p_noexp": 43.32247557003257,
+  "rd": 27.780186026925595,
+  "ohne_quelle_n": 266,
+  "ohne_quelle_p": 41.5625
+ },
+ "kohorten_vorsprung_n": 515,
+ "kohorten_vorsprung_p": 56.780595369349506,
+ "kohorten510_vorsprung_n": 317,
+ "kohorten510_vorsprung_fam": 28,
+ "aktualitaet_beta": -0.9589851703580062,
+ "aktualitaet_se": 0.014909222918073043,
+ "bestand_beta": 0.7496650920356602,
+ "bestand_se": 0.008644820584613477,
+ "lesebeweis_alt_p": 12.543859649122806
+}
+-> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_exposition_kernzahlen.json

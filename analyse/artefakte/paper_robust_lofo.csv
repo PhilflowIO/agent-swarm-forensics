@@ -1,0 +1,24 @@
+praediktor,praediktor_name,modell,voll_effekt,n_runs,beta_min,beta_max,anteil_gleiches_vorzeichen,anteil_ci_ohne_0,familie_min,familie_max
+log_kadenz_s,Cadence (log s),OLS_std_FE_cluster,-0.07308563917595906,35,-0.14324232192550168,-0.004422815363789009,1.0,0.0,ihme-cvd-deaths,oecd-regional-co2
+log_kadenz_s,Cadence (log s),spearman,-0.231981094795496,35,-0.31846998338544763,-0.1273587141856228,1.0,0.9428571428571428,ihme-cvd-deaths,oecd-regional-co2
+log_r1_frist_s,Initial deadline (log s),OLS_std_FE_cluster,-0.0965678739655182,35,-0.13080445061934162,-0.04523091265353937,1.0,0.14285714285714285,oecd-regional-co2,datausa-police-wage-age
+log_r1_frist_s,Initial deadline (log s),spearman,-0.27743358652580413,35,-0.3181552042870096,-0.21733384975373363,1.0,0.9142857142857143,oecd-regional-co2,oecd-equity
+log_folgefrist_s,Answer deadline (log s),OLS_std_FE_cluster,0.021833095522079286,35,-0.0426636265025897,0.07411229442443909,0.9428571428571428,0.0,datausa-cashiers-masters,datausa-construction-workforce
+log_folgefrist_s,Answer deadline (log s),spearman,-0.17412942867189643,35,-0.23803597433625,-0.04297831047818605,1.0,0.9714285714285714,datausa-transport-production,oecd-equity
+clock_wait_b,\texttt{clock.wait} used,OLS_std_FE_cluster,0.042761807900933674,35,-0.009684952206062513,0.07688847235738797,0.9714285714285714,0.0,datausa-maids-wage,datausa-sector61-state
+clock_wait_b,\texttt{clock.wait} used,rankbiserial,-0.06570735090152569,35,-0.11292156119742325,0.008223684210526327,0.9714285714285714,,datausa-cashiers-masters,ihme-cvd-deaths
+counterapi_b,\texttt{counterapi} used,OLS_std_FE_cluster,0.1929263938812678,35,0.15146349678124624,0.23325811409569377,1.0,0.9714285714285714,datausa-clothing-workforce,datausa-grocery-workforce
+counterapi_b,\texttt{counterapi} used,rankbiserial,0.14250769806325359,35,0.08365862992728657,0.25835253456221197,1.0,,ihme-cvd-deaths,oecd-equity
+umleitung_b,Redirect services,OLS_std_FE_cluster,-0.07258774655551695,35,-0.34603255494938656,0.21920402413590612,0.9428571428571428,0.0,datausa-sector61-state,datausa-clothing-workforce
+umleitung_b,Redirect services,rankbiserial,-0.2024992899744391,35,-0.3026315789473685,0.049792531120331995,0.9714285714285714,,datausa-sector61-state,datausa-clothing-workforce
+blob_ausbruch_b,Blob egress,rankbiserial,-0.2490574406742071,34,-0.2704402515723271,-0.19717261904761907,1.0,,datausa-clothing-workforce,ihme-cvd-deaths
+beobachtung_auf_fremder_seite_b,Observation on foreign page,OLS_std_FE_cluster,0.005648033110596301,35,-0.0353673480278304,0.03282434990916403,0.6857142857142857,0.0,ihme-cvd-deaths,sdg-index-score
+beobachtung_auf_fremder_seite_b,Observation on foreign page,rankbiserial,0.12002028103723017,35,0.04206098843322814,0.14901468462299317,1.0,,oecd-equity,datausa-maids-wage
+bitten_quote,Request rate,OLS_std_FE_cluster,-0.09633292510192167,35,-0.11773046077050707,-0.06615471153629113,1.0,0.7428571428571429,oecd-equity,datausa-grocery-workforce
+bitten_quote,Request rate,spearman,-0.13762571035476795,35,-0.17482741418400707,-0.050036217154529064,1.0,0.9714285714285714,oecd-equity,ihme-cvd-deaths
+zukunft_erhalten_n_b,Future answer received,OLS_std_FE_cluster,-0.15786263094526384,35,-0.36138864291125083,0.31798417491260345,0.9714285714285714,0.0,datausa-occupation-salary-61-62,oecd-equity
+zukunft_erhalten_n_b,Future answer received,rankbiserial,-0.25297619047619047,35,-0.3719438877755511,0.029803921568627434,0.9714285714285714,,datausa-occupation-salary-61-62,oecd-equity
+exp_runde_max_vor,Highest round visible on arrival,OLS_std_FE_cluster,0.06585316354977519,35,0.055706236426739233,0.0831288589267153,1.0,0.0,fuel-poverty-ni,datausa-cashiers-masters
+exp_runde_max_vor,Highest round visible on arrival,spearman,0.37208067784307186,35,0.2759580981250409,0.4154866240466168,1.0,1.0,ihme-cvd-deaths,datausa-cashiers-masters
+exp_vorsprung_b,Answer ahead visible on arrival,OLS_std_FE_cluster,-0.12373499246408418,35,-0.1535759240336034,-0.0927156115140654,1.0,0.6285714285714286,ihme-cvd-deaths,datausa-maids-wage
+exp_vorsprung_b,Answer ahead visible on arrival,rankbiserial,0.0807440218368447,35,0.0017289348171700691,0.11466165413533824,1.0,,ihme-cvd-deaths,datausa-maids-wage

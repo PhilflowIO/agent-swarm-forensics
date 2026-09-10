@@ -1,0 +1,20 @@
+\begin{tabular}{lrllrr}
+\toprule
+Predictor & $n$ cohorts (reconstructed) & raw effect [95\,\% CI] & controlled $\beta$ (cluster SE) [95\,\% CI] & BH $q$ & LOFO: sign / CI$\not\ni$0 \\
+\midrule
+Cadence (log s) & 99 & $\rho=$\num{-0.23} [\num{-0.41}, \num{-0.04}] & \num{-0.07} [\num{-0.29}, \num{0.15}] & 0.83 & 1.00 / 0.00 \\
+Initial deadline (log s) & 68 & $\rho=$\num{-0.28} [\num{-0.48}, \num{-0.04}] & \num{-0.10} [\num{-0.20}, \num{0.01}] & 0.22 & 1.00 / 0.14 \\
+Answer deadline (log s) & 217 & $\rho=$\num{-0.17} [\num{-0.30}, \num{-0.04}] & \num{0.02} [\num{-0.16}, \num{0.21}] & 0.92 & 0.94 / 0.00 \\
+\texttt{clock.wait} used & 510 & $r=$\num{-0.07} [\num{-0.24}, \num{0.13}] (98 yes) & \num{0.04} [\num{-0.11}, \num{0.19}] & 0.83 & 0.97 / 0.00 \\
+\texttt{counterapi} used & 510 & $r=$\num{0.14} [\num{-0.03}, \num{0.35}] (81 yes) & \num{0.19} [\num{0.04}, \num{0.35}] & 0.16 & 1.00 / 0.97 \\
+Redirect services & 510 & $r=$\num{-0.20} [\num{-0.57}, \num{0.32}] (7 yes) & \num{-0.07} [\num{-0.79}, \num{0.65}] & 0.92 & 0.94 / 0.00 \\
+Blob egress$^\dagger$ & 510 & $r=$\num{-0.25} [\num{-0.35}, \num{-0.08}] (9 yes) & --- [---, ---] & --- & --- \\
+Observation on foreign page & 510 & $r=$\num{0.12} [\num{-0.05}, \num{0.23}] (354 yes) & \num{0.01} [\num{-0.11}, \num{0.12}] & 0.92 & 0.69 / 0.00 \\
+Request rate & 510 & $\rho=$\num{-0.14} [\num{-0.22}, \num{-0.05}] & \num{-0.10} [\num{-0.19}, \num{-0.00}] & 0.16 & 1.00 / 0.74 \\
+Future answer received$^\dagger$ & 510 & $r=$\num{-0.25} [\num{-0.60}, \num{0.34}] (6 yes) & \num{-0.16} [\num{-0.76}, \num{0.44}] & 0.83 & 0.97 / 0.00 \\
+Highest round visible on arrival & 510 & $\rho=$\num{0.37} [\num{0.29}, \num{0.44}] & \num{0.07} [\num{-0.02}, \num{0.15}] & 0.28 & 1.00 / 0.00 \\
+Answer ahead visible on arrival & 510 & $r=$\num{0.08} [\num{-0.11}, \num{0.24}] (317 yes) & \num{-0.12} [\num{-0.24}, \num{-0.00}] & 0.16 & 1.00 / 0.63 \\
+\midrule
+Future answer: mean difference in rounds (permutation, MC $n=100000$) & 510 & $\Delta=$\num{-0.56} [\num{-1.46}, \num{0.29}] & --- & $p=0.27$ & --- \\
+\bottomrule
+\end{tabular}

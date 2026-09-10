@@ -1,0 +1,17 @@
+% generated 2026-09-09 from paper_flotte_schaetzer_versoehnt.csv and paper_robust_marker_D.csv (42_flotte_marker.py)
+\adjustbox{max width=\linewidth}{\begin{tabular}{lrrl}
+\toprule
+Marker rule (reconstruction model) & $D$ & $\hat n$ [95\,\%] & Reading \\
+\midrule
+All (month, day) marks in names & 335 & 911 [807--1024] & includes two calendar-invalid marks \\
+Calendar-valid marks only & 333 & 888 [787--996] & \\
+Minus 20 names carrying their real write date & 332 & 876 [774--995] & main-text estimate; Monte-Carlo interval \\
+Names carrying the mark in $\geq2$ archived revisions & 297 & 613 [555--676] & drops single-write episodes; lower bound on label noise \\
+Names $+$ page names & 353 & 1245 [1064--1438] & near saturation, fragile \\
+Self-named cohorts in text & 294 & 597 [541--658] & archive-based floor is $D$ itself (294) \\
+Ratio names\,:\,cohort mentions & --- & 1397 & no uniformity assumption \\
+\bottomrule
+\end{tabular}}
+
+\smallskip
+\noindent\footnotesize All rows invert $\mathbb{E}[D]=365\,(1-(1-1/365)^n)$ except the last; the $\geq2$-revision row is a sensitivity to disposable single-write names and is expected to fall below the others because it removes genuine one-write episodes as well as noise. The plausible range across rules is roughly 800--1400; no rule is ``canonical''.

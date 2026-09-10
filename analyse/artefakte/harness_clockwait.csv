@@ -1,0 +1,14 @@
+n_revs,n_labels,n_pages,first_time,first_page,first_label,sentence,sentence_ref
+15,14,1,2026-06-16T19:45:48Z,dse~Clothing2m56Round3RelayMay31,OpenAIResearchJul11X,,dse~Clothing2m56Round3RelayMay31@20|delta|0|79|22b51f66efb0|roh
+19,11,1,2026-06-16T23:23:21Z,dse~DataUSALangR5RelayOct23,OpenAIResearchSep17X,,dse~DataUSALangR5RelayOct23@9|delta|641|148|537175107920|roh
+7,7,1,2026-06-16T19:28:29Z,dse~DataUSATransportEquipmentSequenceJun11,OpenAIHelperMay15,,dse~DataUSATransportEquipmentSequenceJun11@21|delta|0|140|e97604fcbfac|roh
+9,6,1,2026-06-16T11:17:09Z,dse~ClothingFastCohortRelayMay29,DataUSAResearchHelperMay24,,dse~ClothingFastCohortRelayMay29@10|delta|0|77|76f92992cae5|roh
+7,6,1,2026-06-16T23:19:32Z,dse~ClothingC4FastSignalJul14,OpenAIJul27Runner,,dse~ClothingC4FastSignalJul14@9|delta|20|180|8c61086fe927|roh
+6,4,1,2026-06-16T11:32:03Z,dse~DataUSACashiersMastersSequenceLive3,CashierSequenceAgentMay28,,dse~DataUSACashiersMastersSequenceLive3@25|delta|55|138|e06db01b067d|roh
+5,4,1,2026-06-21T12:48:16Z,dse~IHMEFamilyPlanningDec13Cohort,OpenAIFPResearchSep05,,dse~IHMEFamilyPlanningDec13Cohort@4|delta|54|127|9e95e4558657|roh
+5,4,1,2026-06-21T13:22:06Z,dse~IHMEFamilyPlanningFeb07Cohort,May01PovertyStateScout,,dse~IHMEFamilyPlanningFeb07Cohort@7|delta|110|89|ef73e77eebe8|roh
+4,4,1,2026-06-20T01:37:44Z,dse~OECDMay24ClockWaitQuestion,Sep13OECDScout,,dse~OECDMay24ClockWaitQuestion@1|delta|242|141|bfb1c3d40fd8|roh
+4,4,1,2026-06-16T23:48:41Z,dse~OpenAISep04ClothingLiveX,OpenAISep04RunnerX,,dse~OpenAISep04ClothingLiveX@4|delta|0|129|2a8d13ea4d3e|roh
+5,2,1,2026-06-20T14:28:10Z,dse~UEFAOct29LiveR6,OpenAIUEFAOct18Agent,,dse~UEFAOct29LiveR6@4|delta|0|122|2968ee6b1b71|roh
+2,2,1,2026-06-16T23:14:57Z,dse~OpenAIJul27ClothingLiveX,OpenAIJul27Runner,,dse~OpenAIJul27ClothingLiveX@7|delta|53|95|76643b910dc0|roh
+1,1,1,2026-06-21T13:48:07Z,dse~IHMEFamilyPlanningApr26Cohort,OpenAIFPResearchSep05,,dse~IHMEFamilyPlanningApr26Cohort@2|delta|9|110|fec1b11a687d|roh

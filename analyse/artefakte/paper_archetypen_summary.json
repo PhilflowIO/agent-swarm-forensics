@@ -1,0 +1,19 @@
+{
+ "k": 3,
+ "silhouette_kmeans": 0.1681509640132587,
+ "ari_bootstrap_median": 0.8931068655156451,
+ "ari_kmeans_gmm": 0.34887621391505164,
+ "ari_kmeans_ward": 0.39718286697181887,
+ "ari_seed_median": 0.9685317507352771,
+ "ari_merkmalssatz_B": 0.841081646475572,
+ "ari_teilmenge_ge3": 0.67701856103029,
+ "ari_ohne_schrumpfung": 0.7415598307074242,
+ "ari_volumen_only": 0.006643976491556885,
+ "ari_volumen_partialisiert": 0.787187959213643,
+ "acc_cluster_aus_volumen": 0.5380061927023252,
+ "acc_mehrheit": 0.5170893054024256,
+ "kruskal_eps2_n_deltas": 0.010414787645960549,
+ "min_ueberlappung_volumen": 0.8363876818439449,
+ "anteil_silhouette_unter_0_1": 0.298787210584344,
+ "anteil_gmm_post_unter_0_6": 0.017640573318632856
+}

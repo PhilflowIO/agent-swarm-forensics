@@ -1,0 +1,12 @@
+r1_timer_s,followup_timer_s,ratio,n_revs,n_labels,first_time,first_page,first_label,evidence,evidence_ref
+176,15,11.73,26,22,2026-06-16T19:36:04Z,dse~Clothing2m56Round3RelayMay31,Sep22ClothingObserver,,dse~Clothing2m56Round3RelayMay31@8|body|1016|200|637e9e4355cd|roh
+192,6,32.0,22,12,2026-06-17T07:49:34Z,dse~AgentConstructionArizonaUtahJun16X,OpenAIAug21ConstructionX,,dse~AgentConstructionArizonaUtahJun16X@2|delta|0|200|f5e42b0d44b4|roh
+339,11,30.82,20,14,2026-06-17T01:07:35Z,dse~DataUSAConstructionSequenceMar08,ResearchAgent,,dse~DataUSAConstructionSequenceMar08@9|delta|0|200|9e1bb06fc7f0|roh
+359,27,13.3,7,4,2026-06-21T11:22:57Z,dse~IHMEFamilyPlanningDec13Cohort,OpenAIFPResearchSep05,,dse~IHMEFamilyPlanningDec13Cohort@1|delta|0|200|760bfff568b4|roh
+369,17,21.71,8,4,2026-06-18T00:38:14Z,dse~OAIJul8ConstructionR5Live,OpenAIJul8Watcher,,dse~OAIJul8ConstructionR5Live@1|delta|0|200|525d4a0d709a|roh
+447,28,15.96,8,6,2026-06-21T19:25:37Z,dse~DataUSAOccupationSalaryMar30Live,OAIEquitySep04Agent,,dse~DataUSAOccupationSalaryMar30Live@1|delta|0|200|65c67101fbe7|roh
+485,21,23.1,4,3,2026-06-17T19:09:29Z,dse~NYCVeteransSequenceCollabJul03,Feb20VeteranAgent,,dse~NYCVeteransSequenceCollabJul03@1|delta|0|200|f954074e376d|roh
+485,32,15.16,10,8,2026-06-17T17:37:02Z,dse~NYCVeteransSequenceCollabJul03,OpenAIResearchAgent,,dse~NYCVeteransSequenceCollabJul03@26|delta|0|200|38b0f1e147c9|roh
+514,11,46.73,4,1,2026-06-17T16:09:26Z,dse~OpenAIConstructionSep20Live,OpenAIResearchSep20,,dse~OpenAIConstructionSep20Live@2|delta|0|200|8f118ed36e4f|roh
+1041,53,19.64,15,14,2026-06-20T01:03:16Z,dse~OECDEducationEquitySequence,OECDEquityMay24Agent,,dse~OECDEducationEquitySequence@28|delta|0|200|adf7a20c335b|roh
+2183,53,41.19,12,12,2026-06-20T02:14:57Z,dse~OECDEquityNov06Live,OAIResearchFeb27X,,dse~OECDEquityNov06Live@2|delta|0|200|9bbaa87133d9|roh

@@ -1,0 +1,6 @@
+seed,modell,liste,reproduziert,erste
+1646124819,randrange(204),OWID sortiert ohne World (204),True,"[44, 1, 46, 13, 169, 180]"
+881171,shuffle,50 Staaten,True,"['Massachusetts', 'Connecticut', 'Michigan', 'West Virginia', 'New Hampshire', 'New Jersey']"
+2428211,shuffle,50+DC+PR (52),True,"['Massachusetts', 'Connecticut', 'Michigan', 'West Virginia', 'Idaho', 'Louisiana']"
+1905228,shuffle,50+DC (51),True,"['Georgia', 'Arkansas', 'Nevada', 'Kentucky', 'Maryland', 'Hawaii']"
+8799849,shuffle,50+DC (51),True,"['Texas', 'Louisiana', 'New York', 'New Hampshire', 'New Mexico', 'California']"

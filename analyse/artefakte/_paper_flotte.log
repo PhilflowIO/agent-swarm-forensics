@@ -1,0 +1,23 @@
+labels.jsonl: 3103 Labels; revisions.jsonl: 14591 Revisionen, 3103 distinkte Labels
+Pruefung: labels.stored_revisions == count(revisions.jsonl by label) fuer alle Labels: OK
+
+== A  Marker-Multiplizitaet (kalendergueltig, genau ein Marker je Label) ==
+D = 333 belegte (Monat,Tag), n = 1035 datierte Labels, max. Belegung 23
+Regeneration INHALTSGLEICH mit /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_flotte_marker_multiplizitaet.csv (nur Zeilenenden CRLF vs LF) -> Datei unveraendert gelassen
+
+== B  Sammelbild-Schaetzer (ganzzahlige Inversion) ==
+D ohne Kalenderpruefung = 335; ungueltige Marker: [('Jul', 77), ('Jul', 99)]
+  Labels, alle (m,d)-Marker: D=335  n_hat=911  95% [807, 1024]
+  Labels, nur kalendergueltig: D=333  n_hat=888  95% [787, 996]
+-> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_flotte_schaetzer_regen.csv
+  NICHT regeneriert (Ableitung aus diesem Skript nicht belegbar): 'Labels + Seitennamen' (D=353),
+  'Kohortennennungen im Text' (D=294), 'nur Body-Kohorten' (D=287), 'Verhaeltnis Labels:Kohorten',
+  'bereinigt: minus 20 reale Schreibdaten' (Monte-Carlo-Intervall, vgl. 53_mathematik.py Teil A).
+
+== C  Sensitivitaet: nur Labels mit >= 2 archivierten Revisionen ==
+-> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_robust_marker_min2rev.csv  (297 Zeilen)
+  alle Labels: D = 333, datierte Labels = 1035, n_hat = 888 [787, 996]
+  Labels mit >= 2 Revisionen: D = 297, datierte Labels = 661, n_hat = 613 [555, 676]
+-> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_robust_marker_D.csv
+
+D (alle) = 333   D (>=2 Revisionen) = 297

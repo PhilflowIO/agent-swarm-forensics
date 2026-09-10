@@ -1,0 +1,3 @@
+variante,min_revisions,D,n_labels,n_hat,ci_lo,ci_hi
+alle Labels,1,333,1035,888,787,996
+Labels mit >= 2 Revisionen,2,297,661,613,555,676

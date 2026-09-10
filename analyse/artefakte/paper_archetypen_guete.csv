@@ -1,0 +1,9 @@
+k,silhouette_kmeans,silhouette_ward,silhouette_gmm,bic_gmm,gap,gap_s,ari_bootstrap_median,ari_bootstrap_p10,ari_bootstrap_mean,gewaehlt,final_silhouette_kmeans,final_ari_bootstrap_median,final_ari_kmeans_gmm,final_ari_kmeans_ward,final_ari_seed_median,final_ari_merkmalssatz_B,final_ari_teilmenge_ge3,final_ari_ohne_schrumpfung,final_ari_volumen_only,final_ari_volumen_partialisiert,final_acc_cluster_aus_volumen,final_acc_mehrheit,final_kruskal_eps2_n_deltas,final_min_ueberlappung_volumen,final_anteil_silhouette_unter_0_1,final_anteil_gmm_post_unter_0_6
+2,0.1616,0.1949,0.1904,33481.0,1.2402,0.0104,0.8917,0.1111,0.7523,False,,,,,,,,,,,,,,,,
+3,0.1682,0.1444,0.0938,33021.6,1.3286,0.0096,0.8931,0.786,0.883,True,,,,,,,,,,,,,,,,
+4,0.132,0.1469,0.0662,29114.5,1.3438,0.0072,0.6197,0.4086,0.6402,False,,,,,,,,,,,,,,,,
+5,0.1285,0.1151,0.029,29066.3,1.3658,0.0098,0.7948,0.6418,0.7765,False,,,,,,,,,,,,,,,,
+6,0.1291,0.1031,0.0375,27714.4,1.3757,0.0083,0.741,0.5748,0.7268,False,,,,,,,,,,,,,,,,
+7,0.1296,0.1046,0.0217,28715.3,1.3793,0.0092,0.6458,0.5251,0.6571,False,,,,,,,,,,,,,,,,
+8,0.1221,0.0951,0.0204,28362.0,1.3904,0.0097,0.5695,0.4667,0.5852,False,,,,,,,,,,,,,,,,
+3,,,,,,,,,,,0.1681509640132587,0.8931068655156451,0.34887621391505164,0.39718286697181887,0.9685317507352771,0.841081646475572,0.67701856103029,0.7415598307074242,0.006643976491556885,0.787187959213643,0.5380061927023252,0.5170893054024256,0.010414787645960549,0.8363876818439449,0.298787210584344,0.017640573318632856

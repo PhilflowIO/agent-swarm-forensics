@@ -1,0 +1,23 @@
+typ,page_key,time_utc,label,task_seconds,shared_seconds,factor_computed,factor_reported,n_revs,n_labels,quote,quote_ref
+messung,dse~ClothingFastCohortRelayMay29,2026-06-16T11:17:09Z,DataUSAResearchHelperMay24,600,61,9.84,,9,6,,dse~ClothingFastCohortRelayMay29@10|delta|0|77|76f92992cae5|roh
+messung,dse~Clothing2m56Round3RelayMay31,2026-06-16T19:45:48Z,OpenAIResearchJul11X,300,50,6.0,6x,15,14,,dse~Clothing2m56Round3RelayMay31@20|delta|0|79|22b51f66efb0|roh
+messung,dse~DataUSATransportEquipmentSequenceJun11,2026-06-16T19:28:29Z,OpenAIHelperMay15,63,13,4.85,~4.8x,7,7,,dse~DataUSATransportEquipmentSequenceJun11@21|delta|0|140|e97604fcbfac|roh
+messung,dse~ClothingC4FastSignalJul14,2026-06-16T23:19:32Z,OpenAIJul27Runner,300,45,6.67,,7,6,,dse~ClothingC4FastSignalJul14@9|delta|20|58|42753f1f3c2a|roh
+messung,dse~DataUSACashiersMastersSequenceLive3,2026-06-16T11:32:03Z,CashierSequenceAgentMay28,576,140,4.11,,6,4,,dse~DataUSACashiersMastersSequenceLive3@25|delta|55|138|e06db01b067d|roh
+messung,dse~IHMEFamilyPlanningDec13Cohort,2026-06-21T12:48:16Z,OpenAIFPResearchSep05,300,36,8.33,~8x,5,4,,dse~IHMEFamilyPlanningDec13Cohort@4|delta|54|127|9e95e4558657|roh
+messung,dse~IHMEFamilyPlanningFeb07Cohort,2026-06-21T13:22:06Z,May01PovertyStateScout,300,28,10.71,,5,4,,dse~IHMEFamilyPlanningFeb07Cohort@7|delta|110|89|ef73e77eebe8|roh
+messung,dse~OpenAISep04ClothingLiveX,2026-06-16T23:48:41Z,OpenAISep04RunnerX,307,44.8,6.85,6.85x,4,4,,dse~OpenAISep04ClothingLiveX@4|delta|0|129|2a8d13ea4d3e|roh
+messung,dse~OpenAIJul27ClothingLiveX,2026-06-16T23:14:57Z,OpenAIJul27Runner,60,12,5.0,~5x,2,2,,dse~OpenAIJul27ClothingLiveX@7|delta|53|95|76643b910dc0|roh
+messung,dse~DataUSAConstructionSequenceMar08,2026-06-17T01:54:02Z,ChatGPTAug11,1648,87,18.94,,27,21,,dse~DataUSAConstructionSequenceMar08@28|delta|76|68|235d00417467|roh
+messung,dse~OECDMay24ClockWaitQuestion,2026-06-20T01:37:44Z,Sep13OECDScout,120,120,1.0,1x,4,4,,dse~OECDMay24ClockWaitQuestion@1|delta|242|141|bfb1c3d40fd8|roh
+messung,dse~OECDEquity12m18Timing,2026-06-20T03:30:23Z,OECDEquityApr19Agent,,,,keine,15,10,We cannot accelerate clock.wait.,
+behauptung,dse~HealthdataCVDSequenceCollab,2026-06-18T23:26:55Z,OAI7C97,,,,~6x,59,25,,dse~HealthdataCVDSequenceCollab@7|delta|210|70|7ab201539f19|roh
+behauptung,dse~HealthdataCVDSequenceCollab,2026-06-19T00:17:48Z,OAI7C97,,,,4x,55,23,,dse~HealthdataCVDSequenceCollab@11|delta|0|120|ce58df43c8b5|roh
+behauptung,dse~DataUSAMaidsWageSequenceCollabOct21,2026-06-16T10:00:47Z,MaidsSequenceAgentSep21,,,,1.88x,21,15,,dse~DataUSAMaidsWageSequenceCollabOct21@4|delta|276|96|00a3ef433dbd|roh
+behauptung,dse~DataUSAClothingStateSequenceCollabOct10,2026-06-16T10:11:39Z,ResearchHelperMayEightD,,,,2.5-2.8x,17,11,,dse~DataUSAClothingStateSequenceCollabOct10@7|delta|118|44|9300e505dddb|roh
+behauptung,dse~PoliceWageAgeSequenceMar10Collab,2026-06-18T20:49:03Z,OpenAIJul03Police,,,,3.7x,36,14,,dse~PoliceWageAgeSequenceMar10Collab@13|delta|113|43|3320011bba97|roh
+behauptung,dse~DataUSAGroceryG5Mar06,2026-06-16T19:40:23Z,GroceryAgentDec09X,,,,0.39x,15,14,,dse~DataUSAGroceryG5Mar06@22|delta|117|80|2cc3565c4dcb|roh
+behauptung,dse~DataUSATransportEquipmentSequenceJun11,2026-06-16T19:28:06Z,OpenAITransportOct21,,,,1/3x,8,8,,dse~DataUSATransportEquipmentSequenceJun11@20|delta|166|70|6c609a710c5a|roh
+behauptung,dse~ClothingC4FastSignalJul14,2026-06-16T23:17:56Z,OpenAIResearchAug14X,,,,3-5x,8,7,,dse~ClothingC4FastSignalJul14@8|delta|74|69|a35afb994dac|roh
+behauptung,dse~Sector61State5LiveRelay,2026-06-16T19:33:33Z,AgentJune25OAI,,,,irregulaer,29,24,,dse~Sector61State5LiveRelay@9|delta|0|109|52fcd4dfe076|roh
+behauptung,dse~DataUSAGroceryLiveRounds2027,2026-06-16T18:55:58Z,GroceryWatcherNov15,,,,4x,15,9,,dse~DataUSAGroceryLiveRounds2027@28|delta|55|60|56b4660b18b1|roh

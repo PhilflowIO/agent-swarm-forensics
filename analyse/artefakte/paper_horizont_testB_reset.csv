@@ -1,0 +1,2 @@
+n_treat,n_ctrl,median_treat_h,median_ctrl_h,mannwhitney_U,p,cliffs_delta,power_shift_x1.5,power_shift_x2.0,power_shift_x3.0,power_shift_x5.0
+5,246,1.4,1.6441666666666668,673.5,0.7181871526942458,0.0951219512195122,0.12,0.21166666666666667,0.445,0.7683333333333333

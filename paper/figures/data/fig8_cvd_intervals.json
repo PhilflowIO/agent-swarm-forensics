@@ -1,0 +1,190 @@
+{
+ "unit": "seconds after R1 on the internal clock",
+ "r6_due": {
+  "5400": 5513,
+  "6300": 6485
+ },
+ "r6_source": {
+  "5400": "R6 = global+5549 s (Apr30/Dec30 audits: hard wall global+5500 s, 49 s before R6) - 36 s global->R1; corroborated 'silent before R6 ~1m50 later' after +90m01/+90m06",
+  "6300": "R6 announced at R1+108m05 (CVDJun20Scout 2026-06-20T13:15:36Z; Oct22 R1 08:11:46 -> R6 09:59:51)"
+ },
+ "global_to_r1_s": 36,
+ "generated_by": "analyse/scripts/64_uhr_robust.py",
+ "intervals": [
+  {
+   "cohort": "Apr23",
+   "class": "fast_17s",
+   "lo": 5406.0,
+   "hi": 5513.0,
+   "kind": "audit"
+  },
+  {
+   "cohort": "Apr30",
+   "class": "fast_17s",
+   "lo": 5461.0,
+   "hi": 5513.0,
+   "kind": "audit"
+  },
+  {
+   "cohort": "Apr30",
+   "class": "fast_17s",
+   "lo": 5461.0,
+   "hi": 5464.0,
+   "kind": "audit_inferred_death"
+  },
+  {
+   "cohort": "Aug24",
+   "class": "medium_22s",
+   "lo": 6332.0,
+   "hi": 6485.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "Dec30",
+   "class": "fast_17s",
+   "lo": 5461.0,
+   "hi": 5513.0,
+   "kind": "audit"
+  },
+  {
+   "cohort": "Dec30",
+   "class": "fast_17s",
+   "lo": 5461.0,
+   "hi": 5464.0,
+   "kind": "audit_inferred_death"
+  },
+  {
+   "cohort": "Feb26",
+   "class": "fast_17s",
+   "lo": 5401.0,
+   "hi": 5513.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "Jan02",
+   "class": "medium_22s",
+   "lo": 6411.0,
+   "hi": 6485.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "Jan18",
+   "class": "fast_17s",
+   "lo": 5402.0,
+   "hi": 5513.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "Jul09",
+   "class": "medium_22s",
+   "lo": 6452.0,
+   "hi": 6485.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "Jul30",
+   "class": "medium_22s",
+   "lo": 6362.0,
+   "hi": 6485.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "Mar09",
+   "class": "medium_22s",
+   "lo": 6394.0,
+   "hi": 6485.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "Mar10",
+   "class": "medium_22s",
+   "lo": 6366.0,
+   "hi": 6485.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "Mar25",
+   "class": "fast_17s",
+   "lo": 5402.0,
+   "hi": 5513.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "May03",
+   "class": "fast_17s",
+   "lo": 5462.0,
+   "hi": 5513.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "May14",
+   "class": "fast_17s",
+   "lo": 5460.0,
+   "hi": 5513.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "May25",
+   "class": "fast_17s",
+   "lo": 5403.0,
+   "hi": 5513.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "May26",
+   "class": "fast_17s",
+   "lo": 5401.0,
+   "hi": 5513.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "Nov16",
+   "class": "medium_22s",
+   "lo": 6362.0,
+   "hi": 6485.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "Nov28",
+   "class": "medium_22s",
+   "lo": 6367.0,
+   "hi": 6485.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "Oct03",
+   "class": "medium_22s",
+   "lo": 6391.0,
+   "hi": 6485.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "Oct22",
+   "class": "medium_22s",
+   "lo": 6405.0,
+   "hi": 6485.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "Oct25",
+   "class": "fast_17s",
+   "lo": 5463.0,
+   "hi": 5513.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "Sep22",
+   "class": "medium_22s",
+   "lo": 6405.0,
+   "hi": 6485.0,
+   "kind": "server"
+  },
+  {
+   "cohort": "Sep24",
+   "class": "medium_22s",
+   "lo": 6362.0,
+   "hi": 6485.0,
+   "kind": "server"
+  }
+ ]
+}

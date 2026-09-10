@@ -1,0 +1,460 @@
+{
+ "figure": 4,
+ "title": "Internal-clock factor vs. wiki load: Spearman ρ with 95 % CI",
+ "x": {
+  "name": "Spearman ρ (factor vs. load)",
+  "range": [
+   -0.4,
+   0.6
+  ]
+ },
+ "panels": [
+  {
+   "key": "clean",
+   "title": "A  clean set (primaer_AB), n = 71",
+   "rows": [
+    {
+     "group": "5 min",
+     "measure": "revisions",
+     "window_min": 5,
+     "rho": 0.1312640964238784,
+     "ci_lo": -0.1213723067729833,
+     "ci_hi": 0.3589310925013064,
+     "p": 0.2752077860118376,
+     "n": 71
+    },
+    {
+     "group": "5 min",
+     "measure": "bytes",
+     "window_min": 5,
+     "rho": 0.0938967136150234,
+     "ci_lo": -0.154033533636145,
+     "ci_hi": 0.3229287858065393,
+     "p": 0.4360579459942974,
+     "n": 71
+    },
+    {
+     "group": "5 min",
+     "measure": "names",
+     "window_min": 5,
+     "rho": 0.1242349549671233,
+     "ci_lo": -0.1333725496276209,
+     "ci_hi": 0.3593538339025236,
+     "p": 0.3019564897537515,
+     "n": 71
+    },
+    {
+     "group": "5 min",
+     "measure": "IP blocks",
+     "window_min": 5,
+     "rho": 0.1445304318248164,
+     "ci_lo": -0.1113955383878478,
+     "ci_hi": 0.379836405052285,
+     "p": 0.2291526443303423,
+     "n": 71
+    },
+    {
+     "group": "5 min",
+     "measure": "server events",
+     "window_min": 5,
+     "rho": 0.1515347147395212,
+     "ci_lo": -0.1037438784541611,
+     "ci_hi": 0.3849572499978834,
+     "p": 0.2071325694527292,
+     "n": 71
+    },
+    {
+     "group": "15 min",
+     "measure": "revisions",
+     "window_min": 15,
+     "rho": 0.1615272400051693,
+     "ci_lo": -0.0914288787276107,
+     "ci_hi": 0.3892370349329559,
+     "p": 0.1783831234612571,
+     "n": 71
+    },
+    {
+     "group": "15 min",
+     "measure": "bytes",
+     "window_min": 15,
+     "rho": 0.1269953051643192,
+     "ci_lo": -0.1201663190884637,
+     "ci_hi": 0.345239398675599,
+     "p": 0.2912571656864641,
+     "n": 71
+    },
+    {
+     "group": "15 min",
+     "measure": "names",
+     "window_min": 15,
+     "rho": 0.1753562205303058,
+     "ci_lo": -0.0760441675721036,
+     "ci_hi": 0.4056451588547003,
+     "p": 0.1435464350095015,
+     "n": 71
+    },
+    {
+     "group": "15 min",
+     "measure": "IP blocks",
+     "window_min": 15,
+     "rho": 0.1688203922423325,
+     "ci_lo": -0.0817506072671721,
+     "ci_hi": 0.3989166595850697,
+     "p": 0.1593145570182464,
+     "n": 71
+    },
+    {
+     "group": "15 min",
+     "measure": "server events",
+     "window_min": 15,
+     "rho": 0.1702320412408511,
+     "ci_lo": -0.0817463428800134,
+     "ci_hi": 0.39960578250991,
+     "p": 0.1558048374088957,
+     "n": 71
+    },
+    {
+     "group": "60 min",
+     "measure": "revisions",
+     "window_min": 60,
+     "rho": 0.1507434075539675,
+     "ci_lo": -0.1075486112509528,
+     "ci_hi": 0.3828653666102465,
+     "p": 0.2095421533387149,
+     "n": 71
+    },
+    {
+     "group": "60 min",
+     "measure": "bytes",
+     "window_min": 60,
+     "rho": 0.0986459862530964,
+     "ci_lo": -0.1523223672345587,
+     "ci_hi": 0.3244875618195518,
+     "p": 0.413099776221401,
+     "n": 71
+    },
+    {
+     "group": "60 min",
+     "measure": "names",
+     "window_min": 60,
+     "rho": 0.1227570978659114,
+     "ci_lo": -0.1163779024422502,
+     "ci_hi": 0.3437385604884262,
+     "p": 0.3077885969500877,
+     "n": 71
+    },
+    {
+     "group": "60 min",
+     "measure": "IP blocks",
+     "window_min": 60,
+     "rho": 0.1704857404250628,
+     "ci_lo": -0.0892574480409646,
+     "ci_hi": 0.3981047834872532,
+     "p": 0.1551802077976046,
+     "n": 71
+    },
+    {
+     "group": "60 min",
+     "measure": "server events",
+     "window_min": 60,
+     "rho": 0.1812763629235048,
+     "ci_lo": -0.0849029590626977,
+     "ci_hi": 0.4106593069976509,
+     "p": 0.130301409928935,
+     "n": 71
+    }
+   ],
+   "robustness": [
+    {
+     "group": "robustness (revisions)",
+     "measure": "half sample (n=36), 5 min",
+     "window_min": 5,
+     "rho": 0.118949540502771,
+     "ci_lo": -0.2291851324060054,
+     "ci_hi": 0.4263957222194326,
+     "p": 0.4895850522808741,
+     "n": 36
+    },
+    {
+     "group": "robustness (revisions)",
+     "measure": "half sample (n=36), 15 min",
+     "window_min": 15,
+     "rho": 0.1408160650099999,
+     "ci_lo": -0.2186566216343194,
+     "ci_hi": 0.4541448091532389,
+     "p": 0.4126882721322098,
+     "n": 36
+    },
+    {
+     "group": "robustness (revisions)",
+     "measure": "half sample (n=36), 60 min",
+     "window_min": 60,
+     "rho": 0.1847798339360688,
+     "ci_lo": -0.1807389071695458,
+     "ci_hi": 0.5026845546028698,
+     "p": 0.2806430835265763,
+     "n": 36
+    },
+    {
+     "group": "robustness (revisions)",
+     "measure": "wall ≥ 600 s (n=55), 5 min",
+     "window_min": 5,
+     "rho": 0.2535445003273379,
+     "ci_lo": -0.0143623262151309,
+     "ci_hi": 0.5050552362764222,
+     "p": 0.0617906098180071,
+     "n": 55
+    },
+    {
+     "group": "robustness (revisions)",
+     "measure": "wall ≥ 600 s (n=55), 15 min",
+     "window_min": 15,
+     "rho": 0.2717728558918337,
+     "ci_lo": 0.0092697012864121,
+     "ci_hi": 0.5294612551470063,
+     "p": 0.0447304496965122,
+     "n": 55
+    },
+    {
+     "group": "robustness (revisions)",
+     "measure": "wall ≥ 600 s (n=55), 60 min",
+     "window_min": 60,
+     "rho": 0.2740655245744987,
+     "ci_lo": -0.0032788402458704,
+     "ci_hi": 0.5364395870504689,
+     "p": 0.0428889741962249,
+     "n": 55
+    },
+    {
+     "group": "robustness (revisions)",
+     "measure": "bounds 0.01–200 (n=73), 5 min",
+     "window_min": 5,
+     "rho": 0.1299917466241655,
+     "ci_lo": -0.1141921256573299,
+     "ci_hi": 0.353992926114004,
+     "p": 0.273017876511121,
+     "n": 73
+    },
+    {
+     "group": "robustness (revisions)",
+     "measure": "bounds 0.01–200 (n=73), 15 min",
+     "window_min": 15,
+     "rho": 0.1549035036601364,
+     "ci_lo": -0.1005632845187727,
+     "ci_hi": 0.3798459199727041,
+     "p": 0.1906809883807899,
+     "n": 73
+    },
+    {
+     "group": "robustness (revisions)",
+     "measure": "bounds 0.01–200 (n=73), 60 min",
+     "window_min": 60,
+     "rho": 0.1553808572641596,
+     "ci_lo": -0.0997296197925325,
+     "ci_hi": 0.3806553658556992,
+     "p": 0.1893011176203676,
+     "n": 73
+    }
+   ],
+   "n": 71,
+   "rho_range": [
+    0.0938967136150234,
+    0.1812763629235048
+   ],
+   "p_range": [
+    0.130301409928935,
+    0.4360579459942974
+   ],
+   "all_ci_contain_zero": true
+  },
+  {
+   "key": "dirty",
+   "title": "B  contaminated set (mit_Ereignissen_ABC), n = 281",
+   "rows": [
+    {
+     "group": "5 min",
+     "measure": "revisions",
+     "window_min": 5,
+     "rho": 0.2708433896676956,
+     "ci_lo": 0.1508266621442855,
+     "ci_hi": 0.3817078189046698,
+     "p": 4.098818916439575e-06,
+     "n": 281
+    },
+    {
+     "group": "5 min",
+     "measure": "bytes",
+     "window_min": 5,
+     "rho": 0.2334151802615496,
+     "ci_lo": 0.1182888097196848,
+     "ci_hi": 0.3424859691084866,
+     "p": 7.814822748614055e-05,
+     "n": 281
+    },
+    {
+     "group": "5 min",
+     "measure": "names",
+     "window_min": 5,
+     "rho": 0.2774418820027846,
+     "ci_lo": 0.1572982130227258,
+     "ci_hi": 0.3858866822650013,
+     "p": 2.322901801794916e-06,
+     "n": 281
+    },
+    {
+     "group": "5 min",
+     "measure": "IP blocks",
+     "window_min": 5,
+     "rho": 0.3010068835556118,
+     "ci_lo": 0.1804157248231081,
+     "ci_hi": 0.4097493575675283,
+     "p": 2.7027983216582e-07,
+     "n": 281
+    },
+    {
+     "group": "5 min",
+     "measure": "server events",
+     "window_min": 5,
+     "rho": 0.2792047330393283,
+     "ci_lo": 0.1566150178591493,
+     "ci_hi": 0.3892027669541597,
+     "p": 1.9908998555058268e-06,
+     "n": 281
+    },
+    {
+     "group": "15 min",
+     "measure": "revisions",
+     "window_min": 15,
+     "rho": 0.2796059227912597,
+     "ci_lo": 0.1591537101233464,
+     "ci_hi": 0.3881555505592315,
+     "p": 1.921945488553013e-06,
+     "n": 281
+    },
+    {
+     "group": "15 min",
+     "measure": "bytes",
+     "window_min": 15,
+     "rho": 0.2444207076333978,
+     "ci_lo": 0.1280723994654419,
+     "ci_hi": 0.3528885572571213,
+     "p": 3.443375673900524e-05,
+     "n": 281
+    },
+    {
+     "group": "15 min",
+     "measure": "names",
+     "window_min": 15,
+     "rho": 0.295151573242789,
+     "ci_lo": 0.1777930980972346,
+     "ci_hi": 0.4005601999925267,
+     "p": 4.697489549887464e-07,
+     "n": 281
+    },
+    {
+     "group": "15 min",
+     "measure": "IP blocks",
+     "window_min": 15,
+     "rho": 0.3053008490606757,
+     "ci_lo": 0.1844879012300548,
+     "ci_hi": 0.4147376840647352,
+     "p": 1.7880495281623547e-07,
+     "n": 281
+    },
+    {
+     "group": "15 min",
+     "measure": "server events",
+     "window_min": 15,
+     "rho": 0.2796564851472938,
+     "ci_lo": 0.1584582693914707,
+     "ci_hi": 0.3879579471134771,
+     "p": 1.913418787325997e-06,
+     "n": 281
+    },
+    {
+     "group": "60 min",
+     "measure": "revisions",
+     "window_min": 60,
+     "rho": 0.2539643138911925,
+     "ci_lo": 0.1336493450630593,
+     "ci_hi": 0.3667647757649773,
+     "p": 1.639215201962537e-05,
+     "n": 281
+    },
+    {
+     "group": "60 min",
+     "measure": "bytes",
+     "window_min": 60,
+     "rho": 0.2219160164085487,
+     "ci_lo": 0.1069467276560234,
+     "ci_hi": 0.3330701723265162,
+     "p": 0.0001766401908635,
+     "n": 281
+    },
+    {
+     "group": "60 min",
+     "measure": "names",
+     "window_min": 60,
+     "rho": 0.2684607958123917,
+     "ci_lo": 0.1548435193673263,
+     "ci_hi": 0.372134923149594,
+     "p": 5.01344819866775e-06,
+     "n": 281
+    },
+    {
+     "group": "60 min",
+     "measure": "IP blocks",
+     "window_min": 60,
+     "rho": 0.2738281787094809,
+     "ci_lo": 0.1519766723938262,
+     "ci_hi": 0.3881570069307779,
+     "p": 3.1761038301772405e-06,
+     "n": 281
+    },
+    {
+     "group": "60 min",
+     "measure": "server events",
+     "window_min": 60,
+     "rho": 0.2514984277302807,
+     "ci_lo": 0.1298242739438586,
+     "ci_hi": 0.3655511826001104,
+     "p": 1.991391930544511e-05,
+     "n": 281
+    }
+   ],
+   "n": 281,
+   "rho_range": [
+    0.2219160164085487,
+    0.3053008490606757
+   ],
+   "p_max": 0.0001766401908635,
+   "all_ci_contain_zero": false
+  }
+ ],
+ "marks": [
+  {
+   "kind": "vline",
+   "x": 0.0,
+   "text": "ρ = 0"
+  },
+  {
+   "kind": "span",
+   "x0": -0.33,
+   "x1": 0.33,
+   "text": "|ρ| < 0.33: not detectable at 80 % power (n = 71)"
+  },
+  {
+   "kind": "text",
+   "text": "load hypothesis requires ρ < 0"
+  },
+  {
+   "kind": "text",
+   "text": "15 tests ≈ 2.2 effectively independent tests (load measures correlate at 0.97)"
+  }
+ ],
+ "sources": {
+  "data": "paper_uhr_korrelation.csv (datensatz, mass, fenster_min, methode == spearman, n, r, p, ci_lo, ci_hi)",
+  "power_0_33": "MECHANIK.md §7.4 (not in a CSV)",
+  "effective_tests_2_2": "MECHANIK.md §7.4 (not in a CSV)"
+ }
+}

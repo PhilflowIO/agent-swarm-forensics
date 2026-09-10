@@ -1,0 +1,89 @@
+{
+ "figure": 7,
+ "title": "Population estimate: episodes behind 3,103 names",
+ "x": {
+  "name": "estimated number of episodes",
+  "range": [
+   0,
+   3300
+  ]
+ },
+ "rows": [
+  {
+   "key": "Labels, alle (m,d)-Marker",
+   "label": "names, all (month, day) markers",
+   "observed": 335,
+   "n_hat": 911,
+   "ci_lo": 807,
+   "ci_hi": 1024,
+   "canonical": false,
+   "note": "enthaelt Jul77/Jul99 (kalenderungueltig)"
+  },
+  {
+   "key": "Labels, nur kalendergueltig",
+   "label": "names, calendar-valid markers only",
+   "observed": 333,
+   "n_hat": 888,
+   "ci_lo": 787,
+   "ci_hi": 996,
+   "canonical": false,
+   "note": "Fassung in MECHANIK.md v1"
+  },
+  {
+   "key": "bereinigt: minus 20 reale Schreibdaten",
+   "label": "names, minus 20 real writing dates (canonical)",
+   "observed": 332,
+   "n_hat": 876,
+   "ci_lo": 774,
+   "ci_hi": 995,
+   "canonical": true,
+   "note": "KANONISCH — erzeugt von 53_mathematik.py (paper_math_population_bereinigt.csv): Monte-Carlo-Inversion zu D=332, 20 Namen mit realem Erstschreibdatum entfernt, davon 15x Jun22; nur der Topf Jun16 entfaellt"
+  },
+  {
+   "key": "Labels + Seitennamen",
+   "label": "names + page names",
+   "observed": 353,
+   "n_hat": 1245,
+   "ci_lo": 1064,
+   "ci_hi": 1438,
+   "canonical": false,
+   "note": "saettigungsnah, fragiler"
+  },
+  {
+   "key": "Selbstbenannte Kohorten",
+   "label": "self-named cohorts",
+   "observed": 294,
+   "n_hat": 597,
+   "ci_lo": 541,
+   "ci_hi": 658,
+   "canonical": false,
+   "note": "nach unten zensiert"
+  },
+  {
+   "key": "Verhaeltnis Labels:Kohorten",
+   "label": "ratio names : cohorts (no interval)",
+   "observed": null,
+   "n_hat": 1397,
+   "ci_lo": null,
+   "ci_hi": null,
+   "canonical": false,
+   "note": "annahmefrei bzgl. Gleichverteilung"
+  }
+ ],
+ "marks": [
+  {
+   "kind": "vline",
+   "x": 294,
+   "text": "294 self-named cohorts (hard floor)"
+  },
+  {
+   "kind": "vline",
+   "x": 3103,
+   "text": "3,103 distinct names (naive count)"
+  }
+ ],
+ "sources": {
+  "data": "paper_flotte_schaetzer_versoehnt.csv (verfahren, beobachtet_D, n_hat, ci_lo, ci_hi, bemerkung)",
+  "names_3103": "MECHANIK.md §1 (not in this CSV)"
+ }
+}

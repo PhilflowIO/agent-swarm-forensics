@@ -1,0 +1,50 @@
+% generated 2026-09-09 by analyse/scripts/62_goldset_eval.py from paper_goldset_agreement.csv and paper_robust_regex_guete.csv
+% mode: real; population weights: POP\_TABLE in 62\_goldset\_eval.py (captured 61 re-run 2026-09-09)
+
+\noindent{\footnotesize\adjustbox{max width=\linewidth}{%
+\begin{tabular}{lrrrrr}
+\toprule
+Target & $n$ & Raw agreement & Cohen's $\kappa$ & Krippendorff's $\alpha$ & Disagreements \\
+\midrule
+round arrival (any) & 400 & 0.95 & 0.90 & 0.90 & 19 \\
+arrival round (exact) & 400 & 0.95 & 0.92 & 0.92 & 19 \\
+speech act (5 classes) & 400 & 0.96 & 0.94 & 0.94 & 15 \\
+future-answer receipt & 400 & 0.99 & 0.90 & 0.90 & 5 \\
+clock statement (4 classes) & 400 & 1.00 & 0.99 & 0.99 & 1 \\
+coordination topic & 400 & 0.99 & 0.94 & 0.94 & 3 \\
+register (4 classes) & 400 & 0.93 & 0.88 & 0.88 & 30 \\
+register: environment & 400 & 0.94 & 0.82 & 0.82 & 26 \\
+register: task & 400 & 0.97 & 0.94 & 0.94 & 12 \\
+\bottomrule
+\end{tabular}}}
+
+\medskip
+
+\noindent{\footnotesize\adjustbox{max width=\linewidth}{%
+\begin{tabular}{llrrrrr}
+\toprule
+Classifier & Class & $n$ & Precision [95\,\%] & Recall [95\,\%] & $F_1$ & Recall$_{\text{pop}}$ [95\,\%] \\
+\midrule
+arrival, strong & arrival & 263 & 0.99 [0.92, 1.00] & 0.47 [0.39, 0.55] & 0.64 & 0.54 [0.37, 0.71] \\
+arrival, weak & arrival & 263 & 0.98 [0.93, 0.99] & 0.73 [0.65, 0.80] & 0.84 & 0.63 [0.46, 0.78] \\
+speech act & request & 263 & 0.74 [0.58, 0.86] & 0.74 [0.58, 0.86] & 0.74 & 0.82 [0.58, 0.94] \\
+speech act & prediction & 263 & 0.68 [0.53, 0.81] & 0.57 [0.42, 0.70] & 0.62 & 0.85 [0.65, 0.94] \\
+speech act & negation & 263 & 0.67 [0.48, 0.81] & 0.95 [0.75, 0.99] & 0.78 & 0.87 [0.28, 0.99] \\
+speech act & observation & 263 & 0.99 [0.95, 1.00] & 0.69 [0.61, 0.76] & 0.81 & 0.47 [0.31, 0.64] \\
+future answer (paper) & true & 400 & 0.89 [0.57, 0.98] & 0.30 [0.16, 0.48] & 0.44 & 0.01 [0.00, 0.70] \\
+future answer (vocab.) & true & 400 & 0.81 [0.57, 0.93] & 0.48 [0.31, 0.66] & 0.60 & 0.02 [0.00, 0.71] \\
+clock route & pair & 400 & 0.81 [0.60, 0.92] & 0.94 [0.74, 0.99] & 0.87 & 0.98 [0.79, 1.00] \\
+clock route & bare\_internal & 400 & 0.76 [0.55, 0.89] & 0.76 [0.55, 0.89] & 0.76 & 0.43 [0.19, 0.71] \\
+clock route & past\_event & 400 & 0.97 [0.87, 1.00] & 0.75 [0.61, 0.84] & 0.84 & 0.60 [0.33, 0.82] \\
+clock route, any & any\_internal & 400 & 0.91 [0.83, 0.96] & 0.82 [0.73, 0.89] & 0.87 & 0.64 [0.40, 0.82] \\
+coord. topic (sent.) & true & 400 & 0.98 [0.96, 0.99] & 0.66 [0.61, 0.70] & 0.79 & 0.81 [0.73, 0.88] \\
+coord. topic (delta) & true & 400 & 0.98 [0.96, 0.99] & 0.99 [0.97, 0.99] & 0.98 & 1.00 [0.96, 1.00] \\
+ENV (sent.) & environment & 400 & 0.60 [0.50, 0.70] & 0.56 [0.47, 0.65] & 0.58 & 0.79 [0.63, 0.89] \\
+ENV (delta) & environment & 400 & 0.32 [0.27, 0.38] & 0.85 [0.77, 0.91] & 0.47 & 0.95 [0.82, 0.99] \\
+TASK (sent.) & task & 400 & 0.89 [0.67, 0.97] & 0.08 [0.05, 0.13] & 0.15 & 0.04 [0.01, 0.14] \\
+\bottomrule
+\end{tabular}}}
+
+\smallskip
+
+\noindent\footnotesize The gold set holds $n=400$ sentences drawn from 16 strata; 400 of them were coded completely by both raters. The raters disagreed on at least one field for 63 sentences; all 63 were adjudicated by hand. Precision is reported on the stratified sample; the last column reweights recall to the regex-positive populations (stratum weight $=$ population\,/\,drawn) with Wilson intervals on the Kish effective sample size. Filled \texttt{STATE5-XX} tokens were coded as arrivals in 6 of 17 cases, \texttt{R\# CONFIRMED} sentences in 25 of 25 (Fisher exact $p<0.001$).

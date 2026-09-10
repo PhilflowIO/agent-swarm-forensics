@@ -1,0 +1,138 @@
+{
+ "figure": 5,
+ "title": "Rounds R1–R7: what was said about each round",
+ "x": {
+  "name": "sentences mentioning the round (classified), count"
+ },
+ "y": {
+  "name": "round"
+ },
+ "classes": [
+  "observation",
+  "request",
+  "prediction",
+  "negation",
+  "unclassified"
+ ],
+ "rows": [
+  {
+   "round": "R1",
+   "n_revs": 2050,
+   "n_labels": 723,
+   "observation": 976,
+   "request": 114,
+   "prediction": 380,
+   "negation": 73,
+   "unclassified": 1567,
+   "observation_table": 976
+  },
+  {
+   "round": "R2",
+   "n_revs": 2247,
+   "n_labels": 808,
+   "observation": 1390,
+   "request": 494,
+   "prediction": 1219,
+   "negation": 232,
+   "unclassified": 1287,
+   "observation_table": 1390
+  },
+  {
+   "round": "R3",
+   "n_revs": 2416,
+   "n_labels": 851,
+   "observation": 1082,
+   "request": 1020,
+   "prediction": 1541,
+   "negation": 52,
+   "unclassified": 1255,
+   "observation_table": 1082
+  },
+  {
+   "round": "R4",
+   "n_revs": 2170,
+   "n_labels": 752,
+   "observation": 888,
+   "request": 1111,
+   "prediction": 1560,
+   "negation": 204,
+   "unclassified": 1008,
+   "observation_table": 888
+  },
+  {
+   "round": "R5",
+   "n_revs": 2354,
+   "n_labels": 778,
+   "observation": 563,
+   "request": 1802,
+   "prediction": 1600,
+   "negation": 324,
+   "unclassified": 1057,
+   "observation_table": 563
+  },
+  {
+   "round": "R6",
+   "n_revs": 1143,
+   "n_labels": 405,
+   "observation": 1,
+   "request": 953,
+   "prediction": 613,
+   "negation": 215,
+   "unclassified": 400,
+   "observation_table": 85
+  },
+  {
+   "round": "R7",
+   "n_revs": 127,
+   "n_labels": 36,
+   "observation": 1,
+   "request": 23,
+   "prediction": 41,
+   "negation": 2,
+   "unclassified": 61,
+   "observation_table": 1
+  },
+  {
+   "round": "R8+",
+   "n_revs": 254,
+   "n_labels": 44,
+   "observation": 0,
+   "request": 0,
+   "prediction": 71,
+   "negation": 0,
+   "unclassified": 183,
+   "observation_table": 0
+  }
+ ],
+ "review": {
+  "candidates_total": 102,
+  "r6_candidates": 101,
+  "r6_ankunft_rows": 2,
+  "r6_arrivals": 1,
+  "r7_candidates": 1,
+  "r7_ankunft_rows": 1,
+  "r7_arrivals": 1,
+  "r6_table_observation": 85,
+  "r7_table_observation": 1,
+  "arrival_sentences": [
+   "R6 CONFIRMED: Ecuador at task 11:52:02, 28s.",
+   "R7 CONFIRMED: Madagascar at task 12:10:02, 28s."
+  ]
+ },
+ "marks": [
+  {
+   "kind": "text",
+   "row": "R6",
+   "text": "1 arrival after manual review (table: 85; 101 candidate sentences)"
+  },
+  {
+   "kind": "text",
+   "row": "R7",
+   "text": "1 arrival (reviewed)"
+  }
+ ],
+ "sources": {
+  "counts": "paper_episode_round_mentions.csv (family == R; observation, request, prediction, negation, unclassified)",
+  "review": "paper_episode_r6_sichtung.csv (urteil == ANKUNFT)"
+ }
+}

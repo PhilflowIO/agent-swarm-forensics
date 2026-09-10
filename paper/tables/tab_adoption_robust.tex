@@ -1,0 +1,33 @@
+% generated 2026-09-09 from paper_robust_hawkes_dedup.csv and paper_robust_format_gefiltert_6h.csv (65_adoption_robust.py)
+\adjustbox{max width=\linewidth}{\begin{tabular}{llrrrrr}
+\toprule
+Series & Window & $k_{\text{seg}}$ & \multicolumn{3}{c}{Branching ratio $\alpha/\beta$} & $n$ (full $\to$ dedup) \\
+\cmidrule(lr){4-6}
+ & & & full & no copy loops & \ldots\,no dup.\ sentences & \\
+\midrule
+Names (first write) & 16--22 June & 1 & 0.917 & 0.916 & 0.916 & 2580 $\to$ 2465 \\
+Names (first write) & 16--22 June & 28 & 0.868 & 0.865 & 0.864 & 2580 $\to$ 2465 \\
+Names (first write) & 18 June & 1 & 0.959 & 0.958 & 0.958 & 807 $\to$ 767 \\
+Names (first write) & 18 June & 24 & 0.564 & 0.552 & 0.551 & 807 $\to$ 767 \\
+Revisions & 16--22 June & 1 & 0.958 & 0.960 & 0.959 & 13339 $\to$ 11155 \\
+Revisions & 16--22 June & 28 & 0.927 & 0.926 & 0.925 & 13339 $\to$ 11155 \\
+Revisions & 18 June & 1 & 0.977 & 0.977 & 0.977 & 6543 $\to$ 5094 \\
+Revisions & 18 June & 24 & 0.811 & 0.857 & 0.855 & 6543 $\to$ 5094 \\
+\bottomrule
+\end{tabular}}
+
+\medskip
+\adjustbox{max width=\linewidth}{\begin{tabular}{lrrrrrr}
+\toprule
+First-line feature share (\%) & \multicolumn{3}{c}{18\,h window (17 June 00--06)} & \multicolumn{3}{c}{24\,h window (17 June 06--12)} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+ & full & no contact trace & first-line trace only & full & no contact trace & first-line trace only \\
+\midrule
+Round marker & 76.4 & 72.9 & 71.6 & 77.1 & 77.5 & 78.0 \\
+\emph{cohort} & 47.2 & 49.0 & 49.0 & 54.2 & 52.5 & 53.7 \\
+Report format & 61.4 & 59.4 & 58.8 & 75.0 & 72.5 & 73.2 \\
+$n$ names & 127 & 96 & 102 & 48 & 40 & 41 \\
+\bottomrule
+\end{tabular}}
+
+\smallskip\noindent\footnotesize Copy-loop rule: same name, identical normalised delta within 60\,min, or a line of $\geq80$ characters previously written by any name (\num{1897} revisions, 13.0\,\%); duplicate-sentence rule removes a further 469 revisions with no new sentence of $\geq40$ characters. The full variant reproduces the main-text fit exactly. Contact-trace filter removes 215 of \num{1140} coordinating names (quoted page name 143, copy-cascade target 34, rendezvous vocabulary 51; union); the first-line variant removes 158. Largest window difference over all windows with $n\geq20$: 4.7 percentage points (round marker), 8.7 (\emph{cohort}).

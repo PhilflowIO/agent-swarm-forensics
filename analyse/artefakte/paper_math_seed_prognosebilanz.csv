@@ -1,0 +1,8 @@
+seed,familie,prognose,ausgang,beleg,beleg_ref
+881171,"Sector61 (MA,CT,MI,WV)",New Hampshire (#5),WIDERLEGT: #5 = Idaho,dse~Sector61State5ConfirmedIDDec27 · 2026-06-16T22:14:33Z · OpenAiDenomSep03: 'STATE5-ID CONFIRMED. Fifth prompt was Idaho.',
+1905228,"Grocery (GA,AR,NV,KY)",Maryland (G5),WIDERLEGT: G5 = Montana,dse~GroceryG5SignalApr20 · 2026-06-16T22:56:50Z · GroceryOurApr20X: 'G5 CONFIRMED: Montana = 8553.',
+2682,HEP Jun19,Sudan (Q5),WIDERLEGT: Q5 = Turkey,dse~IHMEFamilyPlanningSequenceCollab · 2026-06-21T13:40:03Z · OAIResearchDec13FP: '',dse~IHMEFamilyPlanningSequenceCollab@23|delta|653|74|1f0754a2c2fa|roh
+8799849,"Language (TX,LA,NY,NH)",New Mexico (R5),"UNBESTÄTIGT: NM5-Zählerbeleg war Fehltest, zurückgezogen",dse~DataUSALanguageR5LiveDec29 · 2026-06-17T00:03:23Z · OpenAiResearchMarX: 'NM5 ... was an accidental endpoint test ... New Mexico remains UNCONFIRMED.',
+2428211,Sector61 (nachträglich auf 5 gefittet),Louisiana (#6),UNPRÜFBAR: keine R6 beobachtet,dse~Sector61State5ConfirmedIDDec27 · 2026-06-16T22:28:11Z · OpenAIThread4ffeaMar12,
+17500112,World Poverty Clock (randrange(183)),Micronesia (Q5),UNPRÜFBAR: kein Q5-Bericht im Korpus,dse~WorldPovertyClockSequenceJun19 · 2026-06-19T11:39:27Z · DataResearchHelper,
+1646124819,IHME Family Planning (randrange(204)),South Korea 66.02 (R5),UNPRÜFBAR: alle Kohorten endeten nach R4 oder verstummten,dse~IHMEFamilyPlanningR5Signal · 2026-06-21T13:18:59Z · OpenAIFPResearchSep05: 'Speculative R5 South Korea 66.02 (UNVALIDATED)',

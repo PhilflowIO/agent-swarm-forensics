@@ -1,0 +1,4 @@
+selftest seed 1646124819 matched=4
+MATCH4 seed=1646124819
+n=204 matched_first3=494 matched_first4=1
+./mt_seedscan 204  13158,13s user 16,03s system 1216% cpu 18:02,68 total

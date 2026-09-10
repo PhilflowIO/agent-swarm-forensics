@@ -1,0 +1,530 @@
+{
+ "figure": 9,
+ "title": "Progress predictors: controlled standardised β with family-clustered 95 % CI",
+ "x": {
+  "name": "controlled standardised β (family-clustered 95 % CI)",
+  "range": [
+   -1.0,
+   0.8
+  ]
+ },
+ "model": "OLS_std_FE_cluster",
+ "subsets": [
+  {
+   "key": "base",
+   "teilmenge": "alle",
+   "label": "base, n = 510"
+  },
+  {
+   "key": "ge5",
+   "teilmenge": "n_deltas>=5",
+   "label": "≥ 5 revisions, n = 256"
+  }
+ ],
+ "dagger_rule": "fewer than 5 treated families in the base set (n_fam_true)",
+ "rows": [
+  {
+   "key": "log_kadenz_s",
+   "label": "Cadence (log s)",
+   "base": {
+    "beta": -0.073085639175959,
+    "ci_lo": -0.2927768369591995,
+    "ci_hi": 0.1466055586072814,
+    "p": 0.5143819108351357,
+    "q_bh": 0.8347924838461608,
+    "n": 99,
+    "n_fam": 8,
+    "n_fam_true": 25,
+    "binary": false,
+    "note": null,
+    "source_row": {
+     "praediktor": "log_kadenz_s",
+     "teilmenge": "alle",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "ge5": {
+    "beta": 0.0071967308155268,
+    "ci_lo": -0.3619820243457299,
+    "ci_hi": 0.3763754859767836,
+    "p": 0.9695223795262478,
+    "q_bh": 0.9695223795262478,
+    "n": 65,
+    "n_fam": 4,
+    "n_fam_true": 19,
+    "binary": false,
+    "note": null,
+    "source_row": {
+     "praediktor": "log_kadenz_s",
+     "teilmenge": "n_deltas>=5",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "dagger": false
+  },
+  {
+   "key": "log_r1_frist_s",
+   "label": "Initial deadline (log s)",
+   "base": {
+    "beta": -0.0965678739655182,
+    "ci_lo": -0.2043364826217977,
+    "ci_hi": 0.0112007346907613,
+    "p": 0.0790442481520171,
+    "q_bh": 0.2173716824180472,
+    "n": 68,
+    "n_fam": 5,
+    "n_fam_true": 20,
+    "binary": false,
+    "note": null,
+    "source_row": {
+     "praediktor": "log_r1_frist_s",
+     "teilmenge": "alle",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "ge5": {
+    "beta": -0.0432880361991339,
+    "ci_lo": -0.1015718092820167,
+    "ci_hi": 0.0149957368837488,
+    "p": 0.1454788751877448,
+    "q_bh": 0.363630195548625,
+    "n": 47,
+    "n_fam": 4,
+    "n_fam_true": 18,
+    "binary": false,
+    "note": null,
+    "source_row": {
+     "praediktor": "log_r1_frist_s",
+     "teilmenge": "n_deltas>=5",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "dagger": false
+  },
+  {
+   "key": "log_folgefrist_s",
+   "label": "Answer deadline (log s)",
+   "base": {
+    "beta": 0.0218330955220792,
+    "ci_lo": -0.1621092693351736,
+    "ci_hi": 0.2057754603793322,
+    "p": 0.8160421074203804,
+    "q_bh": 0.9224976641825534,
+    "n": 217,
+    "n_fam": 15,
+    "n_fam_true": 28,
+    "binary": false,
+    "note": null,
+    "source_row": {
+     "praediktor": "log_folgefrist_s",
+     "teilmenge": "alle",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "ge5": {
+    "beta": 0.0493825687801852,
+    "ci_lo": -0.1207527823939698,
+    "ci_hi": 0.2195179199543402,
+    "p": 0.569431764085433,
+    "q_bh": 0.695972156104418,
+    "n": 138,
+    "n_fam": 12,
+    "n_fam_true": 22,
+    "binary": false,
+    "note": null,
+    "source_row": {
+     "praediktor": "log_folgefrist_s",
+     "teilmenge": "n_deltas>=5",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "dagger": false
+  },
+  {
+   "key": "clock_wait_b",
+   "label": "clock.wait used",
+   "base": {
+    "beta": 0.0427618079009336,
+    "ci_lo": -0.1061139819961446,
+    "ci_hi": 0.191637597798012,
+    "p": 0.5734598865866614,
+    "q_bh": 0.8347924838461608,
+    "n": 510,
+    "n_fam": 21,
+    "n_fam_true": 19,
+    "binary": true,
+    "note": null,
+    "source_row": {
+     "praediktor": "clock_wait_b",
+     "teilmenge": "alle",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "ge5": {
+    "beta": 0.0239569878015189,
+    "ci_lo": -0.2002889388340361,
+    "ci_hi": 0.2482029144370741,
+    "p": 0.8341438727670928,
+    "q_bh": 0.917558260043802,
+    "n": 256,
+    "n_fam": 13,
+    "n_fam_true": 18,
+    "binary": true,
+    "note": null,
+    "source_row": {
+     "praediktor": "clock_wait_b",
+     "teilmenge": "n_deltas>=5",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "dagger": false
+  },
+  {
+   "key": "counterapi_b",
+   "label": "counterapi used",
+   "base": {
+    "beta": 0.1929263938812678,
+    "ci_lo": 0.0383995220742016,
+    "ci_hi": 0.3474532656883339,
+    "p": 0.0144046886099753,
+    "q_bh": 0.1584515747097285,
+    "n": 510,
+    "n_fam": 21,
+    "n_fam_true": 16,
+    "binary": true,
+    "note": null,
+    "source_row": {
+     "praediktor": "counterapi_b",
+     "teilmenge": "alle",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "ge5": {
+    "beta": 0.236296882402904,
+    "ci_lo": 0.0106585719589334,
+    "ci_hi": 0.4619351928468747,
+    "p": 0.0401164711985044,
+    "q_bh": 0.2206405915917745,
+    "n": 256,
+    "n_fam": 13,
+    "n_fam_true": 13,
+    "binary": true,
+    "note": null,
+    "source_row": {
+     "praediktor": "counterapi_b",
+     "teilmenge": "n_deltas>=5",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "dagger": false
+  },
+  {
+   "key": "umleitung_b",
+   "label": "Redirect services",
+   "base": {
+    "beta": -0.0725877465555169,
+    "ci_lo": -0.7947613614080782,
+    "ci_hi": 0.6495858682970443,
+    "p": 0.8438262733864282,
+    "q_bh": 0.9224976641825534,
+    "n": 510,
+    "n_fam": 21,
+    "n_fam_true": 5,
+    "binary": true,
+    "note": null,
+    "source_row": {
+     "praediktor": "umleitung_b",
+     "teilmenge": "alle",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "ge5": {
+    "beta": -0.3165370634208826,
+    "ci_lo": -1.3423581205230897,
+    "ci_hi": 0.7092839936813244,
+    "p": 0.5453218252527372,
+    "q_bh": 0.695972156104418,
+    "n": 256,
+    "n_fam": 13,
+    "n_fam_true": 4,
+    "binary": true,
+    "note": null,
+    "source_row": {
+     "praediktor": "umleitung_b",
+     "teilmenge": "n_deltas>=5",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "dagger": false
+  },
+  {
+   "key": "blob_ausbruch_b",
+   "label": "Blob egress",
+   "base": {
+    "beta": null,
+    "ci_lo": null,
+    "ci_hi": null,
+    "p": null,
+    "q_bh": null,
+    "n": 510,
+    "n_fam": 21,
+    "n_fam_true": 1,
+    "binary": true,
+    "note": "Cluster-SE degeneriert: behandelte Kohorten in 1 Familie",
+    "source_row": {
+     "praediktor": "blob_ausbruch_b",
+     "teilmenge": "alle",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "ge5": {
+    "beta": null,
+    "ci_lo": null,
+    "ci_hi": null,
+    "p": null,
+    "q_bh": null,
+    "n": 256,
+    "n_fam": 13,
+    "n_fam_true": 1,
+    "binary": true,
+    "note": "Cluster-SE degeneriert: behandelte Kohorten in 1 Familie",
+    "source_row": {
+     "praediktor": "blob_ausbruch_b",
+     "teilmenge": "n_deltas>=5",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "dagger": true
+  },
+  {
+   "key": "beobachtung_auf_fremder_seite_b",
+   "label": "Observation on foreign page",
+   "base": {
+    "beta": 0.0056480331105963,
+    "ci_lo": -0.1081372069929668,
+    "ci_hi": 0.1194332732141594,
+    "p": 0.9224976641825534,
+    "q_bh": 0.9224976641825534,
+    "n": 510,
+    "n_fam": 21,
+    "n_fam_true": 31,
+    "binary": true,
+    "note": null,
+    "source_row": {
+     "praediktor": "beobachtung_auf_fremder_seite_b",
+     "teilmenge": "alle",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "ge5": {
+    "beta": 0.0768490299433157,
+    "ci_lo": -0.1513870476634984,
+    "ci_hi": 0.30508510755013,
+    "p": 0.5092945441724216,
+    "q_bh": 0.695972156104418,
+    "n": 256,
+    "n_fam": 13,
+    "n_fam_true": 25,
+    "binary": true,
+    "note": null,
+    "source_row": {
+     "praediktor": "beobachtung_auf_fremder_seite_b",
+     "teilmenge": "n_deltas>=5",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "dagger": false
+  },
+  {
+   "key": "bitten_quote",
+   "label": "Request rate",
+   "base": {
+    "beta": -0.0963329251019216,
+    "ci_lo": -0.1903522090685127,
+    "ci_hi": -0.0023136411353305,
+    "p": 0.0446225653677446,
+    "q_bh": 0.1636160730150636,
+    "n": 510,
+    "n_fam": 21,
+    "n_fam_true": 35,
+    "binary": false,
+    "note": null,
+    "source_row": {
+     "praediktor": "bitten_quote",
+     "teilmenge": "alle",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "ge5": {
+    "beta": -0.1309857382369622,
+    "ci_lo": -0.2330285748927856,
+    "ci_hi": -0.0289429015811387,
+    "p": 0.0118736270526825,
+    "q_bh": 0.1306098975795084,
+    "n": 256,
+    "n_fam": 13,
+    "n_fam_true": 27,
+    "binary": false,
+    "note": null,
+    "source_row": {
+     "praediktor": "bitten_quote",
+     "teilmenge": "n_deltas>=5",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "dagger": false
+  },
+  {
+   "key": "zukunft_erhalten_n_b",
+   "label": "Future answer received",
+   "base": {
+    "beta": -0.1578626309452638,
+    "ci_lo": -0.7596000243429227,
+    "ci_hi": 0.443874762452395,
+    "p": 0.6071218064335715,
+    "q_bh": 0.8347924838461608,
+    "n": 510,
+    "n_fam": 21,
+    "n_fam_true": 4,
+    "binary": true,
+    "note": null,
+    "source_row": {
+     "praediktor": "zukunft_erhalten_n_b",
+     "teilmenge": "alle",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "ge5": {
+    "beta": -0.1158199106222424,
+    "ci_lo": -0.2932222734974034,
+    "ci_hi": 0.0615824522529185,
+    "p": 0.2006882499417832,
+    "q_bh": 0.3679284582266026,
+    "n": 256,
+    "n_fam": 13,
+    "n_fam_true": 4,
+    "binary": true,
+    "note": null,
+    "source_row": {
+     "praediktor": "zukunft_erhalten_n_b",
+     "teilmenge": "n_deltas>=5",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "dagger": true
+  },
+  {
+   "key": "exp_runde_max_vor",
+   "label": "Highest round visible on arrival",
+   "base": {
+    "beta": 0.0658531635497751,
+    "ci_lo": -0.0189444420879196,
+    "ci_hi": 0.15065076918747,
+    "p": 0.1279858185124227,
+    "q_bh": 0.2815688007273299,
+    "n": 510,
+    "n_fam": 21,
+    "n_fam_true": 35,
+    "binary": false,
+    "note": null,
+    "source_row": {
+     "praediktor": "exp_runde_max_vor",
+     "teilmenge": "alle",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "ge5": {
+    "beta": 0.1284304188195283,
+    "ci_lo": -0.0529874331963767,
+    "ci_hi": 0.3098482708354335,
+    "p": 0.1652864525221022,
+    "q_bh": 0.363630195548625,
+    "n": 256,
+    "n_fam": 13,
+    "n_fam_true": 27,
+    "binary": false,
+    "note": null,
+    "source_row": {
+     "praediktor": "exp_runde_max_vor",
+     "teilmenge": "n_deltas>=5",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "dagger": false
+  },
+  {
+   "key": "exp_vorsprung_b",
+   "label": "Answer ahead visible on arrival",
+   "base": {
+    "beta": -0.1237349924640841,
+    "ci_lo": -0.243072252275413,
+    "ci_hi": -0.0043977326527553,
+    "p": 0.0421343037400146,
+    "q_bh": 0.1636160730150636,
+    "n": 510,
+    "n_fam": 21,
+    "n_fam_true": 28,
+    "binary": true,
+    "note": null,
+    "source_row": {
+     "praediktor": "exp_vorsprung_b",
+     "teilmenge": "alle",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "ge5": {
+    "beta": -0.1787319387017592,
+    "ci_lo": -0.4116211331159026,
+    "ci_hi": 0.0541572557123841,
+    "p": 0.132534037507861,
+    "q_bh": 0.363630195548625,
+    "n": 256,
+    "n_fam": 13,
+    "n_fam_true": 24,
+    "binary": true,
+    "note": null,
+    "source_row": {
+     "praediktor": "exp_vorsprung_b",
+     "teilmenge": "n_deltas>=5",
+     "variante": "basis",
+     "modell": "OLS_std_FE_cluster"
+    }
+   },
+   "dagger": false
+  }
+ ],
+ "marks": [
+  {
+   "kind": "vline",
+   "x": 0.0,
+   "text": "β = 0"
+  }
+ ],
+ "sources": {
+  "data": "paper_robust_fortschritt_effekte.csv (variante == basis, modell == OLS_std_FE_cluster; teilmenge in {alle, n_deltas>=5}; effekt, ci_lo, ci_hi, p, q_bh, n, n_fam, n_fam_true, grund)",
+  "order": "paper/tables/tab_progress.tex"
+ }
+}

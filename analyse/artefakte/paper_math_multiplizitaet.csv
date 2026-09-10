@@ -1,0 +1,23 @@
+familie,test,p,richtung,holm,bh
+Uhr: Lastkorrelation primär (15),load_revs/5min,0.2752077860118376,positiv (falsch für b),1.0,0.3563867964685226
+Uhr: Lastkorrelation primär (15),load_bytes/5min,0.4360579459942974,positiv (falsch für b),1.0,0.456822610089264
+Uhr: Lastkorrelation primär (15),load_labels/5min,0.3019564897537515,positiv (falsch für b),1.0,0.3563867964685226
+Uhr: Lastkorrelation primär (15),load_ip/5min,0.2291526443303423,positiv (falsch für b),1.0,0.3360905450178354
+Uhr: Lastkorrelation primär (15),load_events/5min,0.2071325694527292,positiv (falsch für b),1.0,0.3292805266751234
+Uhr: Lastkorrelation primär (15),load_revs/15min,0.1783831234612571,positiv (falsch für b),1.0,0.327035726345638
+Uhr: Lastkorrelation primär (15),load_bytes/15min,0.2912571656864641,positiv (falsch für b),1.0,0.3563867964685226
+Uhr: Lastkorrelation primär (15),load_labels/15min,0.1435464350095015,positiv (falsch für b),1.0,0.3186291140364928
+Uhr: Lastkorrelation primär (15),load_ip/15min,0.1593145570182464,positiv (falsch für b),1.0,0.3186291140364928
+Uhr: Lastkorrelation primär (15),load_events/15min,0.1558048374088957,positiv (falsch für b),1.0,0.3186291140364928
+Uhr: Lastkorrelation primär (15),load_revs/60min,0.2095421533387149,positiv (falsch für b),1.0,0.3292805266751234
+Uhr: Lastkorrelation primär (15),load_bytes/60min,0.413099776221401,positiv (falsch für b),1.0,0.4544097538435411
+Uhr: Lastkorrelation primär (15),load_labels/60min,0.3077885969500877,positiv (falsch für b),1.0,0.3563867964685226
+Uhr: Lastkorrelation primär (15),load_ip/60min,0.1551802077976046,positiv (falsch für b),1.0,0.3186291140364928
+Uhr: Lastkorrelation primär (15),load_events/60min,0.130301409928935,positiv (falsch für b),1.0,0.3186291140364928
+Uhr: Robustheit ΔWall≥600,5min,0.062,positiv,1.0,0.2896666666666667
+Uhr: Robustheit ΔWall≥600,15min,0.045,positiv,0.9029999999999999,0.2896666666666667
+Uhr: Robustheit ΔWall≥600,60min,0.043,positiv,0.9029999999999999,0.2896666666666667
+Uhr: Tagesgang,Kruskal-Wallis,0.881,-,1.0,0.8810000000000001
+Uhr: clock.wait-Intervalle,Mann-Whitney,0.079,+,1.0,0.2896666666666667
+Uhr: Kostenkurve n=11,Spearman Faktor~T,0.066,+,1.0,0.2896666666666667
+Population: Poisson-Abweichung,z=-2.62,0.008792976696242618,weniger Daten als erwartet,0.1934454873173376,0.1934454873173376

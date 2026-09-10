@@ -1,0 +1,93 @@
+Deltas 14591  Labels 3103  Kopierereignisse (Kaskade) 3295  Seed 20260909
+labels.first_write vs. min(delta.time): 3103 gemeinsame Labels, 0 Abweichungen (Labels nur in labels.jsonl: 0, nur in Deltas: 0)
+
+========================================================================================
+TEIL 1  Hawkes ohne Kopierschleife / Duplikatsätze
+========================================================================================
+Regel A (gleiches Label, gleicher normalisierter Delta-Text, <=60 min nach vorheriger identischer Version): 1104 Versionen, 212 Labels, 1023 Seiten
+Regel B (Kopierer in der Zitatkaskade, rev_id-Treffer): 822 Versionen von 822 distinkten rev_id in der Kaskadendatei
+Regel B' (>=1 Zeile >=80 Zeichen zuvor von irgendeinem Label geschrieben): 1265 Versionen, B ⊆ B': True, B' \ B (label-interne Wiederholungen): 443
+A ∩ B': 472   A ∪ B' = Kopierschleife: 1897 Versionen (13.0 % aller 14591), 536 Labels, 1473 Seiten
+Fenster 18.06. 20:00-21:00: 2350 Versionen auf 730 Seiten; davon Kopierschleife nach Regel A: 314, Regel B: 424, Regel B': 521, A∪B': 542; Versionen mit den vier jqp/investor.gov-Zeilen: 488 auf 425 Seiten von 127 Labels, davon als Kopierschleife erfasst 361
+Top-5 Labels nach Regel A: {'': 531, 'Agent0AddJS': 45, 'AgentMassRefUF155300': 34, 'AgentMapCite8x': 25, 'Agent008HelperMD': 17}
+Regel C (alle Sätze >=40 Zeichen bereits früher geschrieben, >=1 Satz): 1463 Versionen; davon nicht schon Kopierschleife: 469
+Stufe no_copyloop: 12694 Versionen verbleiben; Stufe no_copyloop_no_dupsent: 12225 Versionen verbleiben
+  full                     Namen (erste Version)  Kernwoche 16.–22.06. k= 1 n= 2580  α/β=0.917  1/β=7.3 min  ΔAIC=-6632  KS p=0.21
+  full                     Namen (erste Version)  Kernwoche 16.–22.06. k=28 n= 2580  α/β=0.868  1/β=6.2 min  ΔAIC=-2344  KS p=0.21
+  full                     Namen (erste Version)  Tag 18.06.           k= 1 n=  807  α/β=0.959  1/β=6.4 min  ΔAIC=-2049  KS p=0.69
+  full                     Namen (erste Version)  Tag 18.06.           k=24 n=  807  α/β=0.564  1/β=4.7 min  ΔAIC=-59  KS p=0.69
+  full                     Versionen              Kernwoche 16.–22.06. k= 1 n=13339  α/β=0.958  1/β=2.4 min  ΔAIC=-44339  KS p=2.9e-171
+  full                     Versionen              Kernwoche 16.–22.06. k=28 n=13339  α/β=0.927  1/β=2.0 min  ΔAIC=-13921  KS p=2.9e-171
+  full                     Versionen              Tag 18.06.           k= 1 n= 6543  α/β=0.977  1/β=0.6 min  ΔAIC=-20917  KS p=6.6e-234
+  full                     Versionen              Tag 18.06.           k=24 n= 6543  α/β=0.811  1/β=0.3 min  ΔAIC=-2933  KS p=6.7e-234
+  no_copyloop              Namen (erste Version)  Kernwoche 16.–22.06. k= 1 n= 2530  α/β=0.916  1/β=7.4 min  ΔAIC=-6427  KS p=0.34
+  no_copyloop              Namen (erste Version)  Kernwoche 16.–22.06. k=28 n= 2530  α/β=0.865  1/β=6.2 min  ΔAIC=-2273  KS p=0.34
+  no_copyloop              Namen (erste Version)  Tag 18.06.           k= 1 n=  771  α/β=0.958  1/β=6.8 min  ΔAIC=-1965  KS p=0.9
+  no_copyloop              Namen (erste Version)  Tag 18.06.           k=24 n=  771  α/β=0.552  1/β=5.4 min  ΔAIC=-50  KS p=0.82
+  no_copyloop              Versionen              Kernwoche 16.–22.06. k= 1 n=11543  α/β=0.960  1/β=3.1 min  ΔAIC=-35909  KS p=1e-62
+  no_copyloop              Versionen              Kernwoche 16.–22.06. k=28 n=11543  α/β=0.926  1/β=2.7 min  ΔAIC=-11004  KS p=1e-62
+  no_copyloop              Versionen              Tag 18.06.           k= 1 n= 5163  α/β=0.977  1/β=1.2 min  ΔAIC=-16389  KS p=1.7e-76
+  no_copyloop              Versionen              Tag 18.06.           k=24 n= 5163  α/β=0.857  1/β=0.9 min  ΔAIC=-1865  KS p=1.7e-76
+  no_copyloop_no_dupsent   Namen (erste Version)  Kernwoche 16.–22.06. k= 1 n= 2465  α/β=0.916  1/β=7.8 min  ΔAIC=-6200  KS p=0.47
+  no_copyloop_no_dupsent   Namen (erste Version)  Kernwoche 16.–22.06. k=28 n= 2465  α/β=0.864  1/β=6.5 min  ΔAIC=-2134  KS p=0.47
+  no_copyloop_no_dupsent   Namen (erste Version)  Tag 18.06.           k= 1 n=  767  α/β=0.958  1/β=6.8 min  ΔAIC=-1952  KS p=0.89
+  no_copyloop_no_dupsent   Namen (erste Version)  Tag 18.06.           k=24 n=  767  α/β=0.551  1/β=5.3 min  ΔAIC=-50  KS p=0.94
+  no_copyloop_no_dupsent   Versionen              Kernwoche 16.–22.06. k= 1 n=11155  α/β=0.959  1/β=3.2 min  ΔAIC=-34812  KS p=7.6e-58
+  no_copyloop_no_dupsent   Versionen              Kernwoche 16.–22.06. k=28 n=11155  α/β=0.925  1/β=2.8 min  ΔAIC=-10291  KS p=7.6e-58
+  no_copyloop_no_dupsent   Versionen              Tag 18.06.           k= 1 n= 5094  α/β=0.977  1/β=1.2 min  ΔAIC=-16256  KS p=2.4e-74
+  no_copyloop_no_dupsent   Versionen              Tag 18.06.           k=24 n= 5094  α/β=0.855  1/β=0.8 min  ΔAIC=-1867  KS p=2.4e-74
+-> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_robust_hawkes_dedup.csv (24 Zeilen)
+Reproduktion full vs. paper_math_hawkes.csv: max |Δn|=0, max |Δ Verzweigung|=0.0000
+
+Verzweigungszahl α/β je Reihe/Fenster/k:
+variant                                           full  no_copyloop  no_copyloop_no_dupsent
+series                window               kseg                                            
+Namen (erste Version) Kernwoche 16.–22.06. 1     0.917        0.916                   0.916
+                                           28    0.868        0.865                   0.864
+                      Tag 18.06.           1     0.959        0.958                   0.958
+                                           24    0.564        0.552                   0.551
+Versionen             Kernwoche 16.–22.06. 1     0.958        0.960                   0.959
+                                           28    0.927        0.926                   0.925
+                      Tag 18.06.           1     0.977        0.977                   0.977
+                                           24    0.811        0.857                   0.855
+
+Ereigniszahl:
+variant                                             full  no_copyloop  no_copyloop_no_dupsent
+series                window               kseg                                              
+Namen (erste Version) Kernwoche 16.–22.06. 1      2580.0       2530.0                  2465.0
+                                           28     2580.0       2530.0                  2465.0
+                      Tag 18.06.           1       807.0        771.0                   767.0
+                                           24      807.0        771.0                   767.0
+Versionen             Kernwoche 16.–22.06. 1     13339.0      11543.0                 11155.0
+                                           28    13339.0      11543.0                 11155.0
+                      Tag 18.06.           1      6543.0       5163.0                  5094.0
+                                           24     6543.0       5163.0                  5094.0
+
+========================================================================================
+TEIL 2  Formatkonvergenz (Fig. 3) ohne Namen mit expliziter Kontaktspur
+========================================================================================
+Namen gesamt 3103; Koordinations-Population (coordpop=True in q2_inhaltlicher_lesebeweis.csv): 1140
+Reproduktion der Referenztabelle paper_lernkurve_q3_format_erstversion_koordpop_6h.csv: 25 vs 25 Fenster, max. Abweichung 0.0
+Kontaktspur (a) Lesebeweis in Erstversion: 452 Namen, davon coordpop 143
+Kontaktspur (b) Kopierer in Zitatkaskade: irgendwann 385 (coordpop 34), in der Erstversion 144 (coordpop 6)
+Kontaktspur (c) Rendezvous-Sprache q5: irgendwann 70 (coordpop 51), in der Erstversion 24 (coordpop 13)
+Vereinigung a∪b∪c, irgendwann: 803 Namen, coordpop 215 von 1140 (18.9 %) -> verbleiben 925
+Vereinigung a∪b∪c, nur Erstversion: 571 Namen, coordpop 158 -> verbleiben 982
+-> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/analyse/artefakte/paper_robust_format_gefiltert_6h.csv (72 Zeilen)
+
+Fensterwerte (Fig.-3-Lesart: Fenster 17.06. 00-06 ≈ 18 h, 17.06. 06-12 ≈ 24 h nach 09:27):
+  full                         2026-06-17T00  n=127  runde= 76.4  cohort= 47.2  meldeformat= 61.4  sig= 75.6  please_relay= 48.0
+  full                         2026-06-17T06  n= 48  runde= 77.1  cohort= 54.2  meldeformat= 75.0  sig= 85.4  please_relay= 60.4
+  no_contact_trace             2026-06-17T00  n= 96  runde= 72.9  cohort= 49.0  meldeformat= 59.4  sig= 72.9  please_relay= 47.9
+  no_contact_trace             2026-06-17T06  n= 40  runde= 77.5  cohort= 52.5  meldeformat= 72.5  sig= 82.5  please_relay= 57.5
+  no_contact_trace_firstline   2026-06-17T00  n=102  runde= 71.6  cohort= 49.0  meldeformat= 58.8  sig= 72.5  please_relay= 48.0
+  no_contact_trace_firstline   2026-06-17T06  n= 41  runde= 78.0  cohort= 53.7  meldeformat= 73.2  sig= 82.9  please_relay= 56.1
+Kumulativ (Erstversionen zwischen T0 und T0+h):
+  full                         <= 18 h  n= 546  runde= 36.4  cohort= 43.8  meldeformat= 42.1
+  full                         <= 24 h  n= 606  runde= 40.8  cohort= 44.4  meldeformat= 45.5
+  no_contact_trace             <= 18 h  n= 444  runde= 34.5  cohort= 43.9  meldeformat= 40.8
+  no_contact_trace             <= 24 h  n= 495  runde= 39.2  cohort= 44.4  meldeformat= 44.2
+  no_contact_trace_firstline   <= 18 h  n= 473  runde= 33.6  cohort= 41.9  meldeformat= 39.3
+  no_contact_trace_firstline   <= 24 h  n= 525  runde= 38.3  cohort= 42.7  meldeformat= 42.9
+Maximale Fensterdifferenz full − no_contact_trace (n>=20 in beiden): runde=4.7 pp, cohort=8.7 pp, meldeformat=5.4 pp, sig_endzeile=6.1 pp, please_relay=10.0 pp
+-> /home/philflow/Dokumente/coding/research/agent-swarm-forensics/paper/figures/data/fig3b_format_filtered.json

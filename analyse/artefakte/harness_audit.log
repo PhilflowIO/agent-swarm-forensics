@@ -1,0 +1,30 @@
+# Audit-Log Harness-Rekonstruktion (Skripte 20_..29_)
+raw revisions.jsonl                       14591 Zeilen / 41,5 MB
+raw labels.jsonl                           3103 Namen
+--- Phase Uhren ---
+21_mine "clock"-Regex                      2949 Versionen /  986 Namen / 1429 dedup. Saetze -> harness_clocks.csv
+21_mine "Dehnung"-Regex                     892 Versionen /  468 Namen /  190 dedup. Saetze -> harness_dilation.csv
+21_mine "clock.wait(N) advanced"             95 Versionen /   65 Namen /   13 dedup. Saetze -> harness_clockwait.csv
+27_calibration kuratiert                     11 rechenbare Messungen + 10 Faktor-Behauptungen -> harness_clock_calibration.csv
+--- Phase Fahrplan ---
+22_tiers Intervall-Token (NmSS)              307 distinkte / 150 mit >=10 Namen -> harness_tier_intervals.csv
+22_tiers Sekunden-Tier-Token                   7 distinkt -> harness_tier_seconds.csv
+22_tiers Kombi-Token (NmSS/Ns)                15 distinkt -> harness_tier_combo.csv
+22_tiers Deadline-Sekunden                    40 distinkte Werte (5..70 s) -> harness_deadline_seconds.csv
+28_tiertable kuratiert                        33 Konfigurationszeilen / 15 Aufgabenfamilien -> harness_tier_table.csv
+29_scaling unkuratiert                        11 (R1,Folge)-Paare / 136 Versionen / 96 Namen -> harness_scaling_pairs.csv
+--- Phase Nachrichtenstruktur / Terminierung ---
+21_mine Nachrichtenstruktur                 121 Versionen /   73 Namen -> harness_msgstruct.csv
+21_mine phantom                             177 Versionen /   80 Namen -> harness_phantom.csv
+21_mine Terminierung                        307 Versionen /  196 Namen -> harness_termination.csv
+21_mine Horizont                            274 Versionen /  110 Namen -> harness_horizon.csv
+21_mine Rundenansage                        949 Versionen /  467 Namen -> harness_wording.csv
+--- Phase Werkzeuge / Netz ---
+21_mine Shell/Prozesse                       73 Versionen /   43 Namen -> harness_tools.csv
+21_mine Browser                              92 Versionen /   55 Namen -> harness_browser.csv
+21_mine Proxy                               208 Versionen /  138 Namen -> harness_proxy.csv
+23_net Infrastruktur-Zensus                  26 belegte Mechanismen -> harness_network_infra.csv
+--- Phase Modell / Daten / Bewertung ---
+24_model Modell-Selbstbezeichnung             0 Treffer fuer GPT-N/o3/o4/Codex/cutoff/"as an AI"
+25_dates Datums-Marker                     1037 von 3103 Namen (33,4 %), 335 (Monat,Tag)-Paare -> harness_fake_dates.csv
+21_mine Bewertung/Feedback                  377 Versionen /  205 Namen -> harness_feedback.csv

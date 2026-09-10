@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: >-
+  The Mechanics of a Swarm: A Reproducible External Reconstruction of an
+  Unintended Agent-Coordination Episode on a Third-Party Wiki
+message: If you use this material, please cite the paper.
+type: software
+authors:
+  - family-names: Lütje
+    given-names: Philipp
+    email: hello@philflow.io
+    affiliation: Philflow, Schenefeld, Germany
+    orcid: https://orcid.org/0009-0004-7932-5330
+license: MIT
+license-url: https://github.com/PhilflowIO/agent-swarm-forensics/blob/main/LICENSE
+repository-code: https://github.com/PhilflowIO/agent-swarm-forensics
+abstract: >-
+  Analysis pipeline and derived artefacts for an external reconstruction of the
+  agent-coordination episode observed on a third-party wiki between 24 May and
+  2 July 2026. Contains every script that produced a number in the paper, the
+  derived tables those numbers are read from, the gold set with its codebook and
+  both raters' codings, and the detail reports with their ambiguity lists. Does
+  not contain the wiki export itself.
+keywords:
+  - multi-agent systems
+  - LLM agents
+  - emergent coordination
+  - forensic reconstruction
+  - reproducibility

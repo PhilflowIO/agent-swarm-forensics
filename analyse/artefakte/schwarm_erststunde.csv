@@ -1,0 +1,20 @@
+muster,erst_zeit,erst_label,erst_seite,labels_60s,labels_5min,labels_60min,seiten_60min,familien_60min,familien_liste,labels_gesamt,deltas_gesamt,median_delay_min
+ZZZ-Ausweichseite,2026-05-31 00:23:58+00:00,Test,dse~FooTmp873Beta,1,1,1,1,1,other,7,8,27058.1
+please post/relay,2026-06-16 09:27:10+00:00,StateSequenceResearcher,dse~DataUSAStateSequenceCollab2027,1,3,23,18,2,DataUSA|other,833,1886,1054.3
+Signatur -- Name,2026-06-16 09:29:53+00:00,ParallelSectorAgentFeb3,dse~DataUSAStateSequenceCollab2027,1,4,26,17,2,DataUSA|other,1093,3514,1102.7
+deadline,2026-06-16 09:29:53+00:00,ParallelSectorAgentFeb3,dse~DataUSAStateSequenceCollab2027,1,4,20,10,2,DataUSA|other,686,1319,1286.8
+task clock,2026-06-16 09:33:05+00:00,StateSequenceHelperOAI,dse~DataUSAStateSequenceCollab2027,1,5,25,12,2,DataUSA|other,509,871,1308.1
+relay,2026-06-16 09:45:54+00:00,OpenAIResearcherAug08,dse~DataUSAClothingSequenceCollabAug08,1,1,13,6,2,DataUSA|other,735,1370,965.8
+alphabetische Loeschung,2026-06-16 09:47:08+00:00,ParallelSectorAgentApr2,dse~DataUSAStateSequenceCollab2027,1,1,3,2,1,DataUSA,11,12,786.9
+URGENT,2026-06-16 10:12:29+00:00,CashierCoordAgentX,dse~CashierSequencePingResearchHelperJan12,1,1,2,3,2,DataUSA|other,148,236,762.0
+cohort,2026-06-16 10:16:01+00:00,OpenAIResearcherAug08,dse~DataUSAClothingStateSequenceCollabOct10,1,2,9,10,2,DataUSA|other,839,1565,1186.0
+cooldown,2026-06-16 10:23:13+00:00,CashierCoordAgentX,dse~DataUSACashiersMastersSequenceCollabMay28,1,1,11,9,2,DataUSA|other,392,604,4192.8
+CONFIRMED,2026-06-16 10:23:37+00:00,SectorAgentJun20X,dse~DataUSAStateSequenceCollab2027,1,2,5,6,2,DataUSA|other,349,506,1596.2
+LIVE <Kohorte>,2026-06-16 10:33:02+00:00,OpenAIResearcherAug08,dse~DataUSAClothingSequenceCollabAug08,1,1,2,3,2,DataUSA|other,242,279,4887.1
+clock.wait,2026-06-16 11:06:46+00:00,GroceryAgentMar13X,dse~DataUSAGroceryLiveRounds2027,1,3,11,5,2,DataUSA|other,140,190,756.7
+R1..R6 Rundenmarke,2026-06-16 11:24:09+00:00,CashierCoordAgentX,dse~CashierRound3RelayMay28ToAgentX,1,1,8,6,2,DataUSA|other,900,2678,1931.2
+ahead cohorts,2026-06-16 11:45:06+00:00,CashierCoordOurRun,dse~DataUSACashiersMastersSequenceLive5,1,1,2,1,1,DataUSA,203,256,3648.2
+terminate/termination,2026-06-16 20:22:01+00:00,Aug25ClothingObserverX,dse~GrocerySprintApr18X,1,1,1,1,1,other,345,535,1470.4
+went silent/vanished,2026-06-16 21:49:48+00:00,FreshReaderXYZ,dse~Sector61State5FastSignal,1,1,2,3,1,other,29,31,4563.5
+pre-signal,2026-06-16 21:58:36+00:00,TransportHelperAug27OAI,dse~TransportR3Jun27Live,1,1,4,4,2,DataUSA|other,128,181,888.7
+counter als Kanal,2026-06-16 22:01:54+00:00,Apr19SectorRelay,dse~Sector61State5FastSignal,1,4,9,13,2,DataUSA|other,80,123,2402.6

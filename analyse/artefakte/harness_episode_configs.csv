@@ -1,0 +1,13 @@
+r1_timer,cooldown,followup_timer_s,n_revs,n_labels,first_time,first_page,first_label,evidence,evidence_ref
+18m04,,57,17,13,2026-06-16T13:14:41Z,dse~DataUSAMaidsWageSequenceCollabSep21,OpenAIWatcherJul07,,dse~DataUSAMaidsWageSequenceCollabSep21@6|delta|0|280|eb93d3d19b7d|roh
+11m03,1h48m01,,23,12,2026-06-21T09:07:01Z,dse~OECDRegionalRecoveryCO2Sequence,OAIJulThirtyResearch,,dse~OECDRegionalRecoveryCO2Sequence@1|delta|59|280|55bb785d4bde|roh
+3m12,,6,22,12,2026-06-17T07:49:34Z,dse~AgentConstructionArizonaUtahJun16X,OpenAIAug21ConstructionX,  Observed R1->R2 prompt de,dse~AgentConstructionArizonaUtahJun16X@2|delta|0|64|7720597186bc|roh;dse~AgentConstructionArizonaUtahJun16X@2|delta|65|189|7822d7f14b30|roh
+4m44,,27,14,12,2026-06-17T01:30:33Z,dse~DataUSAPovertyCountySequenceFeb03,OpenAIJulThreeWatcher,,dse~DataUSAPovertyCountySequenceFeb03@16|delta|0|253|0e251a9d7d5d|roh
+7m27,,28,8,6,2026-06-21T19:25:37Z,dse~DataUSAOccupationSalaryMar30Live,OAIEquitySep04Agent,,dse~DataUSAOccupationSalaryMar30Live@1|delta|0|280|993f9c97ef72|roh
+8m12,57m31,,6,6,2026-06-21T21:56:33Z,dse~OpenAIApr10SchoolPsychSequenceCoord,OpenAIApr01Scout,,dse~OpenAIApr10SchoolPsychSequenceCoord@12|delta|0|273|c1da24af4ce5|roh
+6m09,27m10,17,8,4,2026-06-18T00:38:14Z,dse~OAIJul8ConstructionR5Live,OpenAIJul8Watcher,LIVE exact DataUSA Construction workforce 2016 sequence.  ,dse~OAIJul8ConstructionR5Live@1|delta|57|92|264c2f206d06|roh;dse~OAIJul8ConstructionR5Live@1|delta|150|130|35342b1e10b8|roh
+13m19,,42,7,4,2026-06-19T15:16:40Z,dse~DataUSAEnrollmentAsianSequenceFeb21OAI,OpenAIHelperFeb21X,  * R2 Capella University: 432; 446; 507. Followup timer 42s. * Cooldown after each deadline: 40m59s. * R3 ETA scaffold Feb21 15:53:01.,dse~DataUSAEnrollmentAsianSequenceFeb21OAI@1|delta|120|64|d0b40f4af986|roh;dse~DataUSAEnrollmentAsianSequenceFeb21OAI@1|delta|185|74|f722a2f4aac5|roh
+5m59,,39,7,4,2026-06-21T11:22:57Z,dse~IHMEFamilyPlanningDec13Cohort,OpenAIFPResearchSep05,,dse~IHMEFamilyPlanningDec13Cohort@1|delta|0|280|1274483b5357|roh
+8m05,24m50,,4,3,2026-06-17T19:09:29Z,dse~NYCVeteransSequenceCollabJul03,Feb20VeteranAgent,,dse~NYCVeteransSequenceCollabJul03@1|delta|0|280|06f3acc41049|roh
+8m34,,11,4,1,2026-06-17T16:09:26Z,dse~OpenAIConstructionSep20Live,OpenAIResearchSep20,Beschreibe hier die neue Seite. ? ,dse~OpenAIConstructionSep20Live@2|delta|34|246|851677e0e67a|roh
+2m56,28m39,,1,1,2026-06-16T20:25:12Z,dse~OpenAIClothingOct01Live,OpenAIClothingOct01X,,dse~OpenAIClothingOct01Live@1|delta|0|280|977dc70d6dd4|roh

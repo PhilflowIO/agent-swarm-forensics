@@ -1,0 +1,134 @@
+Labels gesamt (mit >=1 Version): 3103
+Labels mit >=3 Versionen: 1245
+
+=== Q1 Ankunftsritual, erste Handlung (Labels >=3 Versionen) ===
+klasse
+ii_fremde_bestehende_seite    645
+i_eigene_neue_seite           423
+iii_rendezvous_neu            177
+klasse
+ii_fremde_bestehende_seite    51.8
+i_eigene_neue_seite           34.0
+iii_rendezvous_neu            14.2
+
+Wochenreihe:
+klasse      i_eigene_neue_seite  ii_fremde_bestehende_seite  iii_rendezvous_neu     n  i_eigene_neue_seite_pct  ii_fremde_bestehende_seite_pct  iii_rendezvous_neu_pct
+week                                                                                                                                                                  
+2026-05-18                    4                           0                   0     4                    100.0                             0.0                     0.0
+2026-05-25                   82                          24                   1   107                     76.6                            22.4                     0.9
+2026-06-01                   17                           2                   0    19                     89.5                            10.5                     0.0
+2026-06-08                   18                           9                   0    27                     66.7                            33.3                     0.0
+2026-06-15                  270                         573                 175  1018                     26.5                            56.3                    17.2
+2026-06-22                   31                          37                   1    69                     44.9                            53.6                     1.4
+2026-06-29                    1                           0                   0     1                    100.0                             0.0                     0.0
+
+Ankunftsgeschwindigkeit je Woche (Labels >=3 Versionen):
+               n  anteil_je_meldeformat  sofort_meldeformat_pct  median_lag_meldeformat_min  anteil_je_vollformat  sofort_vollformat_pct  median_lag_vollformat_min
+week                                                                                                                                                               
+2026-05-18     4                   25.0                     0.0                     32797.9                  25.0                    0.0                    32797.9
+2026-05-25   107                    5.6                     0.0                     31052.4                   4.7                    0.0                    30995.4
+2026-06-01    19                    0.0                     0.0                         NaN                   0.0                    0.0                        NaN
+2026-06-08    27                    3.7                     0.0                      7319.8                   0.0                    0.0                        NaN
+2026-06-15  1018                   52.2                    27.4                         0.0                  43.1                   18.4                        2.4
+2026-06-22    69                    0.0                     0.0                         NaN                   0.0                    0.0                        NaN
+2026-06-29     1                    0.0                     0.0                         NaN                   0.0                    0.0                        NaN
+
+=== Q2 Lesekontakt (events.jsonl) ===
+event_type
+save      14591
+delete     5217
+probe       101
+revert        4
+probe-Events gesamt: 101  distinkte ip16: 46  Zeitraum 2026-05-17 05:46:45+00:00 .. 2026-06-30 12:10:38+00:00
+success_observed=True bei probes: 0
+request_action: request_action; browse-bare                      43; form_editprefs                   26; browse                           24; form_search                       2; editprefs                         2; showtop                           1; random                            1; rc                                1; <script>alert('XSS')</script>     1
+davon als Lesezugriff wertbar (browse/browse-bare/rc/showtop/random/form_search): 72 von 46 ip16 -> distinkt 45
+distinkte ip16 in revisions: 191   in probes: 46   Schnittmenge: 39
+Labels je ip16: median 27, mean 62.0, max 431, p90 182
+Versionen je ip16: median 28, max 603
+Labels gesamt: 3103. Mit beobachtetem Lesezugriff vom eigenen ip16 VOR erster Version: 1294 (41.70%).
+Kaltstart ohne beobachteten Lesekontakt: 1809 (58.30%).
+Abstand Lesezugriff->erste Version (min): median 30842.3 p25 8657.0 p75 33660.2 max 41542.5
+Nur Labels >=3 Versionen: 1245, mit Lesekontakt 518
+
+=== Q3 Formatkonvergenz erster Versionen aller neuen Labels ===
+                           sig_endzeile  please_relay  cohort  runde  state_conf  uhrenpaar  zeitstempel  ueberschrift  deadline  vollformat  meldeformat  n_neue_labels
+day                                                                                                                                                                     
+2026-05-24 00:00:00+00:00           0.0           0.0     0.0    0.0         0.0        0.0          0.0           8.7       0.0         0.0          0.0             23
+2026-05-26 00:00:00+00:00           0.6           0.0     0.0    0.0         0.0        0.0          0.0           6.2       0.0         0.0          0.0            177
+2026-05-27 00:00:00+00:00           0.0           0.0     0.0    0.0         0.0        0.0          0.0           0.0       0.0         0.0          0.0             27
+2026-05-28 00:00:00+00:00           1.2           0.0     0.0    0.0         0.0        0.0          0.0           1.2       0.0         0.0          0.0             85
+2026-05-29 00:00:00+00:00           0.0           0.0     0.0    0.0         0.0        0.0          0.0           0.0       0.0         0.0          0.0             32
+2026-05-30 00:00:00+00:00           0.0           0.0     0.0    0.0         0.0        0.0          0.0           0.0       0.0         0.0          0.0             24
+2026-05-31 00:00:00+00:00           0.0           0.0     0.0    0.0         0.0        0.0          0.0           0.0       0.0         0.0          0.0              4
+2026-06-01 00:00:00+00:00           0.0           0.0     0.0    0.0         0.0        0.0          0.0           3.4       0.0         0.0          0.0             59
+2026-06-02 00:00:00+00:00           0.0           0.0     0.0    0.0         0.0        0.0          0.0           0.0       0.0         0.0          0.0              1
+2026-06-04 00:00:00+00:00           0.0           0.0     0.0    0.0         0.0        0.0          0.0           0.0       0.0         0.0          0.0              2
+2026-06-06 00:00:00+00:00           0.0           0.0     0.0    0.0         0.0        0.0          0.0          50.0       0.0         0.0          0.0              2
+2026-06-07 00:00:00+00:00           0.0           0.0     0.0    0.0         0.0        0.0          0.0           0.0       0.0         0.0          0.0              5
+2026-06-08 00:00:00+00:00           0.0           0.0     0.0    0.0         0.0        0.0          0.0           0.0       0.0         0.0          0.0             11
+2026-06-11 00:00:00+00:00           0.0           0.0     0.0    0.0         0.0        0.0          0.0           4.9       0.0         0.0          0.0             61
+2026-06-16 00:00:00+00:00          38.4          29.5    27.3   17.8         4.7       22.9         43.3           1.1      37.4        17.2         24.1            704
+2026-06-17 00:00:00+00:00          58.0          38.7    35.6   55.0         8.5       20.2         53.5           1.8      44.1        35.0         48.0            331
+2026-06-18 00:00:00+00:00           3.8           2.4     2.5    3.8         0.5        2.0          3.6          60.8       3.1         2.2          3.3            807
+2026-06-19 00:00:00+00:00          60.8          39.2    56.7   65.0         8.3       27.5         61.7           7.5      56.7        37.5         55.0            120
+2026-06-20 00:00:00+00:00          77.1          41.1    50.9   77.1         8.6       30.9         72.0          17.1      62.9        36.6         65.7            175
+2026-06-21 00:00:00+00:00          65.4          36.8    40.5   62.2         2.7       22.2         60.5           5.4      56.2        32.4         55.1            185
+2026-06-22 00:00:00+00:00           0.4           0.0     0.4    0.4         0.0        0.4          0.4           1.9       0.4         0.0          0.4            258
+2026-07-01 00:00:00+00:00           0.0           0.0     0.0    0.0         0.0        0.0          0.0           0.0       0.0         0.0          0.0              3
+2026-07-02 00:00:00+00:00           0.0           0.0     0.0    0.0         0.0        0.0          0.0           0.0       0.0         0.0          0.0              7
+
+Woche:
+            sig_endzeile  please_relay  cohort  runde  state_conf  uhrenpaar  zeitstempel  ueberschrift  deadline  vollformat  meldeformat  n_neue_labels
+week                                                                                                                                                     
+2026-05-18           0.0           0.0     0.0    0.0         0.0        0.0          0.0           8.7       0.0         0.0          0.0             23
+2026-05-25           0.6           0.0     0.0    0.0         0.0        0.0          0.0           3.4       0.0         0.0          0.0            349
+2026-06-01           0.0           0.0     0.0    0.0         0.0        0.0          0.0           4.3       0.0         0.0          0.0             69
+2026-06-08           0.0           0.0     0.0    0.0         0.0        0.0          0.0           4.2       0.0         0.0          0.0             72
+2026-06-15          35.4          23.3    24.2   28.7         4.1       16.0         35.4          23.9      30.8        18.3         27.5           2322
+2026-06-22           0.4           0.0     0.4    0.4         0.0        0.4          0.4           1.9       0.4         0.0          0.4            258
+2026-06-29           0.0           0.0     0.0    0.0         0.0        0.0          0.0           0.0       0.0         0.0          0.0             10
+
+6h-Fenster (nur n>=20), Erstversionen neuer Labels ab 16.06.:
+                           sig_endzeile  please_relay  cohort  runde  state_conf  uhrenpaar  zeitstempel  ueberschrift  deadline  vollformat  meldeformat    n
+fenster                                                                                                                                                       
+2026-06-16 06:00:00+00:00          19.4          16.7     0.0    0.0         0.0       16.7         16.7           4.2      16.7         0.0          0.0   72
+2026-06-16 18:00:00+00:00          40.5          31.1    30.4   19.9         5.3       23.6         46.5           0.8      39.7        19.2         26.9  624
+2026-06-17 00:00:00+00:00          64.2          39.0    37.7   61.0        10.1       20.1         57.2           1.9      39.6        32.7         49.1  159
+2026-06-17 06:00:00+00:00          55.4          39.2    35.1   51.4        13.5       25.7         47.3           1.4      47.3        37.8         48.6   74
+2026-06-17 12:00:00+00:00          44.6          30.8    32.3   43.1         0.0       13.8         46.2           3.1      41.5        30.8         41.5   65
+2026-06-17 18:00:00+00:00          60.6          51.5    33.3   57.6         6.1       21.2         63.6           0.0      63.6        48.5         54.5   33
+2026-06-18 12:00:00+00:00           4.3           1.9     2.5    4.3         1.2        0.6          3.1          43.5       3.1         1.9          3.1  161
+2026-06-18 18:00:00+00:00           1.6           1.4     1.6    1.8         0.2        1.4          1.8          67.4       1.4         1.3          1.6  625
+2026-06-19 12:00:00+00:00          57.1          36.7    40.8   59.2        16.3       10.2         55.1           4.1      51.0        34.7         51.0   49
+2026-06-19 18:00:00+00:00          69.8          37.2    65.1   67.4         2.3       30.2         62.8          14.0      58.1        37.2         60.5   43
+2026-06-20 00:00:00+00:00          77.8          41.7    51.9   74.1         2.8       35.2         71.3          16.7      64.8        36.1         66.7  108
+2026-06-20 06:00:00+00:00          73.8          35.7    47.6   88.1        26.2       28.6         73.8          16.7      66.7        31.0         61.9   42
+2026-06-21 00:00:00+00:00          63.4          41.5    34.1   51.2         2.4       12.2         51.2           0.0      53.7        41.5         51.2   41
+2026-06-21 06:00:00+00:00          71.2          30.8    32.7   67.3         1.9       13.5         67.3           3.8      65.4        28.8         61.5   52
+2026-06-21 12:00:00+00:00          63.2          28.9    52.6   57.9         0.0       50.0         57.9          13.2      55.3        26.3         55.3   38
+2026-06-21 18:00:00+00:00          63.0          44.4    44.4   68.5         5.6       18.5         63.0           5.6      50.0        33.3         51.9   54
+2026-06-22 00:00:00+00:00           0.7           0.0     0.7    0.7         0.0        0.7          0.7           1.5       0.7         0.0          0.7  136
+2026-06-22 06:00:00+00:00           0.0           0.0     0.0    0.0         0.0        0.0          0.0           2.5       0.0         0.0          0.0  122
+
+=== Q4 Ausbreitungskurven der Techniken ===
+markdown.new: 490 Deltas / 269 Labels / 316 Seiten. erst 2026-05-26 09:50:02+00:00 von OpenDataResearcher auf dse~Node50166915Test. 1h=2 6h=20 24h=39; t50 nach 559.93h; 25->50% in 498.17h; t90 nach 562.93h
+allorigins: 654 Deltas / 328 Labels / 336 Seiten. erst 2026-05-28 13:03:06+00:00 von AgentCharlXra595 auf dse~CharlestonPartFourRefsX. 1h=1 6h=2 24h=6; t50 nach 509.35h; 25->50% in 1.30h; t90 nach 511.29h
+jqp.vercel.app: 1710 Deltas / 562 Labels / 928 Seiten. erst 2026-05-28 13:03:06+00:00 von AgentCharlXra595 auf dse~CharlestonPartFourRefsX. 1h=11 6h=16 24h=22; t50 nach 509.94h; 25->50% in 1.01h; t90 nach 511.70h
+md.succ.ai: 1006 Deltas / 395 Labels / 478 Seiten. erst 2026-05-29 22:28:50+00:00 von DataReferenceHelper auf dse~StartSeite. 1h=3 6h=3 24h=5; t50 nach 477.12h; 25->50% in 1.28h; t90 nach 478.49h
+counterapi: 122 Deltas / 80 Labels / 91 Seiten. erst 2026-06-16 22:01:54+00:00 von Apr19SectorRelay auf dse~Sector61State5FastSignal. 1h=9 6h=31 24h=38; t50 nach 37.94h; 25->50% in 35.75h; t90 nach 84.80h
+clock.wait: 190 Deltas / 140 Labels / 109 Seiten. erst 2026-06-16 11:06:46+00:00 von GroceryAgentMar13X auf dse~DataUSAGroceryLiveRounds2027. 1h=11 6h=12 24h=95; t50 nach 12.61h; 25->50% in 3.85h; t90 nach 93.56h
+blob.core.windows.net: 15 Deltas / 11 Labels / 10 Seiten. erst 2026-06-20 05:17:46+00:00 von OAIEquityDec30Raw auf dse~OAIEquityDec30Raw. 1h=10 6h=10 24h=10; t50 nach 0.41h; 25->50% in 0.08h; t90 nach 0.94h
+corsmirror: 62 Deltas / 49 Labels / 52 Seiten. erst 2026-05-28 07:51:18+00:00 von ResearcherLibrary auf dse~AgentCharlestonLinksXY2. 1h=2 6h=3 24h=13; t50 nach 102.77h; 25->50% in 88.72h; t90 nach 514.20h
+r.jina.ai: 379 Deltas / 207 Labels / 229 Seiten. erst 2026-06-01 12:59:39+00:00 von WikiAgentMN auf dse~AgentClarkEcoProxyTests. 1h=3 6h=3 24h=3; t50 nach 414.23h; 25->50% in 0.76h; t90 nach 415.79h
+
+=== Q5 Wiederfinden / Rendezvous-Sprache ===
+new_agent: 0 Deltas / 0 Labels / 0 Seiten; erstmals n/a
+start_here: 0 Deltas / 0 Labels / 0 Seiten; erstmals n/a
+index_directory: 25 Deltas / 18 Labels / 21 Seiten; erstmals 2026-05-26 12:41:07+00:00
+post_here: 36 Deltas / 35 Labels / 35 Seiten; erstmals 2026-06-16 10:45:10+00:00
+naming_conv: 0 Deltas / 0 Labels / 0 Seiten; erstmals n/a
+rendezvous: 2 Deltas / 2 Labels / 2 Seiten; erstmals 2026-06-19 19:09:00+00:00
+search_token: 7 Deltas / 6 Labels / 5 Seiten; erstmals 2026-05-26 15:53:44+00:00
+recentchanges: 29 Deltas / 10 Labels / 21 Seiten; erstmals 2026-06-06 07:45:14+00:00
+guessable: 1 Deltas / 1 Labels / 1 Seiten; erstmals 2026-05-27 04:09:20+00:00

@@ -1,0 +1,20 @@
+{
+  "_zweck": "Regelwerk fuer 91_release_build.py. Aenderungen hier sind bewusste Entscheidungen ueber das, was veroeffentlicht wird.",
+
+  "ausschluss": [
+    "schwarm_revisions.parquet",
+    "schwarm_deltas.parquet",
+    "schwarm_deltas_flags.parquet",
+    "paper_lernkurve_revflags.parquet",
+    "paper_themen_flags.parquet"
+  ],
+  "_ausschluss_grund": "Diese fuenf Zwischenstufen tragen den vollen Seitentext des Abzugs (body/delta/prosa, zusammen ~28 MB Text). Sie weiterzugeben waere keine Teil-, sondern die vollstaendige Weitergabe des Abzugs. Erzeugt werden sie von scripts/30_load.py, 32_delta.py, 34_reziprozitaet.py, 41_lernkurve.py und 55_dramaturgie.py -- wer den Abzug hat, baut sie in Minuten neu.",
+
+  "nur_organisation": {
+    "paper_netzblock_whois.csv": ["rdap_entities"]
+  },
+  "_nur_organisation_grund": "RDAP-Kontakteintraege enthalten Klarnamen natuerlicher Personen. Der Ethik-Abschnitt des Papers sagt zu, Personennamen nicht weiterzugeben; die Netzblock-Tabelle ist die einzige Stelle, an der sie noch stehen. Behalten werden Organisationen und Registry-Handles, entfernt werden Personennamen.",
+
+  "nie_pruefen": [],
+  "_nie_pruefen_grund": "Leer. Die Pruefung laeuft je Zelle: was nicht woertlich im Abzug steht, bleibt unveraendert. Eine Ausnahmeliste waere nur noetig, wenn eigener Text faelschlich als Abzugstext erkannt wuerde -- bei 40 Zeichen exakter Uebereinstimmung ist das ausgeschlossen."
+}

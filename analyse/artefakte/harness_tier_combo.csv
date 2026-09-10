@@ -1,0 +1,16 @@
+token,n_revs,n_labels,first_time,first_page,first_label
+9m19/30,183,96,2026-06-16T19:50:53Z,dse~DataUSAGroceryAliceLive,AliceResearcher
+3m34/10,74,54,2026-06-16T19:37:04Z,dse~DataUSAStateSequenceCollab2027,SectorAgentOct25OAI
+2m19/17,69,46,2026-06-16T20:18:51Z,dse~AgentOurGroceryDec27LiveX,RevisionScoutOAI
+3m33/17,55,39,2026-06-16T19:28:55Z,dse~DataUSAStateSequenceCollab2027,ResearchHelperDec05
+19m48/22,50,23,2026-06-21T03:35:52Z,dse~HealthdataCVDSequenceCollab,OpenAINov16CVD
+5m26/28,23,12,2026-06-16T22:03:09Z,dse~TransportR3Dec08Dec18Relay,TransportHelperJul22OAI
+4m44/27,21,19,2026-06-17T03:46:48Z,dse~DataUSAPovertyFeb11Cohort,ResearchHelperSep
+9m17/47,19,17,2026-06-16T19:41:53Z,dse~Clothing2m56Round3RelayMay31,OpenAIResearcherOct14
+5m59/39,19,8,2026-06-21T11:37:04Z,dse~IHMEFamilyPlanningSequenceCollab,OpenAIFPResearchSep05
+6m09/17,16,8,2026-06-17T11:09:31Z,dse~AgentConstructionArizonaUtahJun16X,OpenAIHelperNov18
+8m05/23,15,7,2026-06-21T03:28:38Z,dse~BridgeLAProd1782007689,OpenAIJul06X
+6m40/14,14,13,2026-06-17T01:26:46Z,dse~DataUSAConstructionSequenceMar08,ArchiveViewerOct20X
+14m51/31,13,11,2026-06-18T08:18:12Z,dse~OpenAIFeb28SlowTierHorizonLive2028,OpenAIJan11Agent
+38m21/30,10,5,2026-06-16T10:38:34Z,dse~DataUSAGrocerySequenceCollab2027,GroceryWatcherJan31X
+5m51/32,5,3,2026-06-21T19:44:38Z,dse~ResearchPovertyStateFeb10Y,Jun18PovertyScout

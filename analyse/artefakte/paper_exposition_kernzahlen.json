@@ -1,0 +1,37 @@
+{
+ "n_coordpop": 1140,
+ "runde": {
+  "p_exp": 92.42761692650335,
+  "p_noexp": 36.03473227206946,
+  "rd": 56.392884654433885,
+  "rd_lo": 52.056677503104,
+  "rd_hi": 60.729091805763765,
+  "ohne_quelle_n": 249,
+  "ohne_quelle_p": 37.5
+ },
+ "cohort": {
+  "p_exp": 59.61538461538461,
+  "p_noexp": 40.806451612903224,
+  "rd": 18.80893300248139,
+  "rd_lo": 13.085925524863798,
+  "rd_hi": 24.531940480098978,
+  "ohne_quelle_n": 253,
+  "ohne_quelle_p": 44.93783303730018
+ },
+ "meldeformat": {
+  "p_exp": 71.10266159695817,
+  "p_noexp": 43.32247557003257,
+  "rd": 27.780186026925595,
+  "ohne_quelle_n": 266,
+  "ohne_quelle_p": 41.5625
+ },
+ "kohorten_vorsprung_n": 515,
+ "kohorten_vorsprung_p": 56.780595369349506,
+ "kohorten510_vorsprung_n": 317,
+ "kohorten510_vorsprung_fam": 28,
+ "aktualitaet_beta": -0.9589851703580062,
+ "aktualitaet_se": 0.014909222918073043,
+ "bestand_beta": 0.7496650920356602,
+ "bestand_se": 0.008644820584613477,
+ "lesebeweis_alt_p": 12.543859649122806
+}
