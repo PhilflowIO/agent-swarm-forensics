@@ -3,6 +3,14 @@ title: >-
   The Mechanics of a Swarm: A Reproducible External Reconstruction of an
   Unintended Agent-Coordination Episode on a Third-Party Wiki
 message: If you use this material, please cite the paper.
+doi: 10.5281/zenodo.22689980
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22689980
+    description: Concept DOI, resolves to the latest version
+  - type: doi
+    value: 10.5281/zenodo.22689981
+    description: Version v1.0.0
 type: software
 authors:
   - family-names: Lütje
@@ -26,3 +34,5 @@ keywords:
   - emergent coordination
   - forensic reconstruction
   - reproducibility
+version: 1.0.0
+date-released: '2026-09-10'
