@@ -1,6 +1,5 @@
 {
   "_zweck": "Regelwerk fuer 91_release_build.py. Aenderungen hier sind bewusste Entscheidungen ueber das, was veroeffentlicht wird.",
-
   "ausschluss": [
     "schwarm_revisions.parquet",
     "schwarm_deltas.parquet",
@@ -9,12 +8,83 @@
     "paper_themen_flags.parquet"
   ],
   "_ausschluss_grund": "Diese fuenf Zwischenstufen tragen den vollen Seitentext des Abzugs (body/delta/prosa, zusammen ~28 MB Text). Sie weiterzugeben waere keine Teil-, sondern die vollstaendige Weitergabe des Abzugs. Erzeugt werden sie von scripts/30_load.py, 32_delta.py, 34_reziprozitaet.py, 41_lernkurve.py und 55_dramaturgie.py -- wer den Abzug hat, baut sie in Minuten neu.",
-
   "nur_organisation": {
-    "paper_netzblock_whois.csv": ["rdap_entities"]
+    "paper_netzblock_whois.csv": [
+      "rdap_entities"
+    ]
   },
   "_nur_organisation_grund": "RDAP-Kontakteintraege enthalten Klarnamen natuerlicher Personen. Der Ethik-Abschnitt des Papers sagt zu, Personennamen nicht weiterzugeben; die Netzblock-Tabelle ist die einzige Stelle, an der sie noch stehen. Behalten werden Organisationen und Registry-Handles, entfernt werden Personennamen.",
-
   "nie_pruefen": [],
-  "_nie_pruefen_grund": "Leer. Die Pruefung laeuft je Zelle: was nicht woertlich im Abzug steht, bleibt unveraendert. Eine Ausnahmeliste waere nur noetig, wenn eigener Text faelschlich als Abzugstext erkannt wuerde -- bei 40 Zeichen exakter Uebereinstimmung ist das ausgeschlossen."
+  "_nie_pruefen_grund": "Leer. Die Pruefung laeuft je Zelle: was nicht woertlich im Abzug steht, bleibt unveraendert. Eine Ausnahmeliste waere nur noetig, wenn eigener Text faelschlich als Abzugstext erkannt wuerde -- bei 40 Zeichen exakter Uebereinstimmung ist das ausgeschlossen.",
+  "betreiberlog_verzeichnisse": [
+    "betreiberlog",
+    "betreiberlog_identitaet"
+  ],
+  "betreiberlog_freigabe": [
+    "betreiberlog/cross_review_summary.json",
+    "betreiberlog/exposition_eigene_seite_gelesen.csv",
+    "betreiberlog/geburtsstunde_koordinationsseiten.csv",
+    "betreiberlog/geburtsstunde_seiten.csv",
+    "betreiberlog/inventar_monat.csv",
+    "betreiberlog/inventar_seitenklasse.csv",
+    "betreiberlog/inventar_verkehr.csv",
+    "betreiberlog/inventar_verkehr_lesen.csv",
+    "betreiberlog/kernmessung_gelesen_adoption.csv",
+    "betreiberlog/kernmessung_robustheit.csv",
+    "betreiberlog/kernzahlen_lesespalte.json",
+    "betreiberlog/klammer_exposition_lesen.csv",
+    "betreiberlog/ohne_quelle_alle_merkmale.csv",
+    "betreiberlog/pruefung/b_zirkelschluss.csv",
+    "betreiberlog/pruefung/c_fenster.csv",
+    "betreiberlog/pruefung/d_kreuzplacebo_eng_fremd.csv",
+    "betreiberlog/pruefung/d_kreuzplacebo_weit.csv",
+    "betreiberlog/pruefung/d_kreuzplacebo_weit_fremd.csv",
+    "betreiberlog/pruefung/e_zeitplacebo.csv",
+    "betreiberlog/pruefung/f_dosis.csv",
+    "betreiberlog/pruefung/g_geschichtet.csv",
+    "betreiberlog/pruefung/g_ueberlappung.csv",
+    "betreiberlog/pruefung/h_zeitplacebo.csv",
+    "betreiberlog/pruefung/i_epochen.csv",
+    "betreiberlog/pruefung/i_wochen.csv",
+    "betreiberlog/pruefung/j_regression.csv",
+    "betreiberlog/pruefung/l_rotation.csv",
+    "betreiberlog/pruefung/m_altzuordnung_300s.csv",
+    "betreiberlog/pruefung/m_altzuordnung_60s.csv",
+    "betreiberlog/pruefung/n_permutation.csv",
+    "betreiberlog/pruefung/o_ohne_erstseite.csv",
+    "betreiberlog/pruefung/o_tautologie.csv",
+    "betreiberlog/pruefung/p_zeitbuckets.csv",
+    "betreiberlog/verkehr_benanntanteil.csv",
+    "betreiberlog/verkehr_lesen_monat.csv",
+    "betreiberlog/verkehr_zeitkopplung.csv",
+    "betreiberlog_identitaet/bi04_uebersicht.json",
+    "betreiberlog_identitaet/bi05_population.csv",
+    "betreiberlog_identitaet/bi05_population.json",
+    "betreiberlog_identitaet/bi06_gleichzeitig.json",
+    "betreiberlog_identitaet/bi07_netzklassen.json",
+    "betreiberlog_identitaet/bi08_faelle.json",
+    "betreiberlog_identitaet/bi09_kennzahlen.json"
+  ],
+  "_betreiberlog_grund": "Standard ist Ausschluss. Das Betreiber-Requestlog zeichnet auch gewoehnliche Besuche einer Community-Wiki auf; der Ethik-Abschnitt sagt zu, nur aggregierte Ergebnisse weiterzugeben, nicht das Log und nicht den Request-Ausschnitt. Aus den beiden Verzeichnissen wird deshalb nur ausgeliefert, was hier namentlich steht: Tabellen und Kennzahlen ohne eine Zeile je Request, Adresse, Adress-Hash, Netzblock oder Namen. Eine neue Datei dort bleibt unveroeffentlicht, bis sie bewusst in diese Liste aufgenommen wird. Die zeilenbezogenen Zwischenstufen baut scripts/betreiberlog/ aus dem oeffentlichen Quelllog neu.",
+  "netzkennungen": {
+    "freigegebene_anbieter": [
+      "Microsoft",
+      "Amazon AWS",
+      "Google",
+      "DigitalOcean",
+      "Cloudflare",
+      "Oracle"
+    ],
+    "ip16_spalten": [
+      "ip16"
+    ],
+    "block_spalten": {
+      "paper_netzblock_whois.csv": [
+        "ip16",
+        "rdap_name",
+        "range"
+      ]
+    }
+  },
+  "_netzkennungen_grund": "Der Ethik-Abschnitt sagt zu, keine Wohnanschluss-Adressen und -Praefixe weiterzugeben. Wortgetreu erscheint deshalb nur ein Netz, dessen Adressbereich laut artefakte/paper_netzblock_whois.csv einem der hier genannten Cloud-Anbieter gehoert. Jedes andere /16 und jede andere volle Adresse wird je Bau durch ein Pseudonym (netz-/adr- plus HMAC mit zufaelligem, nicht gespeichertem Schluessel) ersetzt; innerhalb eines Baus bleiben gleiche Werte gleich, damit Tabellen verknuepfbar bleiben. Fuer nicht belegte Bloecke der WHOIS-Tabelle werden Registry-Name und Bereich geleert, denn beide benennen den Block ebenso wie das Praefix. Positivliste statt Sperrliste: was sich nicht als Rechenzentrum belegen laesst, gilt als moeglicherweise privat."
 }

@@ -1,192 +1,192 @@
-ip16,n_revisions,pct,n_labels,rdap_name,is_microsoft,rdap_entities,range,anbieter
-20.165,603,4.133,430,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.160.0.0-20.175.255.255,Microsoft
-20.69,587,4.023,401,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-57.154,458,3.139,344,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",57.154.0.0-57.154.255.255,Microsoft
-20.171,455,3.118,340,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.160.0.0-20.175.255.255,Microsoft
-20.97,417,2.858,308,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-20.225,414,2.837,306,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.192.0.0-20.255.255.255,Microsoft
-20.168,405,2.776,304,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.160.0.0-20.175.255.255,Microsoft
-20.9,404,2.769,303,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.0.0.0-20.31.255.255,Microsoft
-4.255,356,2.44,273,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",4.240.0.0-4.255.255.255,Microsoft
-20.114,334,2.289,257,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-20.245,300,2.056,234,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.192.0.0-20.255.255.255,Microsoft
-20.8,289,1.981,225,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-20.29,275,1.885,225,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.0.0.0-20.31.255.255,Microsoft
-20.12,263,1.802,200,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.0.0.0-20.31.255.255,Microsoft
-20.172,259,1.775,192,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.160.0.0-20.175.255.255,Microsoft
-135.232,247,1.693,202,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",135.232.0.0-135.232.255.255,Microsoft
-20.23,239,1.638,198,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.192.0.0-20.255.255.255,Microsoft
-20.65,235,1.611,193,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-64.236,234,1.604,197,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",64.236.0.0-64.236.127.255,Microsoft
-20.98,224,1.535,181,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-52.159,220,1.508,161,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.145.0.0-52.191.255.255,Microsoft
-20.45,209,1.432,166,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-20.11,197,1.35,160,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-52.162,182,1.247,152,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.145.0.0-52.191.255.255,Microsoft
-4.227,182,1.247,144,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",4.224.0.0-4.239.255.255,Microsoft
-130.131,176,1.206,145,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",130.131.0.0-130.131.127.255,Microsoft
-172.184,169,1.158,143,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",172.184.0.0-172.184.255.255,Microsoft
-20.94,167,1.145,140,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-20.237,167,1.145,133,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.192.0.0-20.255.255.255,Microsoft
-20.83,157,1.076,146,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-20.163,157,1.076,124,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.160.0.0-20.175.255.255,Microsoft
-4.154,155,1.062,130,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",4.144.0.0-4.159.255.255,Microsoft
-23.1,152,1.042,122,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",23.96.0.0-23.103.255.255,Microsoft
-4.151,148,1.014,120,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",4.144.0.0-4.159.255.255,Microsoft
-172.212,147,1.007,120,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",172.212.0.0-172.212.255.255,Microsoft
-104.42,141,0.966,116,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",104.40.0.0-104.47.255.255,Microsoft
-20.66,137,0.939,117,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-74.249,137,0.939,119,BLS-74-249-0-0-1003020949,True,"BEDAR6-ARIN|C02435476|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, an",74.249.0.0-74.249.31.255,Microsoft
-20.59,129,0.884,110,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-172.173,129,0.884,114,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",172.173.0.0-172.173.255.255,Microsoft
-172.202,116,0.795,101,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",172.202.0.0-172.202.255.255,Microsoft
-104.21,110,0.754,96,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",104.208.0.0-104.215.255.255,Microsoft
-20.88,107,0.733,94,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-20.62,106,0.726,97,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-20.3,104,0.713,87,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.0.0.0-20.31.255.255,Microsoft
-20.25,99,0.679,87,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.0.0.0-20.31.255.255,Microsoft
-65.52,96,0.658,88,MICROSOFT-1BLK,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",65.52.0.0-65.55.255.255,Microsoft
-20.96,92,0.631,79,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-52.165,92,0.631,76,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.145.0.0-52.191.255.255,Microsoft
-104.43,92,0.631,79,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",104.40.0.0-104.47.255.255,Microsoft
-40.75,91,0.624,84,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",40.74.0.0-40.125.127.255,Microsoft
-20.122,90,0.617,78,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-135.119,89,0.61,88,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",135.119.0.0-135.119.255.255,Microsoft
-52.242,86,0.589,73,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.224.0.0-52.255.255.255,Microsoft
-20.228,86,0.589,75,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.192.0.0-20.255.255.255,Microsoft
-20.169,83,0.569,69,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.160.0.0-20.175.255.255,Microsoft
-157.55,82,0.562,70,MSFT-GFS,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",157.54.0.0-157.60.255.255,Microsoft
-52.225,78,0.535,67,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.224.0.0-52.255.255.255,Microsoft
-20.112,77,0.528,66,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-52.161,77,0.528,68,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.145.0.0-52.191.255.255,Microsoft
-20.109,75,0.514,70,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-132.196,64,0.439,59,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",132.196.0.0-132.196.127.255,Microsoft
-52.251,62,0.425,53,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.224.0.0-52.255.255.255,Microsoft
-20.64,59,0.404,51,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-172.185,56,0.384,49,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",172.185.0.0-172.185.255.255,Microsoft
-20.125,53,0.363,46,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-52.247,53,0.363,43,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.224.0.0-52.255.255.255,Microsoft
-104.209,52,0.356,47,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",104.208.0.0-104.215.255.255,Microsoft
-135.234,51,0.35,46,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",135.234.0.0-135.234.255.255,Microsoft
-4.15,50,0.343,44,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",4.144.0.0-4.159.255.255,Microsoft
-20.57,49,0.336,46,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-23.102,49,0.336,46,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",23.96.0.0-23.103.255.255,Microsoft
-40.65,48,0.329,45,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",40.64.0.0-40.71.255.255,Microsoft
-52.141,48,0.329,45,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.132.0.0-52.143.255.255,Microsoft
-20.115,48,0.329,41,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-20.242,47,0.322,38,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.192.0.0-20.255.255.255,Microsoft
-172.215,46,0.315,42,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",172.215.0.0-172.215.255.255,Microsoft
-4.242,46,0.315,40,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",4.240.0.0-4.255.255.255,Microsoft
-52.238,44,0.302,34,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.224.0.0-52.255.255.255,Microsoft
-128.203,44,0.302,41,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",128.203.0.0-128.203.127.255,Microsoft
-40.116,41,0.281,34,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",40.74.0.0-40.125.127.255,Microsoft
-40.7,40,0.274,36,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",40.64.0.0-40.71.255.255,Microsoft
-13.78,39,0.267,37,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",13.64.0.0-13.107.255.255,Microsoft
-130.213,39,0.267,38,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",130.213.0.0-130.213.127.255,Microsoft
-4.155,39,0.267,36,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",4.144.0.0-4.159.255.255,Microsoft
-40.124,38,0.26,28,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",40.74.0.0-40.125.127.255,Microsoft
-52.23,37,0.254,37,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.224.0.0-52.255.255.255,Microsoft
-52.234,35,0.24,29,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.224.0.0-52.255.255.255,Microsoft
-52.176,34,0.233,29,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.145.0.0-52.191.255.255,Microsoft
-20.253,33,0.226,28,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.192.0.0-20.255.255.255,Microsoft
-4.246,33,0.226,30,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",4.240.0.0-4.255.255.255,Microsoft
-40.78,32,0.219,30,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",40.74.0.0-40.125.127.255,Microsoft
-52.237,32,0.219,29,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.224.0.0-52.255.255.255,Microsoft
-168.62,29,0.199,28,MICROSOFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT-Z|Microsoft Abuse Contact|Microsoft Corp|Microsoft Routing, Peering, and DNS|SINGH683-A",168.61.0.0-168.63.255.255,Microsoft
-137.116,29,0.199,26,MICROSOFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT-Z|Microsoft Abuse Contact|Microsoft Corp|Microsoft Routing, Peering, and DNS|SINGH683-A",137.116.0.0-137.116.255.255,Microsoft
-172.208,28,0.192,28,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",172.208.0.0-172.208.255.255,Microsoft
-20.1,28,0.192,24,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.0.0.0-20.31.255.255,Microsoft
-40.64,28,0.192,26,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",40.64.0.0-40.71.255.255,Microsoft
-20.246,27,0.185,22,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.192.0.0-20.255.255.255,Microsoft
-20.188,27,0.185,27,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.180.0.0-20.191.255.255,Microsoft
-172.214,26,0.178,19,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",172.214.0.0-172.214.255.255,Microsoft
-52.173,26,0.178,25,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.145.0.0-52.191.255.255,Microsoft
-208.102,26,0.178,5,FUSE-NET-BLK-8,False,Altafiber|DPM35-ARIN|FAT-ARIN|FIA-ORG-ARIN|FIAI|Fuse Internet Access Abuse Team|Fuse Internet Access Operations Center|GOODW273-ARIN|GSP36-ARIN,208.102.0.0-208.102.255.255,Altafiber (US-Privat)
-2.202,26,0.178,1,DE-ARCOR-20170524,False,ANOC1-RIPE|ARCOR-MNT|FB3293-RIPE|IE1226-RIPE|JS19072-RIPE|ME9243-RIPE|MMO-MNT|NH15-RIPE|NH4266-RIPE|ORG-MAT1-RIPE|SM9000-,2.200.0.0-2.203.255.255,Arcor (dt. Privatanschluss)
-4.149,25,0.171,22,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",4.144.0.0-4.159.255.255,Microsoft
-52.19,24,0.164,23,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.145.0.0-52.191.255.255,Microsoft
-104.45,22,0.151,17,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",104.40.0.0-104.47.255.255,Microsoft
-52.241,22,0.151,22,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.224.0.0-52.255.255.255,Microsoft
-23.101,22,0.151,21,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",23.96.0.0-23.103.255.255,Microsoft
-157.56,21,0.144,19,MSFT-GFS,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",157.54.0.0-157.60.255.255,Microsoft
-13.83,19,0.13,19,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",13.64.0.0-13.107.255.255,Microsoft
-20.14,18,0.123,16,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.0.0.0-20.31.255.255,Microsoft
-20.46,18,0.123,18,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-52.16,17,0.117,17,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.145.0.0-52.191.255.255,Microsoft
-52.177,16,0.11,15,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.145.0.0-52.191.255.255,Microsoft
-134.33,16,0.11,15,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",134.33.0.0-134.33.127.255,Microsoft
-57.151,16,0.11,15,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",57.151.0.0-57.151.255.255,Microsoft
-13.86,15,0.103,11,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",13.64.0.0-13.107.255.255,Microsoft
-4.236,15,0.103,14,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",4.224.0.0-4.239.255.255,Microsoft
-20.7,15,0.103,14,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.0.0.0-20.31.255.255,Microsoft
-52.18,14,0.096,13,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.145.0.0-52.191.255.255,Microsoft
-52.155,14,0.096,12,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.145.0.0-52.191.255.255,Microsoft
-20.15,14,0.096,14,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.0.0.0-20.31.255.255,Microsoft
-52.87,14,0.096,1,AT-88-Z,False,AANO1-ARIN|AEA8-ARIN|ANO24-ARIN|ARMP-ARIN|AT-88-Z|Amazon AWS Network Operations|Amazon EC2 Abuse|Amazon EC2 Network Operations|Amazon Technologies Inc.|DNS|DNS1131-ARIN,52.84.0.0-52.95.255.255,Amazon AWS
-172.171,14,0.096,14,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",172.171.0.0-172.171.255.255,Microsoft
-104.4,12,0.082,12,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",104.40.0.0-104.47.255.255,Microsoft
-20.55,12,0.082,11,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-40.112,12,0.082,12,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",40.74.0.0-40.125.127.255,Microsoft
-3.23,12,0.082,4,AT-88-Z,False,AANO1-ARIN|AEA8-ARIN|ANO24-ARIN|ARMP-ARIN|AT-88-Z|Amazon AWS Network Operations|Amazon EC2 Abuse|Amazon EC2 Network Operations|Amazon Technologies Inc.|DNS|DNS1131-ARIN,3.0.0.0-3.127.255.255,Amazon AWS
-51.57,11,0.075,9,UK-Microsoft,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Limited|Microsoft Routing, Peering, and DNS|ORG-MA42-RIPE|RIPE-NCC-LEGACY-MNT",51.54.0.0-51.59.255.255,Microsoft
-20.43,11,0.075,11,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-20.221,10,0.069,10,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.192.0.0-20.255.255.255,Microsoft
-20.236,10,0.069,9,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.192.0.0-20.255.255.255,Microsoft
-20.106,10,0.069,9,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-172.17,10,0.069,8,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",172.170.0.0-172.170.255.255,Microsoft
-13.66,9,0.062,9,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",13.64.0.0-13.107.255.255,Microsoft
-52.246,9,0.062,9,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.224.0.0-52.255.255.255,Microsoft
-3.131,9,0.062,1,AT-88-Z,False,AANO1-ARIN|AEA8-ARIN|ANO24-ARIN|ARMP-ARIN|AT-88-Z|Amazon AWS Network Operations|Amazon EC2 Abuse|Amazon EC2 Network Operations|Amazon Technologies Inc.|DNS|DNS1131-ARIN,3.128.0.0-3.255.255.255,Amazon AWS
-184.185,8,0.055,1,NETBLK-PHX-DV-INT-184-185-0-0,False,ABUSE19-ARIN|Abuse|BERUB3-ARIN|C05025405|CXA|Cox Communications Inc|Cox Communications Inc.|DMALL1-ARIN|DMALLA|IC146-ARIN|IPADD1-ARIN|IPAddressing|MEROL3-ARIN|TECH1516-ARIN|Tech,184.185.0.0-184.185.1.255,Cox (US-Privat)
-172.177,7,0.048,7,cloud,True,"DH5439-RIPE|MAC274-RIPE|MICROSOFT-MAINT|MRPA3-RIPE|Microsoft Abuse Contact|Microsoft Routing, Peering, and DNS",172.177.0.0-172.177.255.255,Microsoft
-184.178,7,0.048,2,NETBLK-BR-SIP-184-178-0-0,False,ABUSE19-ARIN|Abuse|BERUB3-ARIN|C05038172|CXA|Cox Communications Inc|Cox Communications Inc.|DMALL1-ARIN|DMALLA|IC146-ARIN|IPADD1-ARIN|IPAddressing|MEROL3-ARIN|TECH1516-ARIN|Tech,184.178.0.0-184.178.7.255,Cox (US-Privat)
-185.22,7,0.048,3,DE-TECTIQOM-20170907,False,AR42904-RIPE|Abuse-C Role|FE2443-RIPE|KR4819-RIPE|ORG-WCSG1-RIPE|RIPE-NCC-HM-MNT|TectiQom Information Technology GmbH|de-tectiqom-mnt,185.220.0.0-185.220.3.255,Tor-Austritt
-20.22,6,0.041,6,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.0.0.0-20.31.255.255,Microsoft
-3.129,6,0.041,4,AT-88-Z,False,AANO1-ARIN|AEA8-ARIN|ANO24-ARIN|ARMP-ARIN|AT-88-Z|Amazon AWS Network Operations|Amazon EC2 Abuse|Amazon EC2 Network Operations|Amazon Technologies Inc.|DNS|DNS1131-ARIN,3.128.0.0-3.255.255.255,Amazon AWS
-3.12,6,0.041,2,AT-88-Z,False,AANO1-ARIN|AEA8-ARIN|ANO24-ARIN|ARMP-ARIN|AT-88-Z|Amazon AWS Network Operations|Amazon EC2 Abuse|Amazon EC2 Network Operations|Amazon Technologies Inc.|DNS|DNS1131-ARIN,3.0.0.0-3.127.255.255,Amazon AWS
-209.46,6,0.041,1,PACKETHUB_US,False,AR67868-RIPE|Abuse-C Role|Core IP Solutions LLC|NO1983-RIPE|Network Operations|ORG-CISL14-RIPE|lir-pa-packethub-1-MNT|us-coreip-1-mnt,209.46.1.0-209.46.1.127,sonstige
-18.22,6,0.041,1,AT-88-Z,False,AANO1-ARIN|AEA8-ARIN|ANO24-ARIN|ARMP-ARIN|AT-88-Z|Amazon AWS Network Operations|Amazon EC2 Abuse|Amazon EC2 Network Operations|Amazon Technologies Inc.|DNS|DNS1131-ARIN,18.32.0.0-18.255.255.255,Amazon AWS
-134.122,6,0.041,2,DIGITALOCEAN-134-122-0-0,False,"DIGIT19-ARIN|DO-13|DigitalOcean Abuse|DigitalOcean, LLC|NOC32014-ARIN|Network Operations Center",134.122.0.0-134.122.127.255,DigitalOcean
-153.127,5,0.034,1,SAKURA-NET,False,IRT-JPNIC-JP|JNIC1-AP|JP00072233|Japan Network Information Center|KT749JP,153.127.1.0-153.127.1.255,sonstige
-165.14,5,0.034,1,HOSTIFI-01,False,CHASE130-ARIN|HostiFi|KFS4-ARIN|LNL-99,165.140.0.0-165.140.3.255,sonstige
-192.111,5,0.034,2,MODCO-3,False,CSPi Technology Solutions|MODCO-3|MONFR-ARIN,192.111.1.0-192.111.1.255,sonstige
-52.25,4,0.027,3,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.224.0.0-52.255.255.255,Microsoft
-20.186,4,0.027,4,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.180.0.0-20.191.255.255,Microsoft
-40.125,4,0.027,4,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",40.74.0.0-40.125.127.255,Microsoft
-192.42,4,0.027,1,DATUS,False,KFS2|RIPE-NCC-LOCKED-MNT,192.42.1.0-192.42.1.255,sonstige
-149.22,4,0.027,2,COGENT-149-22-16,False,"COGC|COGEN-ARIN|Cogent Abuse|Cogent Communications|Cogent Communications, LLC|IPALL-ARIN|ZC108-ARIN",149.22.0.0-149.22.255.255,sonstige
-156.146,4,0.027,2,LIZ,False,DOMAI12-ARIN|Domain Administrator|KSHL-2-Z|Kate Spade Holdings LLC,156.146.0.0-156.146.15.255,sonstige
-52.167,3,0.021,3,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.145.0.0-52.191.255.255,Microsoft
-20.102,3,0.021,2,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-20.119,3,0.021,3,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-188.129,3,0.021,2,HR-A1-20090318,False,AS12810-MNT|MJ3039-RIPE|MK8781-RIPE|ORG-VGd1-RIPE|RIPE-NCC-HM-MNT|SM6081-RIPE|TM2641-RIPE|VH342-RIPE|VIP7-RIPE|V,188.129.0.0-188.129.127.255,sonstige
-52.255,3,0.021,3,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.224.0.0-52.255.255.255,Microsoft
-142.4,3,0.021,1,UNIFIEDLAYER-NETWORK-10,False,ABUSE3581-ARIN|Abuse Department|BLUEH-2|EIG Network Operations|EIG-Abuse Mitigation|EIGAB1-ARIN|ENO74-ARIN|NETWO5508-ARIN|NOC2320-ARIN|Network Operations|Network Operations Center,142.4.0.0-142.4.31.255,sonstige
-77.11,2,0.014,1,TELIANET-202405,False,AR13670-RIPE|Abuse-C Role|ORG-TA45-RIPE|TELIANET-LIR|TR889-RIPE|Telia Company AB|TeliaNet Registry,77.110.0.0-77.110.31.255,sonstige
-80.67,2,0.014,2,PORTLANE-LINKNET,False,GLE-RIPE|GLE101-RIPE|GLESYS-MNT|GleSYS AB - Abuse Department|Glesys AB Support|MNT-PORTLANE|ORG-GISA2-RIPE|PN1967-RIPE|Portlane NOC,80.67.1.0-80.67.1.255,sonstige
-141.148,2,0.014,1,ORACLE-CH,False,AR17199-RIPE|Abuse-C Role|DM12756-RIPE|Domain Administrator|ORCL-MNT|ORG-OSA29-RIPE,141.148.0.0-141.148.255.255,Oracle
-74.125,2,0.014,1,GOOGLE,False,ABUSE5250-ARIN|Abuse|GOGL|Google LLC|ZG39-ARIN,74.125.0.0-74.125.255.255,Google
-20.189,2,0.014,2,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.180.0.0-20.191.255.255,Microsoft
-192.178,2,0.014,2,GOOGLE,False,ABUSE5250-ARIN|Abuse|GOGL|Google LLC|ZG39-ARIN,192.178.0.0-192.179.255.255,Google
-147.182,2,0.014,1,BLCK-VTCH,False,BLACKV|BVCON-ARIN|Black & Veatch International Company,147.182.0.0-147.182.127.255,sonstige
-20.1,2,0.014,2,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.0.0.0-20.31.255.255,Microsoft
-104.22,1,0.007,1,CLOUDFLARENET,False,"ABUSE2916-ARIN|ADMIN2521-ARIN|Abuse|Admin|CLOUD14|CLOUD146-ARIN|Cloudflare, Inc.|Cloudflare-NOC|NOC|NOC11962-ARIN",104.16.0.0-104.31.255.255,Cloudflare
-45.84,1,0.007,1,UFO,False,ORG-UHL6-RIPE|UFO Hosting|UFO Hosting Abuse contact|UFO Hosting LLC|UFO42|UFO42-MNT|UFO666,45.84.1.0-45.84.1.255,sonstige
-172.7,1,0.007,1,CLOUDFLARENET,False,"ABUSE2916-ARIN|ADMIN2521-ARIN|Abuse|Admin|CLOUD14|CLOUD146-ARIN|Cloudflare, Inc.|Cloudflare-NOC|NOC|NOC11962-ARIN",172.64.0.0-172.71.255.255,Cloudflare
-162.159,1,0.007,1,CLOUDFLARENET,False,"ABUSE2916-ARIN|ADMIN2521-ARIN|Abuse|Admin|CLOUD14|CLOUD146-ARIN|Cloudflare, Inc.|Cloudflare-NOC|NOC|NOC11962-ARIN",162.158.0.0-162.159.255.255,Cloudflare
-107.189,1,0.007,1,BUYVM-LUXEMBOURG-02,False,BUYVM|BuyVM|FDI19-ARIN,107.189.0.0-107.189.7.255,sonstige
-167.172,1,0.007,1,DigitalOcean,False,"AD10778-RIPE|Abuse Department|DigitalOcean Network Operations|DigitalOcean, LLC|ORG-DOI2-RIPE|PT7353-RIPE|RIPE-NCC-LEGACY-MNT|digitalocean",167.172.0.0-167.172.255.255,DigitalOcean
-23.191,1,0.007,1,NET23,False,ARIN|ARIN NOC|ARIN-HOSTMASTER|ARINN-ARIN|American Registry for Internet Numbers|Registration Services Department,23.0.0.0-23.255.255.255,sonstige
-212.58,1,0.007,1,DorukNet,False,AS8685-MNT|DA5019-RIPE|DN5-RIPE|Doruknet Abuse|GE252-RIPE,212.58.0.0-212.58.1.255,sonstige
-167.71,1,0.007,1,DIGITALOCEAN-167-71-0-0,False,"DIGIT19-ARIN|DO-13|DigitalOcean Abuse|DigitalOcean, LLC|NOC32014-ARIN|Network Operations Center",167.71.0.0-167.71.255.255,DigitalOcean
-193.221,1,0.007,1,EUROCONTROL1-193-221-0_20,False,AK626-RIPE|ECTL100-RIPE|ECTL101-RIPE|EUROCONTROL LIR TEC Abuse Contact Role|EUROC,193.221.0.0-193.221.15.255,sonstige
-192.252,1,0.007,1,BANCTEC,False,"HOV Services, Inc.|HOVSE|LAMBE217-ARIN|NETWO7511-ARIN|Network Manager|TNE43-ARIN|Troy Network Engineering",192.252.0.0-192.252.7.255,sonstige
-18.139,1,0.007,1,AMAZON-SIN,False,AANO1-ARIN|ADSS-3|AEA8-ARIN|ANO24-ARIN|Amazon AWS Network Operations|Amazon Data Services Singapore|Amazon EC2 Abuse|Amazon EC2 Network Operations|IPMAN40-ARIN,18.138.0.0-18.139.255.255,Amazon AWS
-64.225,1,0.007,1,DIGITALOCEAN-64-225-0-0,False,"DIGIT19-ARIN|DO-13|DigitalOcean Abuse|DigitalOcean, LLC|NOC32014-ARIN|Network Operations Center",64.225.0.0-64.225.127.255,DigitalOcean
-103.75,1,0.007,1,TIANXINGROUP-HK,False,IRT-TIANXINGROUP-HK|TXGA1-AP|Tian Xin group administrator,103.75.1.0-103.75.1.255,sonstige
-172.69,1,0.007,1,CLOUDFLARENET,False,"ABUSE2916-ARIN|ADMIN2521-ARIN|Abuse|Admin|CLOUD14|CLOUD146-ARIN|Cloudflare, Inc.|Cloudflare-NOC|NOC|NOC11962-ARIN",172.64.0.0-172.71.255.255,Cloudflare
-20.75,1,0.007,1,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",20.33.0.0-20.128.255.255,Microsoft
-94.16,1,0.007,1,ANX-NET-94161024,False,ANEXIA abuse contact|ANEXIA-MNT|ANX-RIPE|Anexia Cloud Solutions GmbH|ORG-AIG10-RIPE|aa9991,94.16.1.0-94.16.1.255,sonstige
-162.243,1,0.007,1,DIGITALOCEAN-162-243-0-0,False,"DIGIT19-ARIN|DO-13|DigitalOcean Abuse|DigitalOcean, LLC|NOC32014-ARIN|Network Operations Center",162.243.0.0-162.243.255.255,DigitalOcean
-52.179,1,0.007,1,MSFT,True,"BEDAR6-ARIN|CHATU3-ARIN|IPHOS5-ARIN|IPHostmaster IPHostmaster|MAC74-ARIN|MRPD-ARIN|MSFT|Microsoft Abuse Contact|Microsoft Corporation|Microsoft Routing, Peering, and DNS|SINGH",52.145.0.0-52.191.255.255,Microsoft
-109.7,1,0.007,1,NET-FLEX-109-70-1-0,False,AR43887-RIPE|Abuse-C Role|IA3772-RIPE|IT-Department-FLEXWEBHOSTING|MNT-FLEXWEBHOSTING|SOHOSTED,109.70.1.0-109.70.1.255,sonstige
+ip16,n_revisions,pct,n_labels,rdap_name,is_microsoft,range,anbieter
+20.165,603,4.133,430,MSFT,True,20.160.0.0-20.175.255.255,Microsoft
+20.69,587,4.023,401,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+57.154,458,3.139,344,cloud,True,57.154.0.0-57.154.255.255,Microsoft
+20.171,455,3.118,340,MSFT,True,20.160.0.0-20.175.255.255,Microsoft
+20.97,417,2.858,308,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+20.225,414,2.837,306,MSFT,True,20.192.0.0-20.255.255.255,Microsoft
+20.168,405,2.776,304,MSFT,True,20.160.0.0-20.175.255.255,Microsoft
+20.9,404,2.769,303,MSFT,True,20.0.0.0-20.31.255.255,Microsoft
+4.255,356,2.44,273,MSFT,True,4.240.0.0-4.255.255.255,Microsoft
+20.114,334,2.289,257,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+20.245,300,2.056,234,MSFT,True,20.192.0.0-20.255.255.255,Microsoft
+20.8,289,1.981,225,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+20.29,275,1.885,225,MSFT,True,20.0.0.0-20.31.255.255,Microsoft
+20.12,263,1.802,200,MSFT,True,20.0.0.0-20.31.255.255,Microsoft
+20.172,259,1.775,192,MSFT,True,20.160.0.0-20.175.255.255,Microsoft
+135.232,247,1.693,202,cloud,True,135.232.0.0-135.232.255.255,Microsoft
+20.23,239,1.638,198,MSFT,True,20.192.0.0-20.255.255.255,Microsoft
+20.65,235,1.611,193,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+64.236,234,1.604,197,cloud,True,64.236.0.0-64.236.127.255,Microsoft
+20.98,224,1.535,181,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+52.159,220,1.508,161,MSFT,True,52.145.0.0-52.191.255.255,Microsoft
+20.45,209,1.432,166,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+20.11,197,1.35,160,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+52.162,182,1.247,152,MSFT,True,52.145.0.0-52.191.255.255,Microsoft
+4.227,182,1.247,144,MSFT,True,4.224.0.0-4.239.255.255,Microsoft
+130.131,176,1.206,145,cloud,True,130.131.0.0-130.131.127.255,Microsoft
+172.184,169,1.158,143,cloud,True,172.184.0.0-172.184.255.255,Microsoft
+20.94,167,1.145,140,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+20.237,167,1.145,133,MSFT,True,20.192.0.0-20.255.255.255,Microsoft
+20.83,157,1.076,146,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+20.163,157,1.076,124,MSFT,True,20.160.0.0-20.175.255.255,Microsoft
+4.154,155,1.062,130,MSFT,True,4.144.0.0-4.159.255.255,Microsoft
+23.1,152,1.042,122,MSFT,True,23.96.0.0-23.103.255.255,Microsoft
+4.151,148,1.014,120,MSFT,True,4.144.0.0-4.159.255.255,Microsoft
+172.212,147,1.007,120,cloud,True,172.212.0.0-172.212.255.255,Microsoft
+104.42,141,0.966,116,MSFT,True,104.40.0.0-104.47.255.255,Microsoft
+20.66,137,0.939,117,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+74.249,137,0.939,119,BLS-74-249-0-0-1003020949,True,74.249.0.0-74.249.31.255,Microsoft
+20.59,129,0.884,110,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+172.173,129,0.884,114,cloud,True,172.173.0.0-172.173.255.255,Microsoft
+172.202,116,0.795,101,cloud,True,172.202.0.0-172.202.255.255,Microsoft
+104.21,110,0.754,96,MSFT,True,104.208.0.0-104.215.255.255,Microsoft
+20.88,107,0.733,94,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+20.62,106,0.726,97,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+20.3,104,0.713,87,MSFT,True,20.0.0.0-20.31.255.255,Microsoft
+20.25,99,0.679,87,MSFT,True,20.0.0.0-20.31.255.255,Microsoft
+65.52,96,0.658,88,MICROSOFT-1BLK,True,65.52.0.0-65.55.255.255,Microsoft
+20.96,92,0.631,79,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+52.165,92,0.631,76,MSFT,True,52.145.0.0-52.191.255.255,Microsoft
+104.43,92,0.631,79,MSFT,True,104.40.0.0-104.47.255.255,Microsoft
+40.75,91,0.624,84,MSFT,True,40.74.0.0-40.125.127.255,Microsoft
+20.122,90,0.617,78,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+135.119,89,0.61,88,cloud,True,135.119.0.0-135.119.255.255,Microsoft
+52.242,86,0.589,73,MSFT,True,52.224.0.0-52.255.255.255,Microsoft
+20.228,86,0.589,75,MSFT,True,20.192.0.0-20.255.255.255,Microsoft
+20.169,83,0.569,69,MSFT,True,20.160.0.0-20.175.255.255,Microsoft
+157.55,82,0.562,70,MSFT-GFS,True,157.54.0.0-157.60.255.255,Microsoft
+52.225,78,0.535,67,MSFT,True,52.224.0.0-52.255.255.255,Microsoft
+20.112,77,0.528,66,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+52.161,77,0.528,68,MSFT,True,52.145.0.0-52.191.255.255,Microsoft
+20.109,75,0.514,70,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+132.196,64,0.439,59,cloud,True,132.196.0.0-132.196.127.255,Microsoft
+52.251,62,0.425,53,MSFT,True,52.224.0.0-52.255.255.255,Microsoft
+20.64,59,0.404,51,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+172.185,56,0.384,49,cloud,True,172.185.0.0-172.185.255.255,Microsoft
+20.125,53,0.363,46,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+52.247,53,0.363,43,MSFT,True,52.224.0.0-52.255.255.255,Microsoft
+104.209,52,0.356,47,MSFT,True,104.208.0.0-104.215.255.255,Microsoft
+135.234,51,0.35,46,cloud,True,135.234.0.0-135.234.255.255,Microsoft
+4.15,50,0.343,44,MSFT,True,4.144.0.0-4.159.255.255,Microsoft
+20.57,49,0.336,46,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+23.102,49,0.336,46,MSFT,True,23.96.0.0-23.103.255.255,Microsoft
+40.65,48,0.329,45,MSFT,True,40.64.0.0-40.71.255.255,Microsoft
+52.141,48,0.329,45,MSFT,True,52.132.0.0-52.143.255.255,Microsoft
+20.115,48,0.329,41,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+20.242,47,0.322,38,MSFT,True,20.192.0.0-20.255.255.255,Microsoft
+172.215,46,0.315,42,cloud,True,172.215.0.0-172.215.255.255,Microsoft
+4.242,46,0.315,40,MSFT,True,4.240.0.0-4.255.255.255,Microsoft
+52.238,44,0.302,34,MSFT,True,52.224.0.0-52.255.255.255,Microsoft
+128.203,44,0.302,41,cloud,True,128.203.0.0-128.203.127.255,Microsoft
+40.116,41,0.281,34,MSFT,True,40.74.0.0-40.125.127.255,Microsoft
+40.7,40,0.274,36,MSFT,True,40.64.0.0-40.71.255.255,Microsoft
+13.78,39,0.267,37,MSFT,True,13.64.0.0-13.107.255.255,Microsoft
+130.213,39,0.267,38,cloud,True,130.213.0.0-130.213.127.255,Microsoft
+4.155,39,0.267,36,MSFT,True,4.144.0.0-4.159.255.255,Microsoft
+40.124,38,0.26,28,MSFT,True,40.74.0.0-40.125.127.255,Microsoft
+52.23,37,0.254,37,MSFT,True,52.224.0.0-52.255.255.255,Microsoft
+52.234,35,0.24,29,MSFT,True,52.224.0.0-52.255.255.255,Microsoft
+52.176,34,0.233,29,MSFT,True,52.145.0.0-52.191.255.255,Microsoft
+20.253,33,0.226,28,MSFT,True,20.192.0.0-20.255.255.255,Microsoft
+4.246,33,0.226,30,MSFT,True,4.240.0.0-4.255.255.255,Microsoft
+40.78,32,0.219,30,MSFT,True,40.74.0.0-40.125.127.255,Microsoft
+52.237,32,0.219,29,MSFT,True,52.224.0.0-52.255.255.255,Microsoft
+168.62,29,0.199,28,MICROSOFT,True,168.61.0.0-168.63.255.255,Microsoft
+137.116,29,0.199,26,MICROSOFT,True,137.116.0.0-137.116.255.255,Microsoft
+172.208,28,0.192,28,cloud,True,172.208.0.0-172.208.255.255,Microsoft
+20.1,28,0.192,24,MSFT,True,20.0.0.0-20.31.255.255,Microsoft
+40.64,28,0.192,26,MSFT,True,40.64.0.0-40.71.255.255,Microsoft
+20.246,27,0.185,22,MSFT,True,20.192.0.0-20.255.255.255,Microsoft
+20.188,27,0.185,27,MSFT,True,20.180.0.0-20.191.255.255,Microsoft
+172.214,26,0.178,19,cloud,True,172.214.0.0-172.214.255.255,Microsoft
+52.173,26,0.178,25,MSFT,True,52.145.0.0-52.191.255.255,Microsoft
+netz-6a9f48eb,26,0.178,5,,False,,Altafiber (US-Privat)
+netz-37f8321b,26,0.178,1,,False,,Arcor (dt. Privatanschluss)
+4.149,25,0.171,22,MSFT,True,4.144.0.0-4.159.255.255,Microsoft
+52.19,24,0.164,23,MSFT,True,52.145.0.0-52.191.255.255,Microsoft
+104.45,22,0.151,17,MSFT,True,104.40.0.0-104.47.255.255,Microsoft
+52.241,22,0.151,22,MSFT,True,52.224.0.0-52.255.255.255,Microsoft
+23.101,22,0.151,21,MSFT,True,23.96.0.0-23.103.255.255,Microsoft
+157.56,21,0.144,19,MSFT-GFS,True,157.54.0.0-157.60.255.255,Microsoft
+13.83,19,0.13,19,MSFT,True,13.64.0.0-13.107.255.255,Microsoft
+20.14,18,0.123,16,MSFT,True,20.0.0.0-20.31.255.255,Microsoft
+20.46,18,0.123,18,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+52.16,17,0.117,17,MSFT,True,52.145.0.0-52.191.255.255,Microsoft
+52.177,16,0.11,15,MSFT,True,52.145.0.0-52.191.255.255,Microsoft
+134.33,16,0.11,15,cloud,True,134.33.0.0-134.33.127.255,Microsoft
+57.151,16,0.11,15,cloud,True,57.151.0.0-57.151.255.255,Microsoft
+13.86,15,0.103,11,MSFT,True,13.64.0.0-13.107.255.255,Microsoft
+4.236,15,0.103,14,MSFT,True,4.224.0.0-4.239.255.255,Microsoft
+20.7,15,0.103,14,MSFT,True,20.0.0.0-20.31.255.255,Microsoft
+52.18,14,0.096,13,MSFT,True,52.145.0.0-52.191.255.255,Microsoft
+52.155,14,0.096,12,MSFT,True,52.145.0.0-52.191.255.255,Microsoft
+20.15,14,0.096,14,MSFT,True,20.0.0.0-20.31.255.255,Microsoft
+52.87,14,0.096,1,AT-88-Z,False,52.84.0.0-52.95.255.255,Amazon AWS
+172.171,14,0.096,14,cloud,True,172.171.0.0-172.171.255.255,Microsoft
+104.4,12,0.082,12,MSFT,True,104.40.0.0-104.47.255.255,Microsoft
+20.55,12,0.082,11,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+40.112,12,0.082,12,MSFT,True,40.74.0.0-40.125.127.255,Microsoft
+3.23,12,0.082,4,AT-88-Z,False,3.0.0.0-3.127.255.255,Amazon AWS
+51.57,11,0.075,9,UK-Microsoft,True,51.54.0.0-51.59.255.255,Microsoft
+20.43,11,0.075,11,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+20.221,10,0.069,10,MSFT,True,20.192.0.0-20.255.255.255,Microsoft
+20.236,10,0.069,9,MSFT,True,20.192.0.0-20.255.255.255,Microsoft
+20.106,10,0.069,9,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+172.17,10,0.069,8,cloud,True,172.170.0.0-172.170.255.255,Microsoft
+13.66,9,0.062,9,MSFT,True,13.64.0.0-13.107.255.255,Microsoft
+52.246,9,0.062,9,MSFT,True,52.224.0.0-52.255.255.255,Microsoft
+3.131,9,0.062,1,AT-88-Z,False,3.128.0.0-3.255.255.255,Amazon AWS
+netz-1638e3f4,8,0.055,1,,False,,Cox (US-Privat)
+172.177,7,0.048,7,cloud,True,172.177.0.0-172.177.255.255,Microsoft
+netz-98e04a49,7,0.048,2,,False,,Cox (US-Privat)
+netz-07914411,7,0.048,3,,False,,Tor-Austritt
+20.22,6,0.041,6,MSFT,True,20.0.0.0-20.31.255.255,Microsoft
+3.129,6,0.041,4,AT-88-Z,False,3.128.0.0-3.255.255.255,Amazon AWS
+3.12,6,0.041,2,AT-88-Z,False,3.0.0.0-3.127.255.255,Amazon AWS
+netz-70b81814,6,0.041,1,,False,,sonstige
+18.22,6,0.041,1,AT-88-Z,False,18.32.0.0-18.255.255.255,Amazon AWS
+134.122,6,0.041,2,DIGITALOCEAN-134-122-0-0,False,134.122.0.0-134.122.127.255,DigitalOcean
+netz-0fbfd790,5,0.034,1,,False,,sonstige
+netz-329928a9,5,0.034,1,,False,,sonstige
+netz-082ef776,5,0.034,2,,False,,sonstige
+52.25,4,0.027,3,MSFT,True,52.224.0.0-52.255.255.255,Microsoft
+20.186,4,0.027,4,MSFT,True,20.180.0.0-20.191.255.255,Microsoft
+40.125,4,0.027,4,MSFT,True,40.74.0.0-40.125.127.255,Microsoft
+netz-2ade0f05,4,0.027,1,,False,,sonstige
+netz-8c5f990d,4,0.027,2,,False,,sonstige
+netz-28fb307d,4,0.027,2,,False,,sonstige
+52.167,3,0.021,3,MSFT,True,52.145.0.0-52.191.255.255,Microsoft
+20.102,3,0.021,2,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+20.119,3,0.021,3,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+netz-ac8014ae,3,0.021,2,,False,,sonstige
+52.255,3,0.021,3,MSFT,True,52.224.0.0-52.255.255.255,Microsoft
+netz-1a26a5ad,3,0.021,1,,False,,sonstige
+netz-fe76e4af,2,0.014,1,,False,,sonstige
+netz-0e22dae9,2,0.014,2,,False,,sonstige
+141.148,2,0.014,1,ORACLE-CH,False,141.148.0.0-141.148.255.255,Oracle
+74.125,2,0.014,1,GOOGLE,False,74.125.0.0-74.125.255.255,Google
+20.189,2,0.014,2,MSFT,True,20.180.0.0-20.191.255.255,Microsoft
+192.178,2,0.014,2,GOOGLE,False,192.178.0.0-192.179.255.255,Google
+netz-69f4dc6a,2,0.014,1,,False,,sonstige
+20.1,2,0.014,2,MSFT,True,20.0.0.0-20.31.255.255,Microsoft
+104.22,1,0.007,1,CLOUDFLARENET,False,104.16.0.0-104.31.255.255,Cloudflare
+netz-186d452d,1,0.007,1,,False,,sonstige
+172.7,1,0.007,1,CLOUDFLARENET,False,172.64.0.0-172.71.255.255,Cloudflare
+162.159,1,0.007,1,CLOUDFLARENET,False,162.158.0.0-162.159.255.255,Cloudflare
+netz-83484b82,1,0.007,1,,False,,sonstige
+167.172,1,0.007,1,DigitalOcean,False,167.172.0.0-167.172.255.255,DigitalOcean
+netz-6c50880b,1,0.007,1,,False,,sonstige
+netz-5fd5ba41,1,0.007,1,,False,,sonstige
+167.71,1,0.007,1,DIGITALOCEAN-167-71-0-0,False,167.71.0.0-167.71.255.255,DigitalOcean
+netz-597fd99c,1,0.007,1,,False,,sonstige
+netz-2c89611a,1,0.007,1,,False,,sonstige
+18.139,1,0.007,1,AMAZON-SIN,False,18.138.0.0-18.139.255.255,Amazon AWS
+64.225,1,0.007,1,DIGITALOCEAN-64-225-0-0,False,64.225.0.0-64.225.127.255,DigitalOcean
+netz-d573ef3e,1,0.007,1,,False,,sonstige
+172.69,1,0.007,1,CLOUDFLARENET,False,172.64.0.0-172.71.255.255,Cloudflare
+20.75,1,0.007,1,MSFT,True,20.33.0.0-20.128.255.255,Microsoft
+netz-bcee48b1,1,0.007,1,,False,,sonstige
+162.243,1,0.007,1,DIGITALOCEAN-162-243-0-0,False,162.243.0.0-162.243.255.255,DigitalOcean
+52.179,1,0.007,1,MSFT,True,52.145.0.0-52.191.255.255,Microsoft
+netz-886e7559,1,0.007,1,,False,,sonstige
