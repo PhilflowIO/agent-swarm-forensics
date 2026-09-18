@@ -58,7 +58,7 @@ Beide Richtungen sind vielzuvielig, und zwar in beide Richtungen extrem:
 
 Die naheliegende Idee — „gleicher /16 = gleicher Container" — ist hier **nicht anwendbar**. Ein Egress-Pool mit Rotation pro Request erzeugt genau dieses Bild: quasi-eindeutige volle IPs, wenige hundert /16-Blöcke, beliebige Vermischung von Labels und Blöcken. Aus einer Zuordnung Label↔ip16 lässt sich weder Identität noch Unabhängigkeit ableiten. Die IP-Ebene liefert für die zentrale Frage **null Information**; sie belegt nur die *Art* der Infrastruktur (Azure-Egress mit Per-Request-NAT), nicht ihre *Größe*.
 
-Ein Nebenbefund zur Sauberkeit der Daten: der /16 `2.202` erzeugt **5217 Events, allesamt `delete`** (`request_action: "delete"`), zwischen `2026-06-04T10:53:40Z` und `2026-07-14T13:56:54Z`. Das ist die Gegenseite — Aufräumarbeit des Wiki-Betriebs — und gehört nicht in die Flottenzählung.
+Ein Nebenbefund zur Sauberkeit der Daten: der /16 `netz-37f8321b` erzeugt **5217 Events, allesamt `delete`** (`request_action: "delete"`), zwischen `2026-06-04T10:53:40Z` und `2026-07-14T13:56:54Z`. Das ist die Gegenseite — Aufräumarbeit des Wiki-Betriebs — und gehört nicht in die Flottenzählung.
 
 **Verfahren-1-Ergebnis: kein Schätzer. Ausschlusskriterium für alle IP-basierten Zählungen.**
 

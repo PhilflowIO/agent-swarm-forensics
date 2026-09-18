@@ -1,83 +1,136 @@
-datei,spalte,aktion,zeilen,ersetzt,grund
-deletion_awareness.csv,quote,ersetzt,359.0,359.0,ganz=359
-exploit_propagation.csv,context,ersetzt,31.0,31.0,ganz=31
-harness_browser.csv,sentence,ersetzt,28.0,27.0,ganz=27
-harness_cache.csv,sentence,ersetzt,2.0,2.0,ganz=2
-harness_clock_calibration.csv,quote,ersetzt,22.0,21.0,ganz=21
-harness_clocks.csv,sentence,ersetzt,1429.0,1312.0,ganz=1312
-harness_clockwait.csv,sentence,ersetzt,13.0,13.0,ganz=13
-harness_dilation.csv,sentence,ersetzt,190.0,166.0,ganz=166
-harness_episode_configs.csv,evidence,ersetzt,12.0,12.0,ganz=8;teilstueck=4
-harness_feedback.csv,sentence,ersetzt,91.0,76.0,ganz=76
-harness_horizon.csv,sentence,ersetzt,186.0,166.0,ganz=165;teilstueck=1
-harness_msgstruct.csv,sentence,ersetzt,34.0,33.0,ganz=33
-harness_phantom.csv,sentence,ersetzt,45.0,43.0,ganz=43
-harness_proxy.csv,sentence,ersetzt,128.0,100.0,ganz=100
-harness_r1.csv,sentence,ersetzt,193.0,182.0,ganz=182
-harness_scaling_pairs.csv,evidence,ersetzt,11.0,11.0,ganz=11
-harness_termination.csv,sentence,ersetzt,79.0,73.0,ganz=72;teilstueck=1
-harness_tier_table.csv,quote,ersetzt,33.0,31.0,ganz=31
-harness_tiernames.csv,sentence,ersetzt,198.0,172.0,ganz=172
-harness_tools.csv,sentence,ersetzt,33.0,24.0,ganz=22;teilstueck=2
-harness_wording.csv,sentence,ersetzt,170.0,148.0,ganz=148
-marker_first_mention.csv,context,ersetzt,29.0,27.0,ganz=27
-paper_archetypen_zitate.csv,text,ersetzt,80.0,67.0,ganz=53;teilstueck=14
-paper_episode_clock_pairs.csv,sent,ersetzt,2524.0,2140.0,ganz=2140
-paper_episode_clock_pairs_validated.csv,sent,ersetzt,268.0,221.0,ganz=221
-paper_episode_clockwait_measurements.csv,quote,ersetzt,11.0,11.0,ganz=11
-paper_episode_dilation_factors.csv,quote_a,ersetzt,56.0,48.0,ganz=48
-paper_episode_dilation_factors.csv,quote_b,ersetzt,56.0,48.0,ganz=48
-paper_episode_dilation_factors_usable.csv,quote_a,ersetzt,374.0,321.0,ganz=321
-paper_episode_dilation_factors_usable.csv,quote_b,ersetzt,374.0,282.0,ganz=282
-paper_episode_horizon_claims.csv,quote,ersetzt,95.0,80.0,ganz=80
-paper_episode_r6_sichtung.csv,sent,ersetzt,102.0,102.0,ganz=102
-paper_episode_r6plus_observation_candidates.csv,sent,ersetzt,102.0,102.0,ganz=102
-paper_episode_round_ge6_mentions.csv,sent,ersetzt,10871.0,9037.0,ganz=9037
-paper_episode_round_mentions_raw.csv,sent,ersetzt,80498.0,53051.0,ganz=53051
-paper_episode_tier_durations.csv,quote,ersetzt,33.0,31.0,ganz=31
-paper_flotte_datum_topic.csv,quote,ersetzt,571.0,567.0,ganz=81;teilstueck=486
-paper_flotte_kohortendaten_body.csv,quote,ersetzt,271.0,270.0,ganz=39;teilstueck=231
-paper_fortschritt_kohorten.csv,beleg_max_runde,ersetzt,907.0,285.0,teilstueck=285
-paper_fortschritt_kohorten.csv,zukunft_erhalten_beleg,ersetzt,907.0,7.0,teilstueck=7
-paper_goldset_konflikte.csv,context_before,ersetzt,63.0,14.0,ganz=14
-paper_goldset_konflikte.csv,sentence,ersetzt,63.0,35.0,ganz=35
-paper_goldset_konflikte.csv,context_after,ersetzt,63.0,17.0,ganz=17
-paper_goldset_sample.csv,context_before,ersetzt,400.0,113.0,ganz=113
-paper_goldset_sample.csv,sentence,ersetzt,400.0,248.0,ganz=248
-paper_goldset_sample.csv,context_after,ersetzt,400.0,110.0,ganz=110
-paper_goldset_sample_blind.csv,context_before,ersetzt,400.0,113.0,ganz=113
-paper_goldset_sample_blind.csv,sentence,ersetzt,400.0,248.0,ganz=248
-paper_goldset_sample_blind.csv,context_after,ersetzt,400.0,110.0,ganz=110
-paper_horizont_keyword_saetze.csv,satz,ersetzt,455.0,338.0,ganz=300;teilstueck=38
-paper_horizont_label_verbrauch.csv,last_delta,ersetzt,3043.0,2578.0,ganz=1213;teilstueck=1365
-paper_horizont_rate_zitate.csv,satz,ersetzt,24.0,24.0,ganz=14;teilstueck=10
-paper_horizont_testB_reset_labels.csv,last_delta,ersetzt,5.0,5.0,ganz=4;teilstueck=1
-paper_horizont_testE_km_daten.csv,last_delta,ersetzt,566.0,524.0,ganz=362;teilstueck=162
-paper_horizont_testH_cvd_saetze.csv,satz,ersetzt,132.0,85.0,ganz=63;teilstueck=22
-paper_lernkurve_q5_rendezvous_treffer.csv,delta_auszug,ersetzt,100.0,98.0,ganz=98
-paper_lernkurve_revflags.parquet,*,ausgeschlossen,,,"Korpus-Zwischenstufe, wird von den Skripten neu gebaut"
-paper_math_seed_prognosebilanz.csv,beleg,ersetzt,7.0,1.0,teilstueck=1
-paper_netzblock_whois.csv,rdap_entities,personennamen entfernt,191.0,,RDAP-Kontaktnamen sind personenbezogen (Ethik-Abschnitt des Papers)
-paper_prozess_abweichler.csv,beleg,ersetzt,9.0,6.0,teilstueck=6
-paper_prozess_rundensaetze_delta.csv,sent,ersetzt,10753.0,7032.0,ganz=7032
-paper_prozess_zitatkaskade_kohorten40.csv,zeile,ersetzt,11.0,5.0,teilstueck=5
-paper_prozess_zitatkaskade_kopien.csv,zeile,ersetzt,3295.0,638.0,ganz=40;teilstueck=598
-paper_prozess_zitatkaskade_top.csv,zeile,ersetzt,1204.0,339.0,ganz=27;teilstueck=312
-paper_robust_fahrplan_provenienz.csv,quote,ersetzt,15.0,14.0,ganz=14
-paper_robust_fahrplan_provenienz.csv,prov_r1,ersetzt,15.0,2.0,teilstueck=2
-paper_robust_fahrplan_provenienz.csv,prov_cooldown,ersetzt,15.0,1.0,teilstueck=1
-paper_robust_fahrplan_provenienz.csv,prov_followup,ersetzt,15.0,2.0,teilstueck=2
-paper_robust_horizont_cvd_intervalle.csv,note,ersetzt,24.0,2.0,teilstueck=2
-paper_robust_horizont_cvd_intervalle.csv,sentence,ersetzt,24.0,19.0,ganz=12;teilstueck=7
-paper_themen_flags.parquet,*,ausgeschlossen,,,"Korpus-Zwischenstufe, wird von den Skripten neu gebaut"
-paper_themen_taxonomie.csv,erstbeleg_zitat,ersetzt,15.0,14.0,ganz=5;teilstueck=9
-paper_uhr_faktoren.csv,beleg0,ersetzt,352.0,352.0,ganz=352
-paper_uhr_faktoren.csv,beleg1,ersetzt,352.0,352.0,ganz=352
-paper_uhr_taskzeiten.csv,task_time_raw,ersetzt,1272.0,1.0,ganz=1
-paper_uhr_taskzeiten.csv,evidence_snippet,ersetzt,1272.0,1272.0,ganz=1272
-paper_uhr_validierung.csv,zitat,ersetzt,24.0,22.0,ganz=22
-paper_uhr_wallcheck.csv,evidence_snippet,ersetzt,351.0,351.0,ganz=351
-schwarm_deltas.parquet,*,ausgeschlossen,,,"Korpus-Zwischenstufe, wird von den Skripten neu gebaut"
-schwarm_deltas_flags.parquet,*,ausgeschlossen,,,"Korpus-Zwischenstufe, wird von den Skripten neu gebaut"
-schwarm_dissens_9_69.csv,zitat,ersetzt,264.0,264.0,ganz=79;teilstueck=185
-schwarm_revisions.parquet,*,ausgeschlossen,,,"Korpus-Zwischenstufe, wird von den Skripten neu gebaut"
+datei,spalte,aktion,grund,zeilen,ersetzt
+BERICHT_flottengroesse.md,*,netzkennungen pseudonymisiert,nicht als Rechenzentrum belegte Adresse/Netz (Ethik-Abschnitt),,
+BERICHT_szenen.md,*,netzkennungen pseudonymisiert,nicht als Rechenzentrum belegte Adresse/Netz (Ethik-Abschnitt),,
+betreiberlog/_die249.log,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/_exposition_vs_lesen.log,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/_geburtsstunde.log,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/_lesespalte.log,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/_verkehr.log,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/die249_lesezugriffe.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/die249_namen.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/geburtsstunde_erstseite.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/geburtsstunde_erstseite_alle.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/ip16_klassen.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/kernmessung_namen.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/ohne_quelle_cohort.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/ohne_quelle_meldeformat.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/ohne_quelle_runde.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/ohne_quelle_runde_lesezugriffe.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/pruefung/_p10.log,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/pruefung/_p20.log,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/pruefung/_p30.log,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/pruefung/_p40.log,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/pruefung/coord_erweitert.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/pruefung/coord_p20.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/pruefung/lesezugriffe_coordpop.parquet,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/req_2604.parquet,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/req_2605.parquet,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/req_2606.parquet,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog/req_2607.parquet,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi01.log,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi02.log,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi03.log,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi03_ip_name_2604.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi03_ip_name_2605.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi03_ip_name_2606.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi03_ip_name_2607.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi03_monatsuebersicht.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi03_name_ip_2604.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi03_name_ip_2605.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi03_name_ip_2606.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi03_name_ip_2607.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi03_netzbloecke_2604.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi03_netzbloecke_2605.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi03_netzbloecke_2606.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi03_netzbloecke_2607.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi04_namen_2604.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi04_namen_2605.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi04_namen_2606.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi04_namen_2607.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi06.log,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi07_netzklassen.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+betreiberlog_identitaet/bi08_namen_parallelitaet.csv,*,ausgeschlossen,"Betreiberlog, nicht in policy.betreiberlog_freigabe",,
+deletion_awareness.csv,quote,ersetzt,ganz=359,359.0,359.0
+exploit_propagation.csv,context,ersetzt,ganz=31,31.0,31.0
+harness_browser.csv,sentence,ersetzt,ganz=27,28.0,27.0
+harness_cache.csv,sentence,ersetzt,ganz=2,2.0,2.0
+harness_clock_calibration.csv,quote,ersetzt,ganz=21,22.0,21.0
+harness_clocks.csv,sentence,ersetzt,ganz=1312,1429.0,1312.0
+harness_clockwait.csv,sentence,ersetzt,ganz=13,13.0,13.0
+harness_dilation.csv,sentence,ersetzt,ganz=166,190.0,166.0
+harness_episode_configs.csv,evidence,ersetzt,ganz=8;teilstueck=4,12.0,12.0
+harness_feedback.csv,sentence,ersetzt,ganz=76,91.0,76.0
+harness_horizon.csv,sentence,ersetzt,ganz=165;teilstueck=1,186.0,166.0
+harness_msgstruct.csv,sentence,ersetzt,ganz=33,34.0,33.0
+harness_phantom.csv,sentence,ersetzt,ganz=43,45.0,43.0
+harness_proxy.csv,sentence,ersetzt,ganz=100,128.0,100.0
+harness_r1.csv,sentence,ersetzt,ganz=182,193.0,182.0
+harness_scaling_pairs.csv,evidence,ersetzt,ganz=11,11.0,11.0
+harness_termination.csv,sentence,ersetzt,ganz=72;teilstueck=1,79.0,73.0
+harness_tier_table.csv,quote,ersetzt,ganz=31,33.0,31.0
+harness_tiernames.csv,sentence,ersetzt,ganz=172,198.0,172.0
+harness_tools.csv,sentence,ersetzt,ganz=22;teilstueck=2,33.0,24.0
+harness_wording.csv,sentence,ersetzt,ganz=148,170.0,148.0
+marker_first_mention.csv,context,ersetzt,ganz=27,29.0,27.0
+paper_archetypen_zitate.csv,text,ersetzt,ganz=53;teilstueck=14,80.0,67.0
+paper_episode_clock_pairs.csv,sent,ersetzt,ganz=2140,2524.0,2140.0
+paper_episode_clock_pairs_validated.csv,sent,ersetzt,ganz=221,268.0,221.0
+paper_episode_clockwait_measurements.csv,quote,ersetzt,ganz=11,11.0,11.0
+paper_episode_dilation_factors.csv,quote_a,ersetzt,ganz=48,56.0,48.0
+paper_episode_dilation_factors.csv,quote_b,ersetzt,ganz=48,56.0,48.0
+paper_episode_dilation_factors_usable.csv,quote_a,ersetzt,ganz=321,374.0,321.0
+paper_episode_dilation_factors_usable.csv,quote_b,ersetzt,ganz=282,374.0,282.0
+paper_episode_horizon_claims.csv,quote,ersetzt,ganz=80,95.0,80.0
+paper_episode_r6_sichtung.csv,sent,ersetzt,ganz=102,102.0,102.0
+paper_episode_r6plus_observation_candidates.csv,sent,ersetzt,ganz=102,102.0,102.0
+paper_episode_round_ge6_mentions.csv,sent,ersetzt,ganz=9037,10871.0,9037.0
+paper_episode_round_mentions_raw.csv,sent,ersetzt,ganz=53051,80498.0,53051.0
+paper_episode_tier_durations.csv,quote,ersetzt,ganz=31,33.0,31.0
+paper_flotte_datum_topic.csv,quote,ersetzt,ganz=81;teilstueck=486,571.0,567.0
+paper_flotte_kohortendaten_body.csv,quote,ersetzt,ganz=39;teilstueck=231,271.0,270.0
+paper_fortschritt_kohorten.csv,beleg_max_runde,ersetzt,teilstueck=285,907.0,285.0
+paper_fortschritt_kohorten.csv,zukunft_erhalten_beleg,ersetzt,teilstueck=7,907.0,7.0
+paper_goldset_konflikte.csv,context_before,ersetzt,ganz=14,63.0,14.0
+paper_goldset_konflikte.csv,sentence,ersetzt,ganz=35,63.0,35.0
+paper_goldset_konflikte.csv,context_after,ersetzt,ganz=17,63.0,17.0
+paper_goldset_sample.csv,context_before,ersetzt,ganz=113,400.0,113.0
+paper_goldset_sample.csv,sentence,ersetzt,ganz=248,400.0,248.0
+paper_goldset_sample.csv,context_after,ersetzt,ganz=110,400.0,110.0
+paper_goldset_sample_blind.csv,context_before,ersetzt,ganz=113,400.0,113.0
+paper_goldset_sample_blind.csv,sentence,ersetzt,ganz=248,400.0,248.0
+paper_goldset_sample_blind.csv,context_after,ersetzt,ganz=110,400.0,110.0
+paper_horizont_keyword_saetze.csv,satz,ersetzt,ganz=300;teilstueck=38,455.0,338.0
+paper_horizont_label_verbrauch.csv,last_delta,ersetzt,ganz=1213;teilstueck=1365,3043.0,2578.0
+paper_horizont_rate_zitate.csv,satz,ersetzt,ganz=14;teilstueck=10,24.0,24.0
+paper_horizont_testB_reset_labels.csv,last_delta,ersetzt,ganz=4;teilstueck=1,5.0,5.0
+paper_horizont_testE_km_daten.csv,last_delta,ersetzt,ganz=362;teilstueck=162,566.0,524.0
+paper_horizont_testH_cvd_saetze.csv,satz,ersetzt,ganz=63;teilstueck=22,132.0,85.0
+paper_lernkurve_q2_lesekontakt.csv,*,netzkennungen pseudonymisiert,nicht als Rechenzentrum belegte Adresse/Netz (Ethik-Abschnitt),3103.0,24.0
+paper_lernkurve_q5_rendezvous_treffer.csv,delta_auszug,ersetzt,ganz=98,100.0,98.0
+paper_lernkurve_revflags.parquet,*,ausgeschlossen,"Korpus-Zwischenstufe, wird von den Skripten neu gebaut",,
+paper_math_seed_prognosebilanz.csv,beleg,ersetzt,teilstueck=1,7.0,1.0
+paper_netzblock_whois.csv,*,netzkennungen pseudonymisiert,nicht als Rechenzentrum belegte Adresse/Netz (Ethik-Abschnitt),191.0,78.0
+paper_prozess_abweichler.csv,beleg,ersetzt,teilstueck=6,9.0,6.0
+paper_prozess_rundensaetze_delta.csv,sent,ersetzt,ganz=7032,10753.0,7032.0
+paper_prozess_zitatkaskade_kohorten40.csv,zeile,ersetzt,teilstueck=5,11.0,5.0
+paper_prozess_zitatkaskade_kopien.csv,zeile,ersetzt,ganz=40;teilstueck=598,3295.0,638.0
+paper_prozess_zitatkaskade_top.csv,zeile,ersetzt,ganz=27;teilstueck=312,1204.0,339.0
+paper_robust_fahrplan_provenienz.csv,quote,ersetzt,ganz=14,15.0,14.0
+paper_robust_fahrplan_provenienz.csv,prov_r1,ersetzt,teilstueck=2,15.0,2.0
+paper_robust_fahrplan_provenienz.csv,prov_cooldown,ersetzt,teilstueck=1,15.0,1.0
+paper_robust_fahrplan_provenienz.csv,prov_followup,ersetzt,teilstueck=2,15.0,2.0
+paper_robust_horizont_cvd_intervalle.csv,note,ersetzt,teilstueck=2,24.0,2.0
+paper_robust_horizont_cvd_intervalle.csv,sentence,ersetzt,ganz=12;teilstueck=7,24.0,19.0
+paper_themen_flags.parquet,*,ausgeschlossen,"Korpus-Zwischenstufe, wird von den Skripten neu gebaut",,
+paper_themen_taxonomie.csv,erstbeleg_zitat,ersetzt,ganz=5;teilstueck=9,15.0,14.0
+paper_uhr_faktoren.csv,beleg0,ersetzt,ganz=352,352.0,352.0
+paper_uhr_faktoren.csv,beleg1,ersetzt,ganz=352,352.0,352.0
+paper_uhr_taskzeiten.csv,task_time_raw,ersetzt,ganz=1,1272.0,1.0
+paper_uhr_taskzeiten.csv,evidence_snippet,ersetzt,ganz=1272,1272.0,1272.0
+paper_uhr_taskzeiten.csv,*,netzkennungen pseudonymisiert,nicht als Rechenzentrum belegte Adresse/Netz (Ethik-Abschnitt),1272.0,25.0
+paper_uhr_validierung.csv,zitat,ersetzt,ganz=22,24.0,22.0
+paper_uhr_wallcheck.csv,evidence_snippet,ersetzt,ganz=351,351.0,351.0
+schwarm_deltas.parquet,*,ausgeschlossen,"Korpus-Zwischenstufe, wird von den Skripten neu gebaut",,
+schwarm_deltas_flags.parquet,*,ausgeschlossen,"Korpus-Zwischenstufe, wird von den Skripten neu gebaut",,
+schwarm_dissens_9_69.csv,zitat,ersetzt,ganz=79;teilstueck=185,264.0,264.0
+schwarm_revisions.parquet,*,ausgeschlossen,"Korpus-Zwischenstufe, wird von den Skripten neu gebaut",,

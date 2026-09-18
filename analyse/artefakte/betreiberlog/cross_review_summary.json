@@ -1,0 +1,60 @@
+{
+  "comparisons": [
+    {
+      "definition": "exclude_first_written_page",
+      "adopters_requested": 100,
+      "adopters": 249,
+      "nonadopters_requested": 140,
+      "nonadopters": 442,
+      "request_prevalence_difference_pp": 8.486434425484745,
+      "independent_names_wald_ci95_pp": [
+        1.0107222455346774,
+        15.962146605434812
+      ],
+      "fisher_two_sided_p": 0.030369052438235924,
+      "expected_if_equal_request_prevalence": 78.86877828054298
+    },
+    {
+      "definition": "exclude_every_ever_written_page",
+      "adopters_requested": 89,
+      "adopters": 249,
+      "nonadopters_requested": 125,
+      "nonadopters": 442,
+      "request_prevalence_difference_pp": 7.462428901124863,
+      "independent_names_wald_ci95_pp": [
+        0.1780079521550973,
+        14.746849850094629
+      ],
+      "fisher_two_sided_p": 0.04863655571576151,
+      "expected_if_equal_request_prevalence": 70.41855203619909
+    }
+  ],
+  "named_population_read_parser": {
+    "all": 7254,
+    "never_save": 3720,
+    "neither_save_nor_edit_form": 2578
+  },
+  "request_counts_release_normalizer": {
+    "rejected_four_months": 236969,
+    "rejected_incident_window": 91263,
+    "classified_fleet": 1702673,
+    "classified_fleet_rejected": 0
+  },
+  "classified_fleet_occupied_minute_bins": {
+    "mean": 1.0337361408433945,
+    "maximum": 63
+  },
+  "round_marker_permutation": {
+    "observed_rd_pp": 24.156403940886705,
+    "null_mean_rd_pp": 14.419778683383438,
+    "null_p975_rd_pp": 17.249648182521483,
+    "draws": 200,
+    "zero_exceedances_plus_one_p": 0.004975124378109453
+  },
+  "limits": [
+    "Exploratory comparison; independent-name intervals; no causal identification.",
+    "Ever-written-page sensitivity conditions on later activity.",
+    "Reuse of historical-state assignments does not verify returned content.",
+    "Fleet classification uses provider prefixes and an incident window."
+  ]
+}

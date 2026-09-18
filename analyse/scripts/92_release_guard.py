@@ -117,6 +117,90 @@ for p in sorted(x for x in DIST.rglob("*") if x.is_file()):
                 break
     log(f"  {relp}")
 
+# ---------------------------------------------------------------- Netzkennungen
+# Zweite, unabhaengige Gegenprobe: keine nicht freigegebene Betreiberlog-Datei, keine
+# Adresse und kein /16 ausserhalb der belegten Cloud-Bereiche -- weder in den Artefakten
+# noch in dem, was 93_release_repo.py zusaetzlich veroeffentlicht. Werte werden nie
+# ausgegeben, nur ihr Ort.
+import ipaddress, re
+POL = json.loads((B / "release" / "policy.json").read_text(encoding="utf-8"))
+NETZ = POL["netzkennungen"]
+W = pd.read_csv(A / "paper_netzblock_whois.csv", dtype=str, keep_default_na=False)
+BELEGT = set()
+for bereich in W.loc[W["anbieter"].isin(NETZ["freigegebene_anbieter"]), "range"]:
+    lo, hi = (int(ipaddress.IPv4Address(x.strip())) >> 16 for x in bereich.split("-"))
+    BELEGT |= {f"{n >> 8}.{n & 255}" for n in range(lo, hi + 1)}
+UNBELEGT16 = set()
+for p in A.rglob("*.csv"):
+    kopf = p.open(encoding="utf-8", errors="replace").readline().strip().split(",")
+    sp = [s for s in kopf if s in NETZ["ip16_spalten"]]
+    if sp:
+        UNBELEGT16 |= set(pd.read_csv(p, dtype=str, keep_default_na=False, usecols=sp).stack())
+UNBELEGT16 = {v for v in UNBELEGT16 if re.fullmatch(r"\d{1,3}\.\d{1,3}", v)} - BELEGT
+IP4 = re.compile(r"(?<![\d.])(\d{1,3})\.(\d{1,3})\.\d{1,3}\.\d{1,3}(?![\d.])")
+P16_KONTEXT = re.compile(r"(?:`(\d{1,3}\.\d{1,3})`|(?<![\w.])(\d{1,3}\.\d{1,3})(?=/16|\.x|\.\*|\.0\.0|`))")
+PSEUDO16 = re.compile(r"netz-[0-9a-f]{8}")
+
+def netz_treffer(txt):
+    n = sum(1 for m in IP4.finditer(txt) if f"{m.group(1)}.{m.group(2)}" not in BELEGT)
+    n += sum(1 for m in P16_KONTEXT.finditer(txt) if (m.group(1) or m.group(2)) in UNBELEGT16)
+    # Markdown-Tabellen: nur Spalten, deren Kopf eine Netzkennung ankuendigt -- eine
+    # Statistikspalte mit 0.64 ist kein Netz.
+    spalten = set()
+    for z in txt.split("\n"):
+        if not z.lstrip().startswith("|"):
+            spalten = set(); continue
+        zellen = [c.strip().strip("`") for c in z.split("|")]
+        if not spalten and any(c in NETZ["ip16_spalten"] for c in zellen):
+            spalten = {j for j, c in enumerate(zellen) if c in NETZ["ip16_spalten"]}; continue
+        n += sum(1 for j in spalten if j < len(zellen) and zellen[j] in UNBELEGT16)
+    return n
+
+netz_verstoesse = []
+for p in sorted(x for x in DIST.rglob("*") if x.is_file()):
+    relp = str(p.relative_to(DIST))
+    if relp.split("/")[0] in POL["betreiberlog_verzeichnisse"] and relp not in POL["betreiberlog_freigabe"]:
+        netz_verstoesse.append(dict(datei=relp, art="Betreiberlog-Datei nicht freigegeben", n=1)); continue
+    if p.suffix in (".csv", ".parquet"):
+        df = (pd.read_csv(p, dtype=str, keep_default_na=False, engine="python")
+              if p.suffix == ".csv" else pd.read_parquet(p))
+        for c in df.columns:
+            s = df[c].astype(str)
+            if str(c) in NETZ["ip16_spalten"]:
+                n = int((~s.isin(BELEGT) & ~s.str.fullmatch(PSEUDO16) & s.str.fullmatch(r"\d{1,3}\.\d{1,3}")).sum())
+                if relp in NETZ["block_spalten"]:
+                    n = int((~df["anbieter"].isin(NETZ["freigegebene_anbieter"]) & ~s.str.fullmatch(PSEUDO16)).sum())
+            else:
+                n = int(s.map(netz_treffer).sum()) if s.str.contains(IP4).any() else 0
+            if n: netz_verstoesse.append(dict(datei=relp, art=f"Netzkennung in Spalte {c}", n=n))
+    elif p.suffix in PROSA + (".json", ".jsonl"):
+        n = netz_treffer(p.read_text(encoding="utf-8", errors="replace"))
+        if n: netz_verstoesse.append(dict(datei=relp, art="Netzkennung im Text", n=n))
+
+ROOT = B.parent
+SKRIPTE = (".py", ".json", ".md", ".sql", ".sh", ".c", ".txt", ".csv")
+for p in [*sorted((ROOT / "paper" / "tables").rglob("*.tex")),
+          *sorted(x for x in (B / "scripts").rglob("*")
+                  if x.is_file() and x.suffix in SKRIPTE and "__pycache__" not in x.parts),
+          ROOT / "paper" / "main.tex", ROOT / "MECHANIK.md", ROOT / "README.md"]:
+    if p.exists() and (n := netz_treffer(p.read_text(encoding="utf-8", errors="replace"))):
+        netz_verstoesse.append(dict(datei=str(p.relative_to(ROOT)), art="Netzkennung im Text", n=n))
+
+# Der Skriptbaum wird ungefiltert veroeffentlicht. Betreiberlog-Ausgaben gehoeren
+# nach artefakte/ (dort greift die Sperre), nie neben den Code.
+for p in sorted((B / "scripts" / "betreiberlog").rglob("*")):
+    if p.is_file() and p.suffix != ".py" and "__pycache__" not in p.parts:
+        netz_verstoesse.append(dict(datei=str(p.relative_to(ROOT)),
+                                    art="Datendatei im Betreiberlog-Skriptbaum", n=1))
+
+log(f"\nNetzkennungen: {len(BELEGT)} belegte Cloud-/16, {len(UNBELEGT16)} bekannte unbelegte /16 geprueft.")
+if netz_verstoesse:
+    log(f"FEHLER: {len(netz_verstoesse)} Stellen mit Betreiberlog-Datei oder unbelegter Netzkennung:")
+    for v in netz_verstoesse[:40]:
+        log(f"  {v['datei']} :: {v['art']} ({v['n']}x)")
+    verstoesse += [dict(datei=v["datei"], spalte=v["art"], wert=f"{v['n']} Treffer", quelle="netzkennung")
+                   for v in netz_verstoesse]
+
 log("\n===== Ergebnis =====")
 if prosa_stat:
     log(f"Prosa mit Belegzitaten ({len(prosa_stat)} Dateien) -- erlaubt, hier zur Kontrolle:")

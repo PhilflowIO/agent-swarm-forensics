@@ -29,9 +29,13 @@ if (R / "guard_verstoesse.csv").exists():
     sys.exit("release/guard_verstoesse.csv existiert -- 92_release_guard.py hat Text gefunden. "
              "Erst beheben, dann die Datei loeschen.")
 
-if REPO.exists():
-    shutil.rmtree(REPO)
-REPO.mkdir(parents=True)
+# Neu aufbauen, aber die Git-Historie behalten: repo/ ist der Arbeitsbaum des
+# veroeffentlichten Repositories, sein .git traegt die Tags, auf die Zenodo verweist.
+REPO.mkdir(parents=True, exist_ok=True)
+for p in REPO.iterdir():
+    if p.name == ".git":
+        continue
+    shutil.rmtree(p) if p.is_dir() else p.unlink()
 
 def kopiere_baum(quelle: Path, ziel: Path, ohne=()):
     ziel.mkdir(parents=True, exist_ok=True)
@@ -86,6 +90,11 @@ for n in ("README.md", "LICENSE", "LICENSE-DATA", "CITATION.cff", ".gitignore"):
 (REPO / "analyse" / "data").mkdir(parents=True, exist_ok=True)
 if (B / "data" / "SHA256SUMS").exists():
     shutil.copy2(B / "data" / "SHA256SUMS", REPO / "analyse" / "data" / "SHA256SUMS")
+# Betreiberlog: nur Herkunft und Pruefsummen (das Paper verweist darauf), nie das Log
+# selbst und nie den vorbereiteten Ausschnitt unter freigabe/.
+(REPO / "analyse" / "data" / "betreiberlogs").mkdir(parents=True, exist_ok=True)
+for n in ("HERKUNFT.md", "SHA256SUMS"):
+    shutil.copy2(B / "data" / "betreiberlogs" / n, REPO / "analyse" / "data" / "betreiberlogs" / n)
 (REPO / "analyse" / "data" / "README.md").write_text(
     "# The export does not live here\n\n"
     "This directory is intentionally empty. The wiki export is not ours to redistribute.\n"

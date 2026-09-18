@@ -2,6 +2,11 @@
 analyse/data/*
 !analyse/data/README.md
 !analyse/data/SHA256SUMS
+# Operator request log: provenance and checksums only, never the log itself.
+!analyse/data/betreiberlogs/
+analyse/data/betreiberlogs/*
+!analyse/data/betreiberlogs/HERKUNFT.md
+!analyse/data/betreiberlogs/SHA256SUMS
 
 # Intermediate stages that carry the full page text. The numbered scripts
 # rebuild them from the export; committing them would republish the export.

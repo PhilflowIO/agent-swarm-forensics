@@ -1,0 +1,152 @@
+{
+ "fall1_namen_mit_parallelitaet": 247,
+ "fall1_namen_gesamt": 3535,
+ "fall2": {
+  "OAI7C97": {
+   "n_saves": 37,
+   "namen": [
+    "OAI7C97",
+    "OAI7C97Dec26",
+    "OAI7C97May12",
+    "OAI7C97Nov18",
+    "OAI7C97Oct09",
+    "OAI7C97Oct22"
+   ],
+   "ips": 23,
+   "ip_ueberschneidung": true,
+   "rndstamps_geteilt": 2,
+   "zeitraum": [
+    1781755395,
+    1782012154
+   ]
+  },
+  "OpenAIThread42e0": {
+   "n_saves": 20,
+   "namen": [
+    "OpenAIThread42e0Apr21",
+    "OpenAIThread42e0Helper",
+    "OpenAIThread42e0Live",
+    "OpenAIThread42e0Main"
+   ],
+   "ips": 20,
+   "ip_ueberschneidung": false,
+   "rndstamps_geteilt": 0,
+   "zeitraum": [
+    1781636040,
+    1781638479
+   ]
+  },
+  "Thread42e0": {
+   "n_saves": 8,
+   "namen": [
+    "Thread42e0CurrentAgent",
+    "Thread42e0Debug",
+    "Thread42e0ResearchApr16",
+    "Thread42e0ResearchApr16X1781638452029"
+   ],
+   "ips": 8,
+   "ip_ueberschneidung": false,
+   "rndstamps_geteilt": 1,
+   "zeitraum": [
+    1781637837,
+    1781643008
+   ]
+  },
+  "OAI4FFE": {
+   "n_saves": 15,
+   "namen": [
+    "OAI4FFEApr17",
+    "OAI4FFEJul16Current"
+   ],
+   "ips": 15,
+   "ip_ueberschneidung": false,
+   "rndstamps_geteilt": 0,
+   "zeitraum": [
+    1781641846,
+    1781716861
+   ]
+  }
+ },
+ "fall3": {
+  "n_familien": 53,
+  "n_namen": 379,
+  "familien_mit_ip_ueberschneidung": 3,
+  "details": {
+   "ResearchHelper": {
+    "n_mitglieder": 37,
+    "paare_mit_gemeinsamer_ip": 2,
+    "paare_gesamt": 666
+   },
+   "GuestResearch": {
+    "n_mitglieder": 36,
+    "paare_mit_gemeinsamer_ip": 6,
+    "paare_gesamt": 630
+   },
+   "Sep13WatcherX": {
+    "n_mitglieder": 19,
+    "paare_mit_gemeinsamer_ip": 0,
+    "paare_gesamt": 171
+   },
+   "AgentReg": {
+    "n_mitglieder": 18,
+    "paare_mit_gemeinsamer_ip": 0,
+    "paare_gesamt": 153
+   },
+   "DataRefHelperZZ": {
+    "n_mitglieder": 17,
+    "paare_mit_gemeinsamer_ip": 0,
+    "paare_gesamt": 136
+   },
+   "DataUSAHelper": {
+    "n_mitglieder": 17,
+    "paare_mit_gemeinsamer_ip": 0,
+    "paare_gesamt": 136
+   },
+   "HelperMassRef": {
+    "n_mitglieder": 13,
+    "paare_mit_gemeinsamer_ip": 0,
+    "paare_gesamt": 78
+   },
+   "Apr25OECD": {
+    "n_mitglieder": 11,
+    "paare_mit_gemeinsamer_ip": 0,
+    "paare_gesamt": 55
+   },
+   "DataPrepAgent": {
+    "n_mitglieder": 9,
+    "paare_mit_gemeinsamer_ip": 0,
+    "paare_gesamt": 36
+   },
+   "ResearchBot": {
+    "n_mitglieder": 9,
+    "paare_mit_gemeinsamer_ip": 0,
+    "paare_gesamt": 36
+   },
+   "AgentResearchHelper": {
+    "n_mitglieder": 9,
+    "paare_mit_gemeinsamer_ip": 0,
+    "paare_gesamt": 36
+   },
+   "OpenAIHelper": {
+    "n_mitglieder": 9,
+    "paare_mit_gemeinsamer_ip": 0,
+    "paare_gesamt": 36
+   },
+   "OpenAIResearchJan": {
+    "n_mitglieder": 9,
+    "paare_mit_gemeinsamer_ip": 0,
+    "paare_gesamt": 36
+   },
+   "AgentLinkHelper": {
+    "n_mitglieder": 8,
+    "paare_mit_gemeinsamer_ip": 0,
+    "paare_gesamt": 28
+   },
+   "BridgeUser": {
+    "n_mitglieder": 7,
+    "paare_mit_gemeinsamer_ip": 0,
+    "paare_gesamt": 21
+   }
+  }
+ }
+}

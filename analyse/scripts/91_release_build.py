@@ -253,6 +253,108 @@ def kandidatenspalte(vals):
             return True
     return False
 
+# ---------------------------------------------------------------- Betreiberlog
+# Standard ist Ausschluss: aus diesen Verzeichnissen geht nur hinaus, was die Policy
+# namentlich freigibt (Aggregate ohne Zeile je Request, Adresse, Netz oder Name).
+BL_VERZ = set(POLICY["betreiberlog_verzeichnisse"])
+BL_FREI = set(POLICY["betreiberlog_freigabe"])
+
+def betreiberlog_gesperrt(relp):
+    return relp.split("/")[0] in BL_VERZ and relp not in BL_FREI
+
+# ---------------------------------------------------------------- Netzkennungen
+# Positivliste: wortgetreu bleibt nur ein Netz, dessen Bereich laut WHOIS-Tabelle einem
+# freigegebenen Cloud-Anbieter gehoert. Alles andere koennte ein Wohnanschluss sein und
+# wird je Bau pseudonymisiert. Der Schluessel wird nie gespeichert.
+import hmac, ipaddress, os, re
+NETZ = POLICY["netzkennungen"]
+IP16_SPALTEN = set(NETZ["ip16_spalten"])
+BLOCK_SPALTEN = NETZ["block_spalten"]
+WHOIS = pd.read_csv(A / "paper_netzblock_whois.csv", dtype=str, keep_default_na=False)
+WHOIS_BELEGT = WHOIS["anbieter"].isin(NETZ["freigegebene_anbieter"])
+
+def _bloecke(bereich):
+    lo, hi = (int(ipaddress.IPv4Address(x.strip())) >> 16 for x in bereich.split("-"))
+    return {f"{n >> 8}.{n & 255}" for n in range(lo, hi + 1)}
+
+BELEGT = set().union(*(_bloecke(b) for b in WHOIS.loc[WHOIS_BELEGT, "range"]))
+_SCHLUESSEL = os.urandom(32)
+
+def pseudonym(art, wert):
+    return f"{art}-{hmac.new(_SCHLUESSEL, wert.encode(), 'sha256').hexdigest()[:8]}"
+
+def _bekannte_bloecke():
+    """Jedes /16, das irgendeine Artefakt-Tabelle als Netzkennung fuehrt. Nur diese
+    Werte werden in Prosa ersetzt -- ein beliebiges `1.5` ist keine Netzkennung."""
+    k = set()
+    for p in A.rglob("*.csv"):
+        kopf = p.open(encoding="utf-8", errors="replace").readline().strip().split(",")
+        spalten = [s for s in kopf if s in IP16_SPALTEN]
+        if spalten:
+            k |= set(pd.read_csv(p, dtype=str, keep_default_na=False, usecols=spalten)
+                     .stack().tolist())
+    return {v for v in k if re.fullmatch(r"\d{1,3}\.\d{1,3}", v)} - BELEGT
+
+UNBELEGT16 = _bekannte_bloecke()
+IP4 = re.compile(r"(?<![\d.])((\d{1,3})\.(\d{1,3})\.\d{1,3}\.\d{1,3})(?![\d.])")
+P16 = re.compile(r"(?<![\w.])(\d{1,3}\.\d{1,3})(?![\d])")
+P16_NACH = ("`", "/16", ".x", ".*", ".0.0")
+
+def adressen_ersetzen(s):
+    return IP4.sub(lambda m: m.group(1) if f"{m.group(2)}.{m.group(3)}" in BELEGT
+                   else pseudonym("adr", m.group(1)), s)
+
+def netz_prosa(txt):
+    """Volle Adressen immer, /16 nur in Netz-Kontext (Backticks, /16, .x, .0.0) oder
+    als Zelle einer Markdown-Tabellenspalte namens ip16."""
+    txt = adressen_ersetzen(txt)
+    def p16(m):
+        v = m.group(1)
+        if v not in UNBELEGT16: return v
+        vor, nach = txt[max(0, m.start() - 1):m.start()], txt[m.end():m.end() + 4]
+        return pseudonym("netz", v) if vor == "`" or nach.startswith(P16_NACH) else v
+    txt = P16.sub(p16, txt)
+    zeilen, ip_spalten = txt.split("\n"), set()
+    for i, z in enumerate(zeilen):
+        if not z.lstrip().startswith("|"):
+            ip_spalten = set(); continue
+        zellen = z.split("|")
+        if not ip_spalten and any(c.strip().strip("`") in IP16_SPALTEN for c in zellen):
+            ip_spalten = {j for j, c in enumerate(zellen) if c.strip().strip("`") in IP16_SPALTEN}
+            continue
+        for j in ip_spalten & set(range(len(zellen))):
+            v = zellen[j].strip().strip("`")
+            if v in UNBELEGT16:
+                zellen[j] = zellen[j].replace(v, pseudonym("netz", v))
+        zeilen[i] = "|".join(zellen)
+    return "\n".join(zeilen)
+
+def netz_tabelle(df, relp):
+    """Gibt (df, ersetzte_zellen) zurueck."""
+    n = 0
+    if relp in BLOCK_SPALTEN:
+        frei = df["anbieter"].isin(NETZ["freigegebene_anbieter"])
+        for c in BLOCK_SPALTEN[relp]:
+            neu = df[c].where(frei, df[c].map(lambda v: pseudonym("netz", v) if c in IP16_SPALTEN else ""))
+            n += int((neu != df[c]).sum()); df[c] = neu
+    for c in df.columns:
+        if not (pd.api.types.is_object_dtype(df[c]) or pd.api.types.is_string_dtype(df[c])):
+            continue
+        s = df[c].astype(str)
+        if relp not in BLOCK_SPALTEN and str(c) in IP16_SPALTEN:
+            neu = s.map(lambda v: v if v in BELEGT or not re.fullmatch(r"\d{1,3}\.\d{1,3}", v)
+                        else pseudonym("netz", v))
+        elif s.str.contains(IP4).any():
+            neu = s.map(adressen_ersetzen)
+        else:
+            continue
+        geaendert = neu != s
+        if geaendert.any():
+            n += int(geaendert.sum()); df[c] = df[c].where(~geaendert, neu)
+    return df, n
+
+TEXT_ENDUNGEN = (".md", ".log", ".txt", ".json", ".jsonl")
+
 # ---------------------------------------------------------------- Bauen
 if DIST.exists(): shutil.rmtree(DIST)
 (DIST / "artefakte").mkdir(parents=True)
@@ -270,8 +372,20 @@ for p in dateien:
         protokoll.append(dict(datei=relp, spalte="*", aktion="ausgeschlossen",
                               grund="Korpus-Zwischenstufe, wird von den Skripten neu gebaut"))
         continue
+    if betreiberlog_gesperrt(relp):
+        protokoll.append(dict(datei=relp, spalte="*", aktion="ausgeschlossen",
+                              grund="Betreiberlog, nicht in policy.betreiberlog_freigabe"))
+        continue
+    if p.suffix in TEXT_ENDUNGEN:                  # Berichte, Logs, Codebook, JSON
+        alt = p.read_text(encoding="utf-8", errors="strict")
+        neu = netz_prosa(alt)
+        ziel.write_text(neu, encoding="utf-8")
+        if neu != alt:
+            protokoll.append(dict(datei=relp, spalte="*", aktion="netzkennungen pseudonymisiert",
+                                  grund="nicht als Rechenzentrum belegte Adresse/Netz (Ethik-Abschnitt)"))
+        continue
     if p.suffix not in (".csv", ".parquet"):
-        shutil.copy2(p, ziel)                      # Berichte, Logs, Codebook, JSON
+        shutil.copy2(p, ziel)
         continue
 
     df = (pd.read_csv(p, dtype=str, keep_default_na=False, engine="python")
@@ -307,6 +421,11 @@ for p in dateien:
             protokoll.append(dict(datei=relp, spalte=str(c), aktion="ersetzt",
                                   zeilen=len(df), ersetzt=n_tref,
                                   grund=";".join(f"{k}={v}" for k, v in sorted(arten.items()))))
+    df, n_netz = netz_tabelle(df, relp)
+    if n_netz:
+        protokoll.append(dict(datei=relp, spalte="*", aktion="netzkennungen pseudonymisiert",
+                              zeilen=len(df), ersetzt=n_netz,
+                              grund="nicht als Rechenzentrum belegte Adresse/Netz (Ethik-Abschnitt)"))
     if p.suffix == ".csv":
         df.to_csv(ziel, index=False)
     else:
@@ -316,5 +435,8 @@ for p in dateien:
 pd.DataFrame(protokoll).to_csv(R / "redaktionsprotokoll.csv", index=False)
 log(f"\nProtokoll: {R/'redaktionsprotokoll.csv'}")
 log(f"ersetzt in {sum(1 for r in protokoll if r['aktion']=='ersetzt')} Spalten, "
-    f"{sum(r.get('ersetzt',0) or 0 for r in protokoll)} Zellen; "
-    f"{len(AUSSCHLUSS)} Dateien ausgeschlossen. {time.time()-t0:.0f}s")
+    f"{sum(r.get('ersetzt',0) or 0 for r in protokoll if r['aktion']=='ersetzt')} Zellen; "
+    f"{sum(1 for r in protokoll if r['aktion']=='ausgeschlossen')} Dateien ausgeschlossen; "
+    f"Netzkennungen pseudonymisiert in "
+    f"{sum(1 for r in protokoll if r['aktion']=='netzkennungen pseudonymisiert')} Dateien. "
+    f"{time.time()-t0:.0f}s")

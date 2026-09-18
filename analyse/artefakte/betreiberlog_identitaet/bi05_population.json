@@ -1,0 +1,52 @@
+[
+ {
+  "menge": "Export-Labels (Paper)",
+  "n_namen": 3103,
+  "namen_mit_genau_1_marke": 984,
+  "reale_daten_entfernt": 13,
+  "D": 331,
+  "schaetzer": 865.2,
+  "ci_lo": 771,
+  "ci_hi": 971
+ },
+ {
+  "menge": "Betreiberlog, alle Namen",
+  "n_namen": 7254,
+  "namen_mit_genau_1_marke": 1866,
+  "reale_daten_entfernt": 22,
+  "D": 356,
+  "schaetzer": 1349.6,
+  "ci_lo": 1149,
+  "ci_hi": 1610
+ },
+ {
+  "menge": "Betreiberlog, nur Schreiber",
+  "n_namen": 4676,
+  "namen_mit_genau_1_marke": 1483,
+  "reale_daten_entfernt": 17,
+  "D": 347,
+  "schaetzer": 1097.0,
+  "ci_lo": 956,
+  "ci_hi": 1264
+ },
+ {
+  "menge": "Betreiberlog, nur reine Leser",
+  "n_namen": 2578,
+  "namen_mit_genau_1_marke": 383,
+  "reale_daten_entfernt": 5,
+  "D": 209,
+  "schaetzer": 309.8,
+  "ci_lo": 285,
+  "ci_hi": 338
+ },
+ {
+  "menge": "Vereinigung Log + Export",
+  "n_namen": 7357,
+  "namen_mit_genau_1_marke": 1868,
+  "reale_daten_entfernt": 22,
+  "D": 356,
+  "schaetzer": 1349.6,
+  "ci_lo": 1135,
+  "ci_hi": 1623
+ }
+]
