@@ -1,0 +1,6 @@
+menge,n_namen,namen_mit_genau_1_marke,reale_daten_entfernt,D,schaetzer,ci_lo,ci_hi
+Export-Labels (Paper),3103,984,13,331,865.2,771,971
+"Betreiberlog, alle Namen",7254,1866,22,356,1349.6,1149,1610
+"Betreiberlog, nur Schreiber",4676,1483,17,347,1097.0,956,1264
+"Betreiberlog, nur reine Leser",2578,383,5,209,309.8,285,338
+Vereinigung Log + Export,7357,1868,22,356,1349.6,1135,1623

@@ -1,0 +1,54 @@
+{
+ "2604": {
+  "namen": 0,
+  "im_export": 0,
+  "nicht_im_export": 0,
+  "mit_save": 0,
+  "mit_editform_ohne_save": 0,
+  "nur_leser": 0,
+  "nur_leser_nicht_im_export": 0,
+  "schreiber_nicht_im_export": 0,
+  "marken_log": 0,
+  "marken_export_labels": 331,
+  "namen_mit_marke": 0
+ },
+ "2605": {
+  "namen": 937,
+  "im_export": 387,
+  "nicht_im_export": 550,
+  "mit_save": 412,
+  "mit_editform_ohne_save": 239,
+  "nur_leser": 286,
+  "nur_leser_nicht_im_export": 265,
+  "schreiber_nicht_im_export": 285,
+  "marken_log": 0,
+  "marken_export_labels": 331,
+  "namen_mit_marke": 0
+ },
+ "2606": {
+  "namen": 6572,
+  "im_export": 2775,
+  "nicht_im_export": 3797,
+  "mit_save": 3194,
+  "mit_editform_ohne_save": 962,
+  "nur_leser": 2416,
+  "nur_leser_nicht_im_export": 2377,
+  "schreiber_nicht_im_export": 1420,
+  "marken_log": 356,
+  "marken_export_labels": 331,
+  "namen_mit_marke": 1866
+ },
+ "2607": {
+  "namen": 25,
+  "im_export": 15,
+  "nicht_im_export": 10,
+  "mit_save": 9,
+  "mit_editform_ohne_save": 7,
+  "nur_leser": 9,
+  "nur_leser_nicht_im_export": 4,
+  "schreiber_nicht_im_export": 6,
+  "marken_log": 4,
+  "marken_export_labels": 331,
+  "namen_mit_marke": 4
+ }
+}

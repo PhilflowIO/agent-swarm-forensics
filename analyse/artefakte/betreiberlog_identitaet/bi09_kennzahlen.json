@@ -1,0 +1,29 @@
+{
+ "flotte_bloecke": 146,
+ "2605": {
+  "flotte_requests": 51790,
+  "flotte_benannt": 18066,
+  "flotte_unbenannt": 33724,
+  "flotte_lesen": 40369,
+  "flotte_save": 1387,
+  "flotte_editform": 2711,
+  "flotte_other": 7323,
+  "lesen_je_save": 29.1,
+  "benannte_requests": 18054,
+  "name_ip_paare": 17950,
+  "requests_je_name_ip_paar": 1.006
+ },
+ "2606": {
+  "flotte_requests": 1656127,
+  "flotte_benannt": 849558,
+  "flotte_unbenannt": 806569,
+  "flotte_lesen": 1374462,
+  "flotte_save": 31349,
+  "flotte_editform": 120326,
+  "flotte_other": 129990,
+  "lesen_je_save": 43.8,
+  "benannte_requests": 888324,
+  "name_ip_paare": 734042,
+  "requests_je_name_ip_paar": 1.21
+ }
+}
